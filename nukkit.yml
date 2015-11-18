@@ -18,12 +18,12 @@ settings:
  async-workers: auto
 
 network:
- #Threshold for batching packets, in bytes. Only these packets will be compressed
- #Set to 0 to compress everything, -1 to disable.
+ #バイト単位のバッチ処理パケットのしきい値。これらのパケットは圧縮されます
+ #0にするとすべてのパケットを圧縮します, -1 で無効です.
  batch-threshold: 256
- #Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
+ #バッチパケットを送信するときのzlibの圧縮レベルですす。 値を大きくするとcpuに多く負荷かけ、低くすると通信量が増えます。
  compression-level: 7
- #Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
+ #AsyncTasksを圧縮に使います. 0.5か1tick(1tick=0.05秒)遅れ、メインスレッドCPU負荷を減らします。
  async-compression: false
 
 debug:
