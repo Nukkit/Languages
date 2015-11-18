@@ -27,20 +27,20 @@ network:
  async-compression: false
 
 debug:
- #If > 1, it will show debug messages in the console
+ #1より大きいと、コンソールにデバッグメッセージが表示されます
  level: 1
- #Enables commands: /status /gc
+ # /status /gc　コマンドを有効にします（ベンチが見れるコマンド）
  commands: false
 
 level-settings:
- #The default format that levels will use when created
+ #マップが使用するデフォルトのフォーマット
  default-format: mcregion
- #Automatically change levels tick rate to maintain 20 ticks per second
+ #自動的にレベルが毎秒20ティックを維持するためにtickの速度を変えます。
  auto-tick-rate: true
  auto-tick-rate-limit: 20
- #Sets the base tick rate (1 = 20 ticks per second, 2 = 10 ticks per second, etc.)
+ #基本のチックレートを設定します。 (1 = 20 ticks/毎秒, 2 = 10 ticks /毎秒, etc.)
  base-tick-rate: 1
- #Tick all players each tick even when other settings disallow this.
+ #ほかの設定がこれを許可しなくても、全員のtickを同じにする
  always-tick-players: false
 
 chunk-sending:
