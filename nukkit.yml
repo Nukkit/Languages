@@ -1,4 +1,4 @@
-# Nukkitの設定ファイル
+# Nukkitの設定ファイル（機械翻訳みたいな和訳でごめんなさいｗ)
 # 安全な設定もありますが、誤って設定すると鯖が壊れる設定の項目もあります。
 # 鯖をアップデートしても、新しい設定はこのファイルには追加されません。
 
@@ -44,28 +44,28 @@ level-settings:
  always-tick-players: false
 
 chunk-sending:
- #Amount of chunks sent to players per tick
+ #チックあたりのプレイヤーに送られるチャンクの量
  per-tick: 4
- #Amount of chunks sent around each player
+ #各プレイヤーの周囲に送られるチャンクの量
  max-chunks: 192
- #Amount of chunks that need to be sent before spawning the player
+ #プレーヤーがスポーンする前に送信する必要があるチャンクの量
  spawn-threshold: 56
- #Save a serialized copy of the chunk in memory for faster sending
- #Useful in mostly-static worlds where lots of players join at the same time
+ #より速く送信するために、メモリ内にチャンクのシリアル化されたコピーを保存します
+ #プレイヤーがたくさんが同時に参加し、主にあまりブロックを設置したり壊したりしないワールドに効果ありです。
  cache-chunks: false
 
 chunk-ticking:
- #Max amount of chunks processed each tick
+ #各チックで処理する最大のチャンク量
  per-tick: 40
- #Radius of chunks around a player to tick
+ #プレイヤーの周りのチャンクの半径のtick
  tick-radius: 3
  light-updates: false
  clear-tick-list: false
 
 chunk-generation:
- #Max. amount of chunks in the waiting queue to be generated
+ # マップ生成のキューが待機できるチャンクのサイズ
  queue-size: 8
- #Max. amount of chunks in the waiting queue to be populated
+ #読み込みのキューが待機できるチャンクのサイズ
  population-queue-size: 8
 
 ticks-per:
@@ -75,21 +75,21 @@ ticks-per:
  cache-cleanup: 900
 
 spawn-limits:
- #Max amount of these entities
+ #entityの最大数
  monsters: 70
  animals: 15
  water-animals: 5
  ambient: 15
 
 aliases:
- #Aliases for commands
- #Examples:
+ #コマンドのショートカット
+ #例:
  #showtheversion: version
  #savestop: [save-all, stop]
 
 worlds:
- #These settings will override the generator set in server.properties and allows loading multiple levels
- #Example:
+ # これらの設定は、server.propertiesでセットされたマップ生成の設定を上書きし、複数のワールドの読み込みを許可します
+ #例:
  #world:
  # seed: 404
  # generator: FLAT:2;7,59x1,3x3,2;1;decoration(treecount=80 grasscount=45)
