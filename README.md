@@ -3,4 +3,4 @@
 We need you!
 -------------
 
-We are always welcome your contribution for Nukkit Multi-language Project!
+We always welcome your contribution for Nukkit Multi-language Project!
