@@ -1,95 +1,98 @@
-# Advanced configuration file for Nukkit
-# Some of these settings are safe, others can break your server if modified incorrectly
-# New settings/defaults won't appear automatically on this file when upgrading.
+# Nukkit 高級設定
+# 警告：此處部分設定是安全的，而一些在設置不當的情况下可能會損害您的服務器
+# 升級後，新的設定及預設值將不會自動顯示在這裡，它們將以預設值運行直到你手動更新設定檔
 
 settings:
- #Multi-language setting
- #Available: eng, chs, cht, jpn
- language: "cht"
- #Whether to send all strings translated to server locale or let the device handle them
+ #多語言設定
+ #可用：eng，chs，cht，jpn
+ language: "chs"
+ #服務器強制語言
  force-language: false
- shutdown-message: "Server closed"
- #Allow listing plugins via Query
+ shutdown-message: "服務器已關閉"
+ #允許使用Query協定査詢您的挿件
  query-plugins: true
- #Show a console message when a plugin uses deprecated API methods
+ #當某挿件使用不被推薦的API時，在控制台提醒
  deprecated-verbose: true
- #Number of AsyncTask workers
- #If set to auto, it'll try to detect the number of cores (and at least 4)
+ #非同步線程數量，如果設定為auto，則自動識別CPU核心數量（最少4線程）
  async-workers: auto
 
 network:
- #Threshold for batching packets, in bytes. Only these packets will be compressed
- #Set to 0 to compress everything, -1 to disable.
+ #數据包大小閥值（組織：位元組），這些包將被壓縮
+ #設為0，壓縮全部。設為-1，禁用功能
  batch-threshold: 256
- #Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
+ #壓縮等級，等級越高，CPU佔用越高，佔用頻寬越少
  compression-level: 7
- #Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
+ #非同步壓縮，緩解主線程CPU負載
  async-compression: false
 
 debug:
- #If > 1, it will show debug messages in the console
+ #當調試級別 > 1 時，將在控制台顯示調試資訊
  level: 1
- #Enables commands: /status /gc
+ #啟用命令/status /gc
  commands: false
 
 level-settings:
- #The default format that levels will use when created
+ #默認生成的地圖格式
  default-format: mcregion
- #Automatically change levels tick rate to maintain 20 ticks per second
+ #自動保持Level的tick速度
  auto-tick-rate: true
  auto-tick-rate-limit: 20
- #Sets the base tick rate (1 = 20 ticks per second, 2 = 10 ticks per second, etc.)
+ #基本tick速率（1 = 20tick，2 = 10tick，以此類推）
  base-tick-rate: 1
- #Tick all players each tick even when other settings disallow this.
+ #始終保持玩家Tick
  always-tick-players: false
 
 chunk-sending:
- #Amount of chunks sent to players per tick
+ #區塊發送設定
+ #組織時間（tick）內發送給玩家區塊的數量
  per-tick: 4
- #Amount of chunks sent around each player
+ #玩家附近發送的區塊數量
  max-chunks: 192
- #Amount of chunks that need to be sent before spawning the player
+ #玩家完成進服需要的區塊數量
  spawn-threshold: 56
- #Save a serialized copy of the chunk in memory for faster sending
- #Useful in mostly-static worlds where lots of players join at the same time
+ #使用區塊緩存
+ #緩解多玩家同時加入時的服務器壓力
  cache-chunks: false
 
 chunk-ticking:
- #Max amount of chunks processed each tick
+ #區塊處理設定
+ #每組織時間（tick）中處理的區塊數量
  per-tick: 40
- #Radius of chunks around a player to tick
+ #玩家周圍區塊處理的半徑設定
  tick-radius: 3
  light-updates: false
  clear-tick-list: false
 
 chunk-generation:
- #Max. amount of chunks in the waiting queue to be generated
+ #區塊生成設定
+ #等待隊列中，被生成的區塊的數量上限
  queue-size: 8
- #Max. amount of chunks in the waiting queue to be populated
+ #等待隊列中，被填充的區塊的數量上限
  population-queue-size: 8
 
 ticks-per:
+ #週期設定（組織：tick）
  animal-spawns: 400
  monster-spawns: 1
  autosave: 6000
  cache-cleanup: 900
 
 spawn-limits:
- #Max amount of these entities
+ #實體生成數量設定
  monsters: 70
  animals: 15
  water-animals: 5
  ambient: 15
 
 aliases:
- #Aliases for commands
- #Examples:
+ #指令別稱
+ #例：
  #showtheversion: version
  #savestop: [save-all, stop]
 
 worlds:
- #These settings will override the generator set in server.properties and allows loading multiple levels
- #Example:
+ #這些設定將覆蓋server.properties中的設定，並支持多地圖
+ #例：
  #world:
  # seed: 404
  # generator: FLAT:2;7,59x1,3x3,2;1;decoration(treecount=80 grasscount=45)
