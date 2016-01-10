@@ -3,15 +3,15 @@
 # New settings/defaults won't appear automatically on this file when upgrading.
 
 settings:
- #Multi-language setting
- #Available: eng, chs, cht, jpn, rus, spa
- language: "eng"
- #Whether to send all strings translated to server locale or let the device handle them
+ #Ustawienia wielojezykowe
+ #Dostepne: eng, chs, cht, jpn, rus, spa, pl
+ language: "pl"
+ #Wyslac wiadomosci w jezyku serwera czy pozwolic urzadzeniu wybrac
  force-language: false
- shutdown-message: "Server closed"
- #Allow listing plugins via Query
+ shutdown-message: "Serwer wylaczony"
+ #Pozwol wyswietlic pluginy za pomoca Query
  query-plugins: true
- #Show a console message when a plugin uses deprecated API methods
+ #Wyswietl wiadomosc w kosoli o wykorzysytywaniu przez plugin starej funkcji w API
  deprecated-verbose: true
  #Number of AsyncTask workers
  #If set to auto, it'll try to detect the number of cores (and at least 4)
