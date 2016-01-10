@@ -5,7 +5,7 @@
 
 settings:
  #Мульти-языковые настройки
- #Доступные языки: eng, chs, cht, jpn, rus, spa
+ #Доступные языки: eng, chs, cht, jpn, rus, spa, pl
  language: "rus"
  #true для отправки все строки переведены на сервер настройки или false, чтобы устройство решить их
  force-language: false
