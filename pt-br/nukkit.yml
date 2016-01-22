@@ -1,14 +1,14 @@
 # Configurações avançadas para o Nukkit
-# Algumas destas Some of these configurações são seguras, outras podem destruir o seu servidor caso modificadas incorretamente
+# Algumas destas configurações são seguras, outras podem destruir o seu servidor caso modificadas incorretamente
 # Novas configurações/padrões não irão aparecer neste arquivo ao atualizar.
 
 settings:
  #Configuração de Multi-Linguagem
- #Disponível: eng, chs, cht, jpn, rus, spa, pol, bra
- language: "bra"
+ #Disponível: eng, chs, cht, jpn, rus, spa, pol, pt-br
+ language: "pt-br"
  #Se é para enviar todos os textos traduzidos para a linguagem do servidor ou se é para o próprio dispositivo traduzir elas
  force-language: false
- shutdown-message: "Server closed"
+ shutdown-message: "Servidor fechado"
  #Permitir a listagem dos plugins via query
  query-plugins: true
  #Mostrar no console uma mensagem quando um plugin usa métodos obsoletos da API
@@ -75,7 +75,7 @@ ticks-per:
  cache-cleanup: 900
 
 spawn-limits:
- #Mímaxo númerso destas entidades
+ #Máximo número destas entidades
  monsters: 70
  animals: 15
  water-animals: 5
