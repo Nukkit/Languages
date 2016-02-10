@@ -1,24 +1,24 @@
-# Nukkit 高級設定
-# 警告：此處部分設定是安全的，而一些在設置不當的情况下可能會損害您的服務器
+# Nukkit 進階設定
+# 警告：此處部分設定是安全的，而一些在設定不當的情況下可能會損害您的伺服器
 # 升級後，新的設定及預設值將不會自動顯示在這裡，它們將以預設值運行直到你手動更新設定檔
 
 settings:
  #多語言設定
  #可用：eng, chs, cht, jpn, rus, spa, pol, bra, kor
  language: "chs"
- #服務器強制語言
+ #伺服器強制語言
  force-language: false
- shutdown-message: "服務器已關閉"
- #允許使用Query協定査詢您的挿件
+ shutdown-message: "伺服器已關閉"
+ #允許使用Query協定查詢您的插件
  query-plugins: true
- #當某挿件使用不被推薦的API時，在控制台提醒
+ #當某插件使用不被推薦的API時，在控制台提醒
  deprecated-verbose: true
  #非同步線程數量，如果設定為auto，則自動識別CPU核心數量（最少4線程）
  async-workers: auto
 
 network:
- #數据包大小閥值（組織：位元組），這些包將被壓縮
- #設為0，壓縮全部。設為-1，禁用功能
+ #數據包大小閥值（組織：位元組），這些包將被壓縮
+ #設為0，壓縮全部。設為-1，停用功能
  batch-threshold: 256
  #壓縮等級，等級越高，CPU佔用越高，佔用頻寬越少
  compression-level: 7
@@ -32,7 +32,7 @@ debug:
  commands: false
 
 level-settings:
- #默認生成的地圖格式
+ #預設生成的地圖格式
  default-format: mcregion
  #自動保持Level的tick速度
  auto-tick-rate: true
@@ -51,7 +51,7 @@ chunk-sending:
  #玩家完成進服需要的區塊數量
  spawn-threshold: 56
  #使用區塊緩存
- #緩解多玩家同時加入時的服務器壓力
+ #緩解多玩家同時加入時的伺服器壓力
  cache-chunks: false
 
 chunk-ticking:
