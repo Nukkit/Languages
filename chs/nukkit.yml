@@ -15,6 +15,8 @@ settings:
  deprecated-verbose: true
  #异步线程数量，如果设置为auto，则自动识别CPU核心数量（最少4线程）
  async-workers: auto
+ # Enable plugin and core profiling by default (timings)
+ enable-profiling: false
 
 network:
  #数据包大小阀值（单位：字节），这些包将被压缩

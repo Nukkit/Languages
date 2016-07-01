@@ -16,6 +16,8 @@ settings:
  #Number of AsyncTask workers
  #If set to auto, it'll try to detect the number of cores (and at least 4)
  async-workers: auto
+ # Enable plugin and core profiling by default (timings)
+ enable-profiling: false
 
 network:
  #Threshold for batching packets, in bytes. Only these packets will be compressed
