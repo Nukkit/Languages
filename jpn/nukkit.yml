@@ -16,6 +16,8 @@ settings:
  #AsyncTask workersの数
  #auto に設定すると, コア数を検出しようとします（少なくとも4）
  async-workers: auto
+ # Enable plugin and core profiling by default (timings)
+ enable-profiling: false
 
 network:
  #バイト単位のバッチ処理パケットのしきい値。これらのパケットは圧縮されます
