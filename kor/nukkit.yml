@@ -15,8 +15,9 @@ settings:
  deprecated-verbose: true
  # AsyncTask Works의 갯수
  # 만약 자동 (auto) 으로 설정하시면, 자동으로 코어의 갯수를 감지합니다. (최소 4)
- #If set to auto, it'll try to detect the number of cores (and at least 4)
  async-workers: auto
+ # 기본 플러그인 설정과 서버설정으로 서버를 시작합니다. (timings)
+ enable-profiling: false
 
 network:
  # 배치 패킷에 대한 임계값을 설정합니다. Byte 단위입니다. 이 패킷만 압축됩니다.
