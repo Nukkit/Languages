@@ -16,8 +16,6 @@ settings:
  #AsyncTask workersの数
  #auto に設定すると, コア数を検出しようとします（少なくとも4）
  async-workers: auto
- # Enable plugin and core profiling by default (timings)
- enable-profiling: false
 
 network:
  #バイト単位のバッチ処理パケットのしきい値。これらのパケットは圧縮されます
@@ -33,6 +31,28 @@ debug:
  level: 1
  # /status /gc　コマンドを有効にします（ベンチが見れるコマンド）
  commands: false
+
+timings:
+ #Enable core and plugin timings by default
+ enabled: false
+ #Enable monitoring at verbose level, include high-frequency timings
+ verbose: false
+ #Interval between history frames in ticks
+ #Default is 5 minutes (6000 ticks)
+ history-interval: 6000
+ #Length of the whole timing history in ticks
+ #Default is 1 hour (72000 ticks)
+ #This value is capped at a maximum of history-interval * 12
+ history-length: 72000
+ #For special cases of servers with special permission to bypass the max
+ #This max helps keep data file sizes reasonable for processing on Aikar's Timing parser side
+ #Setting this will not help you bypass the max unless Aikar has added an exception on the API side
+ bypass-max: false
+ #If set to true, name of your server won't be sent
+ privacy: false
+ #Settings sections to ignore. These sections won't be sent to Aikar's Timing parser
+ #For example: [all] or [settings, timings]
+ ignore: []
 
 level-settings:
  #マップが使用するデフォルトのフォーマット

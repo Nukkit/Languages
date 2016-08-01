@@ -16,8 +16,6 @@ settings:
  # AsyncTask Works의 갯수
  # 만약 자동 (auto) 으로 설정하시면, 자동으로 코어의 갯수를 감지합니다. (최소 4)
  async-workers: auto
- # 기본 플러그인 설정과 서버설정으로 서버를 시작합니다. (timings)
- enable-profiling: false
 
 network:
  # 배치 패킷에 대한 임계값을 설정합니다. Byte 단위입니다. 이 패킷만 압축됩니다.
@@ -33,6 +31,28 @@ debug:
  level: 1
  # /status 와 /gc 커맨드를 활성화 합니다.
  commands: false
+
+timings:
+ #Enable core and plugin timings by default
+ enabled: false
+ #Enable monitoring at verbose level, include high-frequency timings
+ verbose: false
+ #Interval between history frames in ticks
+ #Default is 5 minutes (6000 ticks)
+ history-interval: 6000
+ #Length of the whole timing history in ticks
+ #Default is 1 hour (72000 ticks)
+ #This value is capped at a maximum of history-interval * 12
+ history-length: 72000
+ #For special cases of servers with special permission to bypass the max
+ #This max helps keep data file sizes reasonable for processing on Aikar's Timing parser side
+ #Setting this will not help you bypass the max unless Aikar has added an exception on the API side
+ bypass-max: false
+ #If set to true, name of your server won't be sent
+ privacy: false
+ #Settings sections to ignore. These sections won't be sent to Aikar's Timing parser
+ #For example: [all] or [settings, timings]
+ ignore: []
 
 level-settings:
  # 레벨 (맵) 이 생성 될 때의 기본 포맷

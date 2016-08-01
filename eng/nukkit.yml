@@ -1,6 +1,6 @@
 # Advanced configuration file for Nukkit
 # Some of these settings are safe, others can break your server if modified incorrectly
-# New settings/defaults won't appear automatically on this file when upgrading.
+# New settings/defaults won't appear automatically on this file when upgrading
 
 settings:
  #Multi-language setting
@@ -16,12 +16,10 @@ settings:
  #Number of AsyncTask workers
  #If set to auto, it'll try to detect the number of cores (and at least 4)
  async-workers: auto
- # Enable plugin and core profiling by default (timings)
- enable-profiling: false
 
 network:
  #Threshold for batching packets, in bytes. Only these packets will be compressed
- #Set to 0 to compress everything, -1 to disable.
+ #Set to 0 to compress everything, -1 to disable
  batch-threshold: 256
  #Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
  compression-level: 7
@@ -34,6 +32,28 @@ debug:
  #Enables commands: /status /gc
  commands: false
 
+timings:
+ #Enable core and plugin timings by default
+ enabled: false
+ #Enable monitoring at verbose level, include high-frequency timings
+ verbose: false
+ #Interval between history frames in ticks
+ #Default is 5 minutes (6000 ticks)
+ history-interval: 6000
+ #Length of the whole timing history in ticks
+ #Default is 1 hour (72000 ticks)
+ #This value is capped at a maximum of history-interval * 12
+ history-length: 72000
+ #For special cases of servers with special permission to bypass the max
+ #This max helps keep data file sizes reasonable for processing on Aikar's Timing parser side
+ #Setting this will not help you bypass the max unless Aikar has added an exception on the API side
+ bypass-max: false
+ #If set to true, name of your server won't be sent
+ privacy: false
+ #Settings sections to ignore. These sections won't be sent to Aikar's Timing parser
+ #For example: [all] or [settings, timings]
+ ignore: []
+
 level-settings:
  #The default format that levels will use when created
  default-format: mcregion
@@ -42,7 +62,7 @@ level-settings:
  auto-tick-rate-limit: 20
  #Sets the base tick rate (1 = 20 ticks per second, 2 = 10 ticks per second, etc.)
  base-tick-rate: 1
- #Tick all players each tick even when other settings disallow this.
+ #Tick all players each tick even when other settings disallow this
  always-tick-players: false
 
 chunk-sending:
