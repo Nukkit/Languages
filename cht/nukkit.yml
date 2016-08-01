@@ -15,8 +15,6 @@ settings:
  deprecated-verbose: true
  #非同步線程數量，如果設定為auto，則自動識別CPU核心數量（最少4線程）
  async-workers: auto
- # Enable plugin and core profiling by default (timings)
- enable-profiling: false
 
 network:
  #數據包大小閥值（組織：位元組），這些包將被壓縮
@@ -32,6 +30,28 @@ debug:
  level: 1
  #啟用命令/status /gc
  commands: false
+
+timings:
+ #Enable core and plugin timings by default
+ enabled: false
+ #Enable monitoring at verbose level, include high-frequency timings
+ verbose: false
+ #Interval between history frames in ticks
+ #Default is 5 minutes (6000 ticks)
+ history-interval: 6000
+ #Length of the whole timing history in ticks
+ #Default is 1 hour (72000 ticks)
+ #This value is capped at a maximum of history-interval * 12
+ history-length: 72000
+ #For special cases of servers with special permission to bypass the max
+ #This max helps keep data file sizes reasonable for processing on Aikar's Timing parser side
+ #Setting this will not help you bypass the max unless Aikar has added an exception on the API side
+ bypass-max: false
+ #If set to true, name of your server won't be sent
+ privacy: false
+ #Settings sections to ignore. These sections won't be sent to Aikar's Timing parser
+ #For example: [all] or [settings, timings]
+ ignore: []
 
 level-settings:
  #預設生成的地圖格式
