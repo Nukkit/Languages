@@ -1,25 +1,30 @@
-# Advanced configuration file for Nukkit
-# Some of these settings are safe, others can break your server if modified incorrectly
-# New settings/defaults won't appear automatically on this file when upgrading.
+# Розширені налаштування серверу Nukkit
+# Деякі з цих налаштувань безпечні, інші ж можуть зламати ваш сервер при некорректних змінах
+# Нові налаштування або умовчання не з'являться автоматично у цьому файлі при оновленні
+#
+# Якщо ви знайшли помилку, то допоможіть виправити переклад.
+# https://github.com/Nukkit/Languages
+#
+# Переклад @Charelene
 
 settings:
- #Ustawienia wielojezykowe
- #Dostepne: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr
- language: "pol"
- #Wyslac wiadomosci w jezyku serwera czy pozwolic urzadzeniu wybrac
+ #Налаштування мови
+ #Доступні: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr
+ language: "ukr"
+ #Вибір пристрою для обробки перекладу (true — сервер буде оброблювати переклад)
  force-language: false
- shutdown-message: "Serwer wylaczony"
- #Pozwol wyswietlic pluginy za pomoca Query
+ shutdown-message: "Сервер вимкнено"
+ #Дозволити передавати список плагінів через Query
  query-plugins: true
- #Wyswietl wiadomosc w kosoli o wykorzysytywaniu przez plugin starej funkcji w API
+ #Показувати повідомлення у консолі, коли плагін використовує застарілі методи API
  deprecated-verbose: true
- #Number of AsyncTask workers
- #If set to auto, it'll try to detect the number of cores (and at least 4)
+ #Кількість працюючих потоків AsyncTask
+ #Якщо auto, число буде розраховане з кількості ядер (як мінімум 4)
  async-workers: auto
 
 network:
  #Threshold for batching packets, in bytes. Only these packets will be compressed
- #Set to 0 to compress everything, -1 to disable.
+ #Set to 0 to compress everything, -1 to disable
  batch-threshold: 256
  #Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
  compression-level: 7
@@ -27,13 +32,13 @@ network:
  async-compression: false
 
 debug:
- #If > 1, it will show debug messages in the console
+ #Якщо > 1, у консолі будуть з'являтися повідомлення відладки 
  level: 1
- #Enables commands: /status /gc
+ #Активує команди: /status /gc
  commands: false
 
 timings:
- #Enable core and plugin timings by default
+ #Вмикає хронометраж ядра та плагінів автоматично
  enabled: false
  #Enable monitoring at verbose level, include high-frequency timings
  verbose: false
@@ -62,7 +67,7 @@ level-settings:
  auto-tick-rate-limit: 20
  #Sets the base tick rate (1 = 20 ticks per second, 2 = 10 ticks per second, etc.)
  base-tick-rate: 1
- #Tick all players each tick even when other settings disallow this.
+ #Tick all players each tick even when other settings disallow this
  always-tick-players: false
 
 chunk-sending:
