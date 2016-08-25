@@ -38,61 +38,60 @@ debug:
  commands: false
 
 timings:
- #Вмикає хронометраж ядра та плагінів автоматично
+ #Вмикає тайминги ядра та плагінів автоматично
  enabled: false
- #Enable monitoring at verbose level, include high-frequency timings
+ #Увімкнути моніторинги на більш поширеному рівні, враховуючи високочастотні тайминги
  verbose: false
- #Interval between history frames in ticks
- #Default is 5 minutes (6000 ticks)
+ #Інзвичай це 5 хвилин (6000 тіків)
  history-interval: 6000
- #Length of the whole timing history in ticks
- #Default is 1 hour (72000 ticks)
- #This value is capped at a maximum of history-interval * 12
+ #Довжина повної історії таймингів у тіках
+ #Зазвичай це 1 година (72000 тіків)
+ #Це значення обмежено максимумом history-interval * 12
  history-length: 72000
- #For special cases of servers with special permission to bypass the max
- #This max helps keep data file sizes reasonable for processing on Aikar's Timing parser side
- #Setting this will not help you bypass the max unless Aikar has added an exception on the API side
+ #Для незвичайних серверів котрим дозволено обійти максимум
+ #Цей максимум робить розміри файлів прийнятними для обробки з боку парсеру таймингів Aikar'а
+ #Зміна цього значення на true не допомагає обійти максимум, якщо Aikar не додасть виняток з боку парсеру
  bypass-max: false
- #If set to true, name of your server won't be sent
+ #Якщо true, то назва серверу не буде показуватись
  privacy: false
- #Settings sections to ignore. These sections won't be sent to Aikar's Timing parser
- #For example: [all] or [settings, timings]
+ #Секції налаштувань, які не будуть відправлені в парсер
+ #Наприклад: [all] або [settings, timings]
  ignore: []
 
 level-settings:
- #The default format that levels will use when created
+ #Формат, що рівні використовуватимуть при створенні
  default-format: mcregion
- #Automatically change levels tick rate to maintain 20 ticks per second
+ #Автоматично змінювати рівень частоти тіка, щоб відповідати 20 тіків в секунду
  auto-tick-rate: true
  auto-tick-rate-limit: 20
- #Sets the base tick rate (1 = 20 ticks per second, 2 = 10 ticks per second, etc.)
+ #Базова частота тіка (1 = 20 тіків/сек , 2 = 10 тіків/сек, і т.д.)
  base-tick-rate: 1
- #Tick all players each tick even when other settings disallow this
+ #Прораховувати гравців кожен тік, навіть якщо інші настройки це забороняють
  always-tick-players: false
 
 chunk-sending:
- #Amount of chunks sent to players per tick
+ #Кількість чанків, яка відправляється гравцеві за тік
  per-tick: 4
- #Amount of chunks sent around each player
+ #Кількість чанків навколо гравця, які повинні бути йому відправлені
  max-chunks: 192
- #Amount of chunks that need to be sent before spawning the player
+ #Кількість чанків, які має бути відправлено перед відродженням гравця
  spawn-threshold: 56
- #Save a serialized copy of the chunk in memory for faster sending
- #Useful in mostly-static worlds where lots of players join at the same time
+ #Кешувати чанки в пам'яті, для забезпечення швидкого відправлення
+ #Корисно в основному статичних світах, де багато гравців приєднуються одночасно
  cache-chunks: false
 
 chunk-ticking:
- #Max amount of chunks processed each tick
+ #Максимальна можливість чанків, яка може оброблюватись за один тік
  per-tick: 40
- #Radius of chunks around a player to tick
+ #Радіус чанків навколо гравця, які будуть оброблюватись
  tick-radius: 3
  light-updates: false
  clear-tick-list: false
 
 chunk-generation:
- #Max. amount of chunks in the waiting queue to be generated
+ #Макс. кількість чанків у черзі завантаження для генерації
  queue-size: 8
- #Max. amount of chunks in the waiting queue to be populated
+ #Макс. кількість чанків у черзі завантаження для населення
  population-queue-size: 8
 
 ticks-per:
@@ -102,21 +101,21 @@ ticks-per:
  cache-cleanup: 900
 
 spawn-limits:
- #Max amount of these entities
+ #Максимальна кількість цих сутностей
  monsters: 70
  animals: 15
  water-animals: 5
  ambient: 15
 
 aliases:
- #Aliases for commands
- #Examples:
+ #Альтернативи існуючим командам
+ #Наприклад:
  #showtheversion: version
  #savestop: [save-all, stop]
 
 worlds:
- #These settings will override the generator set in server.properties and allows loading multiple levels
- #Example:
+ #Ці налаштування будуть генерувати мир в обхід server.properties і дозволяє завантажувати декілька рівнів
+ #Наприклад:
  #world:
  # seed: 404
  # generator: FLAT:2;7,59x1,3x3,2;1;decoration(treecount=80 grasscount=45)
