@@ -23,12 +23,13 @@ settings:
  async-workers: auto
 
 network:
- #Threshold for batching packets, in bytes. Only these packets will be compressed
- #Set to 0 to compress everything, -1 to disable
+ #Граничне значення обсягу серії пакетів (в байтах), при досягненні якого вони будуть стиснуті. Стискатися будуть тільки ці пакети.
+ #Встановіть 0, щоб стискати все; -1, щоб вимкнути стискання
  batch-threshold: 256
- #Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
+ #Рівень стискання, який використовує Zlib при відправленні пакетів
+ #Чим більше значення - тим більше навантаження на процесор, але менше навантаження на мережу
  compression-level: 7
- #Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
+ #Використання асинхронного завдання для стиснення. Додає затримку, менш навантаженний процесор
  async-compression: false
 
 debug:
@@ -40,9 +41,9 @@ debug:
 timings:
  #Вмикає тайминги ядра та плагінів автоматично
  enabled: false
- #Увімкнути моніторинги на більш поширеному рівні, враховуючи високочастотні тайминги
+ #Вмикає моніторинги на більш поширеному рівні, враховуючи високочастотні тайминги
  verbose: false
- #Інзвичай це 5 хвилин (6000 тіків)
+ #Зазвичай це 5 хвилин (6000 тіків)
  history-interval: 6000
  #Довжина повної історії таймингів у тіках
  #Зазвичай це 1 година (72000 тіків)
