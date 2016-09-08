@@ -9,7 +9,7 @@
 
 settings:
  #Выбор языка.
- #Доступные языки: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr
+ #Доступные языки: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu
  language: "rus"
  #true для отправки переведённых строк на сервер, или false - возложить перевод на устройство
  force-language: false
