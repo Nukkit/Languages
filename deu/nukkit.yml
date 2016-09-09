@@ -9,7 +9,7 @@ settings:
  #Sollen alle Nachrichten in Serversprache ausgegeben werden oder sollen Sie vom Client verarbeitet werden
  force-language: false
  shutdown-message: "Server heruntergefahren"
- #Allow listing plugins via Query
+ #Erlaube das auflisten von Plugins über eine Query
  query-plugins: true
  #Soll in der Konsole eine Nachricht erscheinen, wenn ein Plugin eine veraltete Funkttiopn verwendet
  deprecated-verbose: true
@@ -33,15 +33,15 @@ debug:
  commands: false
 
 timings:
- #Enable core and plugin timings by default
+ #Aktiviere Kern und Plugin timings als Standard
  enabled: false
  #Enable monitoring at verbose level, include high-frequency timings
  verbose: false
- #Interval between history frames in ticks
+ #Interval zwischen Geschichtsfenstern in ticks
  #Default is 5 minutes (6000 ticks)
  history-interval: 6000
- #Length of the whole timing history in ticks
- #Default is 1 hour (72000 ticks)
+ #Länge der ganzen Timing Geschichte 
+ #Standard ist eine Stunde (72000 Ticks)
  #This value is capped at a maximum of history-interval * 12
  history-length: 72000
  #For special cases of servers with special permission to bypass the max
