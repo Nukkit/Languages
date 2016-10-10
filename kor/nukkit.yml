@@ -4,7 +4,7 @@
 
 settings:
  # 다중 언어 설정
- # 가능한 언어: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu
+ # 가능한 언어: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu
  language: "kor"
  # 모든 번역본을 서버 언어로 설정하거나 기기가 조정할 수 있게 허락합니다.
  force-language: false
