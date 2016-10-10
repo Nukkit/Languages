@@ -105,7 +105,12 @@ spawn-limits:
  animals: 15
  water-animals: 5
  ambient: 15
-
+ 
+player:
+ #决定服务器是否以players/xxx.dat的形式保存玩家数据。默认true为保存。
+ #如果设置为false，nukkit将不会保存玩家数据。一些与玩家数据有关的插件也许会用到这个设置。
+ save-player-data: true
+ 
 aliases:
  #指令别称
  #例：

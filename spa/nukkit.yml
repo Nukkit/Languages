@@ -102,7 +102,12 @@ spawn-limits:
  animals: 15
  water-animals: 5
  ambient: 15
-
+ 
+player:
+ #If true, player data will be saved as players/playername.dat
+ #If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
+ save-player-data: true
+ 
 aliases:
  #Alias de comandos
  #Ejemplos:
