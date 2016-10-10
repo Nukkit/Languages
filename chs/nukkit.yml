@@ -4,7 +4,7 @@
 
 settings:
  #多语言设置
- #可用：eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu
+ #可用：eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu
  language: "chs"
  #服务器强制语言
  force-language: false
