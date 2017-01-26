@@ -56,7 +56,7 @@ timings:
 
 level-settings:
  #Įprastinis formatas kuriant pasaulius
- default-format: mcregion
+ default-format: anvil
  #Automatiškai keisti impuslų greitį, kad atiktiktų pasaulio 20 impulsų per sekundę greitį
  auto-tick-rate: true
  auto-tick-rate-limit: 20

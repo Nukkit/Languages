@@ -63,7 +63,7 @@ timings:
 
 level-settings:
  #Формат мира, который будет использоваться (по умолчанию) при создании миров
- default-format: mcregion
+ default-format: anvil
  #Автоматически изменять уровень частоты тика, чтобы соответствовать 20 тиков в секунду
  auto-tick-rate: true
  auto-tick-rate-limit: 20

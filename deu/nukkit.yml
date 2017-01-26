@@ -56,7 +56,7 @@ timings:
 
 level-settings:
  #Das Standard-Welt Format wenn neue Welten erstellt werden
- default-format: mcregion
+ default-format: anvil
  #Automatiches ändern von Ticks in Welten, um 20 Ticks zu erreichen
  auto-tick-rate: true
  auto-tick-rate-limit: 20
