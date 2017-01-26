@@ -56,7 +56,7 @@ timings:
 
 level-settings:
  #El formato por defecto que los niveles utilizarán cuando se creen
- default-format: mcregion
+ default-format: anvil
  #Cambian automáticamente los niveles de velocidad para mantener 20 ticks por segundo 
  auto-tick-rate: true
  auto-tick-rate-limit: 20

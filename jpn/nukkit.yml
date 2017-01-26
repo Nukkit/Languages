@@ -56,7 +56,7 @@ timings:
 
 level-settings:
  #マップが使用するデフォルトのフォーマット
- default-format: mcregion
+ default-format: anvil
  #自動的にレベルが毎秒20ティックを維持するためにtickの速度を変えます。
  auto-tick-rate: true
  auto-tick-rate-limit: 20

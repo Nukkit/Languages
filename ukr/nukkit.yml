@@ -61,7 +61,7 @@ timings:
 
 level-settings:
  #Формат, що рівні використовуватимуть при створенні
- default-format: mcregion
+ default-format: anvil
  #Автоматично змінювати рівень частоти тіка, щоб відповідати 20 тіків в секунду
  auto-tick-rate: true
  auto-tick-rate-limit: 20

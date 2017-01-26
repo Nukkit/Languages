@@ -55,7 +55,7 @@ timings:
 
 level-settings:
  #預設生成的地圖格式
- default-format: mcregion
+ default-format: anvil
  #自動保持Level的tick速度
  auto-tick-rate: true
  auto-tick-rate-limit: 20

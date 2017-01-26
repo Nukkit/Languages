@@ -56,7 +56,7 @@ timings:
 
 level-settings:
  #O formato padrão que os mundos irão usar ao serem criados
- default-format: mcregion
+ default-format: anvil
  #Mudar automaticamente o tick rate dos mundos para manter 20 ticks por segundo
  auto-tick-rate: true
  auto-tick-rate-limit: 20
