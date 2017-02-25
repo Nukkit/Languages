@@ -111,8 +111,8 @@ spawn-limits:
  ambient: 15
  
 player:
- #If true, player data will be saved as players/playername.dat
- #If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
+ #Если выбрано true,то данные игрока будут храниться в файле players/playername.dat
+ #Если выбрано false, Nukkit не будет хранить данные игрока в "dat" файлах, для того чтобы плагины с ними что-то делали.
  save-player-data: true
  
 aliases:
