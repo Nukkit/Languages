@@ -33,25 +33,25 @@ debug:
  commands: false
 
 timings:
- #Enable core and plugin timings by default
+ #コアとプラグインのtimingsをデフォルトで有効にする
  enabled: false
- #Enable monitoring at verbose level, include high-frequency timings
+ #くどいレベルで監視を有効にし、高頻度のタイミングを含める
  verbose: false
- #Interval between history frames in ticks
- #Default is 5 minutes (6000 ticks)
+ #ティックの履歴フレーム間の間隔
+ #デフォルトは5分 (6000チック) です
  history-interval: 6000
- #Length of the whole timing history in ticks
- #Default is 1 hour (72000 ticks)
- #This value is capped at a maximum of history-interval * 12
+ #ティックでの全体のタイミング履歴の長さ
+ #デフォルトは1時間 (72000チック) です
+ #この値は最大履歴間隔* 12で上限が設定されています
  history-length: 72000
- #For special cases of servers with special permission to bypass the max
- #This max helps keep data file sizes reasonable for processing on Aikar's Timing parser side
- #Setting this will not help you bypass the max unless Aikar has added an exception on the API side
+ #maxをバイパスする特別な権限を持つサーバーの特殊なケースについて
+ #この最大値は、AikarのTimingパーサ側での処理に適したデータファイルサイズを維持するのに役立ちます
+ #設定すると、AikarがAPI側で例外を追加しない限り、maxをバイパスすることはできません
  bypass-max: false
- #If set to true, name of your server won't be sent
+ #trueに設定すると、サーバーの名前は送信されません
  privacy: false
- #Settings sections to ignore. These sections won't be sent to Aikar's Timing parser
- #For example: [all] or [settings, timings]
+ #設定セクションを無視します。 これらのセクションは、アイカのタイミング解析ツールには送信されません
+ #例: [all] もしくは [settings, timings]
  ignore: []
 
 level-settings:
@@ -104,8 +104,8 @@ spawn-limits:
  ambient: 15
  
 player:
- #If true, player data will be saved as players/playername.dat
- #If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
+ #trueの場合、プレーヤーデータは players/playername.dat として保存されます
+ #falseの場合、nukkitはプレーヤのデータを "dat"ファイルとして保存せず、プラグインが何かを実行できるようにします。
  save-player-data: true
  
 aliases:
