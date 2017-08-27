@@ -6,7 +6,7 @@ settings:
  #다중 언어 설정
  #가능한 언어: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu
  language: "kor"
- #모든 번역본을 서버 언어로 설정하거나 기기가 조정할 수 있게 허락합니다
+ #모든 번역을 서버 언어로 설정하거나 기기가 조정할 수 있게 허락합니다
  force-language: false
  shutdown-message: "Server closed"
  #Query를 통한 플러그인 목록 보기 허용
@@ -18,7 +18,7 @@ settings:
  async-workers: auto
 
 network:
- #배치 패킷에 대한 임계 값을 설정합니다. Byte 단위입니다. 이 패킷만 압축됩니다
+ #배치 패킷에 대한 임계 값을 바이트 단위로 설정합니다. 이 패킷만 압축됩니다
  #0으로 설정하면 모두 압축하고, -1으로 설정하시면 비활성화됩니다
  batch-threshold: 256
  #배치 패킷을 전송할 때 Zlib에 사용되는 압축 레벨 입니다. 높은 값 = 더 많은 CPU 사용량, 적은 대역폭을 사용합니다
