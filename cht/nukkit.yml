@@ -1,5 +1,5 @@
 # Nukkit 進階設定
-# 警告：此處部分設定是安全的，而一些在設定不當的情況下可能會損害您的伺服器
+# 警告：此處部分設定是安全的，而在一些設定不當的情況下可能會損害您的伺服器。
 # 升級後，新的設定及預設值將不會自動顯示在這裡，它們將以預設值運行直到你手動更新設定檔
 
 settings:
@@ -8,16 +8,17 @@ settings:
  language: "cht"
  #伺服器強制語言
  force-language: false
+ #伺服器關閉訊息
  shutdown-message: "伺服器已關閉"
  #允許使用Query協定查詢您的插件
  query-plugins: true
- #當某插件使用不被推薦的API時，在控制台提醒
+ #當某插件使用不推薦的API時，在後台提醒
  deprecated-verbose: true
  #非同步線程數量，如果設定為auto，則自動識別CPU核心數量（最少4線程）
  async-workers: auto
 
 network:
- #數據包大小閥值（組織：位元組），這些包將被壓縮
+ #數據包大小閥值（單位：位元組），這些包將被壓縮
  #設為0，壓縮全部。設為-1，停用功能
  batch-threshold: 256
  #壓縮等級，等級越高，CPU佔用越高，佔用頻寬越少
@@ -28,29 +29,29 @@ network:
 debug:
  #當調試級別 > 1 時，將在控制台顯示調試資訊
  level: 1
- #啟用命令/status /gc
+ #啟用指令"/status"、"/gc"
  commands: false
 
 timings:
- #Enable core and plugin timings by default
+ #預設啟用核心與插件時序
  enabled: false
- #Enable monitoring at verbose level, include high-frequency timings
+ #啟用詳細監控,包含高頻定時
  verbose: false
- #Interval between history frames in ticks
- #Default is 5 minutes (6000 ticks)
+ #"歷史"幀的間隔
+ #預設 5 分鐘 (60000 ticks)
  history-interval: 6000
- #Length of the whole timing history in ticks
- #Default is 1 hour (72000 ticks)
- #This value is capped at a maximum of history-interval * 12
+ #整個"歷史"時間的長度
+ #預設 1 小時 (72000 ticks)
+ #此值最大為 history-interval * 12
  history-length: 72000
- #For special cases of servers with special permission to bypass the max
- #This max helps keep data file sizes reasonable for processing on Aikar's Timing parser side
- #Setting this will not help you bypass the max unless Aikar has added an exception on the API side
+ #對於特殊情況將繞過最大值
+ #這個最大值可以確保檔案大小合理，以便在Aikar的時間解析器進行處理
+ #設置此項將不會幫你繞過最大值，除非在Aikar API中增加了特例
  bypass-max: false
- #If set to true, name of your server won't be sent
+ #如果設定為 ture ，將不會發送您的伺服器名稱
  privacy: false
- #Settings sections to ignore. These sections won't be sent to Aikar's Timing parser
- #For example: [all] or [settings, timings]
+ #設置要忽略的部分。這些部分將不會傳送到Aikar的時間解析器
+ #例如：[all] 或 [settings，timing]
  ignore: []
 
 level-settings:
@@ -93,22 +94,29 @@ chunk-generation:
  population-queue-size: 8
 
 ticks-per:
- #週期設定（組織：tick）
+ #週期設定（單位：tick）
+ #動物生成
  animal-spawns: 400
+ #怪物生成
  monster-spawns: 1
+ #自動儲存
  autosave: 6000
+ #緩存清理
  cache-cleanup: 900
 
 spawn-limits:
  #實體生成數量設定
+ #怪物
  monsters: 70
+ #動物
  animals: 15
+ #水生動物
  water-animals: 5
  ambient: 15
  
 player:
- #If true, player data will be saved as players/playername.dat
- #If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
+ #設置為 ture，玩家資料將被儲存為 player/<玩家代號>.dat
+ #設置為 false，nukkit 將不會儲存玩家資料為 "dat" 檔案，以便插件可以在其上執行某些操作。
  save-player-data: true
  
 aliases:
