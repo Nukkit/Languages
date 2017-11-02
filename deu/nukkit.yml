@@ -9,25 +9,25 @@ settings:
  #Sollen alle Nachrichten in Serversprache ausgegeben werden oder sollen Sie vom Client verarbeitet werden
  force-language: false
  shutdown-message: "Server heruntergefahren"
- #Erlaube das auflisten von Plugins über eine Query
+ #Erlaube das Auflisten von Plugins über eine Query
  query-plugins: true
- #Soll in der Konsole eine Nachricht erscheinen, wenn ein Plugin eine veraltete Funkttiopn verwendet
+ #Soll in der Konsole eine Nachricht erscheinen, wenn ein Plugin eine veraltete Funktion verwendet
  deprecated-verbose: true
  #Anzahl an AsyncTasks
- #Wenn es auf auto gestellt ist, wird Nukkit versuchen die Anzahl der Cores zu ermitteln (und setzt mindestens 4)
+ #Wenn es auf auto gestellt ist, dann wird Nukkit versuchen die Anzahl der Kerne zu ermitteln (und setzt mindestens 4)
  async-workers: auto
 
 network:
  #Grenze der gesendeten Dateien/Pakete zur gleiden Zeit, in Bytes. Nur diese Pakete werden komprimiert
- #Setze zu 0 to um alles zu komprimieren, -1 um die Komprimierung deaktivieren
+ #Setze auf 0 um alles zu komprimieren und auf -1 um die Komprimierung zu deaktivieren
  batch-threshold: 256
  #Komprimierungslevel von Zlib wenn eine Menge Pakete/Daten gesendet werden. Höher = mehr CPU, weniger Bandbreitennutzung
  compression-level: 7
- #Nutze AsyncTask zur Komprimierung. Fügt halben Tick Verzögerung zu, weniger CPU Verbrauch im Main Theared
+ #Nutze AsyncTask zur Komprimierung. Fügt einen halben Tick Verzögerung hinzu, welcher weniger CPU Verbrauch im Main Thread verursacht
  async-compression: false
 
 debug:
- #Wenn > 1, werden Debug-Nachrichten in der Konsole angezeigt
+ #Wenn > 1, dann werden Debug-Nachrichten in der Konsole angezeigt
  level: 1
  #Aktiviere Befehle: /status /gc
  commands: false
@@ -35,34 +35,34 @@ debug:
 timings:
  #Aktiviere Kern und Plugin timings als Standard
  enabled: false
- #Enable monitoring at verbose level, include high-frequency timings
+ #Aktiviere eine ausführliche anzeige, einschließlich hoch frequentem timing
  verbose: false
  #Interval zwischen Geschichtsfenstern in ticks
- #Default is 5 minutes (6000 ticks)
+ #Standard ist 5 Minuten (6000 ticks)
  history-interval: 6000
  #Länge der ganzen Timing Geschichte 
  #Standard ist eine Stunde (72000 Ticks)
- #This value is capped at a maximum of history-interval * 12
+ #Dieser Wert ist auf ein maximum von "history-interval * 12" bedeckt
  history-length: 72000
- #For special cases of servers with special permission to bypass the max
- #This max helps keep data file sizes reasonable for processing on Aikar's Timing parser side
- #Setting this will not help you bypass the max unless Aikar has added an exception on the API side
+ #Für speziale Fälle von Servern mit einer spezialen Berechtigung um das Maximale zu umgehen
+ #Dieses Maximum hilft Dateigrößen zu behalten für den Prozess auf Aikar's Timing parser Seite
+ #Dies auf true zu setzen wird dir nicht helfen das Maximum zu umgehen, es sei denn Aikar hat eine Exception auf der API Seite hinzugefügt.
  bypass-max: false
- #If set to true, name of your server won't be sent
+ #Wenn es auf true gesetzt ist, dann wird der Servername nicht gesendet
  privacy: false
- #Settings sections to ignore. These sections won't be sent to Aikar's Timing parser
- #For example: [all] or [settings, timings]
+ #Einstellungsabteile welche ignoriert werden sollen. Diese Abteile werden nicht zu Aikar's Timing parser gesendet
+ #Zum Beispiel: [all] oder [settings, timings]
  ignore: []
 
 level-settings:
- #Das Standard-Welt Format wenn neue Welten erstellt werden
+ #Das Standard Weltformat, wenn neue Welten erstellt werden
  default-format: anvil
- #Automatiches ändern von Ticks in Welten, um 20 Ticks zu erreichen
+ #Automatiches ändern von Ticks in Welten, damit 20 Ticks erreicht werden können
  auto-tick-rate: true
  auto-tick-rate-limit: 20
  #Setzt die Tickgeschwindigkeit (1 = 20 Ticks pro Sekunde, 2 = 10 Ticks pro Sekunde, usw.)
  base-tick-rate: 1
- #Tick alle Spieler auch wenn es andere Einstellungen verhindern
+ #Ticke alle Spieler auch wenn es andere Einstellungen verhindern
  always-tick-players: false
 
 chunk-sending:
@@ -104,8 +104,8 @@ spawn-limits:
  ambient: 15
  
 player:
- #If true, player data will be saved as players/playername.dat
- #If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
+ #Wenn es auf true gesetzt ist, dann werden Spielerdateien als players/playername.dat gespeichert 
+ #Wenn es auf false gesetzt ist, dann werden Spielerdaten nicht als "dat" Dateien abgespiechert
  save-player-data: true
  
 aliases:
