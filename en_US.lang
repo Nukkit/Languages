@@ -1,54 +1,92 @@
-﻿# Language file compatible with Minecraft: Pocket Edition identifiers
+﻿# Localizations for Minecraft: Bedrock Edition
 #
-# A message doesn't need to be there to be shown correctly on the client.
-# Only messages shown in Nukkit itself need to be here
-# Using the language property from PocketMine-MP
+# Only localizations that are displayed in the console are listed here.
+#
 
-language.name=English
-language.selected=Selected %1$2s (%2$2s) as the base language
+chat.type.achievement=%s has just earned the achievement %s
+chat.type.achievement.taken=%s has lost the achievement %s
+chat.type.admin=[%s: %s]
+chat.type.announcement=[%s] %s
+chat.type.emote=* %s %s
+chat.type.text=<%s> %s
 
-multiplayer.player.joined=%1$2s joined the game
-multiplayer.player.left=%1$2s left the game
+death.attack.anvil=%1$s was squashed by a falling anvil
+death.attack.arrow=%1$s was shot by %2$s
+death.attack.arrow.item=%1$s was shot by %2$s using %3$s
+death.attack.cactus=%1$s was pricked to death
+death.attack.cactus.player=%1$s walked into a cactus whilst trying to escape %2$s
+death.attack.drown=%1$s drowned
+death.attack.drown.player=%1$s drowned whilst trying to escape %2$s
+death.attack.explosion=%1$s blew up
+death.attack.explosion.player=%1$s was blown up by %2$s
+death.attack.fall=%1$s hit the ground too hard
+death.attack.fallingBlock=%1$s was squashed by a falling block
+death.attack.fireball=%1$s was fireballed by %2$s
+death.attack.fireball.item=%1$s was fireballed by %2$s using %3$s
+death.attack.fireworks=%1$s went off with a bang
+death.attack.flyIntoWall=%1$s experienced kinetic energy
+death.attack.generic=%1$s died
+death.attack.indirectMagic=%1$s was killed by %2$s using magic
+death.attack.indirectMagic.item=%1$s was killed by %2$s using %3$s
+death.attack.inFire=%1$s went up in flames
+death.attack.inFire.player=%1$s walked into fire whilst fighting %2$s
+death.attack.inWall=%1$s suffocated in a wall
+death.attack.lava=%1$s tried to swim in lava
+death.attack.lava.player=%1$s tried to swim in lava to escape %2$s
+death.attack.lightningBolt=%1$s was struck by lightning
+death.attack.magic=%1$s was killed by magic
+death.attack.magma=%1$s discovered floor was lava
+death.attack.magma.player=%1$s walked on danger zone due to %2$s
+death.attack.mob=%1$s was slain by %2$s
+death.attack.onFire=%1$s burned to death
+death.attack.onFire.player=%1$s was burnt to a crisp whilst fighting %2$s
+death.attack.outOfWorld=%1$s fell out of the world
+death.attack.player=%1$s was slain by %2$s
+death.attack.player.item=%1$s was slain by %2$s using %3$s
+death.attack.starve=%1$s starved to death
+death.attack.thorns=%1$s was killed trying to hurt %2$s
+death.attack.thrown=%1$s was pummeled by %2$s
+death.attack.thrown.item=%1$s was pummeled by %2$s using %3$s
+death.attack.wither=%1$s withered away
+death.fell.accident.generic=%1$s fell from a high place
+death.fell.accident.ladder=%1$s fell off a ladder
+death.fell.accident.vines=%1$s fell off some vines
+death.fell.accident.water=%1$s fell out of the water
+death.fell.assist=%1$s was doomed to fall by %2$s
+death.fell.assist.item=%1$s was doomed to fall by %2$s using %3$s
+death.fell.finish=%1$s fell too far and was finished by %2$s
+death.fell.finish.item=%1$s fell too far and was finished by %2$s using %3$s
+death.fell.killer=%1$s was doomed to fall
 
-chat.type.text=<%1$2s> %2$2s
-chat.type.emote=* %1$2s %2$2s
-chat.type.announcement=[%1$2s] %2$2s
-chat.type.admin=[%1$2s: %2$2s]
-chat.type.achievement=%1$2s has just earned the achievement %2$2s
+gameMode.adventure=Adventure Mode
+gameMode.changed=Your game mode has been updated to %s
+gameMode.creative=Creative Mode
+gameMode.hardcore=Hardcore Mode!
+gameMode.spectator=Spectator Mode
+gameMode.survival=Survival Mode
+
+disconnect.closed=Connection closed
+disconnect.downloadPack=Error while downloading packs from server and applying
+disconnect.disconnected=Disconnected by Server
+disconnect.endOfStream=End of stream
+disconnect.genericReason=%s
+disconnect.kicked=Was kicked from the game
+disconnect.loginFailed=Failed to login
+disconnect.loginFailedInfo=Failed to login: %s
+disconnect.loginFailedInfo.invalidSession=Invalid session (Try restarting your game)
+disconnect.loginFailedInfo.serversUnavailable=The authentication servers are currently down for maintenance.
+disconnect.lost=Connection Lost
+disconnect.overflow=Buffer overflow
+disconnect.quitting=Quitting
+disconnect.spam=Kicked for spamming
+disconnect.timeout=Timed out
 
 disconnectionScreen.outdatedClient=Outdated client!
 disconnectionScreen.outdatedServer=Outdated server!
 disconnectionScreen.serverFull=Server is full!
-disconnectionScreen.noReason=Disconnected from server
 disconnectionScreen.invalidSkin=Invalid skin!
 disconnectionScreen.invalidName=Invalid name!
 disconnectionScreen.resourcePack=Encountered a problem while downloading or applying resource pack.
-
-death.fell.accident.generic=%1$2s fell from a high place
-death.attack.inFire=%1$2s went up in flames
-death.attack.onFire=%1$2s burned to death
-death.attack.lava=%1$2s tried to swim in lava
-death.attack.inWall=%1$2s suffocated in a wall
-death.attack.drown=%1$2s drowned
-death.attack.cactus=%1$2s was pricked to death
-death.attack.generic=%1$2s died
-death.attack.explosion=%1$2s blew up
-death.attack.explosion.player=%1$2s was blown up by %2$2s
-death.attack.magic=%1$2s was killed by magic
-death.attack.wither=%1$2s withered away
-death.attack.mob=%1$2s was slain by %2$2s
-death.attack.player=%1$2s was slain by %2$2s
-death.attack.player.item=%1$2s was slain by %2$2s using %3$2s
-death.attack.arrow=%1$2s was shot by %2$2s
-death.attack.arrow.item=%1$2s was shot by %2$2s using %3$2s
-death.attack.fall=%1$2s hit the ground too hard
-death.attack.outOfWorld=%1$2s fell out of the world
-
-gameMode.survival=Survival Mode
-gameMode.creative=Creative Mode
-gameMode.adventure=Adventure Mode
-gameMode.spectator=Spectator Mode
-gameMode.changed=Your game mode has been updated
 
 potion.moveSpeed=Speed
 potion.moveSlowdown=Slowness
@@ -74,6 +112,11 @@ potion.healthBoost=Health Boost
 potion.absorption=Absorption
 potion.saturation=Saturation
 
+multiplayer.player.joined=%s joined the game
+multiplayer.player.joined.renamed=%s (formerly known as %s) joined the game
+multiplayer.player.left=%s left the game
+multiplayer.player.changeSkin=%s has changed from %s skin to %s skin.
+
 commands.generic.exception=An unknown error occurred while attempting to perform this command
 commands.generic.permission=You do not have permission to use this command
 commands.generic.ingame=You can only perform this command as a player
@@ -81,130 +124,19 @@ commands.generic.unknown=Unknown command. Try /help for a list of commands
 commands.generic.player.notFound=That player cannot be found
 commands.generic.usage=Usage: %1$2s
 
-commands.time.added=Added %1$2s to the time
-commands.time.set=Set the time to %1$2s
-commands.time.query=Time is %1$2s
+#
+# Localizations for Nukkit
+#
+# These are custom localizations that need to be converted before being sent or used in the console.
+#
 
-commands.me.usage=/me <action ...>
+nukkit.command.version.description=Gets the version of this server including any plugins in use
+nukkit.command.version.usage=/version [plugin name]
+nukkit.command.version.server=This server is running NukkitX version %1$2s (MC: %2$2s) (Implementing API version %1$3s)
+nukkit.command.version.plugin=%1$2s running version %1$2s
+nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
 
-commands.give.item.notFound=There is no such item with name %1$2s
-commands.give.success=Given %1$2s * %2$2s to %3$2s
-commands.give.tagError=Data tag parsing failed: %1$2s
-
-commands.effect.usage=/effect <player> <effect> [seconds] [amplifier] [hideParticles] OR /effect <player> clear
-commands.effect.notFound=There is no such mob effect with ID %1$2s
-commands.effect.success=Given %1$2s (ID %2$2s) * %3$2s to %4$2s for %5$2s seconds
-commands.effect.success.removed=Took %1$2s from %2$2s
-commands.effect.success.removed.all=Took all effects from %1$2s
-commands.effect.failure.notActive=Couldn't take %1$2s from %2$2s as they do not have the effect
-commands.effect.failure.notActive.all=Couldn't take any effects from %1$2s as they do not have any
-
-commands.enchant.noItem=The target doesn't hold an item
-commands.enchant.notFound=There is no such enchantment with ID %1$2s
-commands.enchant.success=Enchanting succeeded
-commands.enchant.usage=/enchant <player> <enchantment ID> [level]
-
-commands.particle.success=Playing effect %1$2s for %2$2s times
-commands.particle.notFound=Unknown effect name %1$2s
-
-commands.players.usage=/list
-commands.players.list=There are %1$2s/%2$2s players online:
-
-commands.kill.successful=Killed %1$2s
-
-commands.banlist.ips=There are %1$2s total banned IP addresses:
-commands.banlist.players=There are %1$2s total banned players:
-commands.banlist.usage=/banlist [ips|players]
-
-commands.defaultgamemode.usage=/defaultgamemode <mode>
-commands.defaultgamemode.success=The world's default game mode is now %1$2s
-
-commands.op.success=Opped %1$2s
-commands.op.usage=/op <player>
-
-commands.deop.success=De-opped %1$2s
-commands.deop.usage=/deop <player>
-
-commands.say.usage=/say <message ...>
-
-commands.seed.usage=/seed
-commands.seed.success=Seed: %1$2s
-
-commands.ban.success=Banned player %1$2s
-commands.ban.usage=/ban <name> [reason ...]
-
-commands.unban.success=Unbanned player %1$2s
-commands.unban.usage=/pardon <name>
-
-commands.banip.invalid=You have entered an invalid IP address or a player that is not online
-commands.banip.offline.invalid=There is no IP address in player data or IP address is invalid
-commands.banip.success=Banned IP address %1$2s
-commands.banip.success.players=Banned IP address %1$2s belonging to %2$2s
-commands.banip.usage=/ban-ip <address|name> [reason ...]
-
-commands.unbanip.invalid=You have entered an invalid IP address
-commands.unbanip.success=Unbanned IP address %1$2s
-commands.unbanip.usage=/pardon-ip <address>
-
-commands.save.usage=/save-all
-commands.save-on.usage=/save-on
-commands.save-off.usage=/save-off
-commands.save.enabled=Turned on world auto-saving
-commands.save.disabled=Turned off world auto-saving
-commands.save.start=Saving...
-commands.save.success=Saved the world
-
-commands.stop.usage=/stop
-commands.stop.start=Stopping the server
-
-commands.kick.success=Kicked %1$2s from the game
-commands.kick.success.reason=Kicked %1$2s from the game: '%2$2s'
-commands.kick.usage=/kick <player> [reason ...]
-
-commands.tp.success=Teleported %1$2s to %2$2s
-commands.tp.success.coordinates=Teleported %1$2s to %2$2s, %3$2s, %5$2s
-commands.tp.usage=/tp [target player] <destination player> OR /tp [target player] <x> <y> <z> [<y-rot> <x-rot>]
-
-commands.whitelist.list=There are %1$2s (out of %2$2s seen) whitelisted players:
-commands.whitelist.enabled=Turned on the whitelist
-commands.whitelist.disabled=Turned off the whitelist
-commands.whitelist.reloaded=Reloaded the whitelist
-commands.whitelist.add.success=Added %1$2s to the whitelist
-commands.whitelist.add.usage=/whitelist add <player>
-commands.whitelist.remove.success=Removed %1$2s from the whitelist
-commands.whitelist.remove.usage=/whitelist remove <player>
-commands.whitelist.usage=/whitelist <on|off|list|add|remove|reload>
-
-commands.gamemode.success.self=Set own game mode to %1$2s
-commands.gamemode.success.other=Set %1$2s's game mode to %2$2s
-commands.gamemode.usage=/gamemode <mode> [player]
-
-commands.help.header=--- Showing help page %1$2s of %2$2s (/help <page>) ---
-commands.help.usage=/help [page|command name]
-
-commands.message.usage=/tell <player> <private message ...>
-commands.message.sameTarget=You can't send a private message to yourself!
-
-commands.difficulty.usage=/difficulty <new difficulty>
-commands.difficulty.success=Set game difficulty to %1$2s
-
-commands.spawnpoint.usage=/spawnpoint [player] [<x> <y> <z>]
-commands.spawnpoint.success=Set %1$2s's spawn point to (%2$2s, %3$2s, %4$2s)
-
-commands.setworldspawn.usage=/setworldspawn [<x> <y> <z>]
-commands.setworldspawn.success=Set the world spawn point to (%1$2s, %2$2s, %3$2s)
-
-commands.weather.clear=Changing to clear weather
-commands.weather.rain=Changing to rainy weather
-commands.weather.thunder=Changing to rain and thunder
-commands.weather.usage=/weather <clear|rain|thunder> [duration in seconds]
-
-commands.xp.success=Given %1$2s experience to %2$2s
-commands.xp.success.levels=Given %1$2s levels to %2$2s
-commands.xp.success.levels.minus=Taken %1$2s levels from %2$2s
-commands.xp.usage=/xp <amount> [player] OR /xp <level>L [player]
-
-# -------------------- Nukkit language files, only for console --------------------
+nukkit.language.selected=Selected %1$2s as the default locale.
 
 nukkit.data.playerNotFound=Player data not found for "%1$2s", creating new profile
 nukkit.data.playerCorrupted=Corrupted data found for "%1$2s", creating new profile
