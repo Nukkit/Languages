@@ -77,6 +77,8 @@ advanced:
   debug-commands: false
   # Threads per level that can be used to load chunks
   chunk-threads: 2
+  # Amount of threads listening on the port. Only available on linux kernal 3.9.0 and above.
+  network-threads: -1
   # Log level outputted to console
   log-level: "INFO"
   netty-leak-detector-level: "DISABLED"
