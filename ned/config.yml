@@ -1,0 +1,123 @@
+# Geadvanceerde config file voor Nukkit
+# Sommige van deze settings zijn veilig, andere kunnen dingen stuk maken wanneer fout geconfigureerd.
+# Nieuwe settings komen niet automatisch in deze config wanneer je update
+
+settings:
+ #Meerdere-taal optie
+ #Beschikbaar: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu, ned
+ language: "ned"
+ #Of je alle woorden vertaald met de server's taal instellingen wilt versturen of de speler zijn apparaat het zelf wilt laten doen.
+ force-language: false
+ shutdown-message: "Server gesloten"
+ #Sta het oplijsten van plugins via Query toe
+ query-plugins: true
+ #Toont een console bericht als een plugin een depricated API-methode gebruikt
+ deprecated-verbose: true
+
+ #Nummer van AsyncTask werkers
+ #Als dit op auto staat, Dan zal het je CPU cores gebruiken startend vanaf 4
+ async-workers: auto
+
+network:
+ #Grens voor het combineren van packets, in bytes. Alleen deze packets zullen worden gecompressed tot 1 packet
+ #Zet naar 0 om alles same te persen, -1 om samenpersen uit te zetten
+ batch-threshold: 256
+ #Compression level gebruikt door Zlib tijdens het sturen van gecombineerde packets. Hoger = meer CPU gebruik en minder bandbreedte gebruik
+ compression-level: 7
+ #Gebruik AsyncTasks voor compressie. Voegt 0.5-1 tick delay toe maar minder CPU gebruik op de main thread
+ async-compression: false
+
+debug:
+ #Als level > 1, dan zullen er debug berichten in de console komen
+ level: 1
+ #Schakeld debug van command in: /status /gc
+ commands: false
+
+timings:
+ #Schakel centrale en plugin timings standaard in
+ enabled: false
+ #Schakel monitoring op uitgebreid niveau in, inclusief hoogfrequentietijden
+ verbose: false
+ #Interval tussen historiekaders in ticks
+ #Standaard is 5 minuten (6000 ticks)
+ history-interval: 6000
+ #Lengte van de volledige timinggeschiedenis in ticks
+ #Standaard is 1 uur (72000 ticks)
+ #Deze waarde is gemaximeerd met een maximum van geschiedenisinterval * 12
+ history-length: 72000
+ #Voor speciale gevallen van servers met speciale toestemming om de max the omzeilen
+ #Dit maximum helpt om de bestandsgroottes redelijk te houden voor verwerking aan de kant van de Timing-parser van Aikar
+ #Als u dit instelt, kunt u de max niet omzeilen tenzij Aikar een uitzondering aan de API-kant heeft toegevoegd
+ bypass-max: false
+ #Indien ingesteld op true, wordt de naam van uw server niet verzonden
+ privacy: false
+ #Instellingen secties om te negeren. Deze secties worden niet naar de Timing-parser van Aikar verzonden
+ #Voorbeeld: [all] of [settings, timings]
+ ignore: []
+
+level-settings:
+ #De standaardindeling dat levels gebruiken wanneer ze worden gemaakt
+ default-format: anvil
+ #Verranderd automatisch de level-tick-rate om 20 ticks per seconden te behouden
+ auto-tick-rate: true
+ auto-tick-rate-limit: 20
+ #Zet de basis-tick-rate (1 = 20 ticks per seconde, 2 = 10 ticks per seconde, etc.)
+ base-tick-rate: 1
+ #Tick alle spelers elke tick zelf wanneer andere settings dit niet zouden toestaan
+ always-tick-players: false
+
+chunk-sending:
+ #Hoeveelheid chunks die per tick worden verzonden naar elke speler
+ per-tick: 4
+ #Hoeveelheid chunks verzonden rond elke speler
+ max-chunks: 192
+ #Hoeveelheid chunks dat nodig zijn om verzonden te worden voordat de speler wordt gespawned
+ spawn-threshold: 56
+ #Slaat een geserialiseerde kopie op van de chunk in ram voor het sneller verzenden van chunks
+ #Handig in meestal-statische werelden waar veel spelers tegelijkertijd joinen
+ cache-chunks: false
+
+chunk-ticking:
+ #Maximum verwerkte chunks per tick
+ per-tick: 40
+ #Radius van chunks rond een speler om te ticken
+ tick-radius: 3
+ light-updates: false
+ clear-tick-list: false
+
+chunk-generation:
+ #Maximale hoeveelheid van chunks in de queue dat wachten om gegenereerd te worden
+ queue-size: 8
+ #Maximale hoeveelheid van chunks in de queue dat wachten om ingevuld te worden
+ population-queue-size: 8
+
+ticks-per:
+ animal-spawns: 400
+ monster-spawns: 1
+ autosave: 6000
+ cache-cleanup: 900
+
+spawn-limits:
+ #Maximale hoeveelheid van deze entiteiten
+ monsters: 70
+ animals: 15
+ water-animals: 5
+ ambient: 15
+ 
+player:
+ #Als true, speler data zal worden opgeslagen al players/playername.dat
+ #Als false, nukkit slaat geen speler data op in ".dat" bestanden, zo dat plugins er niets mee kunnen doen.
+ save-player-data: true
+ 
+aliases:
+ #Aliases voor commando's
+ #Voorbeelden:
+ #showtheversion: version
+ #savestop: [save-all, stop]
+
+worlds:
+ #Deze instellingen overschrijven de generatorset in server.properties en maken het laden van meerdere niveaus mogelijk
+ #Voorbeeld:
+ #world:
+ # seed: 404
+ # generator: FLAT:2;7,59x1,3x3,2;1;decoration(treecount=80 grasscount=45)
