@@ -4,7 +4,7 @@
 
 settings:
  #Configuración de multi-lenguaje
- #Disponibles: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu
+ #Disponibles: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu, cze
  language: "spa"
  #Ya sea para enviar todos los mensajes traducidos desde la consola o dejar que el dispositivo los interprete
  force-language: false

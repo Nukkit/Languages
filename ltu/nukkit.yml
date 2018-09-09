@@ -4,7 +4,7 @@
 
 settings:
  #Kalbos nustatymas
- #Galimos kalbos: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu
+ #Galimos kalbos: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu, cze
  language: "ltu"
  #Ar priverstinai įjungti kalbą ar leisti pačiam įrenginiui susidoroti su vertimu
  force-language: false
