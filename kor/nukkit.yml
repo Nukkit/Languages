@@ -6,7 +6,7 @@ settings:
  #다국어 설정
  #사용 가능: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu, cze
  language: "kor"
- #모든 문자열을 서버 로케일로 번역해 전송하거나 기기가 처리할 수 있게 할지 여부
+ #모든 문자열을 서버 로캘로 번역해 전송하거나 기기가 처리할 수 있게 할지 여부
  force-language: false
  shutdown-message: "Server closed"
  #Query를 통한 플러그인 목록 보기를 허용합니다
