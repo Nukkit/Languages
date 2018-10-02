@@ -35,7 +35,7 @@ debug:
 timings:
  #默认启用核心和插件的计时
  enabled: false
- #启用对冗长级的监视，包括高频计时
+ #启用对世界的详细监视，包括高频计时
  verbose: false
  #以 tick 为单位的历史帧间隔
  #默认五分钟（6000 ticks）
