@@ -4,7 +4,7 @@
 
 settings:
  #多语言设置
- #可用：eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu
+ #可用：eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu, cze
  language: "chs"
  #服务器强制语言
  force-language: false
@@ -33,24 +33,24 @@ debug:
  commands: false
 
 timings:
- #默认启用核心和插件的计时
+ #默认启用核心和插件的性能分析
  enabled: false
- #启用对世界的详细监视，包括高频计时
+ #启用详细级别的监控，包括高频记录
  verbose: false
  #以 tick 为单位的历史帧间隔
  #默认五分钟（6000 ticks）
  history-interval: 6000
- #以 tick 为单位的整个计时历史长度
+ #以 tick 为单位的整个分析历史时长
  #默认一小时（72000 ticks）
  #该值上限为历史间隔（history-interval，即上一配置）的 12 倍
  history-length: 72000
- #对于有特殊权限以绕过最大值的特殊情况
- #最大值有助于保持数据文件大小合理，以便在 Aikar 的计时解析器端进行处理
+ #对于有特殊权限以绕过最大值的服务器的特殊情况
+ #最大值有助于保持数据文件大小合理，以便在 Aikar 的性能分析器端进行处理
  #设置此选项不会帮你绕过最大值限制，除非 Aikar 在 API 端添加了一个例外
  bypass-max: false
  #将此设置为 true，你的服务器名就不会被发送出去
  privacy: false
- #设置忽略部分。这些部分不会被送往  Aikar 的计时解析器
+ #设置忽略部分。这些部分不会被送往 Aikar 的性能分析器
  #例如： [all] 或 [settings, timings]
  ignore: []
 
