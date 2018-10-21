@@ -1,140 +1,7 @@
-﻿# Localizations for Minecraft: Bedrock Edition
-#
-# Only localizations that are displayed in the console are listed here.
-#
-
-chat.type.achievement=%s has just earned the achievement %s
-chat.type.achievement.taken=%s has lost the achievement %s
-chat.type.admin=[%s: %s]
-chat.type.announcement=[%s] %s
-chat.type.emote=* %s %s
-chat.type.text=<%s> %s
-
-death.attack.anvil=%1$s was squashed by a falling anvil
-death.attack.arrow=%1$s was shot by %2$s
-death.attack.arrow.item=%1$s was shot by %2$s using %3$s
-death.attack.cactus=%1$s was pricked to death
-death.attack.cactus.player=%1$s walked into a cactus whilst trying to escape %2$s
-death.attack.drown=%1$s drowned
-death.attack.drown.player=%1$s drowned whilst trying to escape %2$s
-death.attack.explosion=%1$s blew up
-death.attack.explosion.player=%1$s was blown up by %2$s
-death.attack.fall=%1$s hit the ground too hard
-death.attack.fallingBlock=%1$s was squashed by a falling block
-death.attack.fireball=%1$s was fireballed by %2$s
-death.attack.fireball.item=%1$s was fireballed by %2$s using %3$s
-death.attack.fireworks=%1$s went off with a bang
-death.attack.flyIntoWall=%1$s experienced kinetic energy
-death.attack.generic=%1$s died
-death.attack.indirectMagic=%1$s was killed by %2$s using magic
-death.attack.indirectMagic.item=%1$s was killed by %2$s using %3$s
-death.attack.inFire=%1$s went up in flames
-death.attack.inFire.player=%1$s walked into fire whilst fighting %2$s
-death.attack.inWall=%1$s suffocated in a wall
-death.attack.lava=%1$s tried to swim in lava
-death.attack.lava.player=%1$s tried to swim in lava to escape %2$s
-death.attack.lightningBolt=%1$s was struck by lightning
-death.attack.magic=%1$s was killed by magic
-death.attack.magma=%1$s discovered floor was lava
-death.attack.magma.player=%1$s walked on danger zone due to %2$s
-death.attack.mob=%1$s was slain by %2$s
-death.attack.onFire=%1$s burned to death
-death.attack.onFire.player=%1$s was burnt to a crisp whilst fighting %2$s
-death.attack.outOfWorld=%1$s fell out of the world
-death.attack.player=%1$s was slain by %2$s
-death.attack.player.item=%1$s was slain by %2$s using %3$s
-death.attack.starve=%1$s starved to death
-death.attack.thorns=%1$s was killed trying to hurt %2$s
-death.attack.thrown=%1$s was pummeled by %2$s
-death.attack.thrown.item=%1$s was pummeled by %2$s using %3$s
-death.attack.wither=%1$s withered away
-death.fell.accident.generic=%1$s fell from a high place
-death.fell.accident.ladder=%1$s fell off a ladder
-death.fell.accident.vines=%1$s fell off some vines
-death.fell.accident.water=%1$s fell out of the water
-death.fell.assist=%1$s was doomed to fall by %2$s
-death.fell.assist.item=%1$s was doomed to fall by %2$s using %3$s
-death.fell.finish=%1$s fell too far and was finished by %2$s
-death.fell.finish.item=%1$s fell too far and was finished by %2$s using %3$s
-death.fell.killer=%1$s was doomed to fall
-
-gameMode.adventure=Adventure Mode
-gameMode.changed=Your game mode has been updated to %s
-gameMode.creative=Creative Mode
-gameMode.hardcore=Hardcore Mode!
-gameMode.spectator=Spectator Mode
-gameMode.survival=Survival Mode
-
-disconnect.closed=Connection closed
-disconnect.downloadPack=Error while downloading packs from server and applying
-disconnect.disconnected=Disconnected by Server
-disconnect.endOfStream=End of stream
-disconnect.genericReason=%s
-disconnect.kicked=Was kicked from the game
-disconnect.loginFailed=Failed to login
-disconnect.loginFailedInfo=Failed to login: %s
-disconnect.loginFailedInfo.invalidSession=Invalid session (Try restarting your game)
-disconnect.loginFailedInfo.serversUnavailable=The authentication servers are currently down for maintenance.
-disconnect.lost=Connection Lost
-disconnect.overflow=Buffer overflow
-disconnect.quitting=Quitting
-disconnect.spam=Kicked for spamming
-disconnect.timeout=Timed out
-
-disconnectionScreen.outdatedClient=Outdated client!
-disconnectionScreen.outdatedServer=Outdated server!
-disconnectionScreen.serverFull=Server is full!
-disconnectionScreen.invalidSkin=Invalid skin!
-disconnectionScreen.invalidName=Invalid name!
-disconnectionScreen.resourcePack=Encountered a problem while downloading or applying resource pack.
-
-potion.moveSpeed=Speed
-potion.moveSlowdown=Slowness
-potion.digSpeed=Haste
-potion.digSlowDown=Mining Fatigue
-potion.damageBoost=Strength
-potion.heal=Instant Health
-potion.harm=Instant Damage
-potion.jump=Jump Boost
-potion.confusion=Nausea
-potion.regeneration=Regeneration
-potion.resistance=Resistance
-potion.fireResistance=Fire Resistance
-potion.waterBreathing=Water Breathing
-potion.invisibility=Invisibility
-potion.blindness=Blindness
-potion.nightVision=Night Vision
-potion.hunger=Hunger
-potion.weakness=Weakness
-potion.poison=Poison
-potion.wither=Wither
-potion.healthBoost=Health Boost
-potion.absorption=Absorption
-potion.saturation=Saturation
-
-multiplayer.player.joined=%s joined the game
-multiplayer.player.joined.renamed=%s (formerly known as %s) joined the game
-multiplayer.player.left=%s left the game
-multiplayer.player.changeSkin=%s has changed from %s skin to %s skin.
-
-commands.generic.exception=An unknown error occurred while attempting to perform this command
-commands.generic.permission=You do not have permission to use this command
-commands.generic.ingame=You can only perform this command as a player
-commands.generic.unknown=Unknown command. Try /help for a list of commands
-commands.generic.player.notFound=That player cannot be found
-commands.generic.usage=Usage: %1$2s
-
-#
 # Localizations for Nukkit
 #
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
-
-nukkit.command.version.description=Gets the version of this server including any plugins in use
-nukkit.command.version.usage=/version [plugin name]
-nukkit.command.version.server=This server is running NukkitX version %1$2s (MC: %2$2s) (Implementing API version %3$2s)
-nukkit.command.version.plugin=%1$2s running version %1$2s
-nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
 
 nukkit.language.selected=Selected %1$2s as the default locale.
 
@@ -174,20 +41,18 @@ nukkit.command.alias.illegal=Could not register alias %1$2s because it contains 
 nukkit.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
 nukkit.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
 
+nukkit.command.version.description=Gets the version of this server including any plugins in use
+nukkit.command.version.usage=/version [plugin name]
+nukkit.command.version.server=This server is running NukkitX version %1$2s (MC: %2$2s) (Implementing API version %3$2s)
+nukkit.command.version.plugin=%1$2s running version %1$2s
+nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
+
 nukkit.command.plugins.description=Gets a list of plugins running on the server
 nukkit.command.plugins.success=Plugins (%1$2s): %2$2s
 nukkit.command.plugins.usage=/plugins
 
-nukkit.command.reload.description=Reloads the server configuration and plugins
-nukkit.command.reload.usage=/reload
-nukkit.command.reload.reloading=Reloading server...
-nukkit.command.reload.reloaded=Reload complete.
-
 nukkit.command.status.description=Reads back the server's performance.
 nukkit.command.status.usage=/status
-
-nukkit.command.gc.description=Fires garbage collection tasks
-nukkit.command.gc.usage=/gc
 
 nukkit.command.timings.description=Records timings to see performance of the server.
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
@@ -204,62 +69,6 @@ nukkit.command.timings.reportError=An error happened while pasting the report, c
 nukkit.command.timings.timingsLocation=View timings report: %1$2s
 nukkit.command.timings.timingsResponse=Timings response: %1$2s
 nukkit.command.timings.timingsWrite=Timings written to %1$2s
-
-nukkit.command.title.description=Sends a title to the specified player or modifies title settings for that player
-nukkit.command.title.usage=/title <player> <clear|reset> OR /title <player> <title|subtitle|actionbar> <title text> OR /title <player> <times> <fade in time> <stay time> <fade out time>
-nukkit.command.title.clear=Successfully cleared %1$2s's screen
-nukkit.command.title.reset=Successfully reset title animation settings for %1$2s
-nukkit.command.title.title=Successfully shown "%1$2s" title to %2$2s
-nukkit.command.title.subtitle=Successfully set subtitle to "%1$2s" for %2$2s's next title
-nukkit.command.title.actionbar=Successfully shown "%1$2s" actionbar title to %2$2s
-nukkit.command.title.times.success=Successfully set title animation times to %1$2s, %2$2s, %3$2s for %4$2s
-nukkit.command.title.times.fail=Times of title animations must be numeric values
-
-nukkit.command.version.description=Gets the version of this server including any plugins in use
-nukkit.command.version.usage=/version [plugin name]
-nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
-
-nukkit.command.give.description=Gives the specified player a certain amount of items
-nukkit.command.give.usage=/give <player> <item[:damage]> [amount] [tags...]
-
-nukkit.command.kill.description=Commit suicide or kill other players
-nukkit.command.kill.usage=/kill [player]
-
-nukkit.command.particle.description=Adds particles to a world
-nukkit.command.particle.usage=/particle <name> <x> <y> <z> <xd> <yd> <zd> [count] [data]
-
-nukkit.command.time.description=Changes the time on each world
-nukkit.command.time.usage=/time <set|add> <value> OR /time <start|stop|query>
-
-nukkit.command.ban.player.description=Prevents the specified player from using this server
-nukkit.command.ban.ip.description=Prevents the specified IP address from using this server
-nukkit.command.banlist.description=View all players banned from this server
-nukkit.command.defaultgamemode.description=Set the default gamemode
-nukkit.command.deop.description=Takes the specified player's operator status
-nukkit.command.difficulty.description=Sets the game difficulty
-nukkit.command.enchant.description=Adds enchantments on items
-nukkit.command.effect.description=Adds/Removes effects on players
-nukkit.command.gamemode.description=Changes the player to a specific game mode
-nukkit.command.help.description=Shows the help menu
-nukkit.command.kick.description=Removes the specified player from the server
-nukkit.command.list.description=Lists all online players
-nukkit.command.me.description=Performs the specified action in chat
-nukkit.command.op.description=Gives the specified player operator status
-nukkit.command.unban.player.description=Allows the specified player to use this server
-nukkit.command.unban.ip.description=Allows the specified IP address to use this server
-nukkit.command.save.description=Saves the server to disk
-nukkit.command.saveoff.description=Disables server autosaving
-nukkit.command.saveon.description=Enables server autosaving
-nukkit.command.say.description=Broadcasts the given message as the sender
-nukkit.command.seed.description=Shows the world seed
-nukkit.command.setworldspawn.description=Sets a worlds's spawn point. If no coordinates are specified, the player's coordinates will be used.
-nukkit.command.spawnpoint.description=Sets a player's spawn point
-nukkit.command.stop.description=Stops the server
-nukkit.command.tp.description=Teleports the given player (or yourself) to another player or coordinates
-nukkit.command.tell.description=Sends a private message to the given player
-nukkit.command.weather.description=Sets the weather in current world
-nukkit.command.xp.description=Gives the specified player a certain amount of experience
-nukkit.command.whitelist.description=Manages the list of players allowed to use this server
 
 nukkit.crash.create=An unrecoverable error has occurred and the server has crashed. Creating a crash dump
 nukkit.crash.error=Could not create crash dump: %1$2s
@@ -278,8 +87,6 @@ nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
 nukkit.player.invalidEntity=%1$2s tried to attack an invalid entity
 
 nukkit.plugin.load=Loading %1$2s
-nukkit.plugin.enable=Enabling %1$2s
-nukkit.plugin.disable=Disabling %1$2s
 nukkit.plugin.restrictedName=Restricted name
 nukkit.plugin.incompatibleAPI=Incompatible API version
 nukkit.plugin.unknownDependency=Unknown dependency

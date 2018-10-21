@@ -34,6 +34,8 @@ mechanics:
   hardcore: false
   # Whether players can deal damage to each other
   pvp: true
+  # Enable Education Edition chemistry features
+  edu-features: true
   # Default gamemode for levels unless it has been changed per level
   default-gamemode: "SURVIVAL"
   # Force the gamemode of the level on which the player has joined
@@ -81,7 +83,6 @@ advanced:
   network-threads: -1
   # Log level outputted to console
   log-level: "INFO"
-  netty-leak-detector-level: "DISABLED"
   # Seconds after chunk loaded that it will be unloaded
   chunk-timeout-after-load: 30
   # Seconds after last chunk access that it will be unloaded
