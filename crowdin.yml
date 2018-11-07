@@ -1,3 +1,3 @@
 files:
-  - source: en_US.*
+  - source: en_US.lang
     translation: '%locale_with_underscore%.%file_extension%'
