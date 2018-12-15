@@ -1,0 +1,112 @@
+#X-Generator: crowdin.com
+# Localizations for Nukkit
+#
+# These are custom localizations that need to be converted before being sent or used in the console.
+#
+
+nukkit.language.selected=%1$2s is nu de standaard taal.
+
+nukkit.data.playerNotFound=Er is geen spelerdata gevonden voor "%1$2s", er wordt een nieuw profiel gegenereerd
+nukkit.data.playerCorrupted=Corrupte data gevonden voor "%1$2s", er wordt een nieuw profiel gegenereerd
+nukkit.data.playerOld=Oude spelerdata gevonden voor "%1$2s", het profiel wordt overgezet
+nukkit.data.saveError=We kunnen de spelerdata voor "%1$2s" niet opslaan vanwege "%2$2s"
+
+nukkit.level.notFound=Wereld "%1$2s" bestaat niet
+nukkit.level.loadError=We kunnen wereld "%1$2s" niet laden vanwege "%2$2s"
+nukkit.level.generationError=Kan niet wereld "%1$2s" laden vanwege "%2$2s"
+nukkit.level.tickError=We kunnen wereld "%1$2s" niet laden: "%2$2s"
+nukkit.level.chunkUnloadError=Fout tijdens het uitladen van een chunk: %1$2s
+nukkit.level.backgroundGeneration=Spawn terrein voor wereld "%1$2s" wordt gegenereerd in de achtergrond
+nukkit.level.defaultError=Geen standaardwereld is geladen
+nukkit.level.preparing=Wereld "%1$2s" aan het voorbereiden
+nukkit.level.unloading=Uitladen van wereld "%1$2s"
+nukkit.level.updating=Oude wereld gegevens gevonden voor "%1$2s", bezig met omzetten van het formaat
+
+nukkit.server.start=Minecraft: PE aan het starten, server versie %1$2s
+nukkit.server.networkError=[Netwerk] Interface gestopt %1$2s met als gevolg van %2$2s
+nukkit.server.networkStart=Server openen op %1$2s:%2$2s
+nukkit.server.info=Deze server draait %1$2s versie %2$2s "%3$2s" (API-versie %4$2s)
+nukkit.server.info.extended=Deze server draait %1$2s %2$2s 「%3$2s」 met API versie %4$2s voor Minecraft: PE %5$2s (Protocol versie %6$2s)
+nukkit.server.license=%1$2s wordt gedistribueerd met de LGPL-licentie
+nukkit.server.tickOverload=Kan niet bij houden! Is de server overbelast?
+nukkit.server.startFinished=Klaar (%1$2ss)! Voor hulp, typt u "help" of "?"
+nukkit.server.defaultGameMode=Standaard Speltype: %1$2s
+nukkit.server.query.start=GS4 status listener aan het opstarten
+nukkit.server.query.info=Poort van de query instelt op %1$2s
+nukkit.server.query.running=Query wordt uitgevoerd op %1$2s:%2$2s
+nukkit.server.rcon.emptyPasswordError=Kan RCON niet op starten: het wachtwoord veld is leeg
+nukkit.server.rcon.startupError=Het starten van RCON is mislukt: %1$2s
+nukkit.server.rcon.running=RCON wordt uitgevoerd op %1$2s:%2$2s
+
+nukkit.command.alias.illegal=Kan alias %1$2s niet registreren omdat het ongeldige tekens bevat
+nukkit.command.alias.notFound=Kan alias %1$2s niet registreren omdat het een command bevat wat niet bestaat: %2$2s
+nukkit.command.exception=Niet verwerkte exceptie tijdens het uitvoeren van '%1$2s' in %2$2s: %3$2s
+
+nukkit.command.version.description=Verkrijg de versie van de server inclusief eventuele plugins die in gebruik zijn
+nukkit.command.version.usage=/version [plugin naam]
+nukkit.command.version.server=Deze server draait NukkitX versie %1$2s (MC: %2$2s) (Uitvoerbare API versie %3$2s)
+nukkit.command.version.plugin=%1$2s draait versie %1$2s
+nukkit.command.version.noSuchPlugin=Deze server draait geen enkele plugin met de opgegeven naam. Gebruik /plugins om een lijst te krijgen met ingeladen plugins.
+
+nukkit.command.plugins.description=Verkrijg een lijst met plugins die draaien op de server
+nukkit.command.plugins.success=Plugins (%1$2s): %2$2s
+nukkit.command.plugins.usage=/plugins
+
+nukkit.command.status.description=Verkrijg de server prestaties.
+nukkit.command.status.usage=/status
+
+nukkit.command.timings.description=Neem de timings op om de prestaties te zien van de server.
+nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
+nukkit.command.timings.enable=Timings gereset en ingeschakeld
+nukkit.command.timings.disable=Timings uitgeschakeld
+nukkit.command.timings.timingsDisabled=Activeer de timings met her command /timings on
+nukkit.command.timings.verboseEnable=Uitgebreide timings ingeschakeld
+nukkit.command.timings.verboseDisable=Uitgebreide timings uitgeschakeld
+nukkit.command.timings.reset=Reset de timings
+nukkit.command.timings.rcon=Waarschuwing: Timings rapportage wat gedaan wordt over RCON gaat lag spikes veroorzaken. Gebruik het command /timings report in game of in de console
+nukkit.command.timings.uploadStart=Timings rapport wordt voorbereid...
+nukkit.command.timings.uploadError=Upload fout: %1$2s: %2$2s, bekijk de logs voor meer informatie
+nukkit.command.timings.reportError=Een fout trad op tijdens het plakken van het rapport, bekijk de logs voor meer informatie
+nukkit.command.timings.timingsLocation=Bekijk timings rapport: %1$2s
+nukkit.command.timings.timingsResponse=Timings antwoord: %1$2s
+nukkit.command.timings.timingsWrite=Timings weggeschreven naar %1$2s
+
+nukkit.crash.create=Een onherstelbare fout is opgetreden en daardoor is de server is gecrasht. Ceëren van een crashdump
+nukkit.crash.error=Crashdump kan niet worden gemaakt: %1$2s
+nukkit.crash.submit=Gelieve het "%1$2s"-bestand te uploaden naar het Crash archief en voeg de link bij de pagina van Bug Reporting. Geef zo veel informatie als je kunt.
+nukkit.crash.archive=De crashdump is automatisch verzonden naar het Crash Archief. Je kunt het inzien op %1$2s of gebruik het ID %2$2s.
+
+nukkit.debug.enable=LevelDB ondersteuning ingeschakeld
+
+nukkit.bugreport.create=Er is een fout waargenomen, creëren van een bug report.
+nukkit.bugreport.error=Bug report kon niet gemaakt worden: %1$2s
+nukkit.bugreport.archive=Een bug report is gemaakt: %1$2s
+
+nukkit.player.invalidMove=%1$2s heeft verkeerd bewogen!
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] is ingelogd met entity id %4$2s op (%5$2s, %6$2s, %7$2s, %8$2s)
+nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] is uitgelogd vanwege %4$2s
+nukkit.player.invalidEntity=%1$2s probeerde een ongeldig entity aan te vallen
+
+nukkit.plugin.load=Laden van %1$2s
+nukkit.plugin.restrictedName=Beperkte naam
+nukkit.plugin.incompatibleAPI=Niet ondersteunende API versie
+nukkit.plugin.unknownDependency=Onbekende afhankelijkheid
+nukkit.plugin.circularDependency=Naar elkaar verwijzende afhankelijk gedetecteerd
+nukkit.plugin.genericLoadError=We konden plugin '%1$2s' niet laden
+nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' gebruikt spaties in de naam, dit wordt afgeraden
+nukkit.plugin.loadError=We konden plugin '%1$2s' niet laden: %2$2s
+nukkit.plugin.duplicateError=We konden plugin '%1$2s' niet laden omdat hij al geladen is
+nukkit.plugin.fileError=Kan '%1$2s' niet laden uit map '%2$2s': %3$2s
+nukkit.plugin.commandError=Kan commando %1$2s niet laden voor plugin %2$2s
+nukkit.plugin.aliasError=Kan alias %1$2s niet laden voor plugin %2$2s
+nukkit.plugin.deprecatedEvent=Plugin '%1$2s' heeft een listener geregistreerd voor '%2$2s' bij methode '%3$2s', maar dit event is verouderd.
+nukkit.plugin.eventError=Kan event '%1$2s' niet doorlaten naar '%2$2s': %3$2s in %4$2s
+
+nukkit.resources.invalid-path=Resource packs locatie '%1$2s' bestaat en is geen map
+nukkit.resources.unknown-format=Kan '%1$2s' niet laden vanwege een formaat wat niet herkend wordt
+nukkit.resources.fail=Kan '%1$2s' niet laden: %2$2s
+nukkit.resources.success=Met succes zijn %1$2s resource packs geladen
+nukkit.resources.zip.not-found=Bestand '%1$2s' bestaat niet
+nukkit.resources.zip.no-manifest='manifest.json' kan niet worden gevonden
+nukkit.resources.zip.invalid-manifest='manifest.json' is ongeldig of onvolledig
+

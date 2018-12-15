@@ -1,0 +1,112 @@
+#X-Generator: crowdin.com
+# Localizations for Nukkit
+#
+# These are custom localizations that need to be converted before being sent or used in the console.
+#
+
+nukkit.language.selected=Выбран %1$2s как язык по-умолчанию.
+
+nukkit.data.playerNotFound=Не найдены данные для "%1$2s", создание нового профиля
+nukkit.data.playerCorrupted=Данные игрока "%1$2s" повреждены, создание нового профиля
+nukkit.data.playerOld=Данные игрока "%1$2s" устарели, обновление профиля
+nukkit.data.saveError=Не удалось сохранить игрока «%1$2s»: %2$2s
+
+nukkit.level.notFound=Мир «%1$2s» не найден
+nukkit.level.loadError=Не удалось загрузить мир «%1$2s»: %2$2s
+nukkit.level.generationError=Не удалось создать мир «%1$2s»: %2$2s
+nukkit.level.tickError=Не мог отметьте мир «%1$2s»: %2$2s
+nukkit.level.chunkUnloadError=Ошибка при выгрузке Чанка: %1$2s
+nukkit.level.backgroundGeneration=Точка возрождения местности для уровня «%1$2s» формируется в фоновом режиме
+nukkit.level.defaultError=Мир по умолчанию не загружен
+nukkit.level.preparing=Подготовка мира «%1$2s»
+nukkit.level.unloading=Подготовка мира «%1$2s»
+nukkit.level.updating=Старые данные мира найдено для «%1$2s», преобразование формата
+
+nukkit.server.start=Запускоем сервер Minecraft: PE на версии %1$2s
+nukkit.server.networkError=[Network] остановлен %1$2s интерфейс связи %2$2s
+nukkit.server.networkStart=Открытие локального сервера на %1$2s:%2$2s
+nukkit.server.info=Этот сервер %1$2s на версии %2$2s «%3$2s» ( %4$2s API)
+nukkit.server.info.extended=Этот сервер %1$2s %2$2s 「%3$2s」версия API %4$2s для Minecraft: ( %5$2s) PE протокол версии %6$2s)
+nukkit.server.license=%1$2s распространяется под лицензией LGPL
+nukkit.server.tickOverload=Не удается сохранить! Сервер перегружен?
+nukkit.server.startFinished=Готово (%1$2ss)! Для получения справки введите «/help» или «?»
+nukkit.server.defaultGameMode=По умолчанию тип игры: %1$2s
+nukkit.server.query.start=Запускаем GS4 статус слушателя
+nukkit.server.query.info=Устанавливаем запроса порта %1$2s
+nukkit.server.query.running=Запрос выполняется на %1$2s:%2$2s
+nukkit.server.rcon.emptyPasswordError=Не удалось запустить RCON: пароль пуст
+nukkit.server.rcon.startupError=Не удалось запустить RCON: %1$2s
+nukkit.server.rcon.running=RCON работает на %1$2s:%2$2s
+
+nukkit.command.alias.illegal=Не удалось зарегистрировать укороченную команду %1$2s, потому что она содержит недопустимые знаки
+nukkit.command.alias.notFound=Не удалось зарегистрировать Укороченную команду %1$2s, потому что она содержит команды, которые не существуют: %2$2s
+nukkit.command.exception=Необработанное исключение, выполнение команды «%1$2s» в %2$2s: %3$2s
+
+nukkit.command.version.description=Получает версию этого сервера, включая любые плагины
+nukkit.command.version.usage=/version [Имя плагина]
+nukkit.command.version.server=Этот сервер работает под управлением версии NukkitX %1$2s (MC: %2$2s) (реализация API версии %3$2s)
+nukkit.command.version.plugin=%1$2s под управлением версии %1$2s
+nukkit.command.version.noSuchPlugin=На этом сервере нет плагина под этим именем. Используйте / plugins, чтобы получить список плагинов.
+
+nukkit.command.plugins.description=Получает список плагинов запущенных на сервере
+nukkit.command.plugins.success=Плагины (%1$2s): %2$2s
+nukkit.command.plugins.usage=/plugins
+
+nukkit.command.status.description=Читает обратно на производительность сервера.
+nukkit.command.status.usage=/ Status
+
+nukkit.command.timings.description=Тайминги записи чтобы увидеть производительность сервера.
+nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
+nukkit.command.timings.enable=Включенное тайминги и сброс
+nukkit.command.timings.disable=Инвалидов таймингов
+nukkit.command.timings.timingsDisabled=Пожалуйста, включите тайминги, набрав /timings on
+nukkit.command.timings.verboseEnable=Включен подробный таймингов
+nukkit.command.timings.verboseDisable=Включен подробный таймингов
+nukkit.command.timings.reset=Тайминги сброс
+nukkit.command.timings.rcon=Предупреждение: Тайминги доклад сделали за RCON приведет к подвисаниям, вы должны использовать /timings отчет в игре или консоли
+nukkit.command.timings.uploadStart=Подготовка доклада тайминги...
+nukkit.command.timings.uploadError=Ошибка загрузки: %1$2s: %2$2s, проверьте лог для получения дополнительной информации
+nukkit.command.timings.reportError=Произошла ошибка при вставке отчета, проверьте журналы для получения дополнительной информации
+nukkit.command.timings.timingsLocation=Просмотр отчета о тайминге: %1$2s
+nukkit.command.timings.timingsResponse=Таймнг отвечает: %1$2s
+nukkit.command.timings.timingsWrite=Тайминг Написан до %1$2s
+
+nukkit.crash.create=Произошла неисправимая ошибка и сервер вышел из строя. Создание дампа
+nukkit.crash.error=Не удалось создать аварийный дамп: %1$2s
+nukkit.crash.submit=Пожалуйста загрузите файл «%1$2s» в падение Архив и отправить ссылку на странице Отчеты об ошибках. Дайте как можно больше информации, как вы можете.
+nukkit.crash.archive=Аварийный дамп автоматически передан в архив аварии. Вы можете просмотреть его на %1$2s или использовать ID #%2$2s.
+
+nukkit.debug.enable=Включена поддержка LevelDB
+
+nukkit.bugreport.create=Обнаружена ошибка, создавая сообщение об ошибке.
+nukkit.bugreport.error=Не удалось создать аварийный дамп: %1$2s
+nukkit.bugreport.archive=Был создан отчет об ошибке: %1$2s
+
+nukkit.player.invalidMove=%1$2s двинулся подозрительно!
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] вошёл с id сущности %4$2s на (%5$2s, %6$2s, %7$2s, %8$2s)
+nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] вышел из-за %4$2s
+nukkit.player.invalidEntity=%1$2s пытались атаковать недопустимые сущность
+
+nukkit.plugin.load=Загрузка %1$2s
+nukkit.plugin.restrictedName=Только имя
+nukkit.plugin.incompatibleAPI=Несовместимая версия API
+nukkit.plugin.unknownDependency=Неизвестные зависимости
+nukkit.plugin.circularDependency=Обнаружена циклическая зависимость
+nukkit.plugin.genericLoadError=Не удалось загрузить мир «%1$2s»
+nukkit.plugin.spacesDiscouraged=Плагин «%1$2s» использует пробелы в его имя, это не рекомендуется
+nukkit.plugin.loadError=Не удалось загрузить плагин «%1$2s»: %2$2s
+nukkit.plugin.duplicateError=Не удалось загрузить плагин «%1$2s»: существует плагин
+nukkit.plugin.fileError=Не удалось загрузить «%1$2s» в папке «%2$2s»: %3$2s
+nukkit.plugin.commandError=Не удалось загрузить команды %1$2s для плагина %2$2s
+nukkit.plugin.aliasError=Не удалось загрузить %1$2s укороченную команду для плагин %2$2s
+nukkit.plugin.deprecatedEvent=Плагин «%1$2s» зарегистрировал прослушателя для «%2$2s» в методе «%3$2s», но событие устарело.
+nukkit.plugin.eventError=Не удалось передать событие «%1$2s» в «%2$2s»: %3$2s на %4$2s
+
+nukkit.resources.invalid-path=Пакет ресурсов '%1$2s' не существует и св не этой директории
+nukkit.resources.unknown-format=Не возможно загрузить '%1$2s' из-за несохраненного формата
+nukkit.resources.fail=Не возможно загрузить '%1$2s': %2$2s
+nukkit.resources.success=Успешно загружено %1$2s пакет ресурсов
+nukkit.resources.zip.not-found=Файл '%1$2s' не найден
+nukkit.resources.zip.no-manifest='manifest.json' не найден
+nukkit.resources.zip.invalid-manifest='manifest.json' не допустим или не завершен
+

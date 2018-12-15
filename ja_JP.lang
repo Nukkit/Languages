@@ -1,0 +1,112 @@
+#X-Generator: crowdin.com
+# Localizations for Nukkit
+#
+# These are custom localizations that need to be converted before being sent or used in the console.
+#
+
+nukkit.language.selected=%1$2s をデフォルトのロケールとして設定しました。
+
+nukkit.data.playerNotFound=「%1$2s」のプレイヤーデータが見つからないため、新しいプロフィールを作成します
+nukkit.data.playerCorrupted=「%1$2s」の破損したプレイヤーデータが見つかったため、新しいプロフィールを作成します
+nukkit.data.playerOld=「%1$2s」の古いプレイヤーデータが見つかったため、プロフィールをアップグレードします
+nukkit.data.saveError=プレイヤー「%1$2s」のデータを保存できませんでした：%2$2s
+
+nukkit.level.notFound=レベル「%1$2s」が見つかりませんでした
+nukkit.level.loadError=レベル「%1$2s」を読み込むことができませんでした：%2$2s
+nukkit.level.generationError=レベル「%1$2s」を生成できませんでした：%2$2s
+nukkit.level.tickError=レベル「%1$2s」のティックを処理できませんでした：%2$2s
+nukkit.level.chunkUnloadError=チャンクのアンロード中にエラーが発生しました：%1$2s
+nukkit.level.backgroundGeneration=レベル「%1$2s」のスポーン地形がバックグラウンドで生成されています
+nukkit.level.defaultError=デフォルトのレベルが読み込まれていません
+nukkit.level.preparing=レベル「%1$2s」を準備しています
+nukkit.level.unloading=レベル「%1$2s」をアンロードしています
+nukkit.level.updating=「%1$2s」の古いレベルデータが見つかったため、形式を変換します
+
+nukkit.server.start=Minecraft: PE サーバー バージョン %1$2s を開始しています
+nukkit.server.networkError=[ネットワーク] インターフェイス %1$2s が %2$2s によって中止しました
+nukkit.server.networkStart=%1$2s:%2$2s でサーバーを開始しています
+nukkit.server.info=このサーバーは %1$2s バージョン %2$2s「%3$2s」（API %4$2s）を実行しています
+nukkit.server.info.extended=このサーバーは Minecraft: PE %5$2s（プロトコル バージョン %6$2s）用 API バージョン %4$2s を実装する %1$2s %2$2s「%3$2s」を実行しています
+nukkit.server.license=%1$2s は LGPL ライセンスのもとで配布されています
+nukkit.server.tickOverload=付いて行けません！サーバーが過負荷されましたか？
+nukkit.server.startFinished=完了（%1$2s 秒）！ヘルプについては「help」または「?」を入力してください
+nukkit.server.defaultGameMode=デフォルトのゲームタイプ：%1$2s
+nukkit.server.query.start=GS4 ステータス リスナーを開始しています
+nukkit.server.query.info=クエリポートを %1$2s に設定しています
+nukkit.server.query.running=クエリは %1$2s:%2$2s で動作しています
+nukkit.server.rcon.emptyPasswordError=RCON の開始に失敗しました：パスワードが空です
+nukkit.server.rcon.startupError=RCON の開始に失敗しました：%1$2s
+nukkit.server.rcon.running=RCON は %1$2s:%2$2s で動作しています
+
+nukkit.command.alias.illegal=無効な文字が含まれているため、エイリアス %1$2s を登録できませんでした
+nukkit.command.alias.notFound=存在しないコマンドが含まれているため、エイリアス %1$2s を登録できませんでした：%2$2s
+nukkit.command.exception=%2$2s でコマンド「%1$2s」の実行中に未処理の例外が発生しました：%3$2s
+
+nukkit.command.version.description=使用しているプラグインを含めたこのサーバーのバージョンを取得します
+nukkit.command.version.usage=/version [プラグイン名]
+nukkit.command.version.server=このサーバーは NukkitX バージョン %1$2s（MC：%2$2s）（API バージョン %3$2s を実装）を実行しています
+nukkit.command.version.plugin=%1$2s バージョン %1$2s を実行しています
+nukkit.command.version.noSuchPlugin=このサーバーはその名前のプラグインを実行していません。/plugins を使用してプラグインリストを取得してください。
+
+nukkit.command.plugins.description=サーバー上に実行されているプラグインリストを取得します
+nukkit.command.plugins.success=プラグイン（%1$2s）：%2$2s
+nukkit.command.plugins.usage=/plugins
+
+nukkit.command.status.description=サーバーのパフォーマンスを読み出します。
+nukkit.command.status.usage=/status
+
+nukkit.command.timings.description=サーバーのパフォーマンスを確認するためタイミングを記録します。
+nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
+nukkit.command.timings.enable=タイミングとリセットを有効にしました
+nukkit.command.timings.disable=タイミングを無効にしました
+nukkit.command.timings.timingsDisabled=/timings on を入力してタイミングを有効にしてください
+nukkit.command.timings.verboseEnable=バーボーズタイミングを有効にしました
+nukkit.command.timings.verboseDisable=バーボーズタイミングを無効にしました
+nukkit.command.timings.reset=タイミングをリセットしました
+nukkit.command.timings.rcon=警告：タイミングレポートは、RCON から実行時に夥しい遅延を誘発し、ゲームの内またはコンソールから /timings report の使用を推奨します
+nukkit.command.timings.uploadStart=タイミングレポートを準備中…
+nukkit.command.timings.uploadError=アップロード エラー：%1$2s：%2$2s、詳細はログを確認してください
+nukkit.command.timings.reportError=レポートのペースト中にエラーが発生しました、詳細はログを確認してください
+nukkit.command.timings.timingsLocation=タイミングのレポートを見る：%1$2s
+nukkit.command.timings.timingsResponse=タイミングの応答：%1$2s
+nukkit.command.timings.timingsWrite=タイミングが %1$2s に書き込まれました
+
+nukkit.crash.create=回復不可能なエラーが発生し、サーバーがクラッシュしました。クラッシュダンプを作成します
+nukkit.crash.error=クラッシュダンプを作成できませんでした：%1$2s
+nukkit.crash.submit=「%1$2s」のファイルをクラッシュアーカイブにアップロードし、バグレポートページにリンクを提出してください。できる限り多くの情報を提供してください。
+nukkit.crash.archive=クラッシュダンプが自動的にクラッシュアーカイブに提出されました。%1$2s で確認したり ID #%2$2s を使用できます。
+
+nukkit.debug.enable=LevelDB 対応が有効になっています
+
+nukkit.bugreport.create=エラーが検出されたため、バグレポートを作成します。
+nukkit.bugreport.error=バグレポートを作成できませんでした：%1$2s
+nukkit.bugreport.archive=バグレポートが作成されました：%1$2s
+
+nukkit.player.invalidMove=%1$2s が違った移動を見せました！
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] がエンティティ ID %4$2s として（%5$2s、%6$2s、%7$2s、%8$2s）にログインしました
+nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] が %4$2s によってログアウトされました
+nukkit.player.invalidEntity=%1$2s が無効なエンティティを攻撃しようとしました
+
+nukkit.plugin.load=%1$2s を読み込んでいます
+nukkit.plugin.restrictedName=制限された名前です
+nukkit.plugin.incompatibleAPI=互換性のない API バージョンです
+nukkit.plugin.unknownDependency=不明な依存関係です
+nukkit.plugin.circularDependency=循環依存関係が検出されました
+nukkit.plugin.genericLoadError=プラグイン「%1$2s」を読み込むことができませんでした
+nukkit.plugin.spacesDiscouraged=プラグイン「%1$2s」は名前にスペースを使用し、これは推奨されません
+nukkit.plugin.loadError=プラグイン「%1$2s」を読み込むことができませんでした：%2$2s
+nukkit.plugin.duplicateError=プラグイン「%1$2s」を読み込むことができませんでした：同じプラグインが存在します
+nukkit.plugin.fileError=フォルダー「%2$2s」で「%1$2s」を読み込むことができませんでした：%3$2s
+nukkit.plugin.commandError=プラグイン %2$2s のコマンド %1$2s を読み込むことができませんでした
+nukkit.plugin.aliasError=プラグイン %2$2s のエイリアス %1$2s を読み込むことができませんでした
+nukkit.plugin.deprecatedEvent=プラグイン「%1$2s」が「%2$2s」に対するリスナーをメソッド「%3$2s」に登録しましたが、このイベントは廃止されました。
+nukkit.plugin.eventError=イベント「%1$2s」を「%2$2s」に渡すことができませんでした：%4$2s での %3$2s
+
+nukkit.resources.invalid-path=リソースパックのパス「%1$2s」が存在し、ディレクトリではありません
+nukkit.resources.unknown-format=形式が認識されないため「%1$2s」を読み込むことができませんでした
+nukkit.resources.fail=「%1$2s」を読み込むことができませんでした：%2$2s
+nukkit.resources.success=%1$2s 個のリソースパックを読み込みしました
+nukkit.resources.zip.not-found=ファイル「%1$2s」が見つかりません
+nukkit.resources.zip.no-manifest=「manifest.json」が見つかりません
+nukkit.resources.zip.invalid-manifest=「manifest.json」が無効または不完全です
+
