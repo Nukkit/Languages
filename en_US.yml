@@ -93,21 +93,20 @@ advanced:
   chunk-gc: true
   # Blocks to be ticked per level tick
   blocks-ticked-per-tick: 50
-# Other level settings
-levels: {}
-# Default level settings
-default-level:
-  # Level's unique id (not the name) and used for the folder name
-  id: "7SoLxDYflqo="
-  # Seed of the level
-  seed: "-6233276666887516673"
-  # Format. Available formats: NULL, LEVELDB, ANVIL
-  format: "NULL"
-  # Generator
-  type: "FLAT"
-  # Only can be used for Flat currently
-  generator-settings: ""
-  # Do not allow chunks to be written to the disk
-  read-only: false
-  # Keep spawn chunks loaded
-  load-spawn-chunks: false
+# Levels. First is the default level
+levels:
+  default:
+    # Level's unique id (not the name) and used for the folder name
+    id: "7SoLxDYflqo="
+    # Seed of the level
+    seed: "-6233276666887516673"
+    # Format. Available formats: NULL, LEVELDB, ANVIL
+    format: "NULL"
+    # Generator
+    type: "FLAT"
+    # Only can be used for Flat currently
+    generator-settings: ""
+    # Do not allow chunks to be written to the disk
+    read-only: false
+    # Keep spawn chunks loaded
+    load-spawn-chunks: false
