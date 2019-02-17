@@ -4,30 +4,30 @@
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-nukkit.language.selected=Selected %1$2s as the default locale.
+nukkit.language.selected=%1$2s sélectionné en la locale par défaut.
 
-nukkit.data.playerNotFound=Player data not found for "%1$2s", creating new profile
-nukkit.data.playerCorrupted=Corrupted data found for "%1$2s", creating new profile
-nukkit.data.playerOld=Old Player data found for "%1$2s", upgrading profile
-nukkit.data.saveError=Could not save player "%1$2s": %2$2s
+nukkit.data.playerNotFound=Les données de Joueur pas trouvé pour "%1$2s", créant un nouveau profil
+nukkit.data.playerCorrupted=Données corrompues trouvé pour "%1$2s", créant nouveau profil
+nukkit.data.playerOld=Joueur vieil trouvé pour "%1$2s", profil est mise à niveau
+nukkit.data.saveError=Impossible d'enregistrer le joueur "%1$2s": %2$2s
 
-nukkit.level.notFound=Level "%1$2s" not found
-nukkit.level.loadError=Could not load level "%1$2s": %2$2s
-nukkit.level.generationError=Could not generate level "%1$2s": %2$2s
+nukkit.level.notFound=Niveau "%1$2s" introuvable
+nukkit.level.loadError=Impossible de charger le niveau "%1$2s": %2$2s
+nukkit.level.generationError=Impossible de générer le niveau "%1$2s" : %2$2s
 nukkit.level.tickError=Could not tick level "%1$2s": %2$2s
-nukkit.level.chunkUnloadError=Error while unloading a chunk: %1$2s
-nukkit.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being generated in the background
-nukkit.level.defaultError=No default level has been loaded
-nukkit.level.preparing=Preparing level "%1$2s"
-nukkit.level.unloading=Unloading level "%1$2s"
+nukkit.level.chunkUnloadError=Erreur lors du déchargement d'un chunk : %1$2s
+nukkit.level.backgroundGeneration=Le point apparition pour le niveau "%1$2s" est générée en arrière-plan
+nukkit.level.defaultError=Aucun niveau par défaut n'a été chargé
+nukkit.level.preparing=Préparation du niveau "%1$2s"
+nukkit.level.unloading=Déchargement du niveau «%1$2s »
 nukkit.level.updating=Old level data found for "%1$2s", converting format
 
-nukkit.server.start=Starting Minecraft: PE server version %1$2s
+nukkit.server.start=Starting Minecraft: Bedrock Edition server version %1$2s
 nukkit.server.networkError=[Network] Stopped interface %1$2s due to %2$2s
 nukkit.server.networkStart=Opening server on %1$2s:%2$2s
 nukkit.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
-nukkit.server.info.extended=This server is running %1$2s %2$2s 「%3$2s」 implementing API version %4$2s for Minecraft: PE %5$2s (protocol version %6$2s)
-nukkit.server.license=%1$2s is distributed under the LGPL License
+nukkit.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
+nukkit.server.license=%1$2s is distributed under the GPL License
 nukkit.server.tickOverload=Can't keep up! Is the server overloaded?
 nukkit.server.startFinished=Done (%1$2ss)! For help, type "help" or "?"
 nukkit.server.defaultGameMode=Default game type: %1$2s
@@ -44,7 +44,7 @@ nukkit.command.exception=Unhandled exception executing command '%1$2s' in %2$2s:
 
 nukkit.command.version.description=Gets the version of this server including any plugins in use
 nukkit.command.version.usage=/version [plugin name]
-nukkit.command.version.server=This server is running NukkitX version %1$2s (MC: %2$2s) (Implementing API version %3$2s)
+nukkit.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
 nukkit.command.version.plugin=%1$2s running version %1$2s
 nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
 
@@ -66,20 +66,20 @@ nukkit.command.timings.reset=Timings reset
 nukkit.command.timings.rcon=Warning: Timings report done over RCON will cause lag spikes, you should use /timings report in game or console
 nukkit.command.timings.uploadStart=Preparing timings report...
 nukkit.command.timings.uploadError=Upload Error: %1$2s: %2$2s, check logs for more information
-nukkit.command.timings.reportError=An error happened while pasting the report, check logs for more information
-nukkit.command.timings.timingsLocation=View timings report: %1$2s
-nukkit.command.timings.timingsResponse=Timings response: %1$2s
-nukkit.command.timings.timingsWrite=Timings written to %1$2s
+nukkit.command.timings.reportError=Une erreur s’est produite tout en collant le rapport, vérifier les logs pour plus d’informations
+nukkit.command.timings.timingsLocation=Voir rapport du minutage : %1$2s
+nukkit.command.timings.timingsResponse=Réponse de minutage : %1$2s
+nukkit.command.timings.timingsWrite=Minutage d écrits à %1$2s
 
-nukkit.crash.create=An unrecoverable error has occurred and the server has crashed. Creating a crash dump
-nukkit.crash.error=Could not create crash dump: %1$2s
-nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
-nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
+nukkit.crash.create=Une erreur irrécupérable s'est produite et le serveur s'est planté. Création d'un crash dump
+nukkit.crash.error=Impossible de créer un crash dump : %1$2s
+nukkit.crash.submit=Veuillez télécharger le fichier "%1$2s" dans l'archive de crash et soumettre le lien vers la page de rapport de bogue. Donnez autant d'informations que possible.
+nukkit.crash.archive=Le crash dump a été automatiquement soumis à l'archive de crash. Vous pouvez le voir sur %1$2s ou utiliser l'ID #%2$2s.
 
-nukkit.debug.enable=LevelDB support enabled
+nukkit.debug.enable=Prise en charge de LevelDB activée
 
-nukkit.bugreport.create=An error has been detected, creating a bug report.
-nukkit.bugreport.error=Could not create bug report: %1$2s
+nukkit.bugreport.create=Une erreur a été détectée, créant un rapport de bogue.\n
+nukkit.bugreport.error=Impossible de créer un rapport de bogue : %1$2s\n
 nukkit.bugreport.archive=A bug report has been created: %1$2s
 
 nukkit.player.invalidMove=%1$2s moved wrongly!
@@ -107,6 +107,7 @@ nukkit.resources.unknown-format=Could not load '%1$2s' due to format not recogni
 nukkit.resources.fail=Could not load '%1$2s': %2$2s
 nukkit.resources.success=Successfully loaded %1$2s resource packs
 nukkit.resources.zip.not-found=File '%1$2s' is not found
-nukkit.resources.zip.no-manifest='manifest.json' is not found
-nukkit.resources.zip.invalid-manifest='manifest.json' is invalid or incomplete
+nukkit.resources.zip.no-manifest='manifeste.json' n'est pas trouvé\n
+nukkit.resources.zip.invalid-manifest='manifeste.json' est invalide ou incomplet\n
+
 

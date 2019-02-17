@@ -15,25 +15,25 @@ nukkit.level.notFound=Мир «%1$2s» не найден
 nukkit.level.loadError=Не удалось загрузить мир «%1$2s»: %2$2s
 nukkit.level.generationError=Не удалось создать мир «%1$2s»: %2$2s
 nukkit.level.tickError=Не мог отметьте мир «%1$2s»: %2$2s
-nukkit.level.chunkUnloadError=Ошибка при выгрузке Чанка: %1$2s
-nukkit.level.backgroundGeneration=Точка возрождения местности для уровня «%1$2s» формируется в фоновом режиме
-nukkit.level.defaultError=Мир по умолчанию не загружен
+nukkit.level.chunkUnloadError=Ошибка при выгрузке чанка: %1$2s
+nukkit.level.backgroundGeneration=Точка возрождения в мире «%1$2s» формируется в фоновом режиме
+nukkit.level.defaultError=Мир по умолчанию не был загружен
 nukkit.level.preparing=Подготовка мира «%1$2s»
-nukkit.level.unloading=Подготовка мира «%1$2s»
-nukkit.level.updating=Старые данные мира найдено для «%1$2s», преобразование формата
+nukkit.level.unloading=Выгрузка мира «%1$2s»
+nukkit.level.updating=Найдены данные в старом формате для мира «%1$2s», начинаю преобразование формата
 
-nukkit.server.start=Запускоем сервер Minecraft: PE на версии %1$2s
-nukkit.server.networkError=[Network] остановлен %1$2s интерфейс связи %2$2s
-nukkit.server.networkStart=Открытие локального сервера на %1$2s:%2$2s
-nukkit.server.info=Этот сервер %1$2s на версии %2$2s «%3$2s» ( %4$2s API)
-nukkit.server.info.extended=Этот сервер %1$2s %2$2s 「%3$2s」версия API %4$2s для Minecraft: ( %5$2s) PE протокол версии %6$2s)
-nukkit.server.license=%1$2s распространяется под лицензией LGPL
+nukkit.server.start=Запуск сервера Minecraft: Bedrock Edition версии %1$2s
+nukkit.server.networkError=[Network] Интерфейс %1$2s остановлен по причине %2$2s
+nukkit.server.networkStart=Запускаю сервер на %1$2s:%2$2s
+nukkit.server.info=Сервер находится под управлением %1$2s версии %2$2s «%3$2s» ( %4$2s API)
+nukkit.server.info.extended=Это сервер работает на %1$2s %2$2s версии API %3$2s для Minecraft: Bedrock Edition %4$2s (версия протокола %5$2s)
+nukkit.server.license=%1$2s распространяется под лицензией GPL
 nukkit.server.tickOverload=Не удается сохранить! Сервер перегружен?
 nukkit.server.startFinished=Готово (%1$2ss)! Для получения справки введите «/help» или «?»
-nukkit.server.defaultGameMode=По умолчанию тип игры: %1$2s
-nukkit.server.query.start=Запускаем GS4 статус слушателя
-nukkit.server.query.info=Устанавливаем запроса порта %1$2s
-nukkit.server.query.running=Запрос выполняется на %1$2s:%2$2s
+nukkit.server.defaultGameMode=Режим игры по умолчанию: %1$2s
+nukkit.server.query.start=Запускаем слушателя статуса GS4
+nukkit.server.query.info=Порт query-сервера установлен в %1$2s
+nukkit.server.query.running=Query-сервер запущен на %1$2s:%2$2s
 nukkit.server.rcon.emptyPasswordError=Не удалось запустить RCON: пароль пуст
 nukkit.server.rcon.startupError=Не удалось запустить RCON: %1$2s
 nukkit.server.rcon.running=RCON работает на %1$2s:%2$2s
@@ -44,7 +44,7 @@ nukkit.command.exception=Необработанное исключение, вы
 
 nukkit.command.version.description=Получает версию этого сервера, включая любые плагины
 nukkit.command.version.usage=/version [Имя плагина]
-nukkit.command.version.server=Этот сервер работает под управлением версии NukkitX %1$2s (MC: %2$2s) (реализация API версии %3$2s)
+nukkit.command.version.server=Этот сервер работает на %1$2s версии %2$2s (MC: %3$2s) (Версия API %4$2s)
 nukkit.command.version.plugin=%1$2s под управлением версии %1$2s
 nukkit.command.version.noSuchPlugin=На этом сервере нет плагина под этим именем. Используйте / plugins, чтобы получить список плагинов.
 
@@ -109,4 +109,5 @@ nukkit.resources.success=Успешно загружено %1$2s пакет ре
 nukkit.resources.zip.not-found=Файл '%1$2s' не найден
 nukkit.resources.zip.no-manifest='manifest.json' не найден
 nukkit.resources.zip.invalid-manifest='manifest.json' не допустим или не завершен
+
 

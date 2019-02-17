@@ -22,12 +22,12 @@ nukkit.level.preparing=Wereld "%1$2s" aan het voorbereiden
 nukkit.level.unloading=Uitladen van wereld "%1$2s"
 nukkit.level.updating=Oude wereld gegevens gevonden voor "%1$2s", bezig met omzetten van het formaat
 
-nukkit.server.start=Minecraft: PE aan het starten, server versie %1$2s
+nukkit.server.start=Opstarten van Minecraft: Bedrock Edition server versie %1$2s
 nukkit.server.networkError=[Netwerk] Interface gestopt %1$2s met als gevolg van %2$2s
 nukkit.server.networkStart=Server openen op %1$2s:%2$2s
 nukkit.server.info=Deze server draait %1$2s versie %2$2s "%3$2s" (API-versie %4$2s)
-nukkit.server.info.extended=Deze server draait %1$2s %2$2s 「%3$2s」 met API versie %4$2s voor Minecraft: PE %5$2s (Protocol versie %6$2s)
-nukkit.server.license=%1$2s wordt gedistribueerd met de LGPL-licentie
+nukkit.server.info.extended=Deze server draait %1$2s %2$2s implementerende API versie %3$2s voor Minecraft: Bedrock Edition %4$2s (protocol versie %5$2s)
+nukkit.server.license=%1$2s wordt gedistribueerd onder de GPL licentie
 nukkit.server.tickOverload=Kan niet bij houden! Is de server overbelast?
 nukkit.server.startFinished=Klaar (%1$2ss)! Voor hulp, typt u "help" of "?"
 nukkit.server.defaultGameMode=Standaard Speltype: %1$2s
@@ -44,7 +44,7 @@ nukkit.command.exception=Niet verwerkte exceptie tijdens het uitvoeren van '%1$2
 
 nukkit.command.version.description=Verkrijg de versie van de server inclusief eventuele plugins die in gebruik zijn
 nukkit.command.version.usage=/version [plugin naam]
-nukkit.command.version.server=Deze server draait NukkitX versie %1$2s (MC: %2$2s) (Uitvoerbare API versie %3$2s)
+nukkit.command.version.server=Deze server draait %1$2s versie %2$2s (MC: %3$2s) (implementerende API versie %4$2s)
 nukkit.command.version.plugin=%1$2s draait versie %1$2s
 nukkit.command.version.noSuchPlugin=Deze server draait geen enkele plugin met de opgegeven naam. Gebruik /plugins om een lijst te krijgen met ingeladen plugins.
 
@@ -109,4 +109,5 @@ nukkit.resources.success=Met succes zijn %1$2s resource packs geladen
 nukkit.resources.zip.not-found=Bestand '%1$2s' bestaat niet
 nukkit.resources.zip.no-manifest='manifest.json' kan niet worden gevonden
 nukkit.resources.zip.invalid-manifest='manifest.json' is ongeldig of onvolledig
+
 

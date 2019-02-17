@@ -22,12 +22,12 @@ nukkit.level.preparing=Preparando nivel "%1$2s"
 nukkit.level.unloading=Unloading level "%1$2s"
 nukkit.level.updating=Old level data found for "%1$2s", converting format
 
-nukkit.server.start=Starting Minecraft: PE server version %1$2s
+nukkit.server.start=Starting Minecraft: Bedrock Edition server version %1$2s
 nukkit.server.networkError=[Network] Stopped interface %1$2s due to %2$2s
 nukkit.server.networkStart=Opening server on %1$2s:%2$2s
 nukkit.server.info=Este servidor está corriendo %1$2s versión %2$2s "%3$2s" (API %4$2s)
-nukkit.server.info.extended=Este servidor está corriendo %1$2s %2$2s 「%3$2s」implementando la versión de API %4$2s para Minecraft: PE %5$2s (versión de protocolo %6$2s)
-nukkit.server.license=%1$2s is distributed under the LGPL License
+nukkit.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
+nukkit.server.license=%1$2s is distributed under the GPL License
 nukkit.server.tickOverload=Can't keep up! Is the server overloaded?
 nukkit.server.startFinished=Hecho (%1$2ss)! Para conseguir ayuda, escribe "help" o "?"
 nukkit.server.defaultGameMode=Default game type: %1$2s
@@ -44,7 +44,7 @@ nukkit.command.exception=Unhandled exception executing command '%1$2s' in %2$2s:
 
 nukkit.command.version.description=Consigue la versión de este servidor incluyendo cualquier plugin en uso
 nukkit.command.version.usage=/version [plugin name]
-nukkit.command.version.server=This server is running NukkitX version %1$2s (MC: %2$2s) (Implementing API version %3$2s)
+nukkit.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
 nukkit.command.version.plugin=%1$2s running version %1$2s
 nukkit.command.version.noSuchPlugin=Este servidor no esta corriendo ningún plugin con ese nombre. Usa /plugins para conseguir una lista de todos plugins.
 
@@ -109,4 +109,5 @@ nukkit.resources.success=Successfully loaded %1$2s resource packs
 nukkit.resources.zip.not-found=File '%1$2s' is not found
 nukkit.resources.zip.no-manifest='manifest.json' no se encuentra
 nukkit.resources.zip.invalid-manifest='manifest.json' no es valido o esta incompleto
+
 

@@ -4,109 +4,110 @@
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-nukkit.language.selected=Dipilih %1$2s sebagai lokal default.
+nukkit.language.selected=Dipilih %1$2s sebagai lokal standar.
 
 nukkit.data.playerNotFound=Data pemain tidak ditemukan untuk "%1$2s", membuat profil baru
 nukkit.data.playerCorrupted=Data yang rusak ditemukan untuk "%1$2s", membuat profil baru
 nukkit.data.playerOld=Data lama ditemukan untuk "%1$2s", memperbarui profil
 nukkit.data.saveError=Tidak dapat menyimpan pemain "%1$2s": %2$2s
 
-nukkit.level.notFound=Level "%1$2s" not found
-nukkit.level.loadError=Could not load level "%1$2s": %2$2s
-nukkit.level.generationError=Could not generate level "%1$2s": %2$2s
-nukkit.level.tickError=Could not tick level "%1$2s": %2$2s
-nukkit.level.chunkUnloadError=Error while unloading a chunk: %1$2s
-nukkit.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being generated in the background
-nukkit.level.defaultError=No default level has been loaded
-nukkit.level.preparing=Preparing level "%1$2s"
-nukkit.level.unloading=Unloading level "%1$2s"
-nukkit.level.updating=Old level data found for "%1$2s", converting format
+nukkit.level.notFound=Level "%1$2s" tidak ditemukan
+nukkit.level.loadError=Tidak dapat memuat level "%1$2s": %2$2s
+nukkit.level.generationError=Tidak dapat menghasilkan level "%1$2s": %2$2s
+nukkit.level.tickError=Tidak dapat menandai level "%1$2s": %2$2s
+nukkit.level.chunkUnloadError=Gagal saat membongkar bongkahan %1$2s
+nukkit.level.backgroundGeneration=Menelurkan medan untuk level "%1$2s" sedang dibuat di latar belakang
+nukkit.level.defaultError=Tidak ada level standar yang dimuat
+nukkit.level.preparing=Mempersiapkan level "%1$2s"
+nukkit.level.unloading=Level pembongkaran "%1$2s"
+nukkit.level.updating=Data level lama ditemukan untuk %1$2s", format konversi
 
-nukkit.server.start=Starting Minecraft: PE server version %1$2s
-nukkit.server.networkError=[Network] Stopped interface %1$2s due to %2$2s
-nukkit.server.networkStart=Opening server on %1$2s:%2$2s
-nukkit.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
-nukkit.server.info.extended=This server is running %1$2s %2$2s 「%3$2s」 implementing API version %4$2s for Minecraft: PE %5$2s (protocol version %6$2s)
-nukkit.server.license=%1$2s is distributed under the LGPL License
-nukkit.server.tickOverload=Can't keep up! Is the server overloaded?
-nukkit.server.startFinished=Done (%1$2ss)! For help, type "help" or "?"
-nukkit.server.defaultGameMode=Default game type: %1$2s
-nukkit.server.query.start=Starting GS4 status listener
-nukkit.server.query.info=Setting query port to %1$2s
-nukkit.server.query.running=Query is running on %1$2s:%2$2s
-nukkit.server.rcon.emptyPasswordError=Failed to start RCON: password is empty
-nukkit.server.rcon.startupError=Failed to start RCON: %1$2s
-nukkit.server.rcon.running=RCON is running on %1$2s:%2$2s
+nukkit.server.start=Memulai Minecraft: versi server PE %1$2s
+nukkit.server.networkError=[Jaringan] Menghentikan antarmuka %1$2s disebabkan oleh %2$2s
+nukkit.server.networkStart=Membuka server aktif %1$2s:%2$2s
+nukkit.server.info=Server ini sedang berjalan %1$2s versi %2$2s "%3$2s" (API %4$2s)
+nukkit.server.info.extended=Server ini sedang berjalan %1$2s %2$2s mengimplementasikan versi API %3$2s untuk Minecraft: PE %4$2s (versi protokol %5$2s)
+nukkit.server.license=%1$2s didistribusikan di bawah Lisensi LGPL
+nukkit.server.tickOverload=Tidak bisa mengikuti! Apakah server kelebihan beban?
+nukkit.server.startFinished=Selesai (%1$2ss)! Untuk bantuan, ketik "help" atau "?"
+nukkit.server.defaultGameMode=Jenis permainan standar: %1$2s
+nukkit.server.query.start=Memulai pendengar status GS4
+nukkit.server.query.info=Mengatur port kueri ke %1$2s
+nukkit.server.query.running=Kueri sedang berjalan %1$2s %2$2s
+nukkit.server.rcon.emptyPasswordError=Gagal memulai RCON: kata sandi kosong
+nukkit.server.rcon.startupError=Gagal memulai RCON: %1$2s
+nukkit.server.rcon.running=RCON sedang berjalan %1$2s:%2$2s
 
-nukkit.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
-nukkit.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
-nukkit.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
+nukkit.command.alias.illegal=Tidak dapat mendaftar alias %1$2s karena mengandung karakter ilegal
+nukkit.command.alias.notFound=Tidak dapat mendaftar alias %1$2s karena mengandung perintah yang tidak ada: %2$2s
+nukkit.command.exception=Perintah eksekusi eksepsi yang tidak ditangani '%1$2s' di %2$2s: %3$2s
 
-nukkit.command.version.description=Gets the version of this server including any plugins in use
-nukkit.command.version.usage=/version [plugin name]
-nukkit.command.version.server=This server is running NukkitX version %1$2s (MC: %2$2s) (Implementing API version %3$2s)
-nukkit.command.version.plugin=%1$2s running version %1$2s
-nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
+nukkit.command.version.description=Dapatkan versi server ini termasuk semua plugin yang digunakan
+nukkit.command.version.usage=/version [nama plugin]
+nukkit.command.version.server=Server ini sedang berjalan %1$2s versi %2$2s (MC: %3$2s) (Menerapkan versi API %4$2s)
+nukkit.command.version.plugin=%1$2s versi yang sedang berjalan %1$2s
+nukkit.command.version.noSuchPlugin=Server ini tidak menjalankan plugin apa pun dengan nama itu. Menggunakan /plugins untuk mendapatkan daftar plugin.
 
-nukkit.command.plugins.description=Gets a list of plugins running on the server
-nukkit.command.plugins.success=Plugins (%1$2s): %2$2s
+nukkit.command.plugins.description=Mendapat daftar plugin yang berjalan di server
+nukkit.command.plugins.success=Plugin (%1$2s): %2$2s
 nukkit.command.plugins.usage=/plugins
 
-nukkit.command.status.description=Reads back the server's performance.
+nukkit.command.status.description=Membaca kembali kinerja server.
 nukkit.command.status.usage=/status
 
-nukkit.command.timings.description=Records timings to see performance of the server.
+nukkit.command.timings.description=Merekam waktu untuk melihat kinerja server.
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-nukkit.command.timings.enable=Enabled timings and reset
-nukkit.command.timings.disable=Disabled timings
-nukkit.command.timings.timingsDisabled=Please enable timings by typing /timings on
-nukkit.command.timings.verboseEnable=Enabled verbose timings
-nukkit.command.timings.verboseDisable=Disabled verbose timings
-nukkit.command.timings.reset=Timings reset
-nukkit.command.timings.rcon=Warning: Timings report done over RCON will cause lag spikes, you should use /timings report in game or console
-nukkit.command.timings.uploadStart=Preparing timings report...
-nukkit.command.timings.uploadError=Upload Error: %1$2s: %2$2s, check logs for more information
-nukkit.command.timings.reportError=An error happened while pasting the report, check logs for more information
-nukkit.command.timings.timingsLocation=View timings report: %1$2s
-nukkit.command.timings.timingsResponse=Timings response: %1$2s
-nukkit.command.timings.timingsWrite=Timings written to %1$2s
+nukkit.command.timings.enable=Pengaturan waktu diaktifkan dan reset
+nukkit.command.timings.disable=Pengaturan waktu dinonaktifkan
+nukkit.command.timings.timingsDisabled=Harap aktifkan pewaktuan dengan mengetik /timings on
+nukkit.command.timings.verboseEnable=Diaktifkan timing verbose
+nukkit.command.timings.verboseDisable=Penentuan waktu verbose dinonaktifkan
+nukkit.command.timings.reset=Pengaturan waktu diatur ulang
+nukkit.command.timings.rcon=Peringatan: Laporan waktu yang dilakukan melalui RCON akan menyebabkan lonjakan lag, yang harus Anda gunakan /timings report dalam permainan atau konsol
+nukkit.command.timings.uploadStart=Mempersiapkan laporan ketepatan waktu...
+nukkit.command.timings.uploadError=Kesalahan Pengunggahan: %1$2s: %2$2s, periksa log untuk informasi lebih lanjut
+nukkit.command.timings.reportError=Terjadi kesalahan saat menempelkan laporan, periksa log untuk informasi lebih lanjut
+nukkit.command.timings.timingsLocation=Lihat laporan timing: %1$2s
+nukkit.command.timings.timingsResponse=Tanggapan timing: %1$2s
+nukkit.command.timings.timingsWrite=Pengaturan waktu ditulis untuk %1$2s
 
-nukkit.crash.create=An unrecoverable error has occurred and the server has crashed. Creating a crash dump
-nukkit.crash.error=Could not create crash dump: %1$2s
-nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
-nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
+nukkit.crash.create=Dapatkan versi server ini termasuk semua plugin yang digunakan
+nukkit.crash.error=Tidak dapat membuat pembuangan kecelakaan: %1$2s
+nukkit.crash.submit=Silakan unggah "%1$2s" file ke Arsip Kecelakaan dan kirimkan tautan ke halaman Pelaporan Bug. Berikan info sebanyak mungkin.
+nukkit.crash.archive=Pembuangan kecelakaan telah secara otomatis dikirimkan ke Arsip Kecelakaan. Anda dapat melihatnya di %1$2s atau gunakan ID #%2$2s.
 
-nukkit.debug.enable=LevelDB support enabled
+nukkit.debug.enable=Dukungan LevelDB diaktifkan
 
-nukkit.bugreport.create=An error has been detected, creating a bug report.
-nukkit.bugreport.error=Could not create bug report: %1$2s
-nukkit.bugreport.archive=A bug report has been created: %1$2s
+nukkit.bugreport.create=Kesalahan telah terdeteksi, membuat laporan bug.
+nukkit.bugreport.error=Tidak dapat membuat laporan bug: %1$2s
+nukkit.bugreport.archive=Laporan bug telah dibuat: %1$2s
 
-nukkit.player.invalidMove=%1$2s moved wrongly!
-nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, %8$2s)
-nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
-nukkit.player.invalidEntity=%1$2s tried to attack an invalid entity
+nukkit.player.invalidMove=%1$2s bergerak dengan salah!
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] masuk with entity id %4$2s di (%5$2s, %6$2s, %7$2s, %8$2s)
+nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] keluar karena %4$2s
+nukkit.player.invalidEntity=%1$2s mencoba menyerang entitas yang tidak valid
 
-nukkit.plugin.load=Loading %1$2s
-nukkit.plugin.restrictedName=Restricted name
-nukkit.plugin.incompatibleAPI=Incompatible API version
-nukkit.plugin.unknownDependency=Unknown dependency
-nukkit.plugin.circularDependency=Circular dependency detected
-nukkit.plugin.genericLoadError=Could not load plugin '%1$2s'
-nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' uses spaces in its name, this is discouraged
-nukkit.plugin.loadError=Could not load plugin '%1$2s': %2$2s
-nukkit.plugin.duplicateError=Could not load plugin '%1$2s': plugin exists
-nukkit.plugin.fileError=Could not load '%1$2s' in folder '%2$2s': %3$2s
-nukkit.plugin.commandError=Could not load command %1$2s for plugin %2$2s
-nukkit.plugin.aliasError=Could not load alias %1$2s for plugin %2$2s
-nukkit.plugin.deprecatedEvent=Plugin '%1$2s' has registered a listener for '%2$2s' on method '%3$2s', but the event is Deprecated.
-nukkit.plugin.eventError=Could not pass event '%1$2s' to '%2$2s': %3$2s on %4$2s
+nukkit.plugin.load=Memuat %1$2s
+nukkit.plugin.restrictedName=Nama terbatas
+nukkit.plugin.incompatibleAPI=Versi API Tidak kompatibel
+nukkit.plugin.unknownDependency=Ketergantungan tidak diketahui
+nukkit.plugin.circularDependency=Ketergantungan melingkar terdeteksi
+nukkit.plugin.genericLoadError=Tidak dapat memuat plugin '%1$2s'
+nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' menggunakan spasi dalam namanya, ini tidak disarankan
+nukkit.plugin.loadError=Tidak dapat memuat plugin '%1$2s': %2$2s
+nukkit.plugin.duplicateError=Tidak dapat memuat plugin '%1$2s': plugin ada
+nukkit.plugin.fileError=Tidak bisa memuat '%1$2s' dalam map '%2$2s': %3$2s
+nukkit.plugin.commandError=Tidak dapat memuat perintah %1$2s untuk plugin %2$2s
+nukkit.plugin.aliasError=Tidak dapat memuat alias %1$2s untuk plugin %2$2s
+nukkit.plugin.deprecatedEvent=Plugin '%1$2s' telah mendaftarkan pendengar untuk %2$2s pada metode %3$2s, tetapi acara ini sudah usang.
+nukkit.plugin.eventError=Tidak dapat melewati acara '%1$2s' ke '%2$2s': %3$2s on %4$2s
 
-nukkit.resources.invalid-path=Resource packs path '%1$2s' exists and is not a directory
-nukkit.resources.unknown-format=Could not load '%1$2s' due to format not recognized
-nukkit.resources.fail=Could not load '%1$2s': %2$2s
-nukkit.resources.success=Successfully loaded %1$2s resource packs
-nukkit.resources.zip.not-found=File '%1$2s' is not found
-nukkit.resources.zip.no-manifest='manifest.json' is not found
-nukkit.resources.zip.invalid-manifest='manifest.json' is invalid or incomplete
+nukkit.resources.invalid-path=Jalur paket sumber daya '%1$2s' ada dan bukan direktori
+nukkit.resources.unknown-format=Tidak bisa memuat '%1$2s' karena format tidak dikenali
+nukkit.resources.fail=Tidak bisa memuat '%1$2s': %2$2s
+nukkit.resources.success=Berhasil dimuat %1$2s paket sumber daya
+nukkit.resources.zip.not-found=File '%1$2s' tidak ditemukan
+nukkit.resources.zip.no-manifest='manifest.json' tidak ditemukan
+nukkit.resources.zip.invalid-manifest='manifest.json' tidak valid atau tidak lengkap
+
 

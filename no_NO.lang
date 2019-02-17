@@ -22,12 +22,12 @@ nukkit.level.preparing=Preparing level "%1$2s"
 nukkit.level.unloading=Unloading level "%1$2s"
 nukkit.level.updating=Old level data found for "%1$2s", converting format
 
-nukkit.server.start=Starting Minecraft: PE server version %1$2s
+nukkit.server.start=Starting Minecraft: Bedrock Edition server version %1$2s
 nukkit.server.networkError=[Network] Stopped interface %1$2s due to %2$2s
 nukkit.server.networkStart=Opening server on %1$2s:%2$2s
 nukkit.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
-nukkit.server.info.extended=This server is running %1$2s %2$2s 「%3$2s」 implementing API version %4$2s for Minecraft: PE %5$2s (protocol version %6$2s)
-nukkit.server.license=%1$2s is distributed under the LGPL License
+nukkit.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
+nukkit.server.license=%1$2s is distributed under the GPL License
 nukkit.server.tickOverload=Can't keep up! Is the server overloaded?
 nukkit.server.startFinished=Done (%1$2ss)! For help, type "help" or "?"
 nukkit.server.defaultGameMode=Default game type: %1$2s
@@ -44,7 +44,7 @@ nukkit.command.exception=Unhandled exception executing command '%1$2s' in %2$2s:
 
 nukkit.command.version.description=Gets the version of this server including any plugins in use
 nukkit.command.version.usage=/version [plugin name]
-nukkit.command.version.server=This server is running NukkitX version %1$2s (MC: %2$2s) (Implementing API version %3$2s)
+nukkit.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
 nukkit.command.version.plugin=%1$2s running version %1$2s
 nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
 
@@ -109,4 +109,5 @@ nukkit.resources.success=Successfully loaded %1$2s resource packs
 nukkit.resources.zip.not-found=File '%1$2s' is not found
 nukkit.resources.zip.no-manifest='manifest.json' is not found
 nukkit.resources.zip.invalid-manifest='manifest.json' is invalid or incomplete
+
 
