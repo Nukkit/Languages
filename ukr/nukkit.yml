@@ -9,7 +9,7 @@
 
 settings:
  #Налаштування мови
- #Доступні: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu
+ #Доступні: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu, cze
  language: "ukr"
  #Вибір пристрою для обробки перекладу (true — сервер буде оброблювати переклад)
  force-language: false

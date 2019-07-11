@@ -4,7 +4,7 @@
 
 settings:
  #言語設定
- #現在選べる言語: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu
+ #現在選べる言語: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu, cze
  language: "jpn"
  #端末に送る言語を強制するかどうか
  force-language: false

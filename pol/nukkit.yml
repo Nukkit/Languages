@@ -4,7 +4,7 @@
 
 settings:
  #Ustawienia wielojezykowe
- #Dostepne: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu
+ #Dostepne: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu, cze
  language: "pol"
  #Wyslac wiadomosci w jezyku serwera czy pozwolic urzadzeniu wybrac
  force-language: false

@@ -1,0 +1,122 @@
+# Configuration avancée pour Nukkit
+# Certaines de ces options sont sûres, d'autres peuvent casser votre serveur si vous le modifiez non correctement.
+# Nouvelles options/options par défauts n'apparaîtront pas automatiquement sur ce fichier lors d'une mise à jour.
+
+settings:
+ #Options multilangues
+ #Disponible: eng, fr, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu, cze
+ language: "fr"
+ #Envoyer à tous les Strings traduis au serveur locale ou laissez le device le mettre
+ force-language: false
+ shutdown-message: "Serveur fermé"
+ #Autoriser à écouter les plugins via Query
+ query-plugins: true
+ # Afficher un message dans la console quand un plugin utilise une API avec des méthodes Deprecated.
+ deprecated-verbose: true
+ #Nombres de tâches asynchronisées travailleuses
+ #Si c'est mit en auto, ça va essayer de détecter le nombres de cores (au moins 4)
+ async-workers: auto
+
+network:
+ #Seuil pour le traitement par lots des paquets, en octets. Seuls ces paquets seront compressés
+ #Mettez à 0 pour compresser tout, -1 pour désactiver
+ batch-threshold: 256
+ #Niveau de Compression utilisé de Zlib lors de l'envois de paquets batchés. Elevé = Plus de CPU, moins d'usage de bande passante
+ compression-level: 7
+ #Utiliser une tâche asynchronisée pour la compression. Ajoute un ou plusieurs délay de ticks, moins d'usage de CPU de chargement sur les threads principaux.
+ async-compression: false
+
+debug:
+ #Si > 1, ça va afficher un message de débogage dans la console
+ level: 1
+ #Activer les commandes: /status /gc
+ commands: false
+
+timings:
+ #Ajouter le core et le timings des plugins par défaut
+ enabled: false
+ #Activer le monitoring au niveau verbose, incluant une haute fréquence de timings.
+ verbose: false
+ #Interval entre les historiques de frames en ticks
+ #Par défaut, c'est 5 minutes (6000 ticks)
+ history-interval: 6000
+ #Longueur de tout l'historique du timing en ticks
+ #Par défaut c'est 1 heure (72000 ticks)
+ #Cette value est cappé à un maximum d'un interval d'historique * 12
+ history-length: 72000
+ #Pour les cas spéciaux des serveurs avec une permission spéciale pour contrepasser le maximum
+ #Ce maximum aide à garder le fichier Data de la taille raisonnable pour procéder sur le timing Aikar's côté parser
+ #Ces options ne vont pas vous aider à contrepasser le maximum que Aikar a ajouté d'une exception sur le côté API
+ bypass-max: false
+ #Si mis en true, le nom du serveur ne sera pas envoyé
+ privacy: false
+ #Section d'options pour ignorer.Ces secttions ne vont pas envoyer le timing d'Aikar.
+ #Par exemple: [all] ou [settings, timings]
+ ignore: []
+
+level-settings:
+ #Le format par défaut que les niveaux vont utiliser une fois créés
+ default-format: anvil
+ #Changer automatiquement le niveau des ticks pour maintenir 20 ticks par secondes
+ auto-tick-rate: true
+ auto-tick-rate-limit: 20
+ #Mettre la base de l'appréciation du tick (1 = 20 ticks par secondes, 2 = 10 ticks par secondes, etc.)
+ base-tick-rate: 1
+ #Tiquer tous les joueurs à chaque ticks même quand d'autres options désactivent ça
+ always-tick-players: false
+
+chunk-sending:
+ #Nombres de Chunks envoyés aux joueurs par ticks
+ per-tick: 4
+ #Nombres de chunks envoyés au tour de chaques joueur
+ max-chunks: 192
+ #Nombres de Chunks nécessaires qui ont besoin d'êtres envvoyés avant le spawn du joueur.
+ spawn-threshold: 56
+ #Sauvegarder une copie sérialisée du Chunk dans la mémoire pour un envoi plus rapide
+ #Utile dans certains monddes statics où un tas de joueurs rejoignent en même temps
+ cache-chunks: false
+
+chunk-ticking:
+ #Nombres maximum de chunks procédé à chaque ticks
+ per-tick: 40
+ #Radius de chunks autour d'un joueur au tick près
+ tick-radius: 3
+ light-updates: false
+ clear-tick-list: false
+
+chunk-generation:
+ # Nombre Max. de Chunks dans la file d'attente pour être généré.
+ queue-size: 8
+ #Nombre Max. de chunks dans la file d'attente pour être populaire.
+ population-queue-size: 8
+
+ticks-per:
+ animal-spawns: 400
+ monster-spawns: 1
+ autosave: 6000
+ cache-cleanup: 900
+
+spawn-limits:
+ #Nombre Max de ces entités
+ monsters: 70
+ animals: 15
+ water-animals: 5
+ ambient: 15
+ 
+player:
+ #Si vrais, le Data des joueurs va être sauvegardé dans players/playername.dat
+ # Si false, Nukkit ne va pas sauvegarder le Data des joueurs dans un fichier "dat", en ordre pour les plugins peuvent faire quelque chose dessus.
+ save-player-data: true
+ 
+aliases:
+ #Aliases pour les commandes
+ #Exemples:
+ #showtheversion: version
+ #savestop: [save-all, stop]
+
+worlds:
+ # Ces options vont monter par dessus le générateur mis dans le server.properties et autoriser le chargement de multiples niveaux.
+ #Exemple:
+ #world:
+ # seed: 404
+ # generator: FLAT:2;7,59x1,3x3,2;1;decoration(treecount=80 grasscount=45)

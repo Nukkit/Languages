@@ -4,7 +4,7 @@
 
 settings:
  #Multilingual
- #Verfügbar: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu
+ #Verfügbar: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu, cze
  language: "deu"
  #Sollen alle Nachrichten in Serversprache ausgegeben werden oder sollen Sie vom Client verarbeitet werden
  force-language: false
