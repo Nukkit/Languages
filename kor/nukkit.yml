@@ -64,6 +64,7 @@ level-settings:
  base-tick-rate: 1
  #다른 설정들이 이를 허용하지 않더라도 모든 플레이어를 틱 처리합니다
  always-tick-players: false
+ tick-redstone: true
 
 chunk-sending:
  #플레이어에게 틱 당 보낼 청크의 양

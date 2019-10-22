@@ -64,6 +64,7 @@ level-settings:
  base-tick-rate: 1
  #ほかの設定がこれを許可しなくても、全員のtickを同じにする
  always-tick-players: false
+ tick-redstone: true
 
 chunk-sending:
  #チックあたりのプレイヤーに送られるチャンクの量

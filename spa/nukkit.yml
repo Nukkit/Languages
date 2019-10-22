@@ -64,6 +64,7 @@ level-settings:
  base-tick-rate: 1
  #Ticks a todos los jugadores incluso cuando otros ajustes no permiten esto.
  always-tick-players: false
+ tick-redstone: true
 
 chunk-sending:
  #Cantidad de paquetes que se envián al jugador por tick

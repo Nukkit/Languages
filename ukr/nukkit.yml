@@ -69,6 +69,7 @@ level-settings:
  base-tick-rate: 1
  #Прораховувати гравців кожен тік, навіть якщо інші настройки це забороняють
  always-tick-players: false
+ tick-redstone: true
 
 chunk-sending:
  #Кількість чанків, яка відправляється гравцеві за тік

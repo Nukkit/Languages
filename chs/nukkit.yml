@@ -64,6 +64,7 @@ level-settings:
  base-tick-rate: 1
  #始终保持玩家Tick，即使其他选项不允许这么做
  always-tick-players: false
+ tick-redstone: true
 
 chunk-sending:
  #每 tick 内发送给玩家区块的数量

@@ -65,6 +65,7 @@ level-settings:
  base-tick-rate: 1
  #Tickne všechny hráče každý tick, i když to ostatní nastavení zakáže
  always-tick-players: false
+ tick-redstone: true
 
 chunk-sending:
  #Množství chunků které se pošlou hráčovi každý tick
