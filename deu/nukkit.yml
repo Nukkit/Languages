@@ -4,7 +4,7 @@
 
 settings:
  #Multilingual
- #Verfügbar: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu
+ #Verfügbar: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu, cze
  language: "deu"
  #Sollen alle Nachrichten in Serversprache ausgegeben werden oder sollen Sie vom Client verarbeitet werden
  force-language: false
@@ -64,6 +64,7 @@ level-settings:
  base-tick-rate: 1
  #Tick alle Spieler auch wenn es andere Einstellungen verhindern
  always-tick-players: false
+ tick-redstone: true
 
 chunk-sending:
  #Anzahl der Chuncks die während eines Ticks zum Spieler gesendet wird

@@ -4,7 +4,7 @@
 
 settings:
  #Configuração de Multi-Linguagem
- #Disponível: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu
+ #Disponível: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu, cze
  language: "bra"
  #Se é para enviar todos os textos traduzidos para a linguagem do servidor ou se é para o próprio dispositivo traduzir elas
  force-language: false
@@ -64,6 +64,7 @@ level-settings:
  base-tick-rate: 1
  #Fazer tick em todos os players em todos os ticks mesmo quando as outras opções não permitem isto.
  always-tick-players: false
+ tick-redstone: true
 
 chunk-sending:
  #Número de chunks enviados para os players por tick
