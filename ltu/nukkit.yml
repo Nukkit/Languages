@@ -107,6 +107,8 @@ player:
  #Jeigu įvestis "true", tai žaidėjo informacija bus išsaugota faile players/zaidejo-vardas.dat
  #Jeigu įvestis "false", nukkit neišsaugos žaidėjo informacijos į "dat" failus, kad įskiepiai galėtų kažką padaryti su jais
  save-player-data: true
+ #The time between skin change action in seconds, set to 0 if you dont want the cooldown
+ skin-change-cooldown: 30
 
 aliases:
  #Alternatyvos komandoms

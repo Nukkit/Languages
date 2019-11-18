@@ -114,6 +114,8 @@ player:
  #Если выбрано true,то данные игрока будут храниться в файле players/playername.dat
  #Если выбрано false, Nukkit не будет хранить данные игрока в "dat" файлах, для того чтобы плагины с ними что-то делали.
  save-player-data: true
+ #The time between skin change action in seconds, set to 0 if you dont want the cooldown
+ skin-change-cooldown: 30
  
 aliases:
  #Псевдонимы (алиасы) для команд

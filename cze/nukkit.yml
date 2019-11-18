@@ -108,6 +108,8 @@ player:
  #Pokud je true, data hráče budou uložena jako players/playername.dat
  #Pokud je false, nukkit neukládá data hráče jako "datové" soubory, aby mohly pluginy něco udělat.
  save-player-data: true
+ #The time between skin change action in seconds, set to 0 if you dont want the cooldown
+ skin-change-cooldown: 30
  
 aliases:
  #Aliasy pro příkazy

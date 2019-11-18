@@ -118,6 +118,8 @@ player:
  #設置為 ture，玩家資料將被儲存為 player/<玩家代號>.dat
  #設置為 false，nukkit 將不會儲存玩家資料為 "dat" 檔案，以便插件可以在其上執行某些操作。
  save-player-data: true
+ #The time between skin change action in seconds, set to 0 if you dont want the cooldown
+ skin-change-cooldown: 30
  
 aliases:
  #指令別稱
