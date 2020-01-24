@@ -109,3 +109,4 @@ nukkit.resources.success=Pomyślnie załadowano paczkę zasobów %1$2s
 nukkit.resources.zip.not-found=Plik '%1$2s' nie został znaleziony
 nukkit.resources.zip.no-manifest=Nie znaleziono 'manifest.json'
 nukkit.resources.zip.invalid-manifest='manifest.json' jest nieprawidłowy lub niekompletny
+
