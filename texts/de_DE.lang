@@ -109,3 +109,4 @@ nukkit.resources.success=%1$2s Ressourcepacks wurden erfolgreich geladen
 nukkit.resources.zip.not-found=Der Ordner '%1$2s' wurde nicht gefunden
 nukkit.resources.zip.no-manifest=Die Datei manifest.json wurde nicht gefunden
 nukkit.resources.zip.invalid-manifest='manifest.json' ist ungültig oder unvollständig
+
