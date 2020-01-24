@@ -109,3 +109,4 @@ nukkit.resources.success=리소스 팩 %1$2s개를 성공적으로 불러왔습�
 nukkit.resources.zip.not-found='%1$2s' 파일을 찾을 수 없습니다
 nukkit.resources.zip.no-manifest='manifest.json'을 찾을 수 없습니다
 nukkit.resources.zip.invalid-manifest='manifest.json'이 잘못되었거나 불완전합니다
+
