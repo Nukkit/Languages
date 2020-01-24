@@ -4,19 +4,19 @@
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-nukkit.language.selected=Selected %1$2s as the default locale.
+nukkit.language.selected=%1$2s varsayılan yer olarak seçildi.
 
-nukkit.data.playerNotFound=Player data not found for "%1$2s", creating new profile
-nukkit.data.playerCorrupted=Corrupted data found for "%1$2s", creating new profile
-nukkit.data.playerOld=Old Player data found for "%1$2s", upgrading profile
+nukkit.data.playerNotFound="%1$2s" için oyuncu verileri bulunamadı, yeni profil oluşturuluyor
+nukkit.data.playerCorrupted="%1$2s" için bozuk veri bulundu, yeni profil oluşturuluyor
+nukkit.data.playerOld="%1$2s" için Eski Oyuncu verisi bulundu, profil yükseltiliyor
 nukkit.data.saveError=Could not save player "%1$2s": %2$2s
 
-nukkit.level.notFound=Level "%1$2s" not found
-nukkit.level.loadError=Could not load level "%1$2s": %2$2s
-nukkit.level.generationError=Could not generate level "%1$2s": %2$2s
-nukkit.level.tickError=Could not tick level "%1$2s": %2$2s
-nukkit.level.chunkUnloadError=Error while unloading a chunk: %1$2s
-nukkit.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being generated in the background
+nukkit.level.notFound="%1$2s" leveli bulunamadı
+nukkit.level.loadError=Level "%1$2s": %2$2s yüklenemedi
+nukkit.level.generationError=Level 1%1$2s": %2$2s oluşturulamadı
+nukkit.level.tickError=Level "%1$2s": %2$2s işlenemedi
+nukkit.level.chunkUnloadError=Chunk %1$2s yüklenirken bir hata oluştu
+nukkit.level.backgroundGeneration=Level "%1$2s" için arazi üretme arka planda oluşturuluyor
 nukkit.level.defaultError=No default level has been loaded
 nukkit.level.preparing=Preparing level "%1$2s"
 nukkit.level.unloading=Unloading level "%1$2s"
