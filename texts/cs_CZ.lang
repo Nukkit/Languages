@@ -109,3 +109,4 @@ nukkit.resources.success=Uspěšně načten %1$2s resource pack
 nukkit.resources.zip.not-found=Soubor '%1$2s' nebyl nalezen
 nukkit.resources.zip.no-manifest='manifest.json' nebyl nalezen
 nukkit.resources.zip.invalid-manifest='manifest.json' je neplatný nebo nedokončený
+
