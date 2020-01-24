@@ -63,16 +63,16 @@ nukkit.command.timings.timingsDisabled=Пожалуйста, включите т
 nukkit.command.timings.verboseEnable=Включен подробный таймингов
 nukkit.command.timings.verboseDisable=Включен подробный таймингов
 nukkit.command.timings.reset=Тайминги сброс
-nukkit.command.timings.rcon=Предупреждение: Тайминги доклад сделали за RCON приведет к подвисаниям, вы должны использовать /timings отчет в игре или консоли
-nukkit.command.timings.uploadStart=Подготовка доклада тайминги...
+nukkit.command.timings.rcon=Предупреждение: Запрос таймингов из RCON приводит к подвисаниям, вы должны использовать /timings report в игре или через консоль
+nukkit.command.timings.uploadStart=Подготовка отчёта о таймингах...
 nukkit.command.timings.uploadError=Ошибка загрузки: %1$2s: %2$2s, проверьте лог для получения дополнительной информации
-nukkit.command.timings.reportError=Произошла ошибка при вставке отчета, проверьте журналы для получения дополнительной информации
+nukkit.command.timings.reportError=Произошла ошибка при составление отчета, проверьте логи для получения дополнительной информации
 nukkit.command.timings.timingsLocation=Просмотр отчета о тайминге: %1$2s
 nukkit.command.timings.timingsResponse=Таймнг отвечает: %1$2s
 nukkit.command.timings.timingsWrite=Тайминг Написан до %1$2s
 
-nukkit.crash.create=Произошла неисправимая ошибка и сервер вышел из строя. Создание дампа
-nukkit.crash.error=Не удалось создать аварийный дамп: %1$2s
+nukkit.crash.create=Произошла нерешаемая ошибка и сервер выключился. Создание дампа
+nukkit.crash.error=Не удалось создать дамп: %1$2s
 nukkit.crash.submit=Пожалуйста загрузите файл «%1$2s» в падение Архив и отправить ссылку на странице Отчеты об ошибках. Дайте как можно больше информации, как вы можете.
 nukkit.crash.archive=Аварийный дамп автоматически передан в архив аварии. Вы можете просмотреть его на %1$2s или использовать ID #%2$2s.
 

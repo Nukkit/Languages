@@ -109,5 +109,3 @@ nukkit.resources.success=Успешно заредени ресурсни пак
 nukkit.resources.zip.not-found=Файл '%1$2s' не е намерен
 nukkit.resources.zip.no-manifest='manifest.json' не е намерен
 nukkit.resources.zip.invalid-manifest='manifest.json' е невалиден или непълен
-
-

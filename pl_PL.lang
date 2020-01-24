@@ -4,110 +4,108 @@
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-nukkit.language.selected=Selected %1$2s as the default locale.
+nukkit.language.selected=Wybranych %1$2s jako domyślne ustawienia regionalne.
 
-nukkit.data.playerNotFound=Player data not found for "%1$2s", creating new profile
-nukkit.data.playerCorrupted=Corrupted data found for "%1$2s", creating new profile
-nukkit.data.playerOld=Old Player data found for "%1$2s", upgrading profile
-nukkit.data.saveError=Could not save player "%1$2s": %2$2s
+nukkit.data.playerNotFound=Nie znaleziono danych dla użytkownika "%1$2s", tworzenie nowego profilu
+nukkit.data.playerCorrupted=Znaleziono uszkodzone dane dla "%1$2s", tworzenie nowego profilu
+nukkit.data.playerOld=Znaleziono stare dane dla użytkownika "%1$2s", aktualizacja profilu
+nukkit.data.saveError=Nie można zapisać użytkownika "%1$2s": %2$2s
 
-nukkit.level.notFound=Level "%1$2s" not found
-nukkit.level.loadError=Could not load level "%1$2s": %2$2s
-nukkit.level.generationError=Could not generate level "%1$2s": %2$2s
-nukkit.level.tickError=Could not tick level "%1$2s": %2$2s
-nukkit.level.chunkUnloadError=Error while unloading a chunk: %1$2s
-nukkit.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being generated in the background
-nukkit.level.defaultError=No default level has been loaded
-nukkit.level.preparing=Preparing level "%1$2s"
-nukkit.level.unloading=Unloading level "%1$2s"
-nukkit.level.updating=Old level data found for "%1$2s", converting format
+nukkit.level.notFound=Poziom "%1$2s" nie został znaleziony
+nukkit.level.loadError=Nie można załadować poziomu "%1$2s": %2$2s
+nukkit.level.generationError=Nie można wygenerować poziomu "%1$2s": %2$2s
+nukkit.level.tickError=Nie można zaznaczyć poziomu "%1$2s": %2$2s
+nukkit.level.chunkUnloadError=Wystąpił błąd podczas rozładunku fragmentów: %1$2s
+nukkit.level.backgroundGeneration=W tle generowany jest teren dla poziomu "%1$2s
+nukkit.level.defaultError=Nie załadowano domyślnego poziomu
+nukkit.level.preparing=Przygotowywanie poziomu "%1$2s"
+nukkit.level.unloading=Rozładunku poziom "%1$2s"
+nukkit.level.updating=Znaleziono stare dane poziomu "%1$2s", trwa konwertowanie
 
-nukkit.server.start=Starting Minecraft: Bedrock Edition server version %1$2s
-nukkit.server.networkError=[Network] Stopped interface %1$2s due to %2$2s
-nukkit.server.networkStart=Opening server on %1$2s:%2$2s
-nukkit.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
-nukkit.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
-nukkit.server.license=%1$2s is distributed under the GPL License
-nukkit.server.tickOverload=Can't keep up! Is the server overloaded?
-nukkit.server.startFinished=Done (%1$2ss)! For help, type "help" or "?"
-nukkit.server.defaultGameMode=Default game type: %1$2s
-nukkit.server.query.start=Starting GS4 status listener
-nukkit.server.query.info=Setting query port to %1$2s
-nukkit.server.query.running=Query is running on %1$2s:%2$2s
-nukkit.server.rcon.emptyPasswordError=Failed to start RCON: password is empty
-nukkit.server.rcon.startupError=Failed to start RCON: %1$2s
-nukkit.server.rcon.running=RCON is running on %1$2s:%2$2s
+nukkit.server.start=Uruchamianie serwera Minecraft: Bedrock Edition o wersji: %1$2s
+nukkit.server.networkError=[Network] zatrzymano Interfejs %1$2s ze względu na %2$2s
+nukkit.server.networkStart=Uruchamianie serwera na %1$2s:%2$2s
+nukkit.server.info=Ten serwer używa %1$2s w wersji %2$2s "%3$2s" (API %4$2s)
+nukkit.server.info.extended=Ten serwer używa %1$2s %2$2s implementując API w wersji %3$2s dla Minecraft: Bedrock Edition %4$2s (wersja protokołu %5$2s)
+nukkit.server.license=%1$2s jest dystrybuowany na licencji GPL
+nukkit.server.tickOverload=Nie można kontynuować! Czy serwer jest przeciążony?
+nukkit.server.startFinished=Gotowe (%1$2ss)! Aby uzyskać pomoc, wpisz "help" lub "?"
+nukkit.server.defaultGameMode=Domyślny tryb gry: %1$2s
+nukkit.server.query.start=Uruchamianie nasłuchiwania statusu GS4
+nukkit.server.query.info=Ustawianie portu zapytań na %1$2s
+nukkit.server.query.running=Zapytanie jest uruchomione na %1$2s:%2$2s
+nukkit.server.rcon.emptyPasswordError=Nie udało się uruchomić RCON: hasło jest puste
+nukkit.server.rcon.startupError=Nie udało się uruchomić RCON: %1$2s
+nukkit.server.rcon.running=RCON działa na %1$2s:%2$2s
 
-nukkit.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
-nukkit.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
-nukkit.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
+nukkit.command.alias.illegal=Nie można zarejestrować aliasu %1$2s, ponieważ zawiera niedozwolone znaki
+nukkit.command.alias.notFound=Nie można zarejestrować aliasu %1$2s, ponieważ zawiera polecenia, które nie istnieją: %2$2s
+nukkit.command.exception=Nieobsługiwany wyjątek wykonujący polecenie '%1$2s' w %2$2s: %3$2s
 
-nukkit.command.version.description=Gets the version of this server including any plugins in use
-nukkit.command.version.usage=/version [plugin name]
-nukkit.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
-nukkit.command.version.plugin=%1$2s running version %1$2s
-nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
+nukkit.command.version.description=Pobiera wersję tego serwera wraz z wszelkimi używanymi rozszerzeniami
+nukkit.command.version.usage=/version [nazwa rozszerzenia]
+nukkit.command.version.server=Ten serwer używa %1$2s w wersji %2$2s (MC: %3$2s) (implementując wersję API %4$2s)
+nukkit.command.version.plugin=%1$2s używa wersji %1$2s
+nukkit.command.version.noSuchPlugin=Ten serwer nie posiada żadnego rozszerzenia o tej nazwie. Użyj /plugins, aby uzyskać listę rozszerzeń.
 
-nukkit.command.plugins.description=Gets a list of plugins running on the server
-nukkit.command.plugins.success=Plugins (%1$2s): %2$2s
+nukkit.command.plugins.description=Pobiera listę rozszerzeń działających na serwerze
+nukkit.command.plugins.success=Rozszerzenia (%1$2s): %2$2s
 nukkit.command.plugins.usage=/plugins
 
-nukkit.command.status.description=Reads back the server's performance.
+nukkit.command.status.description=Odczytuje wydajność serwera.
 nukkit.command.status.usage=/status
 
-nukkit.command.timings.description=Records timings to see performance of the server.
+nukkit.command.timings.description=Zapisuje czasy aby zobaczyć wydajność serwera.
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-nukkit.command.timings.enable=Enabled timings and reset
-nukkit.command.timings.disable=Disabled timings
-nukkit.command.timings.timingsDisabled=Please enable timings by typing /timings on
-nukkit.command.timings.verboseEnable=Enabled verbose timings
-nukkit.command.timings.verboseDisable=Disabled verbose timings
-nukkit.command.timings.reset=Timings reset
-nukkit.command.timings.rcon=Warning: Timings report done over RCON will cause lag spikes, you should use /timings report in game or console
-nukkit.command.timings.uploadStart=Preparing timings report...
-nukkit.command.timings.uploadError=Upload Error: %1$2s: %2$2s, check logs for more information
-nukkit.command.timings.reportError=An error happened while pasting the report, check logs for more information
-nukkit.command.timings.timingsLocation=View timings report: %1$2s
-nukkit.command.timings.timingsResponse=Timings response: %1$2s
-nukkit.command.timings.timingsWrite=Timings written to %1$2s
+nukkit.command.timings.enable=Włączono timingi i resetowanie
+nukkit.command.timings.disable=Wyłączono timingi
+nukkit.command.timings.timingsDisabled=Proszę włączyć timingi wpisując /timings na
+nukkit.command.timings.verboseEnable=Włączono szczegółowe timingi
+nukkit.command.timings.verboseDisable=Wyłączono szczegółowe timingi
+nukkit.command.timings.reset=Zresetowano timingi
+nukkit.command.timings.rcon=Ostrzeżenie: Raport timingów wykonany przez RCON spowoduje opóźnienie i powinieneś użyć raportu /timings w grze lub konsoli
+nukkit.command.timings.uploadStart=Przygotowywanie raportu timingu...
+nukkit.command.timings.uploadError=Błąd wysyłania: %1$2s: %2$2s, sprawdź logi aby uzyskać więcej informacji
+nukkit.command.timings.reportError=Wystąpił błąd podczas wklejania raportu, sprawdź logi aby uzyskać więcej informacji
+nukkit.command.timings.timingsLocation=Zobacz raport timingów: %1$2s
+nukkit.command.timings.timingsResponse=Timingi: %1$2s
+nukkit.command.timings.timingsWrite=Timingi zapisane do %1$2s
 
-nukkit.crash.create=An unrecoverable error has occurred and the server has crashed. Creating a crash dump
-nukkit.crash.error=Could not create crash dump: %1$2s
-nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
-nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
+nukkit.crash.create=Wystąpił niemożliwy do odzyskania błąd i serwer uległ awarii. Tworzenie zrzutu awarii
+nukkit.crash.error=Nie można utworzyć raportu błędu: %1$2s
+nukkit.crash.submit=Proszę przesłać plik "%1$2s" do Crash Archive i przesłać link do strony Bug Reporting. Podaj nam jak najwięcej informacji.
+nukkit.crash.archive=Zrzut awarii został automatycznie przesłany do Crash Archive. Możesz go zobaczyć na %1$2s lub użyć ID #%2$2s.
 
-nukkit.debug.enable=LevelDB support enabled
+nukkit.debug.enable=Obsługa LevelDB włączona
 
-nukkit.bugreport.create=An error has been detected, creating a bug report.
-nukkit.bugreport.error=Could not create bug report: %1$2s
-nukkit.bugreport.archive=A bug report has been created: %1$2s
+nukkit.bugreport.create=Wystąpił błąd, tworzę raport o błędzie.
+nukkit.bugreport.error=Nie można utworzyć raportu błędu: %1$2s
+nukkit.bugreport.archive=Raport o błędzie został utworzony: %1$2s
 
-nukkit.player.invalidMove=%1$2s moved wrongly!
-nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, %8$2s)
-nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
-nukkit.player.invalidEntity=%1$2s tried to attack an invalid entity
+nukkit.player.invalidMove=%1$2s poruszył się nieprawidłowo!
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] zalogował się z identyfikatorem jednostki %4$2s w (%5$2s, %6$2s, %7$2s, %8$2s)
+nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] wylogował się z powodu %4$2s
+nukkit.player.invalidEntity=%1$2s próbował zaatakować nieprawidłową jednostkę
 
-nukkit.plugin.load=Loading %1$2s
-nukkit.plugin.restrictedName=Restricted name
-nukkit.plugin.incompatibleAPI=Incompatible API version
-nukkit.plugin.unknownDependency=Unknown dependency
-nukkit.plugin.circularDependency=Circular dependency detected
-nukkit.plugin.genericLoadError=Could not load plugin '%1$2s'
-nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' uses spaces in its name, this is discouraged
-nukkit.plugin.loadError=Could not load plugin '%1$2s': %2$2s
-nukkit.plugin.duplicateError=Could not load plugin '%1$2s': plugin exists
-nukkit.plugin.fileError=Could not load '%1$2s' in folder '%2$2s': %3$2s
-nukkit.plugin.commandError=Could not load command %1$2s for plugin %2$2s
-nukkit.plugin.aliasError=Could not load alias %1$2s for plugin %2$2s
-nukkit.plugin.deprecatedEvent=Plugin '%1$2s' has registered a listener for '%2$2s' on method '%3$2s', but the event is Deprecated.
-nukkit.plugin.eventError=Could not pass event '%1$2s' to '%2$2s': %3$2s on %4$2s
+nukkit.plugin.load=Ładuję %1$2s
+nukkit.plugin.restrictedName=Nazwa zastrzeżona
+nukkit.plugin.incompatibleAPI=Niekompatybilna wersja API
+nukkit.plugin.unknownDependency=Nieznana zależność
+nukkit.plugin.circularDependency=Wykryto wzajemną zależność
+nukkit.plugin.genericLoadError=Nie można załadować rozszerzenia '%1$2s'
+nukkit.plugin.spacesDiscouraged=Rozszerzenie '%1$2s' używa spacji w swojej nazwie, jest to nie odpowiednia praktyka
+nukkit.plugin.loadError=Nie można załadować rozszerzenia '%1$2s': %2$2s
+nukkit.plugin.duplicateError=Nie można załadować rozszerzenia '%1$2s': istnieje takie rozszerzenie
+nukkit.plugin.fileError=Nie można załadować '%1$2s' w folderze '%2$2s': %3$2s
+nukkit.plugin.commandError=Nie można załadować polecenia %1$2s dla rozszerzenia %2$2s
+nukkit.plugin.aliasError=Nie można załadować aliasu %1$2s dla rozszerzenia %2$2s
+nukkit.plugin.deprecatedEvent=Rozszerzenie '%1$2s' nasłuchuje '%2$2s' metodą '%3$2s', ale to zdarzenie nie jest już rozwijane.
+nukkit.plugin.eventError=Nie można przekazać zdarzenia '%1$2s' do '%2$2s': %3$2s na %4$2s
 
-nukkit.resources.invalid-path=Resource packs path '%1$2s' exists and is not a directory
-nukkit.resources.unknown-format=Could not load '%1$2s' due to format not recognized
-nukkit.resources.fail=Could not load '%1$2s': %2$2s
-nukkit.resources.success=Successfully loaded %1$2s resource packs
-nukkit.resources.zip.not-found=File '%1$2s' is not found
-nukkit.resources.zip.no-manifest='manifest.json' is not found
-nukkit.resources.zip.invalid-manifest='manifest.json' is invalid or incomplete
-
-
+nukkit.resources.invalid-path=Ścieżka paczek zasobów '%1$2s' istnieje i nie jest katalogiem
+nukkit.resources.unknown-format=Nie można załadować '%1$2s' ze względu na nierozpoznany format
+nukkit.resources.fail=Nie można załadować '%1$2s': %2$2s
+nukkit.resources.success=Pomyślnie załadowano paczkę zasobów %1$2s
+nukkit.resources.zip.not-found=Plik '%1$2s' nie został znaleziony
+nukkit.resources.zip.no-manifest=Nie znaleziono 'manifest.json'
+nukkit.resources.zip.invalid-manifest='manifest.json' jest nieprawidłowy lub niekompletny

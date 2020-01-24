@@ -4,14 +4,14 @@
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-nukkit.language.selected=%1$2s をデフォルトのロケールとして設定しました。
+nukkit.language.selected=%1$2s をデフォルトのロケールとして選択しました。
 
 nukkit.data.playerNotFound=「%1$2s」のプレイヤーデータが見つからないため、新しいプロフィールを作成します
-nukkit.data.playerCorrupted=「%1$2s」の破損したプレイヤーデータが見つかったため、新しいプロフィールを作成します
+nukkit.data.playerCorrupted=「%1$2s」の破損したデータが見つかったため、新しいプロフィールを作成します
 nukkit.data.playerOld=「%1$2s」の古いプレイヤーデータが見つかったため、プロフィールをアップグレードします
 nukkit.data.saveError=プレイヤー「%1$2s」のデータを保存できませんでした：%2$2s
 
-nukkit.level.notFound=レベル「%1$2s」が見つかりませんでした
+nukkit.level.notFound=レベル「%1$2s」が見つかりません
 nukkit.level.loadError=レベル「%1$2s」を読み込むことができませんでした：%2$2s
 nukkit.level.generationError=レベル「%1$2s」を生成できませんでした：%2$2s
 nukkit.level.tickError=レベル「%1$2s」のティックを処理できませんでした：%2$2s
@@ -28,7 +28,7 @@ nukkit.server.networkStart=サーバーを %1$2s:%2$2s で開始しています
 nukkit.server.info=このサーバーは %1$2s バージョン %2$2s「%3$2s」（API %4$2s）を実行しています
 nukkit.server.info.extended=このサーバーは Minecraft: Bedrock Edition %4$2s（プロトコルバージョン %5$2s）用 API バージョン %3$2s を実装する %1$2s %2$2s を実行しています
 nukkit.server.license=%1$2s は GPL ライセンスのもとで配布されています
-nukkit.server.tickOverload=付いて行けません！サーバーが過負荷されましたか？
+nukkit.server.tickOverload=追いつきません！サーバーが過負荷されましたか？
 nukkit.server.startFinished=完了（%1$2s 秒）！ヘルプについては「help」または「?」を入力してください
 nukkit.server.defaultGameMode=デフォルトのゲームタイプ：%1$2s
 nukkit.server.query.start=GS4 ステータスリスナーを開始しています
@@ -46,16 +46,16 @@ nukkit.command.version.description=使用しているプラグインを含めた
 nukkit.command.version.usage=/version [プラグイン名]
 nukkit.command.version.server=このサーバーは %1$2s バージョン %2$2s（MC：%3$2s）（API バージョン %4$2s を実装）を実行しています
 nukkit.command.version.plugin=%1$2s バージョン %1$2s を実行しています
-nukkit.command.version.noSuchPlugin=このサーバーはその名前のプラグインを実行していません。/plugins を使用してプラグインの一覧を取得してください。
+nukkit.command.version.noSuchPlugin=このサーバーはその名前のプラグインは実行していません。/plugins を使用してプラグインの一覧を取得してください。
 
-nukkit.command.plugins.description=サーバー上に実行されているプラグインの一覧を取得します
+nukkit.command.plugins.description=サーバー上で実行されているプラグインの一覧を取得します
 nukkit.command.plugins.success=プラグイン（%1$2s）：%2$2s
 nukkit.command.plugins.usage=/plugins
 
 nukkit.command.status.description=サーバーのパフォーマンスを読み出します。
 nukkit.command.status.usage=/status
 
-nukkit.command.timings.description=サーバーのパフォーマンスを確認するためタイミングを記録します。
+nukkit.command.timings.description=サーバーのパフォーマンスを確認するためにタイミングを記録します。
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
 nukkit.command.timings.enable=タイミングを有効にしてリセットしました
 nukkit.command.timings.disable=タイミングを無効にしました
@@ -63,11 +63,11 @@ nukkit.command.timings.timingsDisabled=/timings on を入力してタイミン�
 nukkit.command.timings.verboseEnable=バーボーズタイミングを有効にしました
 nukkit.command.timings.verboseDisable=バーボーズタイミングを無効にしました
 nukkit.command.timings.reset=タイミングをリセットしました
-nukkit.command.timings.rcon=警告：タイミングレポートは、RCON から実行時に夥しいラグを誘発し、ゲームの内またはコンソールから /timings report の使用を推奨します
+nukkit.command.timings.rcon=警告：RCON を介して実行されたタイミングレポートは、夥しいラグを引き起こす可能性があり、ゲーム内またはコンソールで /timings report を使うべきです
 nukkit.command.timings.uploadStart=タイミングレポートを準備しています…
 nukkit.command.timings.uploadError=アップロードエラー：%1$2s：%2$2s、詳細はログを確認してください
 nukkit.command.timings.reportError=レポートのペースト中にエラーが発生しました、詳細はログを確認してください
-nukkit.command.timings.timingsLocation=タイミングのレポートを見る：%1$2s
+nukkit.command.timings.timingsLocation=タイミングのレポートの確認：%1$2s
 nukkit.command.timings.timingsResponse=タイミングの応答：%1$2s
 nukkit.command.timings.timingsWrite=タイミングが %1$2s に書き込まれました
 
@@ -82,7 +82,7 @@ nukkit.bugreport.create=エラーが検出されたため、バグレポート�
 nukkit.bugreport.error=バグレポートを作成できませんでした：%1$2s
 nukkit.bugreport.archive=バグレポートが作成されました：%1$2s
 
-nukkit.player.invalidMove=%1$2s が違った移動を見せました！
+nukkit.player.invalidMove=%1$2s が間違った移動を見せました！
 nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] がエンティティ ID %4$2s として (%5$2s, %6$2s, %7$2s, %8$2s) にログインしました
 nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] が %4$2s によってログアウトされました
 nukkit.player.invalidEntity=%1$2s が無効なエンティティを攻撃しようとしました
@@ -95,11 +95,11 @@ nukkit.plugin.circularDependency=循環依存関係が検出されました
 nukkit.plugin.genericLoadError=プラグイン「%1$2s」を読み込むことができませんでした
 nukkit.plugin.spacesDiscouraged=プラグイン「%1$2s」は名前にスペースを使用し、これは推奨されません
 nukkit.plugin.loadError=プラグイン「%1$2s」を読み込むことができませんでした：%2$2s
-nukkit.plugin.duplicateError=プラグイン「%1$2s」を読み込むことができませんでした：同じプラグインが存在します
+nukkit.plugin.duplicateError=プラグイン「%1$2s」を読み込むことができませんでした：プラグインは既に存在します
 nukkit.plugin.fileError=フォルダー「%2$2s」で「%1$2s」を読み込むことができませんでした：%3$2s
 nukkit.plugin.commandError=プラグイン %2$2s のコマンド %1$2s を読み込むことができませんでした
 nukkit.plugin.aliasError=プラグイン %2$2s のエイリアス %1$2s を読み込むことができませんでした
-nukkit.plugin.deprecatedEvent=プラグイン「%1$2s」が「%2$2s」に対するリスナーをメソッド「%3$2s」に登録しましたが、このイベントは廃止されました。
+nukkit.plugin.deprecatedEvent=プラグイン「%1$2s」が「%2$2s」に対するリスナーをメソッド「%3$2s」で登録しましたが、このイベントは廃止されました。
 nukkit.plugin.eventError=イベント「%1$2s」を「%2$2s」に渡すことができませんでした：%4$2s での %3$2s
 
 nukkit.resources.invalid-path=リソースパックのパス「%1$2s」が存在し、ディレクトリではありません
@@ -109,5 +109,3 @@ nukkit.resources.success=%1$2s 個のリソースパックを読み込みしま�
 nukkit.resources.zip.not-found=ファイル「%1$2s」が見つかりません
 nukkit.resources.zip.no-manifest=「manifest.json」が見つかりません
 nukkit.resources.zip.invalid-manifest=「manifest.json」が無効または不完全です
-
-

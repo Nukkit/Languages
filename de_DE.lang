@@ -14,12 +14,12 @@ nukkit.data.saveError=Spieler "%1$2s" konnte nicht gespeichert werden: %2$2s
 nukkit.level.notFound=Welt "%1$2s" wurde nicht gefunden
 nukkit.level.loadError=Welt "%1$2s" konnte nicht geladen werden: %2$2s
 nukkit.level.generationError=Welt "%1$2s" konnte nicht generiert werden: %2$2s
-nukkit.level.tickError=Could not tick level "%1$2s": %2$2s
-nukkit.level.chunkUnloadError=Error while unloading a chunk: %1$2s
+nukkit.level.tickError=Tick für Welt "%1$2s" konnte nicht durchgeführt werden: %2$2s
+nukkit.level.chunkUnloadError=Fehler beim Entladen eines Chunks: %1$2s
 nukkit.level.backgroundGeneration=Spawn-Gelände für Welt "%1$2s" wird im Hintergrund generiert
 nukkit.level.defaultError=Keine Standardwelt wurde geladen
 nukkit.level.preparing=Welt "%1$2s" wird vorbereitet
-nukkit.level.unloading=Welt "%1$2s" wird entladet
+nukkit.level.unloading=Welt "%1$2s" wird entladen
 nukkit.level.updating=Alte Speicherformat in Welt "%1$2s", Format wird konvertiert
 
 nukkit.server.start=Starte Minecraft Bedrock Edition Server, Version %1$2s
@@ -52,7 +52,7 @@ nukkit.command.plugins.description=Zeigt eine Liste aller Plugins, die auf dem S
 nukkit.command.plugins.success=Plugins (%1$2s): %2$2s
 nukkit.command.plugins.usage=/plugins
 
-nukkit.command.status.description=Reads back the server's performance.
+nukkit.command.status.description=Erhalten den Status des Servers.
 nukkit.command.status.usage=/status
 
 nukkit.command.timings.description=Zeichnet die Timings auf, um die Serverperformance zu sehen.
@@ -73,7 +73,7 @@ nukkit.command.timings.timingsWrite=Timings in %1$2s geschrieben
 
 nukkit.crash.create=Ein unerwarteter Fehler ist aufgetreten und der Server ist abgestürzt. Ein Crash dump wird erstellt
 nukkit.crash.error=Crash-Dump konnte nicht erstellt werden: %1$2s
-nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
+nukkit.crash.submit=Bitte lade die "%1$2s" Datei in das Crash-Archiv hoch und sende den Link auf der Bug-Report Seite. Gebe so viele Informationen wie möglich.
 nukkit.crash.archive=Der Absturzbericht wurde automatisch übermittelt. Du siehst es auf %1$2s oder verwende die ID #%2$2s.
 
 nukkit.debug.enable=LevelCB-Unterstützung aktiviert
@@ -91,7 +91,7 @@ nukkit.plugin.load=Laden von %1$2s
 nukkit.plugin.restrictedName=Eingeschränkter Name
 nukkit.plugin.incompatibleAPI=Inkompatibel API Version
 nukkit.plugin.unknownDependency=Unbekannte Abhängigkeit
-nukkit.plugin.circularDependency=Circular dependency detected
+nukkit.plugin.circularDependency=Zirkulare Abhängigkeit erkannt
 nukkit.plugin.genericLoadError=Plugin '%1$2s' konnte nicht geladen werden
 nukkit.plugin.spacesDiscouraged=Plugin "%1$2s" verwendet Leerzeichen im Namen, dies wird abgeraten
 nukkit.plugin.loadError=Plugin '%1$2s' konnte nicht geladen werden: %2$2s
@@ -109,5 +109,3 @@ nukkit.resources.success=%1$2s Ressourcepacks wurden erfolgreich geladen
 nukkit.resources.zip.not-found=Der Ordner '%1$2s' wurde nicht gefunden
 nukkit.resources.zip.no-manifest=Die Datei manifest.json wurde nicht gefunden
 nukkit.resources.zip.invalid-manifest='manifest.json' ist ungültig oder unvollständig
-
-

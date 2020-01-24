@@ -26,8 +26,8 @@ nukkit.server.start=Käynnistetään Minecraft Bedrock Edition Palvelinta. Versi
 nukkit.server.networkError=[Network] Pysäytettiin liittymä %1$2s: %2$2s
 nukkit.server.networkStart=Avataan palvelin osoitteessa %1$2s:%2$2s
 nukkit.server.info=Tämä pälvelin käyttää %1$2s versiota %2$2s "%3$2s" (API %4$2s)
-nukkit.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
-nukkit.server.license=%1$2s is distributed under the GPL License
+nukkit.server.info.extended=Tämä palvelin käyttää %1$2s%2$2s API versiolla %3$2s Minecraft: Bedrock Edition versiolle %4$2s (protokolla versio %5$2s)
+nukkit.server.license=%1$2s jaetaan GPL-lisenssin alaisena
 nukkit.server.tickOverload=Ei pysy pystyssä! Onko palvelin ylikuormitettu?
 nukkit.server.startFinished=Valmis (%1$2ss)! Kirjoita "help" tai "?" saadaksesi apua
 nukkit.server.defaultGameMode=Oletuspelitila: %1$2s
@@ -44,7 +44,7 @@ nukkit.command.exception=Käsittelemätön virhe suorittaessa komentoa '%1$2s' p
 
 nukkit.command.version.description=Hanki palvelimen versio sisältäen kaikki käytössä olevat lisäosat
 nukkit.command.version.usage=/version [lisäosan nimi]
-nukkit.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
+nukkit.command.version.server=Tämä palvelin käyttää %1$2s versiota %2$2s (MC: %3$2s) (API-versio %4$2s)
 nukkit.command.version.plugin=%1$2s versio %1$2s
 nukkit.command.version.noSuchPlugin=Tämän nimistä lisäosaa ei löytynyt. Käytä /plugins komentoa saadaksesi listan lisäosista.
 
@@ -109,5 +109,3 @@ nukkit.resources.success=Ladattiin onnistuneesti %1$2s resurssipakettia
 nukkit.resources.zip.not-found=Tiedostoa '%1$2s' ei löydy
 nukkit.resources.zip.no-manifest='manifest.json' ei löytynyt
 nukkit.resources.zip.invalid-manifest='manifest.json' on virheellinen tai puutteellinen
-
-

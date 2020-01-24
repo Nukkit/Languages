@@ -57,7 +57,7 @@ nukkit.command.status.usage=/status
 
 nukkit.command.timings.description=Записує таймінги, щоб побачити продуктивність сервера.
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-nukkit.command.timings.enable=Enabled timings and reset
+nukkit.command.timings.enable=Таймінги увімкнено та скинуто
 nukkit.command.timings.disable=Таймінги вимкнено
 nukkit.command.timings.timingsDisabled=Увімкніть таймінги командою /timings
 nukkit.command.timings.verboseEnable=Увімкнено детальні таймінги
@@ -109,5 +109,3 @@ nukkit.resources.success=Пакет ресурсів %1$2s успішно зав
 nukkit.resources.zip.not-found=Файл '%1$2s' не знайдено
 nukkit.resources.zip.no-manifest='manifest.json' не знайдено
 nukkit.resources.zip.invalid-manifest='manifest.json' невірний або незавершений
-
-
