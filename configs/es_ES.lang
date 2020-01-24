@@ -50,11 +50,11 @@ chunk-ticking.tick-radius=Radius of chunks around a player to tick
 chunk-generation.queue-size=Max. amount of chunks in the waiting queue to be generated
 chunk-generation.population-queue-size=Max. amount of chunks in the waiting queue to be populated
 
-spawn-limits=#Max amount of these entities
+spawn-limits=Max amount of these entities
 
 player.save-player-data.1=If true, player data will be saved as players/playername.dat
 player.save-player-data.2=If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
-player.skin-change-cooldown=The time between skin change action in seconds, set to 0 if you dont want the cooldown
+player.skin-change-cooldown=The time between skin change action in seconds. Set 0 to disable the cooldown
 
 aliases=Aliases for commands
 
