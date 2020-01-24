@@ -110,4 +110,3 @@ nukkit.resources.zip.not-found=Файл '%1$2s' не найден
 nukkit.resources.zip.no-manifest='manifest.json' не найден
 nukkit.resources.zip.invalid-manifest='manifest.json' не допустим или не завершен
 
-

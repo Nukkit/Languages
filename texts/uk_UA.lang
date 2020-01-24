@@ -109,3 +109,4 @@ nukkit.resources.success=Пакет ресурсів %1$2s успішно зав
 nukkit.resources.zip.not-found=Файл '%1$2s' не знайдено
 nukkit.resources.zip.no-manifest='manifest.json' не знайдено
 nukkit.resources.zip.invalid-manifest='manifest.json' невірний або незавершений
+

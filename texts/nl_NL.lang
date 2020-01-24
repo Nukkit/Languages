@@ -110,4 +110,3 @@ nukkit.resources.zip.not-found=Bestand '%1$2s' bestaat niet
 nukkit.resources.zip.no-manifest='manifest.json' kan niet worden gevonden
 nukkit.resources.zip.invalid-manifest='manifest.json' is ongeldig of onvolledig
 
-

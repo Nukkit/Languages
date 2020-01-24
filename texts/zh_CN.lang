@@ -109,3 +109,4 @@ nukkit.resources.success=成功加载 %1$2s 个资源包
 nukkit.resources.zip.not-found=文件 "%1$2s" 未找到
 nukkit.resources.zip.no-manifest="manifest.json" 未找到
 nukkit.resources.zip.invalid-manifest="manifest.json" 无效或不完整
+

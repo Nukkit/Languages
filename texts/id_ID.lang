@@ -109,3 +109,4 @@ nukkit.resources.success=Berhasil dimuat %1$2s paket sumber daya
 nukkit.resources.zip.not-found=File '%1$2s' tidak ditemukan
 nukkit.resources.zip.no-manifest='manifest.json' tidak ditemukan
 nukkit.resources.zip.invalid-manifest='manifest.json' tidak valid atau tidak lengkap
+

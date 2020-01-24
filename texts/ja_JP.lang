@@ -109,3 +109,4 @@ nukkit.resources.success=%1$2s 個のリソースパックを読み込みしま�
 nukkit.resources.zip.not-found=ファイル「%1$2s」が見つかりません
 nukkit.resources.zip.no-manifest=「manifest.json」が見つかりません
 nukkit.resources.zip.invalid-manifest=「manifest.json」が無効または不完全です
+
