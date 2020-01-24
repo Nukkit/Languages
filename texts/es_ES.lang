@@ -110,4 +110,3 @@ nukkit.resources.zip.not-found=El archivo '%1$2s' no se ha encontrado
 nukkit.resources.zip.no-manifest='manifest.json' no se encuentra
 nukkit.resources.zip.invalid-manifest='manifest.json' no es valido o esta incompleto
 
-
