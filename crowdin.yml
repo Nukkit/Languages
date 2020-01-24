@@ -1,5 +1,5 @@
 files:
-  - source: texts/en_US.yml
+  - source: texts/en_US.lang
     translation: /texts/%locale_with_underscore%.%file_extension%
-  - source: configs/en_US.yml
+  - source: configs/en_US.lang
     translation: /configs/%locale_with_underscore%.%file_extension%
