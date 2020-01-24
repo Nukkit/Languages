@@ -109,3 +109,4 @@ nukkit.resources.success=Ladattiin onnistuneesti %1$2s resurssipakettia
 nukkit.resources.zip.not-found=Tiedostoa '%1$2s' ei löydy
 nukkit.resources.zip.no-manifest='manifest.json' ei löytynyt
 nukkit.resources.zip.invalid-manifest='manifest.json' on virheellinen tai puutteellinen
+
