@@ -33,7 +33,7 @@ timings.privacy=Jeśli ustawione na true, nazwa serwera nie zostanie wysłana
 timings.ignore.1=Sekcje ustawień do zignorowania. Te sekcje nie zostaną wysłane do parsera Timingów Aikara
 timings.ignore.2=Przykładowe formaty:
 
-level-settings.default-format=The default format that levels will use when created
+level-settings.default-format=Domyślny format, który będzie używany po utworzeniu poziomu
 level-settings.auto-tick-rate=Automatically change levels tick rate to maintain 20 ticks per second
 level-settings.base-tick-rate=Sets the base tick rate (1 = 20 ticks per second, 2 = 10 ticks per second, etc.)
 level-settings.always-tick-players=Tick all players each tick even when other settings disallow this
