@@ -109,3 +109,4 @@ nukkit.resources.success=%1$2s pacotes de recursos carregados com sucesso
 nukkit.resources.zip.not-found=Ficheiro '%1$2s' não encontrado
 nukkit.resources.zip.no-manifest='manifest.json' não foi encontrado
 nukkit.resources.zip.invalid-manifest='manifest.json' é inválido ou incompleto
+
