@@ -38,24 +38,24 @@ level-settings.auto-tick-rate=Level Tickrate automatisch ändern, um 20 Ticks pr
 level-settings.base-tick-rate=Legt die Basis-Tick-Rate fest (1 = 20 Ticks pro Sekunde, 2 = 10 Ticks pro Sekunde, etc.)
 level-settings.always-tick-players=Tick alle Spieler jeden Tick, auch wenn andere Einstellungen dies nicht zulassen
 
-chunk-sending.per-tick=Amount of chunks sent to players per tick
-chunk-sending.max-chunks=Amount of chunks sent around each player
-chunk-sending.spawn-threshold=Amount of chunks that need to be sent before spawning the player
-chunk-sending.cache-chunks.1=Save a serialized copy of the chunk in memory for faster sending
-chunk-sending.cache-chunks.2=Useful in mostly-static worlds where lots of players join at the same time
+chunk-sending.per-tick=Anzahl an Chunks, die pro Ticker an Spieler gesendet werden
+chunk-sending.max-chunks=Anzahl an Chunks, die um jeden Spieler gesendet werden
+chunk-sending.spawn-threshold=Anzahl der Chunks, die vor dem Laichen des Spielers gesendet werden müssen
+chunk-sending.cache-chunks.1=Speichern Sie eine serialisierte Kopie des Chunks im Speicher für schnelleres Senden
+chunk-sending.cache-chunks.2=Nützlich in größtenteils statischen Welten, in denen viele Spieler gleichzeitig beitreten
 
-chunk-ticking.per-tick=Max amount of chunks processed each tick
-chunk-ticking.tick-radius=Radius of chunks around a player to tick
+chunk-ticking.per-tick=Maximale Anzahl an Chunks die pro Tick verarbeitet werden
+chunk-ticking.tick-radius=Radius der Chunks um einen Spieler zu markieren
 
-chunk-generation.queue-size=Max. amount of chunks in the waiting queue to be generated
-chunk-generation.population-queue-size=Max. amount of chunks in the waiting queue to be populated
+chunk-generation.queue-size=Max. Anzahl der Chunks in der Warteschlange, die erzeugt werden soll
+chunk-generation.population-queue-size=Max. Anzahl an Chunks in der Warteschlange, die besetzt werden sollen
 
-spawn-limits=Max amount of these entities
+spawn-limits=Maximaler Betrag dieser Entitys
 
-player.save-player-data.1=If true, player data will be saved as players/playername.dat
-player.save-player-data.2=If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
-player.skin-change-cooldown=The time between skin change action in seconds. Set 0 to disable the cooldown
+player.save-player-data.1=Wenn aktiviert, werden die Spielerdaten als Player/Playername.dat gespeichert
+player.save-player-data.2=Falls falsch, speichert nukkit die Spielerdaten nicht als "dat"-Dateien, damit Plugins etwas daran tun können.
+player.skin-change-cooldown=Die Zeit zwischen der Aktion Skin ändern in Sekunden. Setze 0, um die Abklingzeit zu deaktivieren
 
-aliases=Aliases for commands
+aliases=Aliase für Befehle
 
-worlds=These settings will override the generator set in server.properties and allows loading multiple levels
+worlds=Diese Einstellungen werden den Generator in server.properties überschreiben und erlauben das Laden mehrerer Level
