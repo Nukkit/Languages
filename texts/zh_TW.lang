@@ -4,27 +4,27 @@
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-nukkit.language.selected=選擇 %1$2s 作為預設區域設置。
+nukkit.language.selected=選擇 %1$2s 作為預設語言。
 
-nukkit.data.playerNotFound=找不到 "%1$2s" 的玩家資料，正在建立新的設定檔
-nukkit.data.playerCorrupted=玩家 "%1$2s" 的資料已損壞, 創建新的設定檔
-nukkit.data.playerOld=找到舊的玩家資料 "%1$2s"，正在升級設定檔
-nukkit.data.saveError=無法保存玩家 "%1$2s"：%2$2s
+nukkit.data.playerNotFound=找不到玩家 "%1$2s" 的資料，正在建立新的檔案
+nukkit.data.playerCorrupted=玩家 "%1$2s" 的資料已損壞, 正在建立新的檔案
+nukkit.data.playerOld=找到舊的玩家資料 "%1$2s"，正在升級檔案
+nukkit.data.saveError=無法儲存玩家 "%1$2s" 的資料：%2$2s
 
 nukkit.level.notFound=找不到世界 "%1$2s"
 nukkit.level.loadError=無法載入世界 "%1$2s"：%2$2s
-nukkit.level.generationError=無法生成世界 "%1$2s"：%2$2s
+nukkit.level.generationError=無法建立世界 "%1$2s"：%2$2s
 nukkit.level.tickError=計算地圖 "%1$2s" 時出現錯誤︰%2$2s
 nukkit.level.chunkUnloadError=卸載區塊出錯：%1$2s
-nukkit.level.backgroundGeneration=正在於背景生成世界 "%1$2s" 的地形
-nukkit.level.defaultError=尚未載入預設級別
-nukkit.level.preparing=準備地圖 "%1$2s" 中
+nukkit.level.backgroundGeneration=正在於後台建立世界 "%1$2s" 的地形
+nukkit.level.defaultError=尚未載入預設地圖
+nukkit.level.preparing=正在準備地圖 "%1$2s"
 nukkit.level.unloading=正在移除地圖 "%1$2s"
 nukkit.level.updating=發現舊的地圖 "%1$2s"，正在轉換格式
 
-nukkit.server.start=正在啟動支援 Minecraft: BE %1$2s 版本的伺服器
-nukkit.server.networkError=[網路] 停止介面 %1$2s 由於 %2$2s
-nukkit.server.networkStart=正在啟動伺服器在 %1$2s:%2$2s
+nukkit.server.start=正在啟動支援 Minecraft: Bedrock Edition %1$2s 版本的伺服器
+nukkit.server.networkError=[Network] 由於 %2$2s ，%1$2s 中斷連接
+nukkit.server.networkStart=正在啟動伺服器於 %1$2s:%2$2s
 nukkit.server.info=此伺服器正在執行 %1$2s %2$2s 版本 "%3$2s" (API %4$2s)
 nukkit.server.info.extended=此伺服器正在執行 %1$2s %2$2s API 版本 %3$2s 支援 Minecraft: Bedrock Edition %4$2s (協議版本 %5$2s)
 nukkit.server.license=%1$2s 根據 GPL 許可發行
@@ -99,12 +99,12 @@ nukkit.plugin.duplicateError=無法載入插件 "%1$2s": 已有相同插件
 nukkit.plugin.fileError=無法載入資料夾 "%1$2s" 中的 "%2$2s": %3$2s
 nukkit.plugin.commandError=無法載入插件 %2$2s 的指令 %1$2s
 nukkit.plugin.aliasError=無法載入插件 %2$2s 的別名 %1$2s
-nukkit.plugin.deprecatedEvent=Plugin '%1$2s' has registered a listener for '%2$2s' on method '%3$2s', but the event is Deprecated.
-nukkit.plugin.eventError=Could not pass event '%1$2s' to '%2$2s': %3$2s on %4$2s
+nukkit.plugin.deprecatedEvent=插件 "%1$2s" 已在 "%3$2s" 方法中註冊一個用於 "%2$2s" 的監聽器， 但該事件已過時
+nukkit.plugin.eventError=無法處理事件 "%1$2s" 至 "%2$2s": %3$2s 於 %4$2s
 
-nukkit.resources.invalid-path=Resource packs path '%1$2s' exists and is not a directory
-nukkit.resources.unknown-format=Could not load '%1$2s' due to format not recognized
-nukkit.resources.fail=Could not load '%1$2s': %2$2s
+nukkit.resources.invalid-path=資源包路徑 "%1$2s" 存在， 但不是個目錄
+nukkit.resources.unknown-format=無法載入 "%1$2s" ， 無法辨識格式
+nukkit.resources.fail=無法載入 "%1$2s": %2$2s
 nukkit.resources.success=成功加載%1$2s資源包！
 nukkit.resources.zip.not-found=文件'%1$2s'無法被找到
 nukkit.resources.zip.no-manifest='manifest.json' 找不到
