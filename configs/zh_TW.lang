@@ -1,8 +1,8 @@
-header.1=Advanced configuration file for Nukkit
-header.2=Some of these settings are safe, others can break your server if modified incorrectly
-header.3=New settings/defaults won't appear automatically on this file when upgrading
+header.1=Nukkit進階設定
+header.2=部分設定是安全的，而在某些設定不當的情況下可能會損壞您的伺服器
+header.3=升級後，新的設定及預設值將不會自動顯示在此
 
-settings.language=Multi-language setting
+settings.language=多語言設定
 settings.force-language=Whether to send all strings translated to server locale or let the device handle them
 
 settings.shutdown-message=Disconnect message sent to players when the server is shutdown
