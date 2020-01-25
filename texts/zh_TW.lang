@@ -64,41 +64,41 @@ nukkit.command.timings.verboseEnable=啟用詳細計時
 nukkit.command.timings.verboseDisable=禁用的詳細計時
 nukkit.command.timings.reset=重置時序
 nukkit.command.timings.rcon=警告: 通過 RCON 完成的時序報告會導致大量延遲，您應該在後台或是遊戲中執行 /timings report
-nukkit.command.timings.uploadStart=準備時序報告...
-nukkit.command.timings.uploadError=Upload Error: %1$2s: %2$2s, check logs for more information
-nukkit.command.timings.reportError=An error happened while pasting the report, check logs for more information
-nukkit.command.timings.timingsLocation=View timings report: %1$2s
-nukkit.command.timings.timingsResponse=Timings response: %1$2s
-nukkit.command.timings.timingsWrite=Timings written to %1$2s
+nukkit.command.timings.uploadStart=準備時序報告中...
+nukkit.command.timings.uploadError=上傳錯誤: %1$2s:%2$2s， 請檢查日誌獲得更多訊息
+nukkit.command.timings.reportError=貼上報告時發生錯誤， 請檢查日誌獲得更多訊息
+nukkit.command.timings.timingsLocation=查看時序報告: %1$2s
+nukkit.command.timings.timingsResponse=時序回應: %1$2s
+nukkit.command.timings.timingsWrite=時序寫入 %1$2s
 
 nukkit.crash.create=發生了不可恢復的錯誤，伺服器崩潰。創建崩潰轉儲
 nukkit.crash.error=無法創建崩潰轉儲：%1$2s
-nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
-nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
+nukkit.crash.submit=請上傳錯誤報告檔案 "%1$2s" ， 並將連結提交至錯誤報告反映頁面。請盡量提供詳細資訊。
+nukkit.crash.archive=錯誤報告已自動上傳。 您可以在 %1$2s 查看， 或使用 ID #%2$2s。
 
 nukkit.debug.enable=啟用 LevelDB 支援
 
-nukkit.bugreport.create=An error has been detected, creating a bug report.
-nukkit.bugreport.error=Could not create bug report: %1$2s
-nukkit.bugreport.archive=A bug report has been created: %1$2s
+nukkit.bugreport.create=偵測到錯誤， 正在產生錯誤報告。
+nukkit.bugreport.error=無法建立錯誤報告: %1$2s
+nukkit.bugreport.archive=錯誤報告已建立: %1$2s
 
 nukkit.player.invalidMove=%1$2s 行動可疑！
-nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, %8$2s)
-nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
-nukkit.player.invalidEntity=%1$2s tried to attack an invalid entity
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] 登入遊戲，實體 Id 為 %4$2s ，座標 (%5$2s, %6$2s, %7$2s, %8$2s)
+nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] 登出遊戲， 原因: %4$2s
+nukkit.player.invalidEntity=%1$2s 嘗試攻擊一個無效的實體
 
 nukkit.plugin.load=讀取 %1$2s 中
 nukkit.plugin.restrictedName=限制的名稱
 nukkit.plugin.incompatibleAPI=不相容的 API 版本
 nukkit.plugin.unknownDependency=本插件無法單獨使用
 nukkit.plugin.circularDependency=檢測到迴圈依賴關係
-nukkit.plugin.genericLoadError=Could not load plugin '%1$2s'
-nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' uses spaces in its name, this is discouraged
-nukkit.plugin.loadError=Could not load plugin '%1$2s': %2$2s
-nukkit.plugin.duplicateError=Could not load plugin '%1$2s': plugin exists
-nukkit.plugin.fileError=Could not load '%1$2s' in folder '%2$2s': %3$2s
-nukkit.plugin.commandError=Could not load command %1$2s for plugin %2$2s
-nukkit.plugin.aliasError=Could not load alias %1$2s for plugin %2$2s
+nukkit.plugin.genericLoadError=無法載入插件 "%1$2s"
+nukkit.plugin.spacesDiscouraged=插件 "%1$2s" 名稱中包含空格，不建議這樣命名
+nukkit.plugin.loadError=無法載入插件 "%1$2s": %2$2s
+nukkit.plugin.duplicateError=無法載入插件 "%1$2s": 已有相同插件
+nukkit.plugin.fileError=無法載入資料夾 "%1$2s" 中的 "%2$2s": %3$2s
+nukkit.plugin.commandError=無法載入插件 %2$2s 的指令 %1$2s
+nukkit.plugin.aliasError=無法載入插件 %2$2s 的別名 %1$2s
 nukkit.plugin.deprecatedEvent=Plugin '%1$2s' has registered a listener for '%2$2s' on method '%3$2s', but the event is Deprecated.
 nukkit.plugin.eventError=Could not pass event '%1$2s' to '%2$2s': %3$2s on %4$2s
 
