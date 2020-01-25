@@ -3,16 +3,16 @@ header.2=部分設定是安全的，而在某些設定不當的情況下可能�
 header.3=升級後，新的設定及預設值將不會自動顯示在此
 
 settings.language=多語言設定
-settings.force-language=Whether to send all strings translated to server locale or let the device handle them
+settings.force-language=由伺服器強制翻譯訊息，或是由用戶端進行選擇
 
-settings.shutdown-message=Disconnect message sent to players when the server is shutdown
-settings.query-plugins=Allow listing plugins via Query
-settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
-settings.async-workers.1=Number of asynchronous workers
-settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
+settings.shutdown-message=伺服器關閉時，發送給玩家的訊息
+settings.query-plugins=允許使用 Query 協定查詢插件
+settings.deprecated-verbose=當插件使用不合適的 API 時於後台發送提示
+settings.async-workers.1=異部線程數量
+settings.async-workers.2=如果設置為 auto ，則自動檢測 CPU 核心數量 (至少 4 線程)
 
-network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
-network.batch-threshold.2=Set to 0 to compress everything, -1 to disable
+network.batch-threshold.1=數據包大小限制（單位：位元組），這些數據包將被壓縮
+network.batch-threshold.2=設置為 0 壓縮所有內容，設置為 -1 停用功能
 network.compression-level=Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
 network.async-compression=Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
 
