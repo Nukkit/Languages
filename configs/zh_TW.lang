@@ -13,17 +13,17 @@ settings.async-workers.2=如果設置為 auto ，則自動檢測 CPU 核心數�
 
 network.batch-threshold.1=數據包大小限制（單位：位元組），這些數據包將被壓縮
 network.batch-threshold.2=設置為 0 壓縮所有內容，設置為 -1 停用功能
-network.compression-level=Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
-network.async-compression=Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
+network.compression-level=使用 Zlib 發送數據包的壓縮級別。等級越高，CPU使用率越高，佔用頻寬越少
+network.async-compression=使用異部線程進行壓縮。增加 0.5/1 tick 延遲，減少主線程上的CPU負載
 
-debug.level=If > 1, it will show debug messages in the console
-debug.commands=Enables commands: /status /gc
+debug.level=如果 > 1，將會在後台顯示除錯訊息
+debug.commands=啟用指令: /status /gc
 
-timings.enabled=Enable core and plugin timings by default
-timings.verbose=Enable monitoring at verbose level, include high-frequency timings
-timings.history-interval.1=Interval between history frames in ticks
+timings.enabled=預設啟用核心和插件時序
+timings.verbose=啟用詳細監控，包含高頻時序
+timings.history-interval.1=歷史幀的間隔
 timings.history-interval.2=Default is 5 minutes (6000 ticks)
-timings.history-length.1=Length of the whole timing history in ticks
+timings.history-length.1=歷史紀錄的總時長
 timings.history-length.2=Default is 1 hour (72000 ticks)
 timings.history-length.3=This value is capped at a maximum of history-interval * 12
 timings.bypass-max.1=For special cases of servers with special permission to bypass the max
