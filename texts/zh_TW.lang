@@ -25,8 +25,8 @@ nukkit.level.updating=發現舊的地圖 "%1$2s"，正在轉換格式
 nukkit.server.start=正在啟動支援 Minecraft: BE %1$2s 版本的伺服器
 nukkit.server.networkError=[網路] 停止介面 %1$2s 由於 %2$2s
 nukkit.server.networkStart=正在啟動伺服器在 %1$2s:%2$2s
-nukkit.server.info=此伺服器正在運作 %1$2s %2$2s 版本 "%3$2s" (API %4$2s)
-nukkit.server.info.extended=此伺服器正在運作 %1$2s %2$2s API 版本 %3$2s 支援 Minecraft: Bedrock Edition %4$2s (協議版本 %5$2s)
+nukkit.server.info=此伺服器正在執行 %1$2s %2$2s 版本 "%3$2s" (API %4$2s)
+nukkit.server.info.extended=此伺服器正在執行 %1$2s %2$2s API 版本 %3$2s 支援 Minecraft: Bedrock Edition %4$2s (協議版本 %5$2s)
 nukkit.server.license=%1$2s 根據 GPL 許可發行
 nukkit.server.tickOverload=跟不上！伺服器是否超載？
 nukkit.server.startFinished=讀取完成 (%1$2ss)！如需幫助，請輸入 "help" 或 "?"
@@ -39,32 +39,32 @@ nukkit.server.rcon.startupError=無法啟動 RCON：%1$2s
 nukkit.server.rcon.running=RCON 正在運行於 %1$2s:%2$2s
 
 nukkit.command.alias.illegal=無法註冊別名 %1$2s ，因為它包含非法字符
-nukkit.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
-nukkit.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
+nukkit.command.alias.notFound=無法註冊別名 %1$2s ，因為它包含不存在的指令: %2$2s
+nukkit.command.exception=%2$2s 執行指令 %1$2s 時，出現了未處理的錯誤: %3$2s
 
-nukkit.command.version.description=Gets the version of this server including any plugins in use
+nukkit.command.version.description=獲得此伺服器和其使用的插件的版本
 nukkit.command.version.usage=/version [插件名稱]
-nukkit.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
-nukkit.command.version.plugin=%1$2s running version %1$2s
-nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
+nukkit.command.version.server=此伺服器正在執行 %1$2s 版本 %2$2s (MC: %3$2s) (API 版本 %4$2s)
+nukkit.command.version.plugin=%1$2s 正在執行 %1$2s 版本
+nukkit.command.version.noSuchPlugin=此伺服器並沒有執行任何此名稱的插件。 使用 /plugins 取得插件列表
 
-nukkit.command.plugins.description=Gets a list of plugins running on the server
+nukkit.command.plugins.description=取得本伺服器正在執行的插件列表
 nukkit.command.plugins.success=插件 (%1$2s)：%2$2s
 nukkit.command.plugins.usage=/plugins
 
-nukkit.command.status.description=Reads back the server's performance.
+nukkit.command.status.description=查看伺服器性能
 nukkit.command.status.usage=/status
 
-nukkit.command.timings.description=Records timings to see performance of the server.
+nukkit.command.timings.description=查看伺服器紀錄時序
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
 nukkit.command.timings.enable=啟用計時並重置
 nukkit.command.timings.disable=禁用的計時
 nukkit.command.timings.timingsDisabled=請通過在上鍵入計時來啟用計時
 nukkit.command.timings.verboseEnable=啟用詳細計時
 nukkit.command.timings.verboseDisable=禁用的詳細計時
-nukkit.command.timings.reset=Timings reset
-nukkit.command.timings.rcon=Warning: Timings report done over RCON will cause lag spikes, you should use /timings report in game or console
-nukkit.command.timings.uploadStart=Preparing timings report...
+nukkit.command.timings.reset=重置時序
+nukkit.command.timings.rcon=警告: 通過 RCON 完成的時序報告會導致大量延遲，您應該在後台或是遊戲中執行 /timings report
+nukkit.command.timings.uploadStart=準備時序報告...
 nukkit.command.timings.uploadError=Upload Error: %1$2s: %2$2s, check logs for more information
 nukkit.command.timings.reportError=An error happened while pasting the report, check logs for more information
 nukkit.command.timings.timingsLocation=View timings report: %1$2s
