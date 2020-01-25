@@ -25,8 +25,8 @@ nukkit.level.updating=發現舊的地圖 "%1$2s"，正在轉換格式
 nukkit.server.start=正在啟動支援 Minecraft: BE %1$2s 版本的伺服器
 nukkit.server.networkError=[網路] 停止介面 %1$2s 由於 %2$2s
 nukkit.server.networkStart=正在啟動伺服器在 %1$2s:%2$2s
-nukkit.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
-nukkit.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
+nukkit.server.info=此伺服器正在運作 %1$2s %2$2s 版本 "%3$2s" (API %4$2s)
+nukkit.server.info.extended=此伺服器正在運作 %1$2s %2$2s API 版本 %3$2s 支援 Minecraft: Bedrock Edition %4$2s (協議版本 %5$2s)
 nukkit.server.license=%1$2s 根據 GPL 許可發行
 nukkit.server.tickOverload=跟不上！伺服器是否超載？
 nukkit.server.startFinished=讀取完成 (%1$2ss)！如需幫助，請輸入 "help" 或 "?"
@@ -38,7 +38,7 @@ nukkit.server.rcon.emptyPasswordError=無法啟動 RCON：密碼為空
 nukkit.server.rcon.startupError=無法啟動 RCON：%1$2s
 nukkit.server.rcon.running=RCON 正在運行於 %1$2s:%2$2s
 
-nukkit.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
+nukkit.command.alias.illegal=無法註冊別名 %1$2s ，因為它包含非法字符
 nukkit.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
 nukkit.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
 
