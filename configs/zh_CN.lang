@@ -7,20 +7,20 @@ settings.force-language=是将所有转换后的字符串发送到服务器区�
 
 settings.shutdown-message=服务器关闭时，断开发送给玩家的消息
 settings.query-plugins=允许通过查询列出插件
-settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
-settings.async-workers.1=Number of asynchronous workers
-settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
+settings.deprecated-verbose=当插件使用不推荐使用的API方法时显示控制台消息
+settings.async-workers.1=异步工作者数
+settings.async-workers.2=如果设置为自动模式，它将尝试检测核心数量（至少4个）
 
-network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
-network.batch-threshold.2=Set to 0 to compress everything, -1 to disable
-network.compression-level=Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
-network.async-compression=Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
+network.batch-threshold.1=按批处理报文的阈值，以字节为单位。 仅这些数据包将被压缩
+network.batch-threshold.2=以设置为0压缩所有内容，以-1禁用所有内容
+network.compression-level=发送批处理数据包时Zlib使用的压缩级别。 等级越高CPU的使用就越高，更少带宽使用
+network.async-compression=使用AsyncTasks进行压缩。 增加了一半或一节拍的延迟，减少了主线程上的CPU负载
 
-debug.level=If > 1, it will show debug messages in the console
-debug.commands=Enables commands: /status /gc
+debug.level=如果> 1，它将在控制台中显示调试消息
+debug.commands=启用命令：/ status / gc
 
-timings.enabled=Enable core and plugin timings by default
-timings.verbose=Enable monitoring at verbose level, include high-frequency timings
+timings.enabled=默认情况下启用核心和插件计时
+timings.verbose=启用详细级别的监视，包括高频定时
 timings.history-interval.1=Interval between history frames in ticks
 timings.history-interval.2=Default is 5 minutes (6000 ticks)
 timings.history-length.1=Length of the whole timing history in ticks
