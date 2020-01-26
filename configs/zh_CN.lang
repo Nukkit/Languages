@@ -1,12 +1,12 @@
-header.1=Advanced configuration file for Nukkit
-header.2=Some of these settings are safe, others can break your server if modified incorrectly
-header.3=New settings/defaults won't appear automatically on this file when upgrading
+header.1=Nukkit的高级配置文件
+header.2=这些设置有一些是安全的，如果修改不当，其他设置可能会破坏您的服务器
+header.3=升级时，新设置或默认设置不会自动显示在此文件上
 
-settings.language=Multi-language setting
-settings.force-language=Whether to send all strings translated to server locale or let the device handle them
+settings.language=多国语言设定
+settings.force-language=是将所有转换后的字符串发送到服务器区域设置，还是让设备处理它们？
 
-settings.shutdown-message=Disconnect message sent to players when the server is shutdown
-settings.query-plugins=Allow listing plugins via Query
+settings.shutdown-message=服务器关闭时，断开发送给玩家的消息
+settings.query-plugins=允许通过查询列出插件
 settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
 settings.async-workers.1=Number of asynchronous workers
 settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
