@@ -44,15 +44,15 @@ nukkit.command.exception=Exceção não tratada ao executar o comando '%1$2s' em
 
 nukkit.command.version.description=Obtém a versão deste servidor, incluindo quaisquer plugins em uso
 nukkit.command.version.usage=/version [nome do plugin]
-nukkit.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
-nukkit.command.version.plugin=%1$2s running version %1$2s
-nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
+nukkit.command.version.server=Este servidor está rodando %1$2s na versão %2$2s (MC: %3$2s) (Implementando API versão %4$2s)
+nukkit.command.version.plugin=%1$2s rodando na versão %1$2s
+nukkit.command.version.noSuchPlugin=Este servidor não está rodando nenhum plugin com esse nome. Use /plugins para obter uma lista de plugins.
 
-nukkit.command.plugins.description=Gets a list of plugins running on the server
+nukkit.command.plugins.description=Obtém uma lista de plugins rodando no servidor
 nukkit.command.plugins.success=Plugins (%1$2s): %2$2s
 nukkit.command.plugins.usage=/plugins
 
-nukkit.command.status.description=Reads back the server's performance.
+nukkit.command.status.description=Retorna o desempenho do servidor.
 nukkit.command.status.usage=/status
 
 nukkit.command.timings.description=Records timings to see performance of the server.
@@ -65,13 +65,13 @@ nukkit.command.timings.verboseDisable=Disabled verbose timings
 nukkit.command.timings.reset=Timings reset
 nukkit.command.timings.rcon=Warning: Timings report done over RCON will cause lag spikes, you should use /timings report in game or console
 nukkit.command.timings.uploadStart=Preparing timings report...
-nukkit.command.timings.uploadError=Upload Error: %1$2s: %2$2s, check logs for more information
-nukkit.command.timings.reportError=An error happened while pasting the report, check logs for more information
+nukkit.command.timings.uploadError=Erro de upload: %1$2s: %2$2s, verifique os logs para mais informações
+nukkit.command.timings.reportError=Um erro ocorreu ao colar o relatório, verifique os logs para mais informações
 nukkit.command.timings.timingsLocation=View timings report: %1$2s
 nukkit.command.timings.timingsResponse=Timings response: %1$2s
 nukkit.command.timings.timingsWrite=Timings written to %1$2s
 
-nukkit.crash.create=An unrecoverable error has occurred and the server has crashed. Creating a crash dump
+nukkit.crash.create=Um erro irrecuperável ocorreu e o servidor crashou. Criando um crash dump
 nukkit.crash.error=Could not create crash dump: %1$2s
 nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
 nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
