@@ -4,10 +4,10 @@
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-nukkit.language.selected=Selected %1$2s as the default locale.
+nukkit.language.selected=Selecionado %1$2s como a linguagem padrão.
 
-nukkit.data.playerNotFound=Player data not found for "%1$2s", creating new profile
-nukkit.data.playerCorrupted=Corrupted data found for "%1$2s", creating new profile
+nukkit.data.playerNotFound=Dados do jogador "%1$2s" não foram encontrados, criando novo perfil agora
+nukkit.data.playerCorrupted=Dados corrompidos foram encontrados para "%1$2s", criando um perfil novo agora
 nukkit.data.playerOld=Old Player data found for "%1$2s", upgrading profile
 nukkit.data.saveError=Could not save player "%1$2s": %2$2s
 
