@@ -24,21 +24,21 @@ timings.verbose=Ota käyttöön valvonta verbose-tasolla mukaan lukien korkean t
 timings.history-interval.1=Historiakehysten välinen aika (ticks)
 timings.history-interval.2=Oletus on 5 minuuttia (6000 ticks)
 timings.history-length.1=Koko ajoitushistorian pituus (ticks)
-timings.history-length.2=Default is 1 hour (72000 ticks)
-timings.history-length.3=This value is capped at a maximum of history-interval * 12
-timings.bypass-max.1=For special cases of servers with special permission to bypass the max
-timings.bypass-max.2=This max helps keep data file sizes reasonable for processing on Aikar's Timing parser side
-timings.bypass-max.3=Setting this will not help you bypass the max unless Aikar has added an exception on the API side
-timings.privacy=If set to true, name of your server won't be sent
-timings.ignore.1=Settings sections to ignore. These sections won't be sent to Aikar's Timing parser
-timings.ignore.2=Example formats:
+timings.history-length.2=Oletus on 1 tunti (72000 ticks)
+timings.history-length.3=Tämä arvo on rajattu korkeintaan historiaväli * 12
+timings.bypass-max.1=Erityistapauksissa, joissa palvelimella on lupa ohittaa enimmäisarvo
+timings.bypass-max.2=Tämä enimmäisarvo auttaa pitämään datatiedostokoot kohtuullisina käsiteltäväksi Aikarin Ajoitus-jäsennyspuolella
+timings.bypass-max.3=Tämän asettaminen ei auta maksimin ohittamisessa, ellei Aikar ole lisännyt poikkeusta API-puolelle
+timings.privacy=Jos "true", palvelimen nimeä ei lähetetä
+timings.ignore.1=Asetukset, joita ei oteta huomioon. Näitä osioita ei lähetetä Aikarin ajoitusjäsentäjälle
+timings.ignore.2=Esimerkkejä muodoista:
 
-level-settings.default-format=The default format that levels will use when created
-level-settings.auto-tick-rate=Automatically change levels tick rate to maintain 20 ticks per second
-level-settings.base-tick-rate=Sets the base tick rate (1 = 20 ticks per second, 2 = 10 ticks per second, etc.)
-level-settings.always-tick-players=Tick all players each tick even when other settings disallow this
+level-settings.default-format=Oletusformaatti, jota käytetään, kun maailmoja luodaan
+level-settings.auto-tick-rate=Muuta maailman tick ratea automaattisesti 20 ticks sekunnissa ylläpitämiseksi
+level-settings.base-tick-rate=Asettaa peruskutsunopeuden (1 = 20 TPS, 2 = 10 TPS jne.)
+level-settings.always-tick-players=Päivitä aina kaikki pelaajat, vaikka muut asetukset estäisivät tämän
 
-chunk-sending.per-tick=Amount of chunks sent to players per tick
+chunk-sending.per-tick=Pelaajille lähetettyjen lohkojen määrä per tick
 chunk-sending.max-chunks=Amount of chunks sent around each player
 chunk-sending.spawn-threshold=Amount of chunks that need to be sent before spawning the player
 chunk-sending.cache-chunks.1=Save a serialized copy of the chunk in memory for faster sending
