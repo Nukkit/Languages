@@ -39,15 +39,15 @@ level-settings.base-tick-rate=Asettaa peruskutsunopeuden (1 = 20 TPS, 2 = 10 TPS
 level-settings.always-tick-players=Päivitä aina kaikki pelaajat, vaikka muut asetukset estäisivät tämän
 
 chunk-sending.per-tick=Pelaajille lähetettyjen lohkojen määrä per tick
-chunk-sending.max-chunks=Amount of chunks sent around each player
-chunk-sending.spawn-threshold=Amount of chunks that need to be sent before spawning the player
-chunk-sending.cache-chunks.1=Save a serialized copy of the chunk in memory for faster sending
-chunk-sending.cache-chunks.2=Useful in mostly-static worlds where lots of players join at the same time
+chunk-sending.max-chunks=Kunkin pelaajan ympärillä lähetettyjen lohkojen määrä
+chunk-sending.spawn-threshold=Lohkojen määrä, joka on lähetettävä ennen pelaajan syntymistä
+chunk-sending.cache-chunks.1=Tallenna sarjanumeroitu kopio lohkosta muistiin nopeampaa lähettämistä varten
+chunk-sending.cache-chunks.2=Hyödyllinen enimmäkseen staattisissa maailmoissa, joissa paljon pelaajia liittyy samanaikaisesti
 
-chunk-ticking.per-tick=Max amount of chunks processed each tick
-chunk-ticking.tick-radius=Radius of chunks around a player to tick
+chunk-ticking.per-tick=Käsiteltävien lohkojen enimmäismäärä per tick
+chunk-ticking.tick-radius=Maailman päivittämisen etäisyys pelaajan ympärillä (lohkoja)
 
-chunk-generation.queue-size=Max. amount of chunks in the waiting queue to be generated
+chunk-generation.queue-size=Generointia odottavien lohkojen enimmäismäärä
 chunk-generation.population-queue-size=Max. amount of chunks in the waiting queue to be populated
 
 spawn-limits=Max amount of these entities
