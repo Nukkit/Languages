@@ -11,16 +11,16 @@ nukkit.data.playerCorrupted=Pelaajan ”%1$2s” tiedot ovat korruptoituneet, lu
 nukkit.data.playerOld=Vanhat pelaajatiedot löytyi pelaajalle "%1$2s", päivitetään profiilia
 nukkit.data.saveError=Ei voida tallentaa pelaajaa "%1$2s": %2$2s
 
-nukkit.level.notFound=Tasoa "%1$2s" ei löydy
-nukkit.level.loadError=Ei voida ladata tasoa '%1$2s': %2$2s
-nukkit.level.generationError=Ei voida luoda tasoa '%1$2s': %2$2s
-nukkit.level.tickError=Ei voida prosessoida tasoa '%1$2s': %2$2s
+nukkit.level.notFound=Maailmaa "%1$2s" ei löydy
+nukkit.level.loadError=Ei voida ladata maailmaa '%1$2s': %2$2s
+nukkit.level.generationError=Ei voida generoida maailmaa '%1$2s': %2$2s
+nukkit.level.tickError=Ei voida prosessoida maailmaa '%1$2s': %2$2s
 nukkit.level.chunkUnloadError=Virhe vapauttaessa lohkoa: %1$2s
 nukkit.level.backgroundGeneration=Syntypaikan maastoa tasolle ”%1$2s” luodaan taustalla
-nukkit.level.defaultError=Oletustasoa ei ole ladattu
-nukkit.level.preparing=Valmistellaan tasoa "%1$2s"
-nukkit.level.unloading=Suljetaan tasoa "%1$2s"
-nukkit.level.updating=Tasolle "%1$2s" löytyi vanhentuneet tiedot, muunnetaan formaattia
+nukkit.level.defaultError=Oletusmaailmaa ei ole ladattu
+nukkit.level.preparing=Valmistellaan maailmaa "%1$2s"
+nukkit.level.unloading=Suljetaan maailmaa "%1$2s"
+nukkit.level.updating=Maailmalle "%1$2s" löytyi vanhentuneet tiedot, muunnetaan formaattia
 
 nukkit.server.start=Käynnistetään Minecraft Bedrock Edition Palvelinta. Versio: %1$2s
 nukkit.server.networkError=[Network] Pysäytettiin liittymä %1$2s: %2$2s
