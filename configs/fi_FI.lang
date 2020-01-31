@@ -1,15 +1,15 @@
-header.1=Advanced configuration file for Nukkit
-header.2=Some of these settings are safe, others can break your server if modified incorrectly
-header.3=New settings/defaults won't appear automatically on this file when upgrading
+header.1=Edistynyt määritystiedosto Nukkitille
+header.2=Jotkut näistä asetuksista ovat turvallisia, toiset voivat rikkoa palvelimen, jos niitä muutetaan väärin
+header.3=Uudet asetukset eivät automaattisesti ilmesty tähän tiedostoon päivityksen yhteydessä
 
-settings.language=Multi-language setting
-settings.force-language=Whether to send all strings translated to server locale or let the device handle them
+settings.language=Monikielisyys asetukset
+settings.force-language=Lähetetäänkö kaikki merkkijonot palvelimen kielelle käännettynä vai annetaanko laitteen käsitellä ne
 
-settings.shutdown-message=Disconnect message sent to players when the server is shutdown
-settings.query-plugins=Allow listing plugins via Query
-settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
-settings.async-workers.1=Number of asynchronous workers
-settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
+settings.shutdown-message=Viesti, joka näytetään pelaajille, kun palvelin sammutetaan
+settings.query-plugins=Salli lisäosien listaus tiedustelun kautta
+settings.deprecated-verbose=Näytä viesti konsolissa, kun lisäosa käyttää käytöstä poistuneita API menetelmiä
+settings.async-workers.1=Asynkronisten työntekijöiden lukumäärä
+settings.async-workers.2=Jos asetetaan automaattiseksi, se yrittää tunnistaa ytimien määrän (vähintään 4)
 
 network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
 network.batch-threshold.2=Set to 0 to compress everything, -1 to disable
