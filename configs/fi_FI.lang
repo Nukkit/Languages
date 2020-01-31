@@ -11,19 +11,19 @@ settings.deprecated-verbose=Näytä viesti konsolissa, kun lisäosa käyttää k
 settings.async-workers.1=Asynkronisten työntekijöiden lukumäärä
 settings.async-workers.2=Jos asetetaan automaattiseksi, se yrittää tunnistaa ytimien määrän (vähintään 4)
 
-network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
-network.batch-threshold.2=Set to 0 to compress everything, -1 to disable
-network.compression-level=Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
-network.async-compression=Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
+network.batch-threshold.1=Pakettien eräraja tavuina. Vain nämä paketit pakataan
+network.batch-threshold.2=Aseta arvoksi 0 pakataksesi kaikki tai -1 poistaaksesi käytöstä
+network.compression-level=Zlibin käyttämä pakkaustaso eräpaketteja lähetettäessä. Suurempi = suurempi prosessorin käyttö, matalampi kaistan käyttö
+network.async-compression=Käytä async pakkausta. Lisää viivettä, mutta alentaa prosessorin kuormitusta
 
-debug.level=If > 1, it will show debug messages in the console
-debug.commands=Enables commands: /status /gc
+debug.level=Jos > 1, debug-viestit näytetään konsolissa
+debug.commands=Ottaa käyttöön /status ja /gc -komennot
 
-timings.enabled=Enable core and plugin timings by default
-timings.verbose=Enable monitoring at verbose level, include high-frequency timings
-timings.history-interval.1=Interval between history frames in ticks
-timings.history-interval.2=Default is 5 minutes (6000 ticks)
-timings.history-length.1=Length of the whole timing history in ticks
+timings.enabled=Ota käyttöön ytimen ja lisäosien ajoitukset oletuksena
+timings.verbose=Ota käyttöön valvonta verbose-tasolla mukaan lukien korkean taajuuden ajoitukset
+timings.history-interval.1=Historiakehysten välinen aika (ticks)
+timings.history-interval.2=Oletus on 5 minuuttia (6000 ticks)
+timings.history-length.1=Koko ajoitushistorian pituus (ticks)
 timings.history-length.2=Default is 1 hour (72000 ticks)
 timings.history-length.3=This value is capped at a maximum of history-interval * 12
 timings.bypass-max.1=For special cases of servers with special permission to bypass the max
