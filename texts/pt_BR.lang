@@ -72,15 +72,15 @@ nukkit.command.timings.timingsResponse=Timings response: %1$2s
 nukkit.command.timings.timingsWrite=Timings written to %1$2s
 
 nukkit.crash.create=Um erro irrecuperável ocorreu e o servidor crashou. Criando um crash dump
-nukkit.crash.error=Could not create crash dump: %1$2s
-nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
-nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
+nukkit.crash.error=Não foi possível criar um crash dump: %1$2s
+nukkit.crash.submit=Por favor, envie o arquivo "%1$2s" para o Arquivo de Crash e envie o link para a página de Reportar Bugs. Dê o máximo de informações que conseguir.
+nukkit.crash.archive=O crash dump foi automaticamente enviado ao Arquivo de Crash. Você pode vê-lo em %1$2s ou usar o ID #%2$2s.
 
-nukkit.debug.enable=LevelDB support enabled
+nukkit.debug.enable=Suporte ao LevelDB habilitado
 
-nukkit.bugreport.create=An error has been detected, creating a bug report.
-nukkit.bugreport.error=Could not create bug report: %1$2s
-nukkit.bugreport.archive=A bug report has been created: %1$2s
+nukkit.bugreport.create=Um erro foi detectado, criando um relatório de bug agora.
+nukkit.bugreport.error=Não foi possível criar um relatório de bug: %1$2s
+nukkit.bugreport.archive=Um relatório de bug foi criado: %1$2s
 
 nukkit.player.invalidMove=%1$2s moved wrongly!
 nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, %8$2s)
