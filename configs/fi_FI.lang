@@ -48,14 +48,14 @@ chunk-ticking.per-tick=Käsiteltävien lohkojen enimmäismäärä per tick
 chunk-ticking.tick-radius=Maailman päivittämisen etäisyys pelaajan ympärillä (lohkoja)
 
 chunk-generation.queue-size=Generointia odottavien lohkojen enimmäismäärä
-chunk-generation.population-queue-size=Max. amount of chunks in the waiting queue to be populated
+chunk-generation.population-queue-size=Populointia odottavien lohkojen enimmäismäärä
 
-spawn-limits=Max amount of these entities
+spawn-limits=Näiden olioiden maksimimäärä
 
-player.save-player-data.1=If true, player data will be saved as players/playername.dat
-player.save-player-data.2=If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
-player.skin-change-cooldown=The time between skin change action in seconds. Set 0 to disable the cooldown
+player.save-player-data.1=Jos "true", pelaajien tiedot tallennetaan kohteeseen players/pelaajanimi.dat
+player.save-player-data.2=Jos "false", Nukkit ei tallenna pelaajien, jotta lisäosat voivat hoitaa tämän.
+player.skin-change-cooldown=Skinin vaihtamisen välinen aika sekunneissa. Aseta 0 poistaaksesi jäähdytyksen
 
-aliases=Aliases for commands
+aliases=Komentojen aliakset
 
-worlds=These settings will override the generator set in server.properties and allows loading multiple levels
+worlds=Nämä asetukset ohittavat server.properties-asetukset ja sallivat useiden maailmojen lataamisen
