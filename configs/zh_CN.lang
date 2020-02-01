@@ -26,16 +26,16 @@ timings.history-interval.2=默认 5 分钟（6000 ticks）
 timings.history-length.1=以 tick 为单位的整个分析历史时长
 timings.history-length.2=默认 1 小时（72000 ticks）
 timings.history-length.3=该值上限为 history-interval 的 12 倍
-timings.bypass-max.1=对于具有特殊权限的服务器的特殊情况，可以绕过最大权限
-timings.bypass-max.2=此最大值有助于使数据文件大小保持合理，以便在Aikar的计时解析器侧进行处理
-timings.bypass-max.3=设置此项将不会帮助您绕过最大值，除非Aikar在API端添加了例外
-timings.privacy=如果设置为true，则不会发送您的服务器名称
-timings.ignore.1=设置部分可忽略。 这些部分将不会发送到Aikar的Timing解析器
+timings.bypass-max.1=对于有特殊权限以绕过最大值的服务器的特殊情况
+timings.bypass-max.2=最大值有助于保持数据文件大小合理，以便在 Aikar 的性能分析器端进行处理
+timings.bypass-max.3=设置此选项不会帮您绕过最大值限制，除非 Aikar 在 API 端添加了一个例外
+timings.privacy=如果设置为 true，您的服务器名称就不会被发送出去
+timings.ignore.1=设置忽略部分。这部分不会被发送到 Aikar 的性能分析器
 timings.ignore.2=格式示例：
 
-level-settings.default-format=创建时级别将使用的默认格式
-level-settings.auto-tick-rate=自动更改级别的变动率，以保持每秒20次变动
-level-settings.base-tick-rate=设置基本刻度速率（1 =每秒20个刻度，2 = 10个刻度，依此类推）
+level-settings.default-format=默认生成的地图格式
+level-settings.auto-tick-rate=自动改变世界的 tick 速率以维持每秒 20 ticks
+level-settings.base-tick-rate=设置基准 tick 速率（1 = 20 TPS，2 = 10 TPS，以此类推）
 level-settings.always-tick-players=始终保持玩家Tick，即使其他选项不允许这么做
 
 chunk-sending.per-tick=每 tick 发送给玩家的区块数量
