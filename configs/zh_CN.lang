@@ -5,11 +5,11 @@ header.3=升级时，新设置或默认设置不会自动显示在此文件上
 settings.language=多语言设置
 settings.force-language=是发送所有翻译为服务器指定语言的字符串还是让客户端翻译
 
-settings.shutdown-message=服务器关闭时，断开发送给玩家的消息
-settings.query-plugins=允许通过查询列出插件
-settings.deprecated-verbose=当插件使用不推荐使用的API方法时显示控制台消息
-settings.async-workers.1=异步工作者数
-settings.async-workers.2=如果设置为自动模式，它将尝试检测核心数量（至少4个）
+settings.shutdown-message=服务器关闭时给玩家发送断开连接消息
+settings.query-plugins=允许使用Query协议查询您的插件
+settings.deprecated-verbose=当某插件使用不被推荐的API时，在控制台提醒
+settings.async-workers.1=异步任务线程数量
+settings.async-workers.2=如果设置为auto，则自动识别CPU核心数量（最少4线程）
 
 network.batch-threshold.1=按批处理报文的阈值，以字节为单位。 仅这些数据包将被压缩
 network.batch-threshold.2=以设置为0压缩所有内容，以-1禁用所有内容
