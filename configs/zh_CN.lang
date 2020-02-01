@@ -56,6 +56,6 @@ player.save-player-data.1=If true, player data will be saved as players/playerna
 player.save-player-data.2=If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
 player.skin-change-cooldown=The time between skin change action in seconds. Set 0 to disable the cooldown
 
-aliases=Aliases for commands
+aliases=指令的别名
 
-worlds=These settings will override the generator set in server.properties and allows loading multiple levels
+worlds=这些设置将覆盖 server.properties 中的生成器设置，并允许加载多个存档
