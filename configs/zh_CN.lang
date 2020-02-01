@@ -33,7 +33,7 @@ timings.privacy=如果设置为 true，您的服务器名称就不会被发送�
 timings.ignore.1=设置忽略部分。这部分不会被发送到 Aikar 的性能分析器
 timings.ignore.2=格式示例：
 
-level-settings.default-format=默认生成的地图格式
+level-settings.default-format=默认生成的存档格式
 level-settings.auto-tick-rate=自动改变世界的 tick 速率以维持每秒 20 ticks
 level-settings.base-tick-rate=设置基准 tick 速率（1 = 20 TPS，2 = 10 TPS，以此类推）
 level-settings.always-tick-players=始终保持玩家Tick，即使其他选项不允许这么做
@@ -53,7 +53,7 @@ chunk-generation.population-queue-size=区块填充队列中的等待数量上�
 spawn-limits=实体数量上限
 
 player.save-player-data.1=若为 true, 玩家数据将保存为 players/玩家名.dat
-player.save-player-data.2=若为 false, Bukkit 不会将玩家数据保存为 "dat" 文件, 以便插件可访问或修改这些文件。
+player.save-player-data.2=如果为 false，Nukkit 不会将玩家数据保存为 "dat" 文件，这样一些与玩家数据有关的插件就可以大展身手了。
 player.skin-change-cooldown=皮肤更改冷却的秒数。设为0可禁用冷却
 
 aliases=指令的别名
