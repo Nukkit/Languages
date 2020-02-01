@@ -38,13 +38,13 @@ level-settings.auto-tick-rate=自动更改级别的变动率，以保持每秒20
 level-settings.base-tick-rate=设置基本刻度速率（1 =每秒20个刻度，2 = 10个刻度，依此类推）
 level-settings.always-tick-players=始终保持玩家Tick，即使其他选项不允许这么做
 
-chunk-sending.per-tick=每 tick 内发送给玩家区块的数量
-chunk-sending.max-chunks=玩家附近的区块发送数量
+chunk-sending.per-tick=每 tick 发送给玩家的区块数量
+chunk-sending.max-chunks=每个玩家附近区块的发送数量
 chunk-sending.spawn-threshold=玩家生成前需要发送的区块数量
 chunk-sending.cache-chunks.1=将序列化的区块副本保存在内存中以便更快地发送
-chunk-sending.cache-chunks.2=Useful in mostly-static worlds where lots of players join at the same time
+chunk-sending.cache-chunks.2=在很多玩家同时加入的静态世界中很有用
 
-chunk-ticking.per-tick=Max amount of chunks processed each tick
+chunk-ticking.per-tick=每 tick 处理的区块数量上限
 chunk-ticking.tick-radius=Radius of chunks around a player to tick
 
 chunk-generation.queue-size=Max. amount of chunks in the waiting queue to be generated
