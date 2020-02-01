@@ -52,9 +52,9 @@ chunk-generation.population-queue-size=Max. amount of chunks in the waiting queu
 
 spawn-limits=Max amount of these entities
 
-player.save-player-data.1=If true, player data will be saved as players/playername.dat
-player.save-player-data.2=If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
-player.skin-change-cooldown=The time between skin change action in seconds. Set 0 to disable the cooldown
+player.save-player-data.1=若为 true, 玩家数据将保存为 players/玩家名.dat
+player.save-player-data.2=若为 false, Bukkit 不会将玩家数据保存为 "dat" 文件, 以便插件可访问或修改这些文件。
+player.skin-change-cooldown=皮肤更改冷却的秒数。设为0可禁用冷却
 
 aliases=指令的别名
 
