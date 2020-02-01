@@ -3,7 +3,7 @@ header.2=此处部分设置是安全的，而一些在设置不当的情况下�
 header.3=升级时，新设置或默认设置不会自动显示在此文件上
 
 settings.language=多语言设置
-settings.force-language=是将所有转换后的字符串发送到服务器区域设置，还是让设备处理它们？
+settings.force-language=是发送所有翻译为服务器指定语言的字符串还是让客户端翻译
 
 settings.shutdown-message=服务器关闭时，断开发送给玩家的消息
 settings.query-plugins=允许通过查询列出插件
