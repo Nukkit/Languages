@@ -54,7 +54,7 @@ spawn-limits=实体数量上限
 
 player.save-player-data.1=若为 true, 玩家数据将保存为 players/玩家名.dat
 player.save-player-data.2=如果为 false，Nukkit 不会将玩家数据保存为 "dat" 文件，这样一些与玩家数据有关的插件就可以大展身手了。
-player.skin-change-cooldown=皮肤更改冷却的秒数。设为0可禁用冷却
+player.skin-change-cooldown=切换皮肤的冷却时间（单位：秒）。设为 0 以禁用冷却
 
 aliases=指令的别名
 
