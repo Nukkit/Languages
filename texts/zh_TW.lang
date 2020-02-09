@@ -59,9 +59,9 @@ nukkit.command.timings.description=查看伺服器紀錄時序
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
 nukkit.command.timings.enable=啟用並重置計時
 nukkit.command.timings.disable=禁用計時
-nukkit.command.timings.timingsDisabled=請通過在上鍵入計時來啟用計時
+nukkit.command.timings.timingsDisabled=請輸入 /timings on 啟用計時
 nukkit.command.timings.verboseEnable=啟用詳細計時
-nukkit.command.timings.verboseDisable=禁用的詳細計時
+nukkit.command.timings.verboseDisable=禁用詳細計時
 nukkit.command.timings.reset=重置時序
 nukkit.command.timings.rcon=警告: 通過 RCON 完成的時序報告會導致大量延遲，您應該在後台或是遊戲中執行 /timings report
 nukkit.command.timings.uploadStart=準備時序報告中...
@@ -71,27 +71,27 @@ nukkit.command.timings.timingsLocation=查看時序報告: %1$2s
 nukkit.command.timings.timingsResponse=時序回應: %1$2s
 nukkit.command.timings.timingsWrite=時序寫入 %1$2s
 
-nukkit.crash.create=發生了不可恢復的錯誤，伺服器崩潰。創建崩潰轉儲
-nukkit.crash.error=無法創建崩潰轉儲：%1$2s
+nukkit.crash.create=一個不可恢復的錯誤導致伺服器崩潰。正在建立錯誤報告
+nukkit.crash.error=無法建立錯誤報告：%1$2s
 nukkit.crash.submit=請上傳錯誤報告檔案 "%1$2s" ， 並將連結提交至錯誤報告反映頁面。請盡量提供詳細資訊。
 nukkit.crash.archive=錯誤報告已自動上傳。 您可以在 %1$2s 查看， 或使用 ID #%2$2s。
 
 nukkit.debug.enable=啟用 LevelDB 支援
 
-nukkit.bugreport.create=偵測到錯誤， 正在產生錯誤報告。
+nukkit.bugreport.create=偵測到一個錯誤， 正在建立錯誤報告。
 nukkit.bugreport.error=無法建立錯誤報告: %1$2s
 nukkit.bugreport.archive=錯誤報告已建立: %1$2s
 
 nukkit.player.invalidMove=%1$2s 行動可疑！
-nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] 登入遊戲，實體 Id 為 %4$2s ，座標 (%5$2s, %6$2s, %7$2s, %8$2s)
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] 登入遊戲，實體 ID %4$2s ，座標 (%5$2s, %6$2s, %7$2s, %8$2s)
 nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] 登出遊戲， 原因: %4$2s
 nukkit.player.invalidEntity=%1$2s 嘗試攻擊一個無效的實體
 
-nukkit.plugin.load=讀取 %1$2s 中
-nukkit.plugin.restrictedName=限制的名稱
+nukkit.plugin.load=載入 %1$2s 中
+nukkit.plugin.restrictedName=受限的名稱
 nukkit.plugin.incompatibleAPI=不相容的 API 版本
 nukkit.plugin.unknownDependency=本插件無法單獨使用
-nukkit.plugin.circularDependency=檢測到迴圈依賴關係
+nukkit.plugin.circularDependency=檢測到迴圈依賴
 nukkit.plugin.genericLoadError=無法載入插件 "%1$2s"
 nukkit.plugin.spacesDiscouraged=插件 "%1$2s" 名稱中包含空格，不建議這樣命名
 nukkit.plugin.loadError=無法載入插件 "%1$2s": %2$2s
