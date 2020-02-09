@@ -28,15 +28,15 @@ nukkit.server.networkStart=正在啟動伺服器於 %1$2s:%2$2s
 nukkit.server.info=此伺服器正在執行 %1$2s %2$2s 版本 "%3$2s" (API %4$2s)
 nukkit.server.info.extended=此伺服器正在執行 %1$2s %2$2s API 版本 %3$2s 支援 Minecraft: Bedrock Edition %4$2s (協議版本 %5$2s)
 nukkit.server.license=%1$2s 根據 GPL 許可發行
-nukkit.server.tickOverload=跟不上！伺服器是否超載？
-nukkit.server.startFinished=讀取完成 (%1$2ss)！如需幫助，請輸入 "help" 或 "?"
-nukkit.server.defaultGameMode=預設的遊戲類型：%1$2s
+nukkit.server.tickOverload=注意！伺服器是否超載？
+nukkit.server.startFinished=啟動完成 (%1$2ss)！如需幫助，請輸入 "help" 或 "?"
+nukkit.server.defaultGameMode=預設遊戲模式：%1$2s
 nukkit.server.query.start=啟動 GS4 狀態監聽器
-nukkit.server.query.info=設定 query 介面到 %1$2s
-nukkit.server.query.running=Query 運作在 %1$2s:%2$2s
+nukkit.server.query.info=設定 query 端口為 %1$2s
+nukkit.server.query.running=Query 執行於 %1$2s:%2$2s
 nukkit.server.rcon.emptyPasswordError=無法啟動 RCON：密碼為空
 nukkit.server.rcon.startupError=無法啟動 RCON：%1$2s
-nukkit.server.rcon.running=RCON 正在運行於 %1$2s:%2$2s
+nukkit.server.rcon.running=RCON 執行於 %1$2s:%2$2s
 
 nukkit.command.alias.illegal=無法註冊別名 %1$2s ，因為它包含非法字符
 nukkit.command.alias.notFound=無法註冊別名 %1$2s ，因為它包含不存在的指令: %2$2s
@@ -48,17 +48,17 @@ nukkit.command.version.server=此伺服器正在執行 %1$2s 版本 %2$2s (MC: %
 nukkit.command.version.plugin=%1$2s 正在執行 %1$2s 版本
 nukkit.command.version.noSuchPlugin=此伺服器並沒有執行任何此名稱的插件。 使用 /plugins 取得插件列表
 
-nukkit.command.plugins.description=取得本伺服器正在執行的插件列表
+nukkit.command.plugins.description=取得伺服器正在執行的插件列表
 nukkit.command.plugins.success=插件 (%1$2s)：%2$2s
 nukkit.command.plugins.usage=/plugins
 
-nukkit.command.status.description=查看伺服器性能
+nukkit.command.status.description=查看伺服器執行狀態
 nukkit.command.status.usage=/status
 
 nukkit.command.timings.description=查看伺服器紀錄時序
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-nukkit.command.timings.enable=啟用計時並重置
-nukkit.command.timings.disable=禁用的計時
+nukkit.command.timings.enable=啟用並重置計時
+nukkit.command.timings.disable=禁用計時
 nukkit.command.timings.timingsDisabled=請通過在上鍵入計時來啟用計時
 nukkit.command.timings.verboseEnable=啟用詳細計時
 nukkit.command.timings.verboseDisable=禁用的詳細計時
