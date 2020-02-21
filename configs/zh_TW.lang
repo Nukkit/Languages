@@ -50,7 +50,7 @@ chunk-ticking.tick-radius=玩家周圍的區塊半徑
 chunk-generation.queue-size=排程中建立的區塊數量上限
 chunk-generation.population-queue-size=排程中填充的區塊數量上限
 
-spawn-limits=實體的數量上限
+spawn-limits=實體數量上限
 
 player.save-player-data.1=如果為 true ，玩家資料將存於 players/playername.dat
 player.save-player-data.2=如果為 false ，Nukkit 將不會將玩家資料存為 ". dat" 檔案，以便插件執行其他操作
