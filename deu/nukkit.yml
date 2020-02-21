@@ -117,8 +117,13 @@ aliases:
  #savestop: [save-all, stop]
 
 worlds:
- #Diese Einstellungen überschreiben die Einstellungen in den server.properties und erlauben mehrere Welten zu laden.
- #Beispiel:
- #world:
- # seed: 404
- # generator: FLAT:2;7,59x1,3x3,2;1;decoration(treecount=80 grasscount=45)
+ #Die Welten, die vom Server gebraucht werden. Optionen sind auf dem Generator spezifisch, und können zu unerwartetem
+ #Verhalten führen oder komplett ignoriert werden.
+ world:
+  seed: 404
+  generator: normal
+  options:
+ nether:
+  seed: my_cool_nether_seed
+  generator: nether
+  options:
