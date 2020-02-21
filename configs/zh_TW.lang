@@ -1,6 +1,6 @@
 header.1=Nukkit 進階設定
 header.2=有些設定是安全的，而在設定不當的情況下可能會造成您的伺服器損壞
-header.3=更新後，新的設定及預設值將不會自動顯示於此
+header.3=更新後，新的設定及預設值將不會自動在此更新
 
 settings.language=多語言設定
 settings.force-language=伺服器強制統一語言，或依照用戶端設定
@@ -54,7 +54,7 @@ spawn-limits=實體數量上限
 
 player.save-player-data.1=如果為 true ，玩家資料將存於 players/playername.dat
 player.save-player-data.2=如果為 false ，Nukkit 將不會將玩家資料存為 ". dat" 檔案，以便插件執行其他操作
-player.skin-change-cooldown=兩次更換皮膚的時間間隔 (以秒為單位) 。設置為 0 停用冷卻時間
+player.skin-change-cooldown=兩次更換 Skin 的時間間隔 (以秒為單位) 。設置為 0 停用冷卻時間
 
 aliases=指令別稱
 
