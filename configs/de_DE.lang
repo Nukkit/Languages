@@ -56,6 +56,6 @@ player.save-player-data.1=Wenn aktiviert, werden die Spielerdaten als Player/Pla
 player.save-player-data.2=Falls falsch, speichert nukkit die Spielerdaten nicht als "dat"-Dateien, damit Plugins etwas daran tun können.
 player.skin-change-cooldown=Die Zeit zwischen der Aktion Skin ändern in Sekunden. Setze 0, um die Abklingzeit zu deaktivieren
 
-aliases=Aliase für Befehle
+aliases=Aliasse für Befehle
 
 worlds=Diese Einstellungen werden den Generator in server.properties überschreiben und erlauben das Laden mehrerer Level
