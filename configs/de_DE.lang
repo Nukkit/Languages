@@ -1,23 +1,23 @@
 header.1=Erweiterte Konfigurationsdatei für Nukkit
-header.2=Einige dieser Einstellungen sind sicher, andere Einstellungen können Ihren Server beschädigen, wenn sie falsch geändert werden
+header.2=Einige diese Einstellungen können bedenkenlos geändert werden und wiederum andere könnten den Server beschädigen, sofern diese falsch geändert werden
 header.3=Neue Einstellungen / Standardeinstellungen werden beim Upgrade nicht automatisch in dieser Datei angezeigt
 
 settings.language=Mehrsprachige Einstellung
 settings.force-language=Gibt an, ob alle Zeichenketten in die Server-Gebietsschema übersetzt werden sollen oder ob das Gerät sie verarbeiten soll
 
-settings.shutdown-message=Nachrichten beim Stoppen des Server, die an Spieler gesendet wird, wenn der Server heruntergefahren wird
-settings.query-plugins=Erlaube das Auflisten von Plugins über Query
+settings.shutdown-message=Nachricht, welche dem Spieler angezeigt wird, nachdem der Server heruntergefahren wurde
+settings.query-plugins=Erlaube das Auflisten von Plugins über eine Query
 settings.deprecated-verbose=Zeige eine Konsolennachricht, wenn ein Plugin veraltete API-Methoden verwendet
 settings.async-workers.1=Anzahl der asynchronen Arbeiter
-settings.async-workers.2=Wenn automatisch gesetzt, wird versucht, die Anzahl der Kerne (und mindestens 4) zu erkennen
+settings.async-workers.2=Wenn auto gesetzt, dann wird versucht, die Anzahl der Kerne automatisch zu erkennen (mindestens 4)
 
 network.batch-threshold.1=Grenzwert für das Batchen von Paketen in Bytes. Nur diese Pakete werden komprimiert
 network.batch-threshold.2=Auf 0 gesetzt, um alles zu komprimieren, -1 zum Deaktivieren
 network.compression-level=Kompressionslevel für Zlib beim Senden von Batchpaketen. Höher = mehr CPU, weniger Bandbreitennutzung
 network.async-compression=AsyncTasks für Komprimierung verwenden. Fügt Halb/Ein-Tick-Verzögerung hinzu, geringere CPU-Last beim Hauptthread
 
-debug.level=Wenn > 1 wird es Debug-Meldungen in der Konsole anzeigen
-debug.commands=Aktiviert Befehle: /status /gc
+debug.level=Wenn > 1 werden Debug-Meldungen in der Konsole angezeigt
+debug.commands=Aktiviert folgende Befehle: /status, /gc
 
 timings.enabled=Core- und Plugin-Timings standardmäßig aktivieren
 timings.verbose=Ermöglicht die Beobachtung auf ausführlicher Ebene, inklusive Hochfrequenz-Timings
