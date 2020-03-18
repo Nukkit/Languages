@@ -9,28 +9,28 @@ settings.shutdown-message=伺服器關閉時，發送給玩家的訊息
 settings.query-plugins=允許使用 Query 協定查詢插件
 settings.deprecated-verbose=當插件使用不合適的 API 時於後台發送提示訊息
 settings.async-workers.1=異部線程數量
-settings.async-workers.2=如果設置為 auto ，則自動檢測 Cpu 核心數量 (至少 4 線程)
+settings.async-workers.2=如果設置為 auto ，則自動檢測核心數量 (至少 4 線程)
 
 network.batch-threshold.1=數據包大小限制（單位：位元組）。這些數據包將被壓縮
 network.batch-threshold.2=設置為 0 壓縮所有內容，設置為 -1 停用此功能
 network.compression-level=使用 Zlib 發送數據包的壓縮等級。等級越高，CPU使用率越高，佔用頻寬越少
-network.async-compression=使用異部線程進行壓縮。增加 0.5/1 tick 延遲，減少主線程上的CPU負載
+network.async-compression=使用異部線程進行壓縮。可能會增加 0.5/1 tick 延遲，但可以減少主線程上的CPU負載
 
 debug.level=如果 > 1，將會在後台顯示除錯訊息
 debug.commands=啟用指令: /status /gc
 
-timings.enabled=預設啟用核心和插件時序
-timings.verbose=啟用詳細監控，包含高頻時序
+timings.enabled=預設啟用核心和插件計時
+timings.verbose=啟用詳細監控，包含高頻計時
 timings.history-interval.1=歷史紀錄間隔
 timings.history-interval.2=預設 5 分鐘 (6000 ticks)
-timings.history-length.1=歷史紀錄的總長
+timings.history-length.1=歷史紀錄長度
 timings.history-length.2=預設 1 小時 (72000 ticks)
 timings.history-length.3=此值最大為歷史紀錄間隔 (history-interval) 的 12 倍
 timings.bypass-max.1=特殊情況下伺服器將繞過最大值
-timings.bypass-max.2=此最大值可以讓檔案大小合理，使 Aikar 的時序解析器處理更方便
+timings.bypass-max.2=此最大值可以讓檔案大小合理，使 Aikar 的計時解析器處理更方便
 timings.bypass-max.3=除非在 Aikar API 中添加例外，設置此項並不會幫助您繞過最大值
 timings.privacy=如果設置為 true ，將不會發送伺服器名稱
-timings.ignore.1=設置可忽略的部分。這些部分將不會發送到 Aikar 的時序解析器
+timings.ignore.1=設置可忽略的部分。這些部分將不會發送到 Aikar 的計時解析器
 timings.ignore.2=範例:
 
 level-settings.default-format=預設地圖格式
@@ -58,4 +58,4 @@ player.skin-change-cooldown=兩次更換 Skin 的時間間隔 (以秒為單位) 
 
 aliases=指令別稱
 
-worlds=這些設定將覆蓋 server.properties 中的生成器設置， 並可以設置多個世界
+worlds=這些設定將覆蓋 server.properties 中的世界生成器設置， 並可以設置多個世界
