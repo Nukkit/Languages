@@ -1,6 +1,6 @@
 header.1=Nukkit의 고급 구성 파일입니다.
 header.2=이들 중 일부 설정은 안전하지만, 다른 몇몇은 잘못 수정할 경우 서버를 망가뜨릴 수 있습니다.
-header.3=New settings/defaults won't appear automatically on this file when upgrading
+header.3=새로운 설정/기본값은 업그레이드해도 이 파일에 자동으로 나오지 않습니다.
 
 settings.language=다국어 설정
 settings.force-language=Whether to send all strings translated to server locale or let the device handle them
