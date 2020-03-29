@@ -1,4 +1,4 @@
-header.1=Advanced configuration file for Nukkit
+header.1=Nukkit의 고급 구성 파일입니다.
 header.2=Some of these settings are safe, others can break your server if modified incorrectly
 header.3=New settings/defaults won't appear automatically on this file when upgrading
 
