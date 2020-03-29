@@ -9,7 +9,7 @@ settings.shutdown-message=서버가 중지되었을 때 플레이어에게 전�
 settings.query-plugins=Query를 사용해서 플러그인을 나열하는 것을 허용합니다.
 settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
 settings.async-workers.1=Number of asynchronous workers
-settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
+settings.async-workers.2=만약에 auto로 설정하면, 코어 개수를 감지하려고 합니다. (최소 4개)
 
 network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
 network.batch-threshold.2=모두 압축하려면 0으로 설정하고, 비활성화하려면 -1로 설정하세요.
