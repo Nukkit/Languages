@@ -6,7 +6,7 @@ settings.language=Multi-language setting
 settings.force-language=Whether to send all strings translated to server locale or let the device handle them
 
 settings.shutdown-message=Disconnect message sent to players when the server is shutdown
-settings.query-plugins=Allow listing plugins via Query
+settings.query-plugins=Query를 사용해서 플러그인을 나열하는 것을 허용합니다.
 settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
 settings.async-workers.1=Number of asynchronous workers
 settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
@@ -17,14 +17,14 @@ network.compression-level=Compression level used of Zlib when sending batched pa
 network.async-compression=Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
 
 debug.level=If > 1, it will show debug messages in the console
-debug.commands=Enables commands: /status /gc
+debug.commands=명령어 활성화: /status /gc
 
 timings.enabled=Enable core and plugin timings by default
 timings.verbose=Enable monitoring at verbose level, include high-frequency timings
 timings.history-interval.1=Interval between history frames in ticks
-timings.history-interval.2=Default is 5 minutes (6000 ticks)
+timings.history-interval.2=기본값은 5분입니다. (6000틱)
 timings.history-length.1=Length of the whole timing history in ticks
-timings.history-length.2=Default is 1 hour (72000 ticks)
+timings.history-length.2=기본값은 1시간입니다. (72000틱)
 timings.history-length.3=This value is capped at a maximum of history-interval * 12
 timings.bypass-max.1=For special cases of servers with special permission to bypass the max
 timings.bypass-max.2=This max helps keep data file sizes reasonable for processing on Aikar's Timing parser side
@@ -52,8 +52,8 @@ chunk-generation.population-queue-size=Max. amount of chunks in the waiting queu
 
 spawn-limits=Max amount of these entities
 
-player.save-player-data.1=If true, player data will be saved as players/playername.dat
-player.save-player-data.2=If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
+player.save-player-data.1=만약에 true면, 플레이어 데이터가 players/playername.dat로 저장됩니다.
+player.save-player-data.2=만약에 false면, nukkit은 플레이어 데이터를 "dat" 파일로 저장하지 않고, 플러그인이 그것에 무언가를 할 수 있도록 합니다.
 player.skin-change-cooldown=The time between skin change action in seconds. Set 0 to disable the cooldown
 
 aliases=Aliases for commands
