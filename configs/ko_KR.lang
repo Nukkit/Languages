@@ -2,7 +2,7 @@ header.1=Advanced configuration file for Nukkit
 header.2=Some of these settings are safe, others can break your server if modified incorrectly
 header.3=New settings/defaults won't appear automatically on this file when upgrading
 
-settings.language=Multi-language setting
+settings.language=다국어 설정
 settings.force-language=Whether to send all strings translated to server locale or let the device handle them
 
 settings.shutdown-message=Disconnect message sent to players when the server is shutdown
@@ -50,12 +50,12 @@ chunk-ticking.tick-radius=Radius of chunks around a player to tick
 chunk-generation.queue-size=Max. amount of chunks in the waiting queue to be generated
 chunk-generation.population-queue-size=Max. amount of chunks in the waiting queue to be populated
 
-spawn-limits=Max amount of these entities
+spawn-limits=이 엔티티의 최대량
 
 player.save-player-data.1=만약에 true면, 플레이어 데이터가 players/playername.dat로 저장됩니다.
 player.save-player-data.2=만약에 false면, nukkit은 플레이어 데이터를 "dat" 파일로 저장하지 않고, 플러그인이 그것에 무언가를 할 수 있도록 합니다.
-player.skin-change-cooldown=The time between skin change action in seconds. Set 0 to disable the cooldown
+player.skin-change-cooldown=스킨을 변경하고 나서 다음 변경까지의 대기 시간(초)입니다. 대기를 비활성화하려면 0으로 설정하세요.
 
-aliases=Aliases for commands
+aliases=명령어의 별칭
 
-worlds=These settings will override the generator set in server.properties and allows loading multiple levels
+worlds=이 설정은 server.properties의 생성기를 덮어쓰며 여러 개의 레벨을 불러오는 것을 허용합니다.
