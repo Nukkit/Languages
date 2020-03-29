@@ -5,18 +5,18 @@ header.3=새로운 설정/기본값은 업그레이드해도 이 파일에 자�
 settings.language=다국어 설정
 settings.force-language=Whether to send all strings translated to server locale or let the device handle them
 
-settings.shutdown-message=Disconnect message sent to players when the server is shutdown
+settings.shutdown-message=서버가 중지되었을 때 플레이어에게 전송되는 연결 끊김 메시지입니다.
 settings.query-plugins=Query를 사용해서 플러그인을 나열하는 것을 허용합니다.
 settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
 settings.async-workers.1=Number of asynchronous workers
 settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
 
 network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
-network.batch-threshold.2=Set to 0 to compress everything, -1 to disable
+network.batch-threshold.2=모두 압축하려면 0으로 설정하고, 비활성화하려면 -1로 설정하세요.
 network.compression-level=Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
 network.async-compression=Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
 
-debug.level=If > 1, it will show debug messages in the console
+debug.level=만약 > 1이면, 콘솔에 디버그 메시지가 표시됩니다.
 debug.commands=명령어 활성화: /status /gc
 
 timings.enabled=Enable core and plugin timings by default
@@ -31,7 +31,7 @@ timings.bypass-max.2=This max helps keep data file sizes reasonable for processi
 timings.bypass-max.3=Setting this will not help you bypass the max unless Aikar has added an exception on the API side
 timings.privacy=If set to true, name of your server won't be sent
 timings.ignore.1=Settings sections to ignore. These sections won't be sent to Aikar's Timing parser
-timings.ignore.2=Example formats:
+timings.ignore.2=형식 예시:
 
 level-settings.default-format=The default format that levels will use when created
 level-settings.auto-tick-rate=Automatically change levels tick rate to maintain 20 ticks per second
