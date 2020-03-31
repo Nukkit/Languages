@@ -1,23 +1,23 @@
-header.1=Advanced configuration file for Nukkit
-header.2=Some of these settings are safe, others can break your server if modified incorrectly
-header.3=New settings/defaults won't appear automatically on this file when upgrading
+header.1=Pokročilé nastavení nukkitu
+header.2=Nekterá z těchto nastavení jsou bezpečná. Jiná ovšem mohou způsobit nesprávné fungování serveru v případě špatného nastavení
+header.3=V případě upgradu serveru se do tohoto souboru nové možnosti nastavení automaticky nepřidají
 
-settings.language=Multi-language setting
-settings.force-language=Whether to send all strings translated to server locale or let the device handle them
+settings.language=Vícejazyčné nastavení
+settings.force-language=Zda se mají veškeré zprávy posílat v jazyku serveru, nebo být přeloženy zařízením hráče
 
-settings.shutdown-message=Disconnect message sent to players when the server is shutdown
-settings.query-plugins=Allow listing plugins via Query
-settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
-settings.async-workers.1=Number of asynchronous workers
-settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
+settings.shutdown-message=Zpráva odeslaná hráčům při vypnutí serveru
+settings.query-plugins=Povolit výpis pluginů zkrze Query
+settings.deprecated-verbose=Upozornit v konzoli pokud plugin využívá zastaralé části API
+settings.async-workers.1=Počet asynchronních vláken
+settings.async-workers.2=Pokud je nastaveno na auto, pokusí se automaticky detekovat počet jader (alespoň 4)
 
-network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
-network.batch-threshold.2=Set to 0 to compress everything, -1 to disable
-network.compression-level=Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
-network.async-compression=Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
+network.batch-threshold.1=Hranice pro balení paketů v bytech. Pouze tyto pakety budou komprimovány
+network.batch-threshold.2=Nastavte na 0 pro kompresi všeho. -1 pro vypnutí
+network.compression-level=Úroveň komprese Zlib při odesílání paketů. Vyšší hodnota = větší zátěž procesoru, ale menší nároky na využití sítě
+network.async-compression=Provádět kompresi asynchronně. Zvýší odezvu o 1/2 herního tiku, ale sníží využití CPU na hlavním vlákně
 
-debug.level=If > 1, it will show debug messages in the console
-debug.commands=Enables commands: /status /gc
+debug.level=Pokud > 1, zapne se výpis zpráv určených pro ladění
+debug.commands=Povolí příkazy: /status /gc
 
 timings.enabled=Enable core and plugin timings by default
 timings.verbose=Enable monitoring at verbose level, include high-frequency timings
