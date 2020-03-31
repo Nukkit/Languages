@@ -1,30 +1,30 @@
-header.1=Nukkit용 고급 구성 파일
-header.2=이들 중 일부 설정은 안전하지만, 다른 몇몇은 잘못 수정할 경우 서버를 망가뜨릴 수 있습니다.
-header.3=새로운 설정/기본값은 업그레이드해도 이 파일에 자동으로 나오지 않습니다.
+header.1=Nukkit의 고급 구성 파일
+header.2=이 설정들 중 일부는 안전하지만, 다른 것들은 잘못 수정되면 서버를 미작동하게 할 수 있습니다
+header.3=새로운 설정/기본값은 업그레이드할 때 이 파일에 자동으로 나타나지 않습니다
 
 settings.language=다국어 설정
 settings.force-language=Whether to send all strings translated to server locale or let the device handle them
 
-settings.shutdown-message=서버가 중지되었을 때 플레이어에게 전송되는 연결 끊김 메시지입니다.
-settings.query-plugins=Query를 사용해서 플러그인을 나열하는 것을 허용합니다.
+settings.shutdown-message=서버가 종료되었을 때 플레이어에게 전송되는 연결 끊김 메시지
+settings.query-plugins=Query를 통한 플러그인 나열 허용
 settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
 settings.async-workers.1=Number of asynchronous workers
-settings.async-workers.2=만약에 auto로 설정하면, 코어 개수를 감지하려고 합니다. (최소 4개)
+settings.async-workers.2=auto로 설정하면 자동으로 코어의 개수를 감지하려고 시도합니다(최소 4개)
 
 network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
-network.batch-threshold.2=모두 압축하려면 0으로 설정하고, 비활성화하려면 -1로 설정하세요.
+network.batch-threshold.2=모두 압축하려면 0으로 설정하고, 비활성화하려면 -1으로 설정합니다
 network.compression-level=Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
 network.async-compression=Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
 
-debug.level=만약 > 1이면, 콘솔에 디버그 메시지가 표시됩니다.
+debug.level=> 1이면 콘솔에 디버그 메시지를 표시합니다
 debug.commands=명령어 활성화: /status /gc
 
 timings.enabled=Enable core and plugin timings by default
 timings.verbose=Enable monitoring at verbose level, include high-frequency timings
 timings.history-interval.1=Interval between history frames in ticks
-timings.history-interval.2=기본값은 5분입니다. (6000틱)
+timings.history-interval.2=기본값은 5분(6000틱)입니다
 timings.history-length.1=Length of the whole timing history in ticks
-timings.history-length.2=기본값은 1시간입니다. (72000틱)
+timings.history-length.2=기본값은 1시간(72000틱)입니다
 timings.history-length.3=This value is capped at a maximum of history-interval * 12
 timings.bypass-max.1=For special cases of servers with special permission to bypass the max
 timings.bypass-max.2=This max helps keep data file sizes reasonable for processing on Aikar's Timing parser side
@@ -50,11 +50,11 @@ chunk-ticking.tick-radius=Radius of chunks around a player to tick
 chunk-generation.queue-size=Max. amount of chunks in the waiting queue to be generated
 chunk-generation.population-queue-size=Max. amount of chunks in the waiting queue to be populated
 
-spawn-limits=이 엔티티의 최대량
+spawn-limits=이 개체들의 최대량
 
-player.save-player-data.1=만약에 true면, 플레이어 데이터가 players/playername.dat로 저장됩니다.
+player.save-player-data.1=true이면 플레이어 데이터가 players/플레이어 이름.dat으로 저장됩니다
 player.save-player-data.2=만약에 false면, nukkit은 플레이어 데이터를 "dat" 파일로 저장하지 않고, 플러그인이 그것에 무언가를 할 수 있도록 합니다.
-player.skin-change-cooldown=스킨을 변경하고 나서 다음 변경까지의 대기 시간(초)입니다. 대기를 비활성화하려면 0으로 설정하세요.
+player.skin-change-cooldown=스킨 변경 작업 간의 시간(초)입니다. 대기 시간을 비활성화하려면 0으로 설정합니다
 
 aliases=명령어의 별칭
 
