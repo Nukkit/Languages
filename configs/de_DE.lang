@@ -1,61 +1,61 @@
-header.1=Advanced configuration file for Nukkit
-header.2=Some of these settings are safe, others can break your server if modified incorrectly
-header.3=New settings/defaults won't appear automatically on this file when upgrading
+header.1=Erweiterte Konfigurationsdatei für Nukkit
+header.2=Einige diese Einstellungen können bedenkenlos geändert werden und wiederum andere könnten den Server beschädigen, sofern diese falsch geändert werden
+header.3=Neue Einstellungen / Standardeinstellungen werden beim Upgrade nicht automatisch in dieser Datei angezeigt
 
-settings.language=Multi-language setting
-settings.force-language=Whether to send all strings translated to server locale or let the device handle them
+settings.language=Mehrsprachige Einstellung
+settings.force-language=Gibt an, ob alle Zeichenketten in die Server-Gebietsschema übersetzt werden sollen oder ob das Gerät sie verarbeiten soll
 
-settings.shutdown-message=Disconnect message sent to players when the server is shutdown
-settings.query-plugins=Allow listing plugins via Query
-settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
-settings.async-workers.1=Number of asynchronous workers
-settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
+settings.shutdown-message=Nachricht, welche dem Spieler angezeigt wird, nachdem der Server heruntergefahren wurde
+settings.query-plugins=Erlaube das Auflisten von Plugins über eine Query
+settings.deprecated-verbose=Zeige eine Konsolennachricht, wenn ein Plugin veraltete API-Methoden verwendet
+settings.async-workers.1=Anzahl der asynchronen Arbeiter
+settings.async-workers.2=Wenn auto gesetzt, dann wird versucht, die Anzahl der Kerne automatisch zu erkennen (mindestens 4)
 
-network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
-network.batch-threshold.2=Set to 0 to compress everything, -1 to disable
-network.compression-level=Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
-network.async-compression=Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
+network.batch-threshold.1=Grenzwert für das Batchen von Paketen in Bytes. Nur diese Pakete werden komprimiert
+network.batch-threshold.2=Auf 0 gesetzt, um alles zu komprimieren, -1 zum Deaktivieren
+network.compression-level=Kompressionslevel für Zlib beim Senden von Batchpaketen. Höher = mehr CPU, weniger Bandbreitennutzung
+network.async-compression=AsyncTasks für Komprimierung verwenden. Fügt Halb/Ein-Tick-Verzögerung hinzu, geringere CPU-Last beim Hauptthread
 
-debug.level=If > 1, it will show debug messages in the console
-debug.commands=Enables commands: /status /gc
+debug.level=Wenn > 1 werden Debug-Meldungen in der Konsole angezeigt
+debug.commands=Aktiviert folgende Befehle: /status, /gc
 
-timings.enabled=Enable core and plugin timings by default
-timings.verbose=Enable monitoring at verbose level, include high-frequency timings
-timings.history-interval.1=Interval between history frames in ticks
-timings.history-interval.2=Default is 5 minutes (6000 ticks)
-timings.history-length.1=Length of the whole timing history in ticks
-timings.history-length.2=Default is 1 hour (72000 ticks)
-timings.history-length.3=This value is capped at a maximum of history-interval * 12
-timings.bypass-max.1=For special cases of servers with special permission to bypass the max
-timings.bypass-max.2=This max helps keep data file sizes reasonable for processing on Aikar's Timing parser side
-timings.bypass-max.3=Setting this will not help you bypass the max unless Aikar has added an exception on the API side
-timings.privacy=If set to true, name of your server won't be sent
-timings.ignore.1=Settings sections to ignore. These sections won't be sent to Aikar's Timing parser
-timings.ignore.2=Example formats:
+timings.enabled=Core- und Plugin-Timings standardmäßig aktivieren
+timings.verbose=Ermöglicht die Beobachtung auf ausführlicher Ebene, inklusive Hochfrequenz-Timings
+timings.history-interval.1=Intervall zwischen Verlauf Rahmen in Ticks
+timings.history-interval.2=Standard ist 5 Minuten (6000 Ticks)
+timings.history-length.1=Länge der gesamten Chronik in Ticks
+timings.history-length.2=Standard ist 1 Stunde (72000 Ticks)
+timings.history-length.3=Dieser Wert ist auf ein Maximum an Verlaufsintervall * 12 beschränkt
+timings.bypass-max.1=Für spezielle Fälle von Servern mit besonderer Berechtigung, das Maximum zu umgehen
+timings.bypass-max.2=Dieses Maximum hilft, die Dateigrößen für die Verarbeitung auf Aikars Timing-Parser-Seite angemessen zu halten
+timings.bypass-max.3=Diese Einstellung hilft dir nicht das Maximum zu umgehen, es sei denn, Aikar hat eine Ausnahme auf der API-Seite hinzugefügt
+timings.privacy=Wenn auf "true" gesetzt, wird der Name Ihres Servers nicht gesendet
+timings.ignore.1=Zu ignorierende Einstellungsbereiche. Diese Abschnitte werden nicht an Aikars Timing-Parser gesendet
+timings.ignore.2=Beispielformate:
 
-level-settings.default-format=The default format that levels will use when created
-level-settings.auto-tick-rate=Automatically change levels tick rate to maintain 20 ticks per second
-level-settings.base-tick-rate=Sets the base tick rate (1 = 20 ticks per second, 2 = 10 ticks per second, etc.)
-level-settings.always-tick-players=Tick all players each tick even when other settings disallow this
+level-settings.default-format=Das Standardformat, das Level beim Erstellen verwenden wird
+level-settings.auto-tick-rate=Level Tickrate automatisch ändern, um 20 Ticks pro Sekunde zu erhalten
+level-settings.base-tick-rate=Legt die Basis-Tick-Rate fest (1 = 20 Ticks pro Sekunde, 2 = 10 Ticks pro Sekunde, etc.)
+level-settings.always-tick-players=Tick alle Spieler jeden Tick, auch wenn andere Einstellungen dies nicht zulassen
 
-chunk-sending.per-tick=Amount of chunks sent to players per tick
-chunk-sending.max-chunks=Amount of chunks sent around each player
-chunk-sending.spawn-threshold=Amount of chunks that need to be sent before spawning the player
-chunk-sending.cache-chunks.1=Save a serialized copy of the chunk in memory for faster sending
-chunk-sending.cache-chunks.2=Useful in mostly-static worlds where lots of players join at the same time
+chunk-sending.per-tick=Anzahl an Chunks, die pro Ticker an Spieler gesendet werden
+chunk-sending.max-chunks=Anzahl an Chunks, die um jeden Spieler gesendet werden
+chunk-sending.spawn-threshold=Anzahl der Chunks, die vor dem Laichen des Spielers gesendet werden müssen
+chunk-sending.cache-chunks.1=Speichern Sie eine serialisierte Kopie des Chunks im Speicher für schnelleres Senden
+chunk-sending.cache-chunks.2=Nützlich in größtenteils statischen Welten, in denen viele Spieler gleichzeitig beitreten
 
-chunk-ticking.per-tick=Max amount of chunks processed each tick
-chunk-ticking.tick-radius=Radius of chunks around a player to tick
+chunk-ticking.per-tick=Maximale Anzahl an Chunks die pro Tick verarbeitet werden
+chunk-ticking.tick-radius=Radius der Chunks um einen Spieler zu markieren
 
-chunk-generation.queue-size=Max. amount of chunks in the waiting queue to be generated
-chunk-generation.population-queue-size=Max. amount of chunks in the waiting queue to be populated
+chunk-generation.queue-size=Max. Anzahl der Chunks in der Warteschlange, die erzeugt werden soll
+chunk-generation.population-queue-size=Max. Anzahl an Chunks in der Warteschlange, die besetzt werden sollen
 
-spawn-limits=Max amount of these entities
+spawn-limits=Maximaler Betrag dieser Entitys
 
-player.save-player-data.1=If true, player data will be saved as players/playername.dat
-player.save-player-data.2=If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
-player.skin-change-cooldown=The time between skin change action in seconds. Set 0 to disable the cooldown
+player.save-player-data.1=Wenn aktiviert, werden die Spielerdaten als Player/Playername.dat gespeichert
+player.save-player-data.2=Falls falsch, speichert nukkit die Spielerdaten nicht als "dat"-Dateien, damit Plugins etwas daran tun können.
+player.skin-change-cooldown=Die Zeit zwischen der Aktion Skin ändern in Sekunden. Setze 0, um die Abklingzeit zu deaktivieren
 
-aliases=Aliases for commands
+aliases=Aliasse für Befehle
 
-worlds=These settings will override the generator set in server.properties and allows loading multiple levels
+worlds=Diese Einstellungen werden den Generator in server.properties überschreiben und erlauben das Laden mehrerer Level

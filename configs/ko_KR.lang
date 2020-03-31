@@ -1,37 +1,37 @@
-header.1=Advanced configuration file for Nukkit
-header.2=Some of these settings are safe, others can break your server if modified incorrectly
-header.3=New settings/defaults won't appear automatically on this file when upgrading
+header.1=Nukkit의 고급 구성 파일
+header.2=이 설정들 중 일부는 안전하지만, 다른 것들은 잘못 수정되면 서버를 미작동하게 할 수 있습니다
+header.3=새로운 설정/기본값은 업그레이드할 때 이 파일에 자동으로 나타나지 않습니다
 
-settings.language=Multi-language setting
+settings.language=다국어 설정
 settings.force-language=Whether to send all strings translated to server locale or let the device handle them
 
-settings.shutdown-message=Disconnect message sent to players when the server is shutdown
-settings.query-plugins=Allow listing plugins via Query
+settings.shutdown-message=서버가 종료되었을 때 플레이어에게 전송되는 연결 끊김 메시지
+settings.query-plugins=Query를 통한 플러그인 나열 허용
 settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
 settings.async-workers.1=Number of asynchronous workers
-settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
+settings.async-workers.2=auto로 설정하면 자동으로 코어의 개수를 감지하려고 시도합니다(최소 4개)
 
 network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
-network.batch-threshold.2=Set to 0 to compress everything, -1 to disable
+network.batch-threshold.2=모두 압축하려면 0으로 설정하고, 비활성화하려면 -1으로 설정합니다
 network.compression-level=Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
 network.async-compression=Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
 
-debug.level=If > 1, it will show debug messages in the console
-debug.commands=Enables commands: /status /gc
+debug.level=> 1이면 콘솔에 디버그 메시지를 표시합니다
+debug.commands=명령어 활성화: /status /gc
 
 timings.enabled=Enable core and plugin timings by default
 timings.verbose=Enable monitoring at verbose level, include high-frequency timings
 timings.history-interval.1=Interval between history frames in ticks
-timings.history-interval.2=Default is 5 minutes (6000 ticks)
+timings.history-interval.2=기본값은 5분(6000틱)입니다
 timings.history-length.1=Length of the whole timing history in ticks
-timings.history-length.2=Default is 1 hour (72000 ticks)
+timings.history-length.2=기본값은 1시간(72000틱)입니다
 timings.history-length.3=This value is capped at a maximum of history-interval * 12
 timings.bypass-max.1=For special cases of servers with special permission to bypass the max
 timings.bypass-max.2=This max helps keep data file sizes reasonable for processing on Aikar's Timing parser side
 timings.bypass-max.3=Setting this will not help you bypass the max unless Aikar has added an exception on the API side
 timings.privacy=If set to true, name of your server won't be sent
 timings.ignore.1=Settings sections to ignore. These sections won't be sent to Aikar's Timing parser
-timings.ignore.2=Example formats:
+timings.ignore.2=형식 예시:
 
 level-settings.default-format=The default format that levels will use when created
 level-settings.auto-tick-rate=Automatically change levels tick rate to maintain 20 ticks per second
@@ -50,12 +50,12 @@ chunk-ticking.tick-radius=Radius of chunks around a player to tick
 chunk-generation.queue-size=Max. amount of chunks in the waiting queue to be generated
 chunk-generation.population-queue-size=Max. amount of chunks in the waiting queue to be populated
 
-spawn-limits=Max amount of these entities
+spawn-limits=이 개체들의 최대량
 
-player.save-player-data.1=If true, player data will be saved as players/playername.dat
-player.save-player-data.2=If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
-player.skin-change-cooldown=The time between skin change action in seconds. Set 0 to disable the cooldown
+player.save-player-data.1=true이면 플레이어 데이터가 players/플레이어 이름.dat으로 저장됩니다
+player.save-player-data.2=만약에 false면, nukkit은 플레이어 데이터를 "dat" 파일로 저장하지 않고, 플러그인이 그것에 무언가를 할 수 있도록 합니다.
+player.skin-change-cooldown=스킨 변경 작업 간의 시간(초)입니다. 대기 시간을 비활성화하려면 0으로 설정합니다
 
-aliases=Aliases for commands
+aliases=명령어의 별칭
 
-worlds=These settings will override the generator set in server.properties and allows loading multiple levels
+worlds=이 설정은 server.properties의 생성기를 덮어쓰며 여러 개의 레벨을 불러오는 것을 허용합니다.

@@ -4,109 +4,109 @@
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-nukkit.language.selected=選擇 %1$2s 作為預設區域設置。
+nukkit.language.selected=選擇 %1$2s 作為預設語言。
 
-nukkit.data.playerNotFound=找不到 "%1$2s" 的玩家資料，正在建立新的設定檔
-nukkit.data.playerCorrupted=玩家 "%1$2s" 的資料已損壞, 創建新的設定檔
+nukkit.data.playerNotFound=找不到玩家 "%1$2s" 的資料，正在建立新的設定檔
+nukkit.data.playerCorrupted=玩家 "%1$2s" 的資料已損壞, 正在建立新的設定檔
 nukkit.data.playerOld=找到舊的玩家資料 "%1$2s"，正在升級設定檔
-nukkit.data.saveError=無法保存玩家 "%1$2s"：%2$2s
+nukkit.data.saveError=無法儲存玩家 "%1$2s" 的資料：%2$2s
 
 nukkit.level.notFound=找不到世界 "%1$2s"
 nukkit.level.loadError=無法載入世界 "%1$2s"：%2$2s
-nukkit.level.generationError=無法生成世界 "%1$2s"：%2$2s
+nukkit.level.generationError=無法建立世界 "%1$2s"：%2$2s
 nukkit.level.tickError=計算地圖 "%1$2s" 時出現錯誤︰%2$2s
 nukkit.level.chunkUnloadError=卸載區塊出錯：%1$2s
-nukkit.level.backgroundGeneration=正在於背景生成世界 "%1$2s" 的地形
-nukkit.level.defaultError=尚未載入預設級別
-nukkit.level.preparing=準備地圖 "%1$2s" 中
+nukkit.level.backgroundGeneration=正在於後台建立世界 "%1$2s" 的地形
+nukkit.level.defaultError=尚未載入預設地圖
+nukkit.level.preparing=正在準備地圖 "%1$2s"
 nukkit.level.unloading=正在移除地圖 "%1$2s"
 nukkit.level.updating=發現舊的地圖 "%1$2s"，正在轉換格式
 
-nukkit.server.start=正在啟動支援 Minecraft: BE %1$2s 版本的伺服器
-nukkit.server.networkError=[網路] 停止介面 %1$2s 由於 %2$2s
-nukkit.server.networkStart=正在啟動伺服器在 %1$2s:%2$2s
-nukkit.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
-nukkit.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
+nukkit.server.start=正在啟動支援 Minecraft: Bedrock Edition %1$2s 版本的伺服器
+nukkit.server.networkError=[Network] 由於 %2$2s ，%1$2s 中斷連接
+nukkit.server.networkStart=正在啟動伺服器於 %1$2s:%2$2s
+nukkit.server.info=此伺服器正在執行 %1$2s %2$2s 版本 "%3$2s" (API %4$2s)
+nukkit.server.info.extended=此伺服器正在執行 %1$2s %2$2s API 版本 %3$2s 支援 Minecraft: Bedrock Edition %4$2s (協議版本 %5$2s)
 nukkit.server.license=%1$2s 根據 GPL 許可發行
-nukkit.server.tickOverload=跟不上！伺服器是否超載？
-nukkit.server.startFinished=讀取完成 (%1$2ss)！如需幫助，請輸入 "help" 或 "?"
-nukkit.server.defaultGameMode=預設的遊戲類型：%1$2s
+nukkit.server.tickOverload=注意！伺服器是否超載？
+nukkit.server.startFinished=啟動完成 (%1$2ss)！如需幫助，請輸入 "help" 或 "?"
+nukkit.server.defaultGameMode=預設遊戲模式：%1$2s
 nukkit.server.query.start=啟動 GS4 狀態監聽器
-nukkit.server.query.info=設定 query 介面到 %1$2s
-nukkit.server.query.running=Query 運作在 %1$2s:%2$2s
+nukkit.server.query.info=設定 query 端口為 %1$2s
+nukkit.server.query.running=Query 執行於 %1$2s:%2$2s
 nukkit.server.rcon.emptyPasswordError=無法啟動 RCON：密碼為空
 nukkit.server.rcon.startupError=無法啟動 RCON：%1$2s
-nukkit.server.rcon.running=RCON 正在運行於 %1$2s:%2$2s
+nukkit.server.rcon.running=RCON 執行於 %1$2s:%2$2s
 
-nukkit.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
-nukkit.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
-nukkit.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
+nukkit.command.alias.illegal=無法註冊別名 %1$2s ，因為它包含非法字符
+nukkit.command.alias.notFound=無法註冊別名 %1$2s ，因為它包含不存在的指令: %2$2s
+nukkit.command.exception=%2$2s 執行指令 %1$2s 時，出現了未處理的錯誤: %3$2s
 
-nukkit.command.version.description=Gets the version of this server including any plugins in use
+nukkit.command.version.description=獲得此伺服器和其使用的插件的版本
 nukkit.command.version.usage=/version [插件名稱]
-nukkit.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
-nukkit.command.version.plugin=%1$2s running version %1$2s
-nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
+nukkit.command.version.server=此伺服器正在執行 %1$2s 版本 %2$2s (MC: %3$2s) (API 版本 %4$2s)
+nukkit.command.version.plugin=%1$2s 正在執行 %1$2s 版本
+nukkit.command.version.noSuchPlugin=此伺服器並沒有執行任何此名稱的插件。 使用 /plugins 取得插件列表
 
-nukkit.command.plugins.description=Gets a list of plugins running on the server
+nukkit.command.plugins.description=取得伺服器正在執行的插件列表
 nukkit.command.plugins.success=插件 (%1$2s)：%2$2s
 nukkit.command.plugins.usage=/plugins
 
-nukkit.command.status.description=Reads back the server's performance.
+nukkit.command.status.description=查看伺服器執行狀態
 nukkit.command.status.usage=/status
 
-nukkit.command.timings.description=Records timings to see performance of the server.
+nukkit.command.timings.description=查看伺服器計時紀錄
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-nukkit.command.timings.enable=啟用計時並重置
-nukkit.command.timings.disable=禁用的計時
-nukkit.command.timings.timingsDisabled=請通過在上鍵入計時來啟用計時
+nukkit.command.timings.enable=啟用並重置計時
+nukkit.command.timings.disable=禁用計時
+nukkit.command.timings.timingsDisabled=請輸入 /timings on 啟用計時
 nukkit.command.timings.verboseEnable=啟用詳細計時
-nukkit.command.timings.verboseDisable=禁用的詳細計時
-nukkit.command.timings.reset=Timings reset
-nukkit.command.timings.rcon=Warning: Timings report done over RCON will cause lag spikes, you should use /timings report in game or console
-nukkit.command.timings.uploadStart=Preparing timings report...
-nukkit.command.timings.uploadError=Upload Error: %1$2s: %2$2s, check logs for more information
-nukkit.command.timings.reportError=An error happened while pasting the report, check logs for more information
-nukkit.command.timings.timingsLocation=View timings report: %1$2s
-nukkit.command.timings.timingsResponse=Timings response: %1$2s
-nukkit.command.timings.timingsWrite=Timings written to %1$2s
+nukkit.command.timings.verboseDisable=禁用詳細計時
+nukkit.command.timings.reset=重置計時
+nukkit.command.timings.rcon=警告: 通過 RCON 完成的計時報告會導致大量延遲，您應該在後台或是遊戲中執行 /timings report
+nukkit.command.timings.uploadStart=準備計時報告中...
+nukkit.command.timings.uploadError=上傳錯誤: %1$2s:%2$2s， 請檢查日誌獲得更多訊息
+nukkit.command.timings.reportError=貼上報告時發生錯誤， 請檢查日誌獲得更多訊息
+nukkit.command.timings.timingsLocation=查看計時報告: %1$2s
+nukkit.command.timings.timingsResponse=計時回應: %1$2s
+nukkit.command.timings.timingsWrite=計時寫入 %1$2s
 
-nukkit.crash.create=發生了不可恢復的錯誤，伺服器崩潰。創建崩潰轉儲
-nukkit.crash.error=無法創建崩潰轉儲：%1$2s
-nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
-nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
+nukkit.crash.create=一個不可恢復的錯誤導致伺服器崩潰。正在建立錯誤報告
+nukkit.crash.error=無法建立錯誤報告：%1$2s
+nukkit.crash.submit=請上傳錯誤報告檔案 "%1$2s" ， 並將連結提交至錯誤報告反映頁面。請盡量提供詳細資訊。
+nukkit.crash.archive=錯誤報告已自動上傳。 您可以在 %1$2s 查看， 或使用 ID #%2$2s。
 
 nukkit.debug.enable=啟用 LevelDB 支援
 
-nukkit.bugreport.create=An error has been detected, creating a bug report.
-nukkit.bugreport.error=Could not create bug report: %1$2s
-nukkit.bugreport.archive=A bug report has been created: %1$2s
+nukkit.bugreport.create=偵測到一個錯誤， 正在建立錯誤報告。
+nukkit.bugreport.error=無法建立錯誤報告: %1$2s
+nukkit.bugreport.archive=錯誤報告已建立: %1$2s
 
 nukkit.player.invalidMove=%1$2s 行動可疑！
-nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, %8$2s)
-nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
-nukkit.player.invalidEntity=%1$2s tried to attack an invalid entity
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] 登入遊戲，實體 ID %4$2s ，座標 (%5$2s, %6$2s, %7$2s, %8$2s)
+nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] 登出遊戲， 原因: %4$2s
+nukkit.player.invalidEntity=%1$2s 嘗試攻擊一個無效的實體
 
-nukkit.plugin.load=讀取 %1$2s 中
-nukkit.plugin.restrictedName=限制的名稱
+nukkit.plugin.load=載入 %1$2s 中
+nukkit.plugin.restrictedName=受限的名稱
 nukkit.plugin.incompatibleAPI=不相容的 API 版本
-nukkit.plugin.unknownDependency=本插件無法單獨使用
-nukkit.plugin.circularDependency=檢測到迴圈依賴關係
-nukkit.plugin.genericLoadError=Could not load plugin '%1$2s'
-nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' uses spaces in its name, this is discouraged
-nukkit.plugin.loadError=Could not load plugin '%1$2s': %2$2s
-nukkit.plugin.duplicateError=Could not load plugin '%1$2s': plugin exists
-nukkit.plugin.fileError=Could not load '%1$2s' in folder '%2$2s': %3$2s
-nukkit.plugin.commandError=Could not load command %1$2s for plugin %2$2s
-nukkit.plugin.aliasError=Could not load alias %1$2s for plugin %2$2s
-nukkit.plugin.deprecatedEvent=Plugin '%1$2s' has registered a listener for '%2$2s' on method '%3$2s', but the event is Deprecated.
-nukkit.plugin.eventError=Could not pass event '%1$2s' to '%2$2s': %3$2s on %4$2s
+nukkit.plugin.unknownDependency=未知的依賴
+nukkit.plugin.circularDependency=檢測到迴圈依賴
+nukkit.plugin.genericLoadError=無法載入插件 "%1$2s"
+nukkit.plugin.spacesDiscouraged=插件 "%1$2s" 名稱中包含空格，不建議這樣命名
+nukkit.plugin.loadError=無法載入插件 "%1$2s": %2$2s
+nukkit.plugin.duplicateError=無法載入插件 "%1$2s": 已有相同插件
+nukkit.plugin.fileError=無法載入資料夾 "%1$2s" 中的 "%2$2s": %3$2s
+nukkit.plugin.commandError=無法載入插件 %2$2s 的指令 %1$2s
+nukkit.plugin.aliasError=無法載入插件 %2$2s 的別名 %1$2s
+nukkit.plugin.deprecatedEvent=插件 "%1$2s" 已在 "%3$2s" 方法中註冊一個用於 "%2$2s" 的監聽器， 但該事件已過時
+nukkit.plugin.eventError=無法處理事件 "%1$2s" 至 "%2$2s": %3$2s 於 %4$2s
 
-nukkit.resources.invalid-path=Resource packs path '%1$2s' exists and is not a directory
-nukkit.resources.unknown-format=Could not load '%1$2s' due to format not recognized
-nukkit.resources.fail=Could not load '%1$2s': %2$2s
-nukkit.resources.success=成功加載%1$2s資源包！
-nukkit.resources.zip.not-found=文件'%1$2s'無法被找到
-nukkit.resources.zip.no-manifest='manifest.json' 找不到
-nukkit.resources.zip.invalid-manifest='manifest.json'無效或不完整
+nukkit.resources.invalid-path=資源包路徑 "%1$2s" 存在， 但不是個目錄
+nukkit.resources.unknown-format=無法載入 "%1$2s" ， 無法辨識格式
+nukkit.resources.fail=無法載入 "%1$2s": %2$2s
+nukkit.resources.success=成功載入 %1$2s 個資源包
+nukkit.resources.zip.not-found=找不到檔案 '%1$2s'
+nukkit.resources.zip.no-manifest=找不到 'manifest.json'
+nukkit.resources.zip.invalid-manifest='manifest.json' 無效或不完整
 

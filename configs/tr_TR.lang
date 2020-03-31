@@ -1,23 +1,23 @@
-header.1=Advanced configuration file for Nukkit
-header.2=Some of these settings are safe, others can break your server if modified incorrectly
+header.1=Nukkit için gelişmiş yapılandırma dosyası
+header.2=Bu ayarlardan bazıları güvenli, diğerleri yanlış değiştirilirse sunucunuz bozulabilir
 header.3=New settings/defaults won't appear automatically on this file when upgrading
 
-settings.language=Multi-language setting
+settings.language=Çoklu dil ayarı
 settings.force-language=Whether to send all strings translated to server locale or let the device handle them
 
-settings.shutdown-message=Disconnect message sent to players when the server is shutdown
-settings.query-plugins=Allow listing plugins via Query
-settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
-settings.async-workers.1=Number of asynchronous workers
+settings.shutdown-message=Sunucu çöktüğünde oyunculara gönderilcek mesaj
+settings.query-plugins=Eklentileri Query ile listelemeye izin ver
+settings.deprecated-verbose=Pluginden kaldırılmış API yöntemi kullanıldığında konsolda uyarı göster
+settings.async-workers.1=Asebkron çalışan sayısı
 settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
 
 network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
-network.batch-threshold.2=Set to 0 to compress everything, -1 to disable
+network.batch-threshold.2=Her şeyi sıkıştırmak için 0'a, kapatmak için -1 olarak ayarlayın
 network.compression-level=Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
 network.async-compression=Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
 
 debug.level=If > 1, it will show debug messages in the console
-debug.commands=Enables commands: /status /gc
+debug.commands=Aktif komutlar: /status /gc
 
 timings.enabled=Enable core and plugin timings by default
 timings.verbose=Enable monitoring at verbose level, include high-frequency timings
