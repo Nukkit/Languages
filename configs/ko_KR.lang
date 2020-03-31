@@ -5,7 +5,7 @@ header.3=새로운 설정/기본값은 업그레이드할 때 이 파일에 자�
 settings.language=다국어 설정
 settings.force-language=Whether to send all strings translated to server locale or let the device handle them
 
-settings.shutdown-message=서버가 종료되었을 때 플레이어에게 전송되는 연결 끊김 메시지
+settings.shutdown-message=서버가 종료될 때 플레이어에게 전송되는 연결 끊기 메시지
 settings.query-plugins=Query를 통한 플러그인 나열 허용
 settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
 settings.async-workers.1=Number of asynchronous workers
