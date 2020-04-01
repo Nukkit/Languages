@@ -39,13 +39,13 @@ level-settings.base-tick-rate=기본 틱 속도 설정 (1 = 1초당 20틱, 2 = 1
 level-settings.always-tick-players=다른 설정이 이를 허용하지 않더라도 모든 플레이어를 틱 처리합니다
 
 chunk-sending.per-tick=플레이어에게 틱 당 전송되는 청크의 양
-chunk-sending.max-chunks=Amount of chunks sent around each player
+chunk-sending.max-chunks=각 플레이어의 주변에 전송되는 청크의 양
 chunk-sending.spawn-threshold=플레이어를 생성하기 전에 전송되어야 하는 청크의 양
 chunk-sending.cache-chunks.1=빠른 전송을 위해 메모리에 청크의 직렬화된 복사본 저장
 chunk-sending.cache-chunks.2=많은 플레이어가 동시에 참여하는 대부분 정적인 세계에서 유용합니다
 
 chunk-ticking.per-tick=각 틱마다 처리되는 청크의 최대량
-chunk-ticking.tick-radius=Radius of chunks around a player to tick
+chunk-ticking.tick-radius=플레이어 주변의 틱 처리할 청크의 범위
 
 chunk-generation.queue-size=대기열에 있는 생성될 청크의 최대량
 chunk-generation.population-queue-size=대기열에 있는 채워질 청크의 최대량
