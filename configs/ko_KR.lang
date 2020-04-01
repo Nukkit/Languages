@@ -11,16 +11,16 @@ settings.deprecated-verbose=플러그인이 사용되지 않는 API 메서드를
 settings.async-workers.1=비동기 작업자의 개수
 settings.async-workers.2=auto로 설정하면 코어의 개수를 감지하려고 시도합니다(최소 4개)
 
-network.batch-threshold.1=일괄 처리 패킷의 임곗값(바이트)입니다. 이 패킷만 압축됩니다
+network.batch-threshold.1=일괄 처리 패킷의 임계값(바이트)입니다. 이 패킷만 압축됩니다
 network.batch-threshold.2=모두 압축하려면 0으로 설정하고, 비활성화하려면 -1으로 설정합니다
 network.compression-level=일괄 처리된 패킷을 전송할 때 Zlib에 사용되는 압축 수준입니다. 높을수록 CPU 사용량이 많아지지만 대역폭 사용량은 적어집니다
-network.async-compression=Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
+network.async-compression=압축에 AsyncTasks를 사용합니다. 0.5/1틱 지연을 추가하지만 메인 스레드의 CPU 부하가 적어집니다
 
 debug.level=> 1이면 콘솔에 디버그 메시지를 표시합니다
 debug.commands=명령어 활성화: /status /gc
 
-timings.enabled=Enable core and plugin timings by default
-timings.verbose=Enable monitoring at verbose level, include high-frequency timings
+timings.enabled=코어와 플러그인 타이밍을 기본적으로 활성화
+timings.verbose=버보스 수준에서 모니터링 활성화, 높은 빈도 타이밍 포함
 timings.history-interval.1=Interval between history frames in ticks
 timings.history-interval.2=기본값은 5분(6000틱)입니다
 timings.history-length.1=Length of the whole timing history in ticks
@@ -53,7 +53,7 @@ chunk-generation.population-queue-size=Max. amount of chunks in the waiting queu
 spawn-limits=이 개체의 최대량
 
 player.save-player-data.1=true이면 플레이어 데이터가 players/플레이어 이름.dat으로 저장됩니다
-player.save-player-data.2=false이면 플러그인이 이에 대해 작업을 수행할 수 있게 하기 위해 Nukkit이 플레이어 데이터를 "dat" 파일로 저장하지 않습니다.
+player.save-player-data.2=false이면 플러그인이 플레이어 데이터에 대해 작업을 수행할 수 있게 하기 위해 Nukkit이 플레이어 데이터를 "dat" 파일로 저장하지 않습니다.
 player.skin-change-cooldown=스킨 변경 작업 간의 시간(초)입니다. 대기 시간을 비활성화하려면 0으로 설정합니다
 
 aliases=명령어의 별칭
