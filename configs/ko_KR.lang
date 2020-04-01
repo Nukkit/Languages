@@ -26,29 +26,29 @@ timings.history-interval.2=기본값은 5분(6000틱)입니다
 timings.history-length.1=전체 타이밍 히스토리의 길이(틱)
 timings.history-length.2=기본값은 1시간(72000틱)입니다
 timings.history-length.3=This value is capped at a maximum of history-interval * 12
-timings.bypass-max.1=For special cases of servers with special permission to bypass the max
+timings.bypass-max.1=최대값을 우회할 수 있는 특별한 권한이 있는 특수한 경우의 서버의 경우
 timings.bypass-max.2=This max helps keep data file sizes reasonable for processing on Aikar's Timing parser side
-timings.bypass-max.3=Setting this will not help you bypass the max unless Aikar has added an exception on the API side
-timings.privacy=If set to true, name of your server won't be sent
-timings.ignore.1=Settings sections to ignore. These sections won't be sent to Aikar's Timing parser
+timings.bypass-max.3=이를 설정하면 Aikar가 API 측에서 예외를 추가하지 않는 한 최대값을 우회하는 데에는 도움이 되지 않습니다
+timings.privacy=true로 설정하면 서버의 이름이 전송되지 않습니다
+timings.ignore.1=무시할 설정 부분입니다. 이 부분은 Aikar의 타이밍 파서에 보내지지 않습니다
 timings.ignore.2=예제 형식:
 
-level-settings.default-format=The default format that levels will use when created
-level-settings.auto-tick-rate=Automatically change levels tick rate to maintain 20 ticks per second
-level-settings.base-tick-rate=Sets the base tick rate (1 = 20 ticks per second, 2 = 10 ticks per second, etc.)
-level-settings.always-tick-players=Tick all players each tick even when other settings disallow this
+level-settings.default-format=레벨이 만들어질 때 레벨이 사용할 기본 형식
+level-settings.auto-tick-rate=1초당 20틱을 유지하기 위해 레벨 틱 속도를 자동으로 변경합니다
+level-settings.base-tick-rate=기본 틱 속도 설정 (1 = 1초당 20틱, 2 = 1초당 10틱 등)
+level-settings.always-tick-players=다른 설정이 이를 허용하지 않더라도 모든 플레이어를 틱 처리합니다
 
-chunk-sending.per-tick=Amount of chunks sent to players per tick
+chunk-sending.per-tick=플레이어에게 틱 당 전송되는 청크의 양
 chunk-sending.max-chunks=Amount of chunks sent around each player
-chunk-sending.spawn-threshold=Amount of chunks that need to be sent before spawning the player
-chunk-sending.cache-chunks.1=Save a serialized copy of the chunk in memory for faster sending
-chunk-sending.cache-chunks.2=Useful in mostly-static worlds where lots of players join at the same time
+chunk-sending.spawn-threshold=플레이어를 생성하기 전에 전송되어야 하는 청크의 양
+chunk-sending.cache-chunks.1=빠른 전송을 위해 메모리에 청크의 직렬화된 복사본 저장
+chunk-sending.cache-chunks.2=많은 플레이어가 동시에 참여하는 대부분 정적인 세계에서 유용합니다
 
-chunk-ticking.per-tick=Max amount of chunks processed each tick
+chunk-ticking.per-tick=각 틱마다 처리되는 청크의 최대량
 chunk-ticking.tick-radius=Radius of chunks around a player to tick
 
-chunk-generation.queue-size=Max. amount of chunks in the waiting queue to be generated
-chunk-generation.population-queue-size=Max. amount of chunks in the waiting queue to be populated
+chunk-generation.queue-size=대기열에 있는 생성될 청크의 최대량
+chunk-generation.population-queue-size=대기열에 있는 채워질 청크의 최대량
 
 spawn-limits=이 개체의 최대량
 
