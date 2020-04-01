@@ -9,7 +9,7 @@ settings.shutdown-message=서버가 종료될 때 플레이어에게 전송되�
 settings.query-plugins=Query를 통한 플러그인 목록 표시 허용
 settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
 settings.async-workers.1=Number of asynchronous workers
-settings.async-workers.2=auto로 설정하면 자동으로 코어의 개수를 감지하려고 시도합니다(최소 4개)
+settings.async-workers.2=auto로 설정하면 코어의 개수를 감지하려고 시도합니다(최소 4개)
 
 network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
 network.batch-threshold.2=모두 압축하려면 0으로 설정하고, 비활성화하려면 -1으로 설정합니다
@@ -31,7 +31,7 @@ timings.bypass-max.2=This max helps keep data file sizes reasonable for processi
 timings.bypass-max.3=Setting this will not help you bypass the max unless Aikar has added an exception on the API side
 timings.privacy=If set to true, name of your server won't be sent
 timings.ignore.1=Settings sections to ignore. These sections won't be sent to Aikar's Timing parser
-timings.ignore.2=형식 예시:
+timings.ignore.2=예제 형식:
 
 level-settings.default-format=The default format that levels will use when created
 level-settings.auto-tick-rate=Automatically change levels tick rate to maintain 20 ticks per second
@@ -50,7 +50,7 @@ chunk-ticking.tick-radius=Radius of chunks around a player to tick
 chunk-generation.queue-size=Max. amount of chunks in the waiting queue to be generated
 chunk-generation.population-queue-size=Max. amount of chunks in the waiting queue to be populated
 
-spawn-limits=이 개체들의 최대량
+spawn-limits=이 개체의 최대량
 
 player.save-player-data.1=true이면 플레이어 데이터가 players/플레이어 이름.dat으로 저장됩니다
 player.save-player-data.2=만약에 false면, nukkit은 플레이어 데이터를 "dat" 파일로 저장하지 않고, 플러그인이 그것에 무언가를 할 수 있도록 합니다.
