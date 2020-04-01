@@ -11,9 +11,9 @@ settings.deprecated-verbose=플러그인이 사용되지 않는 API 메서드를
 settings.async-workers.1=비동기 작업자의 개수
 settings.async-workers.2=auto로 설정하면 코어의 개수를 감지하려고 시도합니다(최소 4개)
 
-network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
+network.batch-threshold.1=일괄 처리 패킷의 임곗값(바이트)입니다. 이 패킷만 압축됩니다
 network.batch-threshold.2=모두 압축하려면 0으로 설정하고, 비활성화하려면 -1으로 설정합니다
-network.compression-level=Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
+network.compression-level=일괄 처리된 패킷을 전송할 때 Zlib에 사용되는 압축 수준입니다. 높을수록 CPU 사용량이 많아지지만 대역폭 사용량은 적어집니다
 network.async-compression=Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
 
 debug.level=> 1이면 콘솔에 디버그 메시지를 표시합니다
