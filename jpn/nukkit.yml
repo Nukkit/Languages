@@ -107,7 +107,7 @@ player:
  #trueの場合、プレーヤーデータは players/playername.dat として保存されます
  #falseの場合、nukkitはプレーヤのデータを "dat"ファイルとして保存せず、プラグインが何かを実行できるようにします。
  save-player-data: true
- #The time between skin change action in seconds, set to 0 if you dont want the cooldown
+ #スキンを変更する時のクールダウンを設定（秒単位）。なお不要な場合は0を設定してください。
  skin-change-cooldown: 30
  
 aliases:
