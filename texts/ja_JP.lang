@@ -88,6 +88,8 @@ nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] が %4$2s によってログアウト�
 nukkit.player.invalidEntity=%1$2s が無効なエンティティを攻撃しようとしました
 
 nukkit.plugin.load=%1$2s を読み込んでいます
+nukkit.plugin.enable=Enabling %1$2s
+nukkit.plugin.disable=Disabling %1$2s
 nukkit.plugin.restrictedName=制限された名前です
 nukkit.plugin.incompatibleAPI=互換性のない API バージョンです
 nukkit.plugin.unknownDependency=不明な依存関係です
