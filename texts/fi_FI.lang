@@ -50,7 +50,7 @@ nukkit.command.version.noSuchPlugin=Tämän nimistä lisäosaa ei löytynyt. Kä
 
 nukkit.command.plugins.description=Hanki lista käytössä olevista lisäosista
 nukkit.command.plugins.success=Lisäosat (%1$2s): %2$2s
-nukkit.command.plugins.usage=/lisäosat
+nukkit.command.plugins.usage=/plugins
 
 nukkit.command.status.description=Tietoa palvelimen suorituskyvystä
 nukkit.command.status.usage=/status
@@ -88,6 +88,8 @@ nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] kirjautui ulos: %4$2s
 nukkit.player.invalidEntity=%1$2s yritti vahingoittaa virheellistä olentoa
 
 nukkit.plugin.load=Ladataan %1$2s
+nukkit.plugin.enable=Enabling %1$2s
+nukkit.plugin.disable=Disabling %1$2s
 nukkit.plugin.restrictedName=Rajoitettu nimi
 nukkit.plugin.incompatibleAPI=Yhteensopimaton API versio
 nukkit.plugin.unknownDependency=Tuntematon riippuvuus
