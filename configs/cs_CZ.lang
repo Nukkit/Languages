@@ -1,61 +1,61 @@
-header.1=Advanced configuration file for Nukkit
-header.2=Some of these settings are safe, others can break your server if modified incorrectly
-header.3=New settings/defaults won't appear automatically on this file when upgrading
+header.1=Pokročilé nastavení nukkitu
+header.2=Nekterá z těchto nastavení jsou bezpečná. Jiná ovšem mohou způsobit nesprávné fungování serveru v případě špatného nastavení
+header.3=V případě upgradu serveru se do tohoto souboru nové možnosti nastavení automaticky nepřidají
 
-settings.language=Multi-language setting
-settings.force-language=Whether to send all strings translated to server locale or let the device handle them
+settings.language=Vícejazyčné nastavení
+settings.force-language=Zda se mají veškeré zprávy posílat v jazyku serveru, nebo být přeloženy zařízením hráče
 
-settings.shutdown-message=Disconnect message sent to players when the server is shutdown
-settings.query-plugins=Allow listing plugins via Query
-settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
-settings.async-workers.1=Number of asynchronous workers
-settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
+settings.shutdown-message=Zpráva odeslaná hráčům při vypnutí serveru
+settings.query-plugins=Povolit výpis pluginů zkrze Query
+settings.deprecated-verbose=Upozornit v konzoli pokud plugin využívá zastaralé části API
+settings.async-workers.1=Počet asynchronních vláken
+settings.async-workers.2=Pokud je nastaveno na auto, pokusí se automaticky detekovat počet jader (alespoň 4)
 
-network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
-network.batch-threshold.2=Set to 0 to compress everything, -1 to disable
-network.compression-level=Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
-network.async-compression=Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
+network.batch-threshold.1=Hranice pro balení paketů v bytech. Pouze tyto pakety budou komprimovány
+network.batch-threshold.2=Nastavte na 0 pro kompresi všeho. -1 pro vypnutí
+network.compression-level=Úroveň komprese Zlib při odesílání paketů. Vyšší hodnota = větší zátěž procesoru, ale menší nároky na využití sítě
+network.async-compression=Provádět kompresi asynchronně. Zvýší odezvu o 1/2 herního tiku, ale sníží využití CPU na hlavním vlákně
 
-debug.level=If > 1, it will show debug messages in the console
-debug.commands=Enables commands: /status /gc
+debug.level=Pokud > 1, zapne se výpis zpráv určených pro ladění
+debug.commands=Povolí příkazy: /status /gc
 
-timings.enabled=Enable core and plugin timings by default
-timings.verbose=Enable monitoring at verbose level, include high-frequency timings
-timings.history-interval.1=Interval between history frames in ticks
-timings.history-interval.2=Default is 5 minutes (6000 ticks)
-timings.history-length.1=Length of the whole timing history in ticks
-timings.history-length.2=Default is 1 hour (72000 ticks)
-timings.history-length.3=This value is capped at a maximum of history-interval * 12
-timings.bypass-max.1=For special cases of servers with special permission to bypass the max
-timings.bypass-max.2=This max helps keep data file sizes reasonable for processing on Aikar's Timing parser side
-timings.bypass-max.3=Setting this will not help you bypass the max unless Aikar has added an exception on the API side
-timings.privacy=If set to true, name of your server won't be sent
-timings.ignore.1=Settings sections to ignore. These sections won't be sent to Aikar's Timing parser
-timings.ignore.2=Example formats:
+timings.enabled=Povolí profilování jádra serveru a pluginů
+timings.verbose=Povolí podrobné monitorování činnosti včetně častých profilování
+timings.history-interval.1=Interval mezi snímky v ticích
+timings.history-interval.2=Výchozí hodnota je 5 minut (6000 tiků)
+timings.history-length.1=Délka celkové historie profileru
+timings.history-length.2=Výchozí hodnota je 1 hodina (72000 tiků)
+timings.history-length.3=Hodnota je limitována na maximum, a to interval snímků * 12
+timings.bypass-max.1=Pro výjimečné případy serverů pro překročení limitu
+timings.bypass-max.2=Toto omezení pomůže udržet rozumné velikosti souborů pro následnou analýzu na stránce Aikar's Timings
+timings.bypass-max.3=Nastavením nedosáhnete obejití maximální hodnoty bez udělení výjimky na straně Aikar API
+timings.privacy=Pokud nastaveno na true, jméno serveru nebude zasíláno v reportu
+timings.ignore.1=Sekce nastavení, které chcete ignorovat. Tyto sekce nebudou odesílány to Aikar API
+timings.ignore.2=Ukázkové formáty:
 
-level-settings.default-format=The default format that levels will use when created
-level-settings.auto-tick-rate=Automatically change levels tick rate to maintain 20 ticks per second
-level-settings.base-tick-rate=Sets the base tick rate (1 = 20 ticks per second, 2 = 10 ticks per second, etc.)
-level-settings.always-tick-players=Tick all players each tick even when other settings disallow this
+level-settings.default-format=Výchozí formát, který bude aplikován při vytváření světa
+level-settings.auto-tick-rate=Automaticky přizpůsobit tikování levelů pro zachování 20 tiků za sekundu
+level-settings.base-tick-rate=Nastavít základní počet tiků (1 = 20 tiků za sekundu, 2 = 10 tiků za sekundu, atp)
+level-settings.always-tick-players=Aktualizovat hráče každý tik i přesto, že to ostatní nastavení zakazují
 
-chunk-sending.per-tick=Amount of chunks sent to players per tick
-chunk-sending.max-chunks=Amount of chunks sent around each player
-chunk-sending.spawn-threshold=Amount of chunks that need to be sent before spawning the player
-chunk-sending.cache-chunks.1=Save a serialized copy of the chunk in memory for faster sending
-chunk-sending.cache-chunks.2=Useful in mostly-static worlds where lots of players join at the same time
+chunk-sending.per-tick=Počet chunků odeslaný hráčům za tik
+chunk-sending.max-chunks=Počet chunků odeslaných kolem každého hráče
+chunk-sending.spawn-threshold=Počet chunků, které musí být odeslány před spawnutím hráče
+chunk-sending.cache-chunks.1=Ukládat kopie chunků v paměti pro rychlejší odesílání
+chunk-sending.cache-chunks.2=Užitečné hlavně ve statických světech, kde se připojuje velké množství hráčů ve stejný čas
 
-chunk-ticking.per-tick=Max amount of chunks processed each tick
-chunk-ticking.tick-radius=Radius of chunks around a player to tick
+chunk-ticking.per-tick=Maximální počet chunků zpracovaných za tik
+chunk-ticking.tick-radius=Poloměr kolem hráče, ve kterém se budou aktualizovat (tikovat) chunky
 
-chunk-generation.queue-size=Max. amount of chunks in the waiting queue to be generated
-chunk-generation.population-queue-size=Max. amount of chunks in the waiting queue to be populated
+chunk-generation.queue-size=Maximální počet chunků ve frontě pro vygenerování
+chunk-generation.population-queue-size=Maximální počet chunků ve frontě pro populaci
 
-spawn-limits=Max amount of these entities
+spawn-limits=Maximální počet těchto entit
 
-player.save-player-data.1=If true, player data will be saved as players/playername.dat
-player.save-player-data.2=If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
-player.skin-change-cooldown=The time between skin change action in seconds. Set 0 to disable the cooldown
+player.save-player-data.1=Při nastavení na true budou data hráčů ukládána ve formátu /players/jméno-hráče.dat
+player.save-player-data.2=Při nastavení na false nebude nukkit ukládat data hráčů jako "dat" soubory, aby s nimi mohly pluginy pracovat
+player.skin-change-cooldown=Interval, ve kterém si hráč může změnit svůj skin. 0 pro vypnutí omezení
 
-aliases=Aliases for commands
+aliases=Aliasy pro příkazy
 
-worlds=These settings will override the generator set in server.properties and allows loading multiple levels
+worlds=Tyto nastavení nahradí generátor nastavený v server.properties a umožní načítání více světů
