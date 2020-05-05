@@ -88,6 +88,8 @@ nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
 nukkit.player.invalidEntity=%1$2s tried to attack an invalid entity
 
 nukkit.plugin.load=Loading %1$2s
+nukkit.plugin.enable=Enabling %1$2s
+nukkit.plugin.disable=Disabling %1$2s
 nukkit.plugin.restrictedName=Restricted name
 nukkit.plugin.incompatibleAPI=Incompatible API version
 nukkit.plugin.unknownDependency=Unknown dependency
