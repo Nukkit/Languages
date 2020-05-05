@@ -88,6 +88,8 @@ nukkit.player.logOut=%1$2s[/%2$2s:%3$2s]이(가) %4$2s(으)로 인해 로그아�
 nukkit.player.invalidEntity=%1$2s이(가) 잘못된 개체를 공격하려고 시도했습니다
 
 nukkit.plugin.load=%1$2s을(를) 불러오는 중입니다
+nukkit.plugin.enable=Enabling %1$2s
+nukkit.plugin.disable=Disabling %1$2s
 nukkit.plugin.restrictedName=제한된 이름입니다
 nukkit.plugin.incompatibleAPI=호환되지 않는 API 버전입니다
 nukkit.plugin.unknownDependency=알 수 없는 의존입니다
