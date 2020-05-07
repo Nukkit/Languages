@@ -49,7 +49,7 @@ nukkit.command.version.plugin=%1$2s 버전 %1$2s을(를) 실행하고 있습니�
 nukkit.command.version.noSuchPlugin=이 서버는 해당 이름의 플러그인을 실행하고 있지 않습니다. /plugins를 사용해 플러그인 목록을 가져오세요.
 
 nukkit.command.plugins.description=서버에서 실행 중인 플러그인 목록을 가져옵니다
-nukkit.command.plugins.success=플러그인(%1$2s): %2$2s
+nukkit.command.plugins.success=플러그인 (%1$2s): %2$2s
 nukkit.command.plugins.usage=/plugins
 
 nukkit.command.status.description=서버의 성능을 읽습니다.
@@ -88,8 +88,8 @@ nukkit.player.logOut=%1$2s[/%2$2s:%3$2s]이(가) %4$2s(으)로 인해 로그아�
 nukkit.player.invalidEntity=%1$2s이(가) 잘못된 개체를 공격하려고 시도했습니다
 
 nukkit.plugin.load=%1$2s을(를) 불러오는 중입니다
-nukkit.plugin.enable=Enabling %1$2s
-nukkit.plugin.disable=Disabling %1$2s
+nukkit.plugin.enable=%1$2s을(를) 활성화하는 중입니다
+nukkit.plugin.disable=%1$2s을(를) 비활성화하는 중입니다
 nukkit.plugin.restrictedName=제한된 이름입니다
 nukkit.plugin.incompatibleAPI=호환되지 않는 API 버전입니다
 nukkit.plugin.unknownDependency=알 수 없는 의존입니다
