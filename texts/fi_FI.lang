@@ -38,17 +38,17 @@ nukkit.server.rcon.emptyPasswordError=RCON käynnistäminen epäonnistui: salasa
 nukkit.server.rcon.startupError=RCON käynnistäminen epäonnistui: %1$2s
 nukkit.server.rcon.running=RCON on käynnissä osoitteessa %1$2s:%2$2s
 
-nukkit.command.alias.illegal=Aliasta %1$2s ei voida rekisteröidä koska se sisältää laittomia merkkejä
+nukkit.command.alias.illegal=Aliasta %1$2s ei voida rekisteröidä, koska se sisältää kiellettyjä merkkejä
 nukkit.command.alias.notFound=Aliasta %1$2s ei voida rekisteröidä koska se sisältää komentoja joita ei ole olemassa: %2$2s
 nukkit.command.exception=Käsittelemätön virhe suorittaessa komentoa '%1$2s' paikassa %2$2s: %3$2s
 
-nukkit.command.version.description=Hanki palvelimen versio sisältäen kaikki käytössä olevat lisäosat
+nukkit.command.version.description=Näytä palvelimen versio sisältäen kaikki käytössä olevat lisäosat
 nukkit.command.version.usage=/version [lisäosan nimi]
 nukkit.command.version.server=Tämä palvelin käyttää %1$2s versiota %2$2s (MC: %3$2s) (API-versio %4$2s)
 nukkit.command.version.plugin=%1$2s versio %1$2s
 nukkit.command.version.noSuchPlugin=Tämän nimistä lisäosaa ei löytynyt. Käytä /plugins komentoa saadaksesi listan lisäosista.
 
-nukkit.command.plugins.description=Hanki lista käytössä olevista lisäosista
+nukkit.command.plugins.description=Näytä lista käytössä olevista lisäosista
 nukkit.command.plugins.success=Lisäosat (%1$2s): %2$2s
 nukkit.command.plugins.usage=/plugins
 
@@ -57,7 +57,7 @@ nukkit.command.status.usage=/status
 
 nukkit.command.timings.description=Tallentaa ajoitukset saadaksesi tietoa palvelimen suorituskyvystä
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-nukkit.command.timings.enable=Otettiin ajoitukset käyttöön ja nollattiin
+nukkit.command.timings.enable=Ajoitukset otettu käyttöön ja nollattu
 nukkit.command.timings.disable=Ajoitukset poistettiin käytöstä
 nukkit.command.timings.timingsDisabled=Ota ajoitukset käyttöön /timings on komennolla
 nukkit.command.timings.verboseEnable=Otettiin ajoitusten monisanaisuus käyttöön
@@ -88,8 +88,8 @@ nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] kirjautui ulos: %4$2s
 nukkit.player.invalidEntity=%1$2s yritti vahingoittaa virheellistä olentoa
 
 nukkit.plugin.load=Ladataan %1$2s
-nukkit.plugin.enable=Enabling %1$2s
-nukkit.plugin.disable=Disabling %1$2s
+nukkit.plugin.enable=Otetaan käyttöön %1$2s
+nukkit.plugin.disable=Poistetaan käytöstä %1$2s
 nukkit.plugin.restrictedName=Rajoitettu nimi
 nukkit.plugin.incompatibleAPI=Yhteensopimaton API versio
 nukkit.plugin.unknownDependency=Tuntematon riippuvuus
