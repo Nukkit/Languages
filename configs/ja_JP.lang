@@ -19,7 +19,7 @@ network.async-compression=Use AsyncTasks for compression. Adds half/one tick del
 debug.level=If > 1, it will show debug messages in the console
 debug.commands=コマンドを有効にする：/status /gc
 
-timings.enabled=Enable core and plugin timings by default
+timings.enabled=コアとプラグインのタイミングをデフォルトで有効にする
 timings.verbose=Enable monitoring at verbose level, include high-frequency timings
 timings.history-interval.1=Interval between history frames in ticks
 timings.history-interval.2=デフォルトは 5 分です（6000 ティック）
@@ -50,12 +50,12 @@ chunk-ticking.tick-radius=Radius of chunks around a player to tick
 chunk-generation.queue-size=Max. amount of chunks in the waiting queue to be generated
 chunk-generation.population-queue-size=Max. amount of chunks in the waiting queue to be populated
 
-spawn-limits=Max amount of these entities
+spawn-limits=これらのエンティティの最大量
 
 player.save-player-data.1=If true, player data will be saved as players/playername.dat
 player.save-player-data.2=If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
 player.skin-change-cooldown=The time between skin change action in seconds. Set 0 to disable the cooldown
 
-aliases=Aliases for commands
+aliases=コマンドのエイリアス
 
 worlds=These settings will override the generator set in server.properties and allows loading multiple levels
