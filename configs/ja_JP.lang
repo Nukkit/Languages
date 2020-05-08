@@ -1,4 +1,4 @@
-header.1=Advanced configuration file for Nukkit
+header.1=Nukkit の詳細構成ファイル
 header.2=Some of these settings are safe, others can break your server if modified incorrectly
 header.3=New settings/defaults won't appear automatically on this file when upgrading
 
@@ -12,19 +12,19 @@ settings.async-workers.1=Number of asynchronous workers
 settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
 
 network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
-network.batch-threshold.2=Set to 0 to compress everything, -1 to disable
+network.batch-threshold.2=すべてを圧縮するには 0 に設定し、無効にするには -1 に設定します
 network.compression-level=Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
 network.async-compression=Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
 
 debug.level=If > 1, it will show debug messages in the console
-debug.commands=Enables commands: /status /gc
+debug.commands=コマンドを有効にする：/status /gc
 
 timings.enabled=Enable core and plugin timings by default
 timings.verbose=Enable monitoring at verbose level, include high-frequency timings
 timings.history-interval.1=Interval between history frames in ticks
-timings.history-interval.2=Default is 5 minutes (6000 ticks)
+timings.history-interval.2=デフォルトは 5 分です（6000 ティック）
 timings.history-length.1=Length of the whole timing history in ticks
-timings.history-length.2=Default is 1 hour (72000 ticks)
+timings.history-length.2=デフォルトは 1 時間です（72000 ティック）
 timings.history-length.3=This value is capped at a maximum of history-interval * 12
 timings.bypass-max.1=For special cases of servers with special permission to bypass the max
 timings.bypass-max.2=This max helps keep data file sizes reasonable for processing on Aikar's Timing parser side
