@@ -88,8 +88,8 @@ nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] a déconnecté à cause de %4$2s
 nukkit.player.invalidEntity=%1$2s a essayé d'attaquer une entité invalide
 
 nukkit.plugin.load=Chargement de %1$2s
-nukkit.plugin.enable=Enabling %1$2s
-nukkit.plugin.disable=Disabling %1$2s
+nukkit.plugin.enable=Activation de %1$2s
+nukkit.plugin.disable=Désactivation de %1$2s
 nukkit.plugin.restrictedName=Nom restreint
 nukkit.plugin.incompatibleAPI=Version de l'API incompatible
 nukkit.plugin.unknownDependency=Dépendance inconnue
