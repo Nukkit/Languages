@@ -13,32 +13,32 @@ settings.async-workers.2=Si défini à auto, il essaiera de détecter le nombre 
 
 network.batch-threshold.1=Seuil pour le traitement par lots de paquets, en octets. Seuls ces paquets seront compressés
 network.batch-threshold.2=Mettre à 0 pour compresser tout, -1 pour désactiver
-network.compression-level=Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
+network.compression-level=Niveau de compression utilisé pour Zlib lors de l'envoi de paquets par lots. Plus élevé = plus de CPU, moins de bande passante
 network.async-compression=Utiliser AsyncTasks pour la compression. Ajoute un délai d'un demi/un tick, moins de charge du CPU sur le thread principal
 
-debug.level=If > 1, it will show debug messages in the console
-debug.commands=Enables commands: /status /gc
+debug.level=Si > 1, il affichera les messages de débogage dans la console
+debug.commands=Active les commandes: /status /gc
 
-timings.enabled=Enable core and plugin timings by default
-timings.verbose=Enable monitoring at verbose level, include high-frequency timings
-timings.history-interval.1=Interval between history frames in ticks
-timings.history-interval.2=Default is 5 minutes (6000 ticks)
-timings.history-length.1=Length of the whole timing history in ticks
+timings.enabled=Activer les timings du noyau et du plugin par défaut
+timings.verbose=Activer la surveillance au niveau détaillé, y compris des temporisations à haute fréquence
+timings.history-interval.1=Intervalle entre les images de l'historique en ticks
+timings.history-interval.2=La valeur par défaut est de 5 minutes (6 000 ticks)
+timings.history-length.1=Longueur de l'historique complet du chronométrage en ticks
 timings.history-length.2=La valeur par défaut est 1 heure (72 000 ticks)
 timings.history-length.3=Cette valeur est plafonnée à un maximum d'intervalle d'historique * 12
 timings.bypass-max.1=Pour les cas spéciaux de serveurs avec une permission spéciale pour contourner le maximum
-timings.bypass-max.2=This max helps keep data file sizes reasonable for processing on Aikar's Timing parser side
-timings.bypass-max.3=Setting this will not help you bypass the max unless Aikar has added an exception on the API side
-timings.privacy=If set to true, name of your server won't be sent
-timings.ignore.1=Settings sections to ignore. These sections won't be sent to Aikar's Timing parser
-timings.ignore.2=Example formats:
+timings.bypass-max.2=Ce maximum aide à garder la taille des fichiers de données raisonnable pour le traitement du côté de l'analyseur de Timing d'Aikar
+timings.bypass-max.3=Définir ceci ne vous aidera pas à contourner le max à moins qu'Aikar ait ajouté une exception du côté de l'API
+timings.privacy=Si défini à true, le nom de votre serveur ne sera pas envoyé
+timings.ignore.1=Les sections de paramètres à ignorer. Ces sections ne seront pas envoyées à l'analyseur de Timing d'Aikar
+timings.ignore.2=Formats d'exemple :
 
-level-settings.default-format=The default format that levels will use when created
-level-settings.auto-tick-rate=Automatically change levels tick rate to maintain 20 ticks per second
-level-settings.base-tick-rate=Sets the base tick rate (1 = 20 ticks per second, 2 = 10 ticks per second, etc.)
-level-settings.always-tick-players=Tick all players each tick even when other settings disallow this
+level-settings.default-format=Le format par défaut que les niveaux utiliseront lors de la création
+level-settings.auto-tick-rate=Changer automatiquement le taux de tick pour maintenir 20 ticks par seconde
+level-settings.base-tick-rate=Définit le taux de tick de base (1 = 20 ticks par seconde, 2 = 10 ticks par seconde, etc.)
+level-settings.always-tick-players=Cocher tous les joueurs à chaque tick même lorsque d'autres paramètres ne permettent pas ceci
 
-chunk-sending.per-tick=Amount of chunks sent to players per tick
+chunk-sending.per-tick=Nombre de chunks envoyés aux joueurs par tick
 chunk-sending.max-chunks=Nombre de chunks envoyés autour de chaque joueur
 chunk-sending.spawn-threshold=Nombre de chunks qui doivent être envoyés avant l'apparition du joueur
 chunk-sending.cache-chunks.1=Enregistrez une copie sérialisée du chunk en mémoire pour un envoi plus rapide
@@ -48,14 +48,14 @@ chunk-ticking.per-tick=Nombre maximum de chunks traités à chaque tick
 chunk-ticking.tick-radius=Rayon de chunks autour d'un joueur à cocher
 
 chunk-generation.queue-size=Nombre maximum de chunks dans la file d'attente à être générés
-chunk-generation.population-queue-size=Max. amount of chunks in the waiting queue to be populated
+chunk-generation.population-queue-size=Nombre maximum de chunks dans la file d'attente à remplir
 
 spawn-limits=Montant maximum de ces entités
 
 player.save-player-data.1=Si true, les données du joueur seront enregistrées en tant que joueurs/nomdujoueur.dat
 player.save-player-data.2=Si false, nukkit ne sauvegardera pas les données du lecteur en tant que fichiers "dat", afin que les plugins puissent y faire quelque chose.
-player.skin-change-cooldown=The time between skin change action in seconds. Set 0 to disable the cooldown
+player.skin-change-cooldown=Le temps entre l'action de changement de peau en secondes. Définissez 0 pour désactiver le temps de recharge
 
 aliases=Alias pour les commandes
 
-worlds=These settings will override the generator set in server.properties and allows loading multiple levels
+worlds=Ces paramètres remplaceront le générateur défini dans server.properties et autoriseront le chargement de multiples niveaux
