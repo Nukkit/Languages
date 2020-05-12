@@ -1,13 +1,13 @@
-header.1=Advanced configuration file for Nukkit
-header.2=Some of these settings are safe, others can break your server if modified incorrectly
-header.3=New settings/defaults won't appear automatically on this file when upgrading
+header.1=Fichier de configuration avancé pour Nukkit
+header.2=Certains de ces paramètres sont sûrs, d'autres peuvent casser votre serveur si modifié incorrectement
+header.3=Les nouveaux paramètres/paramètres par défaut n'apparaîtront pas automatiquement dans ce fichier lors de la mise à jour
 
-settings.language=Multi-language setting
-settings.force-language=Whether to send all strings translated to server locale or let the device handle them
+settings.language=Paramètres Multi-langues
+settings.force-language=Si vous voulez envoyer toutes les chaînes traduites en locale du serveur ou laisser le périphérique les gérer
 
-settings.shutdown-message=Disconnect message sent to players when the server is shutdown
-settings.query-plugins=Allow listing plugins via Query
-settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
+settings.shutdown-message=Message de déconnexion envoyé aux joueurs lorsque le serveur est arrêté
+settings.query-plugins=Autoriser la liste des plugins via Requête
+settings.deprecated-verbose=Afficher un message de console lorsqu'un plugin utilise des méthodes API obsolètes
 settings.async-workers.1=Number of asynchronous workers
 settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
 
@@ -39,23 +39,23 @@ level-settings.base-tick-rate=Sets the base tick rate (1 = 20 ticks per second, 
 level-settings.always-tick-players=Tick all players each tick even when other settings disallow this
 
 chunk-sending.per-tick=Amount of chunks sent to players per tick
-chunk-sending.max-chunks=Amount of chunks sent around each player
-chunk-sending.spawn-threshold=Amount of chunks that need to be sent before spawning the player
-chunk-sending.cache-chunks.1=Save a serialized copy of the chunk in memory for faster sending
-chunk-sending.cache-chunks.2=Useful in mostly-static worlds where lots of players join at the same time
+chunk-sending.max-chunks=Nombre de chunks envoyés autour de chaque joueur
+chunk-sending.spawn-threshold=Nombre de chunks qui doivent être envoyés avant l'apparition du joueur
+chunk-sending.cache-chunks.1=Enregistrez une copie sérialisée du chunk en mémoire pour un envoi plus rapide
+chunk-sending.cache-chunks.2=Utile dans les mondes les plus statiques où beaucoup de joueurs rejoignent en même temps
 
-chunk-ticking.per-tick=Max amount of chunks processed each tick
+chunk-ticking.per-tick=Nombre maximum de chunks traités à chaque tick
 chunk-ticking.tick-radius=Radius of chunks around a player to tick
 
-chunk-generation.queue-size=Max. amount of chunks in the waiting queue to be generated
+chunk-generation.queue-size=Nombre maximum de chunks dans la file d'attente à être générés
 chunk-generation.population-queue-size=Max. amount of chunks in the waiting queue to be populated
 
-spawn-limits=Max amount of these entities
+spawn-limits=Montant maximum de ces entités
 
-player.save-player-data.1=If true, player data will be saved as players/playername.dat
-player.save-player-data.2=If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
+player.save-player-data.1=Si true, les données du joueur seront enregistrées en tant que joueurs/nomdujoueur.dat
+player.save-player-data.2=Si false, nukkit ne sauvegardera pas les données du lecteur en tant que fichiers "dat", afin que les plugins puissent y faire quelque chose.
 player.skin-change-cooldown=The time between skin change action in seconds. Set 0 to disable the cooldown
 
-aliases=Aliases for commands
+aliases=Alias pour les commandes
 
 worlds=These settings will override the generator set in server.properties and allows loading multiple levels
