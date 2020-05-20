@@ -88,8 +88,8 @@ nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] 登出遊戲， 原因: %4$2s
 nukkit.player.invalidEntity=%1$2s 嘗試攻擊一個無效的實體
 
 nukkit.plugin.load=載入 %1$2s 中
-nukkit.plugin.enable=Enabling %1$2s
-nukkit.plugin.disable=Disabling %1$2s
+nukkit.plugin.enable=啟用 %1$2s 中
+nukkit.plugin.disable=禁用 %1$2s 中
 nukkit.plugin.restrictedName=受限的名稱
 nukkit.plugin.incompatibleAPI=不相容的 API 版本
 nukkit.plugin.unknownDependency=未知的依賴
