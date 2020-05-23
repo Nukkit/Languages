@@ -4,27 +4,27 @@
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-nukkit.language.selected=%1$2s varsayılan yer olarak seçildi.
+nukkit.language.selected=%1$2s varsayılan dil olarak seçildi.
 
 nukkit.data.playerNotFound="%1$2s" için oyuncu verileri bulunamadı, yeni profil oluşturuluyor
 nukkit.data.playerCorrupted="%1$2s" için bozuk veri bulundu, yeni profil oluşturuluyor
-nukkit.data.playerOld="%1$2s" için Eski Oyuncu verisi bulundu, profil yükseltiliyor
-nukkit.data.saveError=Could not save player "%1$2s": %2$2s
+nukkit.data.playerOld="%1$2s" için eski oyuncu verisi bulundu, profil yükseltiliyor
+nukkit.data.saveError=Oyuncu kaydedilemedi: "%1$2s": %2$2s
 
-nukkit.level.notFound="%1$2s" leveli bulunamadı
+nukkit.level.notFound="%1$2s" dünyası bulunamadı
 nukkit.level.loadError=Level "%1$2s": %2$2s yüklenemedi
 nukkit.level.generationError=Level 1%1$2s": %2$2s oluşturulamadı
 nukkit.level.tickError=Level "%1$2s": %2$2s işlenemedi
 nukkit.level.chunkUnloadError=Chunk %1$2s yüklenirken bir hata oluştu
 nukkit.level.backgroundGeneration=Level "%1$2s" için arazi üretme arka planda oluşturuluyor
-nukkit.level.defaultError=Varsayılan level yüklenemedi
-nukkit.level.preparing=Level "%1$2s" hazırlanıyor
-nukkit.level.unloading=Level "%1$2s" yükleniyor
-nukkit.level.updating="%1$2s" için eski level verisi bulundu, format dönüştürülüyor
+nukkit.level.defaultError=Varsayılan dünya yüklenemedi
+nukkit.level.preparing=Dünya "%1$2s" hazırlanıyor
+nukkit.level.unloading=Dünya "%1$2s" kapatılıyor
+nukkit.level.updating="%1$2s" için eski dünya verisi bulundu, format dönüştürülüyor
 
-nukkit.server.start=Minecraft: Bedrock Edition %1$2s versiyonu başlatılıyor
+nukkit.server.start=Minecraft: Bedrock Edition %1$2s versiyonu ile sunucu başlatılıyor
 nukkit.server.networkError=[Ağ] %2$2s nedeniyle arayüz durduruldu
-nukkit.server.networkStart=%1$2s:%2$2s sunucu başlatılıyor
+nukkit.server.networkStart=%1$2s:%2$2s adresinde sunucu başlatılıyor
 nukkit.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
 nukkit.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
 nukkit.server.license=%1$2s is distributed under the GPL License
@@ -82,8 +82,8 @@ nukkit.bugreport.create=An error has been detected, creating a bug report.
 nukkit.bugreport.error=Could not create bug report: %1$2s
 nukkit.bugreport.archive=A bug report has been created: %1$2s
 
-nukkit.player.invalidMove=%1$2s moved wrongly!
-nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, %8$2s)
+nukkit.player.invalidMove=%1$2s salakça hareketler yapıyor!
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] adlı oyuncu %4$2s varlık numarası ile (%5$2s, %6$2s, %7$2s, %8$2s) adlı yerde katıldı
 nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
 nukkit.player.invalidEntity=%1$2s tried to attack an invalid entity
 
@@ -97,18 +97,18 @@ nukkit.plugin.circularDependency=Circular dependency detected
 nukkit.plugin.genericLoadError=Could not load plugin '%1$2s'
 nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' uses spaces in its name, this is discouraged
 nukkit.plugin.loadError=Could not load plugin '%1$2s': %2$2s
-nukkit.plugin.duplicateError=Could not load plugin '%1$2s': plugin exists
-nukkit.plugin.fileError=Could not load '%1$2s' in folder '%2$2s': %3$2s
-nukkit.plugin.commandError=Could not load command %1$2s for plugin %2$2s
-nukkit.plugin.aliasError=Could not load alias %1$2s for plugin %2$2s
-nukkit.plugin.deprecatedEvent=Plugin '%1$2s' has registered a listener for '%2$2s' on method '%3$2s', but the event is Deprecated.
-nukkit.plugin.eventError=Could not pass event '%1$2s' to '%2$2s': %3$2s on %4$2s
+nukkit.plugin.duplicateError=Eklenti '%1$2s' yüklenemedi: acaba neden
+nukkit.plugin.fileError=Yüklenemedi: '%1$2s' klasör: '%2$2s': %3$2s
+nukkit.plugin.commandError=%1$2s komutu %2$2s eklentisinde yüklenemedi
+nukkit.plugin.aliasError=Kısayol %1$2s yüklenemedi: Eklenti: %2$2s
+nukkit.plugin.deprecatedEvent=Git eklentilerini düzelt. Eklenti '%1$2s' '%2$2s' için dinleyiciye sahip '%3$2s', fakat geçersiz kılınmış.
+nukkit.plugin.eventError=Olay geçilemedi: '%1$2s' için '%2$2s': %3$2s üzerinde %4$2s
 
-nukkit.resources.invalid-path=Resource packs path '%1$2s' exists and is not a directory
-nukkit.resources.unknown-format=Could not load '%1$2s' due to format not recognized
-nukkit.resources.fail=Could not load '%1$2s': %2$2s
-nukkit.resources.success=Successfully loaded %1$2s resource packs
-nukkit.resources.zip.not-found=File '%1$2s' is not found
-nukkit.resources.zip.no-manifest='manifest.json' is not found
-nukkit.resources.zip.invalid-manifest='manifest.json' is invalid or incomplete
+nukkit.resources.invalid-path='%1$2s' kaynak paketi yolu zaten bulunuyor
+nukkit.resources.unknown-format='%1$2s' adlı dünya yüklenemedi. Sebep: Format geçersiz
+nukkit.resources.fail='%1$2s': %2$2s yüklenemedi
+nukkit.resources.success=Çevirirken elim ağrıdı. %1$2skaynak paketi yükleniyor
+nukkit.resources.zip.not-found=Dosya '%1$2s' bulunamadı
+nukkit.resources.zip.no-manifest='manifest.json' bulunamadı
+nukkit.resources.zip.invalid-manifest='manifest.json' hatalı veya tamamlanmamış
 
