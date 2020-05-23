@@ -7,8 +7,8 @@ settings.force-language=Whether to send all strings translated to server locale 
 
 settings.shutdown-message=Sunucu çöktüğünde oyunculara gönderilcek mesaj
 settings.query-plugins=Eklentileri Query ile listelemeye izin ver
-settings.deprecated-verbose=Pluginden kaldırılmış API yöntemi kullanıldığında konsolda uyarı göster
-settings.async-workers.1=Asebkron çalışan sayısı
+settings.deprecated-verbose=Eklentiden kaldırılmış API yöntemi kullanıldığında konsolda uyarı göster
+settings.async-workers.1=Asenkron çalışan sayısı
 settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
 
 network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
