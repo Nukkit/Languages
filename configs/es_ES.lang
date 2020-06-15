@@ -9,7 +9,7 @@ settings.shutdown-message=Mensaje de desconexión enviado a los jugadores cuando
 settings.query-plugins=Permitir listar plugins vía Query
 settings.deprecated-verbose=Mostrar un mensaje en la consola cuando un plugin utilice métodos API obsoletos
 settings.async-workers.1=Número de trabajadores asincrónicos
-settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
+settings.async-workers.2=Si se establece en automático, intentará detectar el número de núcleos (al menos 4)
 
 network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
 network.batch-threshold.2=Set to 0 to compress everything, -1 to disable
