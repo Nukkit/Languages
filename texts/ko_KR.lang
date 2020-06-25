@@ -6,8 +6,8 @@
 
 nukkit.language.selected=%1$2s을(를) 기본 로캘로 선택했습니다.
 
-nukkit.data.playerNotFound="%1$2s"의 플레이어 데이터를 찾을 수 없기에 새로운 프로필을 생성합니다
-nukkit.data.playerCorrupted="%1$2s"의 데이터가 손상되었기에 새로운 프로필을 생성합니다
+nukkit.data.playerNotFound="%1$2s"의 플레이어 데이터를 찾을 수 없기에 새로운 프로필을 만듭니다
+nukkit.data.playerCorrupted="%1$2s"의 데이터가 손상되었기에 새로운 프로필을 만듭니다
 nukkit.data.playerOld="%1$2s"의 플레이어 데이터가 오래되었기에 프로필을 업그레이드합니다
 nukkit.data.saveError=플레이어 "%1$2s"의 데이터를 저장할 수 없습니다: %2$2s
 
@@ -71,16 +71,16 @@ nukkit.command.timings.timingsLocation=타이밍 보고서 확인: %1$2s
 nukkit.command.timings.timingsResponse=타이밍 응답: %1$2s
 nukkit.command.timings.timingsWrite=타이밍이 %1$2s에 작성되었습니다
 
-nukkit.crash.create=복구 불가능한 오류가 발생해 서버가 강제 종료되었습니다. 충돌 덤프를 생성합니다
-nukkit.crash.error=충돌 덤프를 생성할 수 없습니다: %1$2s
+nukkit.crash.create=복구 불가능한 오류가 발생해 서버가 강제 종료되었습니다. 충돌 덤프를 만듭니다
+nukkit.crash.error=충돌 덤프를 만들 수 없습니다: %1$2s
 nukkit.crash.submit="%1$2s" 파일을 충돌 보관소에 업로드하고 버그 보고 페이지에 링크를 제출해주세요. 가능한 한 많은 정보를 주시기 바랍니다.
 nukkit.crash.archive=충돌 덤프가 자동으로 충돌 보관소에 제출되었습니다. %1$2s에서 확인하거나 ID #%2$2s을(를) 사용할 수 있습니다.
 
 nukkit.debug.enable=LevelDB 지원이 활성화되었습니다
 
-nukkit.bugreport.create=오류가 감지되었기에 버그 보고서를 생성합니다.
-nukkit.bugreport.error=버그 보고서를 생성할 수 없습니다: %1$2s
-nukkit.bugreport.archive=버그 보고서가 생성되었습니다: %1$2s
+nukkit.bugreport.create=오류가 감지되었기에 버그 보고서를 만듭니다.
+nukkit.bugreport.error=버그 보고서를 만들 수 없습니다: %1$2s
+nukkit.bugreport.archive=버그 보고서가 만들어졌습니다: %1$2s
 
 nukkit.player.invalidMove=%1$2s이(가) 잘못된 움직임을 보였습니다!
 nukkit.player.logIn=%1$2s[/%2$2s:%3$2s]이(가) 개체 ID %4$2s(으)로 (%5$2s, %6$2s, %7$2s, %8$2s)에 로그인했습니다
