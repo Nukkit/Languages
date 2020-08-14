@@ -88,6 +88,8 @@ nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] is uitgelogd vanwege %4$2s
 nukkit.player.invalidEntity=%1$2s probeerde een ongeldig entity aan te vallen
 
 nukkit.plugin.load=Laden van %1$2s
+nukkit.plugin.enable=Enabling %1$2s
+nukkit.plugin.disable=Disabling %1$2s
 nukkit.plugin.restrictedName=Beperkte naam
 nukkit.plugin.incompatibleAPI=Niet ondersteunende API versie
 nukkit.plugin.unknownDependency=Onbekende afhankelijkheid

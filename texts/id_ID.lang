@@ -88,6 +88,8 @@ nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] keluar karena %4$2s
 nukkit.player.invalidEntity=%1$2s mencoba menyerang entitas yang tidak valid
 
 nukkit.plugin.load=Memuat %1$2s
+nukkit.plugin.enable=Enabling %1$2s
+nukkit.plugin.disable=Disabling %1$2s
 nukkit.plugin.restrictedName=Nama terbatas
 nukkit.plugin.incompatibleAPI=Versi API Tidak kompatibel
 nukkit.plugin.unknownDependency=Ketergantungan tidak diketahui

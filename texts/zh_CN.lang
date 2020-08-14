@@ -88,6 +88,8 @@ nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] 登出游戏，原因：%4$2s
 nukkit.player.invalidEntity=%1$2s 尝试攻击一个无效的实体
 
 nukkit.plugin.load=读取 %1$2s 中
+nukkit.plugin.enable=开启 %1$2s 中
+nukkit.plugin.disable=关闭 %1$2s 中
 nukkit.plugin.restrictedName=受限的名称
 nukkit.plugin.incompatibleAPI=不兼容的 API 版本
 nukkit.plugin.unknownDependency=本插件无法单独使用

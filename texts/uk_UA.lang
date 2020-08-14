@@ -88,6 +88,8 @@ nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] вийшов. Причина: %4$2s
 nukkit.player.invalidEntity=%1$2s намагався напасти на неправильну сутність
 
 nukkit.plugin.load=Завантаження %1$2s
+nukkit.plugin.enable=Enabling %1$2s
+nukkit.plugin.disable=Disabling %1$2s
 nukkit.plugin.restrictedName=Обмежена назва
 nukkit.plugin.incompatibleAPI=Несумісна версія API
 nukkit.plugin.unknownDependency=Невідома залежність

@@ -88,6 +88,8 @@ nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] se odhlásil/a z důvodu %4$2s
 nukkit.player.invalidEntity=%1$2s zkusil/a napadnout neplatnou bytost
 
 nukkit.plugin.load=Načítám %1$2s
+nukkit.plugin.enable=Enabling %1$2s
+nukkit.plugin.disable=Disabling %1$2s
 nukkit.plugin.restrictedName=Vyhrazené jméno
 nukkit.plugin.incompatibleAPI=Nekompatibilní API verze
 nukkit.plugin.unknownDependency=Neznámá závislost

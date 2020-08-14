@@ -1,15 +1,15 @@
-header.1=Advanced configuration file for Nukkit
-header.2=Some of these settings are safe, others can break your server if modified incorrectly
-header.3=New settings/defaults won't appear automatically on this file when upgrading
+header.1=Archivo de configuración avanzada para Nukkit
+header.2=Algunos de estos ajustes son seguros, otros pueden romper tu servidor si se modifican incorrectamente
+header.3=Los nuevos ajustes/valores por defecto no aparecerán automáticamente en este archivo cuando se actualice
 
-settings.language=Multi-language setting
+settings.language=Ajuste multi lenguaje
 settings.force-language=Whether to send all strings translated to server locale or let the device handle them
 
-settings.shutdown-message=Disconnect message sent to players when the server is shutdown
-settings.query-plugins=Allow listing plugins via Query
-settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
-settings.async-workers.1=Number of asynchronous workers
-settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
+settings.shutdown-message=Mensaje de desconexión enviado a los jugadores cuando el servidor se apaga
+settings.query-plugins=Permitir listar plugins vía Query
+settings.deprecated-verbose=Mostrar un mensaje en la consola cuando un plugin utilice métodos API obsoletos
+settings.async-workers.1=Número de trabajadores asincrónicos
+settings.async-workers.2=Si se establece en automático, intentará detectar el número de núcleos (al menos 4)
 
 network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
 network.batch-threshold.2=Set to 0 to compress everything, -1 to disable
@@ -56,6 +56,6 @@ player.save-player-data.1=If true, player data will be saved as players/playerna
 player.save-player-data.2=If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
 player.skin-change-cooldown=The time between skin change action in seconds. Set 0 to disable the cooldown
 
-aliases=Aliases for commands
+aliases=Alias para comandos
 
-worlds=These settings will override the generator set in server.properties and allows loading multiple levels
+worlds=Estos ajustes sobrescribirán el generador establecido en server.properties y permitirán cargar múltiples niveles

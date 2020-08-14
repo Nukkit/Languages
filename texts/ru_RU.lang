@@ -88,6 +88,8 @@ nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] вышел из-за %4$2s
 nukkit.player.invalidEntity=%1$2s пытались атаковать недопустимые сущность
 
 nukkit.plugin.load=Загрузка %1$2s
+nukkit.plugin.enable=Enabling %1$2s
+nukkit.plugin.disable=Disabling %1$2s
 nukkit.plugin.restrictedName=Только имя
 nukkit.plugin.incompatibleAPI=Несовместимая версия API
 nukkit.plugin.unknownDependency=Неизвестные зависимости
