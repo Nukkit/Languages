@@ -1,4 +1,4 @@
-header.1=Nukkit için gelişmiş yapılandırma dosyası
+header.1=Cloudburst için gelişmiş yapılandırma dosyası
 header.2=Bu ayarlardan bazıları güvenli, diğerleri yanlış değiştirilirse sunucunuz bozulabilir
 header.3=Güncelleştirildiğinde yeni ayarlar bu dosyada otomatik olarak görünmez
 
@@ -53,7 +53,7 @@ chunk-generation.population-queue-size=İşlenilmeyi bekleyecek en fazla yığı
 spawn-limits=Bu varlıkların en fazla sayıları
 
 player.save-player-data.1="true" seçilirse, oyuncu verileri players/oyuncuismi.dat olarak kaydedilecek
-player.save-player-data.2="false" seçilirse, Nukkit oyuncu verilerini d at dosyası olarak kaydetmeyecek.
+player.save-player-data.2="false" seçilirse, cloudburst oyuncu verilerini d at dosyası olarak kaydetmeyecek.
 player.skin-change-cooldown=Cilt değiştirme zaman aralığı. Kapatmak için 0 yazın
 
 aliases=Komutlar için kısayollar

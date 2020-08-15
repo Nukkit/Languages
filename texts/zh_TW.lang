@@ -1,114 +1,113 @@
 #X-Generator: crowdin.com
-# Localizations for Nukkit
+# Localizations for Cloudburst
 #
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-nukkit.language.selected=選擇 %1$2s 作為預設語言。
+cloudburst.language.selected=選擇 %1$2s 作為預設語言。
 
-nukkit.data.playerNotFound=找不到玩家 "%1$2s" 的資料，正在建立新的設定檔
-nukkit.data.playerCorrupted=玩家 "%1$2s" 的資料已損壞, 正在建立新的設定檔
-nukkit.data.playerOld=找到舊的玩家資料 "%1$2s"，正在升級設定檔
-nukkit.data.saveError=無法儲存玩家 "%1$2s" 的資料：%2$2s
+cloudburst.data.playerNotFound=找不到玩家 "%1$2s" 的資料，正在建立新的設定檔
+cloudburst.data.playerCorrupted=玩家 "%1$2s" 的資料已損壞, 正在建立新的設定檔
+cloudburst.data.playerOld=找到舊的玩家資料 "%1$2s"，正在升級設定檔
+cloudburst.data.saveError=無法儲存玩家 "%1$2s" 的資料：%2$2s
 
-nukkit.level.notFound=找不到世界 "%1$2s"
-nukkit.level.loadError=無法載入世界 "%1$2s"：%2$2s
-nukkit.level.generationError=無法建立地圖 "%1$2s"：%2$2s
-nukkit.level.tickError=計算地圖 "%1$2s" 時出現錯誤︰%2$2s
-nukkit.level.chunkUnloadError=卸載區塊錯誤：%1$2s
-nukkit.level.backgroundGeneration=正在於後台建立地圖 "%1$2s"
-nukkit.level.defaultError=尚未載入預設地圖
-nukkit.level.preparing=正在準備地圖 "%1$2s"
-nukkit.level.unloading=正在移除地圖 "%1$2s"
-nukkit.level.updating=發現舊的地圖 "%1$2s"，正在轉換格式
+cloudburst.level.notFound=找不到世界 "%1$2s"
+cloudburst.level.loadError=無法載入世界 "%1$2s"：%2$2s
+cloudburst.level.generationError=無法建立地圖 "%1$2s"：%2$2s
+cloudburst.level.tickError=計算地圖 "%1$2s" 時出現錯誤︰%2$2s
+cloudburst.level.chunkUnloadError=卸載區塊錯誤：%1$2s
+cloudburst.level.backgroundGeneration=正在於後台建立地圖 "%1$2s"
+cloudburst.level.defaultError=尚未載入預設地圖
+cloudburst.level.preparing=正在準備地圖 "%1$2s"
+cloudburst.level.unloading=正在移除地圖 "%1$2s"
+cloudburst.level.updating=發現舊的地圖 "%1$2s"，正在轉換格式
 
-nukkit.server.start=正在啟動支援 Minecraft: Bedrock Edition %1$2s 版本的伺服器
-nukkit.server.networkError=[網路] 由於 %2$2s ，%1$2s 中斷連接
-nukkit.server.networkStart=正在啟動伺服器於 %1$2s:%2$2s
-nukkit.server.info=此伺服器正在執行 %1$2s %2$2s 版本 "%3$2s" (API %4$2s)
-nukkit.server.info.extended=此伺服器正在執行 %1$2s %2$2s API 版本 %3$2s 支援 Minecraft: Bedrock Edition %4$2s (協議版本 %5$2s)
-nukkit.server.license=%1$2s 根據 GPL 許可發行
-nukkit.server.tickOverload=注意! 伺服器有超載可能
-nukkit.server.startFinished=啟動完成 (%1$2ss)！如需幫助，請輸入 "help" 或 "?"
-nukkit.server.defaultGameMode=預設遊戲模式：%1$2s
-nukkit.server.query.start=啟動 GS4 狀態監聽器
-nukkit.server.query.info=設定 query 端口為 %1$2s
-nukkit.server.query.running=Query 執行於 %1$2s:%2$2s
-nukkit.server.rcon.emptyPasswordError=無法啟動 RCON：密碼為空
-nukkit.server.rcon.startupError=無法啟動 RCON：%1$2s
-nukkit.server.rcon.running=RCON 執行於 %1$2s:%2$2s
+cloudburst.server.start=正在啟動支援 Minecraft: Bedrock Edition %1$2s 版本的伺服器
+cloudburst.server.networkError=[網路] 由於 %2$2s ，%1$2s 中斷連接
+cloudburst.server.networkStart=正在啟動伺服器於 %1$2s:%2$2s
+cloudburst.server.info=此伺服器正在執行 %1$2s %2$2s 版本 "%3$2s" (API %4$2s)
+cloudburst.server.info.extended=此伺服器正在執行 %1$2s %2$2s API 版本 %3$2s 支援 Minecraft: Bedrock Edition %4$2s (協議版本 %5$2s)
+cloudburst.server.license=%1$2s 根據 GPL 許可發行
+cloudburst.server.tickOverload=注意! 伺服器有超載可能
+cloudburst.server.startFinished=啟動完成 (%1$2ss)！如需幫助，請輸入 "help" 或 "?"
+cloudburst.server.defaultGameMode=預設遊戲模式：%1$2s
+cloudburst.server.query.start=啟動 GS4 狀態監聽器
+cloudburst.server.query.info=設定 query 端口為 %1$2s
+cloudburst.server.query.running=Query 執行於 %1$2s:%2$2s
+cloudburst.server.rcon.emptyPasswordError=無法啟動 RCON：密碼為空
+cloudburst.server.rcon.startupError=無法啟動 RCON：%1$2s
+cloudburst.server.rcon.running=RCON 執行於 %1$2s:%2$2s
 
-nukkit.command.alias.illegal=無法註冊別名 %1$2s ，因為它包含非法字符
-nukkit.command.alias.notFound=無法註冊別名 %1$2s ，因為它包含不存在的指令: %2$2s
-nukkit.command.exception=%2$2s 執行指令 %1$2s 時，出現了未被處理的錯誤: %3$2s
+cloudburst.command.alias.illegal=無法註冊別名 %1$2s ，因為它包含非法字符
+cloudburst.command.alias.notFound=無法註冊別名 %1$2s ，因為它包含不存在的指令: %2$2s
+cloudburst.command.exception=%2$2s 執行指令 %1$2s 時，出現了未被處理的錯誤: %3$2s
 
-nukkit.command.version.description=取得此伺服器及其使用之插件的版本
-nukkit.command.version.usage=/version [插件名稱]
-nukkit.command.version.server=此伺服器正在執行 %1$2s 版本 %2$2s (MC: %3$2s) (API 版本 %4$2s)
-nukkit.command.version.plugin=%1$2s 正在執行 %1$2s 版本
-nukkit.command.version.noSuchPlugin=此伺服器並沒有任何執行此名稱的插件。 使用 /plugins 取得插件列表
+cloudburst.command.version.description=取得此伺服器及其使用之插件的版本
+cloudburst.command.version.usage=/version [插件名稱]
+cloudburst.command.version.server=此伺服器正在執行 %1$2s 版本 %2$2s (MC: %3$2s) (API 版本 %4$2s)
+cloudburst.command.version.plugin=%1$2s 正在執行 %1$2s 版本
+cloudburst.command.version.noSuchPlugin=此伺服器並沒有任何執行此名稱的插件。 使用 /plugins 取得插件列表
 
-nukkit.command.plugins.description=取得伺服器正在執行的插件列表
-nukkit.command.plugins.success=插件 (%1$2s)：%2$2s
-nukkit.command.plugins.usage=/plugins
+cloudburst.command.plugins.description=取得伺服器正在執行的插件列表
+cloudburst.command.plugins.success=插件 (%1$2s)：%2$2s
+cloudburst.command.plugins.usage=/plugins
 
-nukkit.command.status.description=查看伺服器執行狀態
-nukkit.command.status.usage=/status
+cloudburst.command.status.description=查看伺服器執行狀態
+cloudburst.command.status.usage=/status
 
-nukkit.command.timings.description=查看伺服器計時紀錄
-nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-nukkit.command.timings.enable=啟用並重置計時
-nukkit.command.timings.disable=禁用計時
-nukkit.command.timings.timingsDisabled=請輸入 /timings on 啟用計時
-nukkit.command.timings.verboseEnable=啟用詳細計時
-nukkit.command.timings.verboseDisable=禁用詳細計時
-nukkit.command.timings.reset=重置計時
-nukkit.command.timings.rcon=警告: 通過 RCON 完成的計時報告會導致大量延遲，您應該在後台或是遊戲中執行 /timings report
-nukkit.command.timings.uploadStart=準備計時報告中...
-nukkit.command.timings.uploadError=上傳錯誤: %1$2s:%2$2s， 請檢查日誌獲得更多訊息
-nukkit.command.timings.reportError=貼上報告時發生錯誤， 請檢查日誌獲得更多訊息
-nukkit.command.timings.timingsLocation=查看計時報告: %1$2s
-nukkit.command.timings.timingsResponse=計時回應: %1$2s
-nukkit.command.timings.timingsWrite=計時寫入 %1$2s
+cloudburst.command.timings.description=查看伺服器計時紀錄
+cloudburst.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
+cloudburst.command.timings.enable=啟用並重置計時
+cloudburst.command.timings.disable=禁用計時
+cloudburst.command.timings.timingsDisabled=請輸入 /timings on 啟用計時
+cloudburst.command.timings.verboseEnable=啟用詳細計時
+cloudburst.command.timings.verboseDisable=禁用詳細計時
+cloudburst.command.timings.reset=重置計時
+cloudburst.command.timings.rcon=警告: 通過 RCON 完成的計時報告會導致大量延遲，您應該在後台或是遊戲中執行 /timings report
+cloudburst.command.timings.uploadStart=準備計時報告中...
+cloudburst.command.timings.uploadError=上傳錯誤: %1$2s:%2$2s， 請檢查日誌獲得更多訊息
+cloudburst.command.timings.reportError=貼上報告時發生錯誤， 請檢查日誌獲得更多訊息
+cloudburst.command.timings.timingsLocation=查看計時報告: %1$2s
+cloudburst.command.timings.timingsResponse=計時回應: %1$2s
+cloudburst.command.timings.timingsWrite=計時寫入 %1$2s
 
-nukkit.crash.create=一個不可恢復的錯誤導致伺服器崩潰。正在建立錯誤報告
-nukkit.crash.error=無法建立錯誤報告：%1$2s
-nukkit.crash.submit=請上傳錯誤報告檔案 "%1$2s" ， 並將連結提交至錯誤報告反映頁面。請盡量提供詳細資訊。
-nukkit.crash.archive=錯誤報告已自動上傳。 您可以在 %1$2s 查看， 或使用 ID #%2$2s。
+cloudburst.crash.create=一個不可恢復的錯誤導致伺服器崩潰。正在建立錯誤報告
+cloudburst.crash.error=無法建立錯誤報告：%1$2s
+cloudburst.crash.submit=請上傳錯誤報告檔案 "%1$2s" ， 並將連結提交至錯誤報告反映頁面。請盡量提供詳細資訊。
+cloudburst.crash.archive=錯誤報告已自動上傳。 您可以在 %1$2s 查看， 或使用 ID #%2$2s。
 
-nukkit.debug.enable=啟用 LevelDB 支援
+cloudburst.debug.enable=啟用 LevelDB 支援
 
-nukkit.bugreport.create=偵測到一個錯誤， 正在建立錯誤報告。
-nukkit.bugreport.error=無法建立錯誤報告: %1$2s
-nukkit.bugreport.archive=錯誤報告已建立: %1$2s
+cloudburst.bugreport.create=偵測到一個錯誤， 正在建立錯誤報告。
+cloudburst.bugreport.error=無法建立錯誤報告: %1$2s
+cloudburst.bugreport.archive=錯誤報告已建立: %1$2s
 
-nukkit.player.invalidMove=%1$2s 行動可疑！
-nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] 登入遊戲，實體 ID %4$2s ，座標 (%5$2s, %6$2s, %7$2s, %8$2s)
-nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] 登出遊戲， 原因: %4$2s
-nukkit.player.invalidEntity=%1$2s 嘗試攻擊一個無效的實體
+cloudburst.player.invalidMove=%1$2s 行動可疑！
+cloudburst.player.logIn=%1$2s[/%2$2s:%3$2s] 登入遊戲，實體 ID %4$2s ，座標 (%5$2s, %6$2s, %7$2s, %8$2s)
+cloudburst.player.logOut=%1$2s[/%2$2s:%3$2s] 登出遊戲， 原因: %4$2s
+cloudburst.player.invalidEntity=%1$2s 嘗試攻擊一個無效的實體
 
-nukkit.plugin.load=載入 %1$2s 中
-nukkit.plugin.enable=啟用 %1$2s 中
-nukkit.plugin.disable=禁用 %1$2s 中
-nukkit.plugin.restrictedName=受限的名稱
-nukkit.plugin.incompatibleAPI=不相容的 API 版本
-nukkit.plugin.unknownDependency=未知的依賴
-nukkit.plugin.circularDependency=檢測到迴圈依賴
-nukkit.plugin.genericLoadError=無法載入插件 "%1$2s"
-nukkit.plugin.spacesDiscouraged=插件 "%1$2s" 名稱中包含空格，不建議這樣命名
-nukkit.plugin.loadError=無法載入插件 "%1$2s": %2$2s
-nukkit.plugin.duplicateError=無法載入插件 "%1$2s": 已有相同插件
-nukkit.plugin.fileError=無法載入資料夾 "%1$2s" 中的 "%2$2s": %3$2s
-nukkit.plugin.commandError=無法載入插件 %2$2s 的指令 %1$2s
-nukkit.plugin.aliasError=無法載入插件 %2$2s 的別名 %1$2s
-nukkit.plugin.deprecatedEvent=插件 "%1$2s" 已在 "%3$2s" 方法中註冊一個用於 "%2$2s" 的監聽器， 但該事件已過時
-nukkit.plugin.eventError=無法處理事件 "%1$2s" 至 "%2$2s": %3$2s 於 %4$2s
+cloudburst.plugin.load=載入 %1$2s 中
+cloudburst.plugin.enable=啟用 %1$2s 中
+cloudburst.plugin.disable=禁用 %1$2s 中
+cloudburst.plugin.restrictedName=受限的名稱
+cloudburst.plugin.incompatibleAPI=不相容的 API 版本
+cloudburst.plugin.unknownDependency=未知的依賴
+cloudburst.plugin.circularDependency=檢測到迴圈依賴
+cloudburst.plugin.genericLoadError=無法載入插件 "%1$2s"
+cloudburst.plugin.spacesDiscouraged=插件 "%1$2s" 名稱中包含空格，不建議這樣命名
+cloudburst.plugin.loadError=無法載入插件 "%1$2s": %2$2s
+cloudburst.plugin.duplicateError=無法載入插件 "%1$2s": 已有相同插件
+cloudburst.plugin.fileError=無法載入資料夾 "%1$2s" 中的 "%2$2s": %3$2s
+cloudburst.plugin.commandError=無法載入插件 %2$2s 的指令 %1$2s
+cloudburst.plugin.aliasError=無法載入插件 %2$2s 的別名 %1$2s
+cloudburst.plugin.deprecatedEvent=插件 "%1$2s" 已在 "%3$2s" 方法中註冊一個用於 "%2$2s" 的監聽器， 但該事件已過時
+cloudburst.plugin.eventError=無法處理事件 "%1$2s" 至 "%2$2s": %3$2s 於 %4$2s
 
-nukkit.resources.invalid-path=資源包路徑 "%1$2s" 存在， 但不是個目錄
-nukkit.resources.unknown-format=無法載入 "%1$2s" ， 無法辨識格式
-nukkit.resources.fail=無法載入 "%1$2s": %2$2s
-nukkit.resources.success=成功載入 %1$2s 個資源包
-nukkit.resources.zip.not-found=找不到檔案 '%1$2s'
-nukkit.resources.zip.no-manifest=找不到 'manifest.json'
-nukkit.resources.zip.invalid-manifest='manifest.json' 無效或不完整
-
+cloudburst.resources.invalid-path=資源包路徑 "%1$2s" 存在， 但不是個目錄
+cloudburst.resources.unknown-format=無法載入 "%1$2s" ， 無法辨識格式
+cloudburst.resources.fail=無法載入 "%1$2s": %2$2s
+cloudburst.resources.success=成功載入 %1$2s 個資源包
+cloudburst.resources.zip.not-found=找不到檔案 '%1$2s'
+cloudburst.resources.zip.no-manifest=找不到 'manifest.json'
+cloudburst.resources.zip.invalid-manifest='manifest.json' 無效或不完整

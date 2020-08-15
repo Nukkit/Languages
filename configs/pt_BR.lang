@@ -1,4 +1,4 @@
-header.1=Arquivo de configuração avançado para Nukkit
+header.1=Arquivo de configuração avançado para Cloudburst
 header.2=Algumas destas configurações são seguras, outras podem quebrar o seu servidor se modificado incorretamente
 header.3=Novas configurações/padrões não aparecerão automaticamente neste arquivo ao atualizar
 
@@ -53,7 +53,7 @@ chunk-generation.population-queue-size=Max. amount of chunks in the waiting queu
 spawn-limits=Max amount of these entities
 
 player.save-player-data.1=If true, player data will be saved as players/playername.dat
-player.save-player-data.2=If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
+player.save-player-data.2=If false, cloudburst won't save player data as "dat" files, in order that plugins can do something on it.
 player.skin-change-cooldown=The time between skin change action in seconds. Set 0 to disable the cooldown
 
 aliases=Aliases for commands

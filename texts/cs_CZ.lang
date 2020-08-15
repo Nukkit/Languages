@@ -1,114 +1,113 @@
 #X-Generator: crowdin.com
-# Localizations for Nukkit
+# Localizations for Cloudburst
 #
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-nukkit.language.selected=Jazyk %1$2s je vybrán jako lokální výchozí jazyk.
+cloudburst.language.selected=Jazyk %1$2s je vybrán jako lokální výchozí jazyk.
 
-nukkit.data.playerNotFound=Data pro hráče "%1$2s", nebyly nalezeny
-nukkit.data.playerCorrupted=Data hráče "%1$2s" jsou poškozená, vytvářím nový profil
-nukkit.data.playerOld=Byly nalezeny staré data hráče %1$2s, aktualizuji profil
-nukkit.data.saveError=Nelze uložit hráče "%1$2s": %2$2s
+cloudburst.data.playerNotFound=Data pro hráče "%1$2s", nebyly nalezeny
+cloudburst.data.playerCorrupted=Data hráče "%1$2s" jsou poškozená, vytvářím nový profil
+cloudburst.data.playerOld=Byly nalezeny staré data hráče %1$2s, aktualizuji profil
+cloudburst.data.saveError=Nelze uložit hráče "%1$2s": %2$2s
 
-nukkit.level.notFound=Svět "%1$2s" nenalezen
-nukkit.level.loadError=Nelze načíst svět "%1$2s":%2$2s
-nukkit.level.generationError=Nelze vygenerovat svět "%1$2s":%2$2s
-nukkit.level.tickError=Nepodařilo se provést tick levelu "%1$2s": %2$2s
-nukkit.level.chunkUnloadError=Chyba při ukládání chunku: %1$2s
-nukkit.level.backgroundGeneration=Terén světa "%1$2s" se právě generuje na pozadí
-nukkit.level.defaultError=Nebyl načten žádný výchozí svět
-nukkit.level.preparing=Připravuji svět "%1$2s"
-nukkit.level.unloading=Ukládání světa "%1$2s"
-nukkit.level.updating=Staré data byly nalezeny pro svět "%1$2s", měním formát
+cloudburst.level.notFound=Svět "%1$2s" nenalezen
+cloudburst.level.loadError=Nelze načíst svět "%1$2s":%2$2s
+cloudburst.level.generationError=Nelze vygenerovat svět "%1$2s":%2$2s
+cloudburst.level.tickError=Nepodařilo se provést tick levelu "%1$2s": %2$2s
+cloudburst.level.chunkUnloadError=Chyba při ukládání chunku: %1$2s
+cloudburst.level.backgroundGeneration=Terén světa "%1$2s" se právě generuje na pozadí
+cloudburst.level.defaultError=Nebyl načten žádný výchozí svět
+cloudburst.level.preparing=Připravuji svět "%1$2s"
+cloudburst.level.unloading=Ukládání světa "%1$2s"
+cloudburst.level.updating=Staré data byly nalezeny pro svět "%1$2s", měním formát
 
-nukkit.server.start=Zapínám Minecraft: Bedrock Edition server verze %1$2s
-nukkit.server.networkError=[Network] Zastaven interface %1$2s kvůli %2$2s
-nukkit.server.networkStart=Otevírám server na %1$2s:%2$2s
-nukkit.server.info=Tento server běží na %1$2s ve verzi %2$2s "%3$2s" (API %4$2s)
-nukkit.server.info.extended=Tento server běží na %1$2s %2$2s s API verzí %3$2s pro Minecraft: Bedrock Edition %4$2s (protocol verze %5$2s)
-nukkit.server.license=%1$2s je distribuován pod GPL Licencí
-nukkit.server.tickOverload=Nemůžu udržet krok! Je snad server přetížen?
-nukkit.server.startFinished=Hotovo (%1$2ss)! Pokud si nevíš rady napiš "help" nebo "?"
-nukkit.server.defaultGameMode=Výchozí typ hry: %1$2s
-nukkit.server.query.start=Startuji GS4 status listener
-nukkit.server.query.info=Nastavuji query port na %1$2s
-nukkit.server.query.running=Query běží na %1$2s:%2$2s
-nukkit.server.rcon.emptyPasswordError=Chyba při startu RCON: chýbí heslo
-nukkit.server.rcon.startupError=Chyba při startu RCON: %1$2s
-nukkit.server.rcon.running=RCON běží na %1$2s:%2$2s
+cloudburst.server.start=Zapínám Minecraft: Bedrock Edition server verze %1$2s
+cloudburst.server.networkError=[Network] Zastaven interface %1$2s kvůli %2$2s
+cloudburst.server.networkStart=Otevírám server na %1$2s:%2$2s
+cloudburst.server.info=Tento server běží na %1$2s ve verzi %2$2s "%3$2s" (API %4$2s)
+cloudburst.server.info.extended=Tento server běží na %1$2s %2$2s s API verzí %3$2s pro Minecraft: Bedrock Edition %4$2s (protocol verze %5$2s)
+cloudburst.server.license=%1$2s je distribuován pod GPL Licencí
+cloudburst.server.tickOverload=Nemůžu udržet krok! Je snad server přetížen?
+cloudburst.server.startFinished=Hotovo (%1$2ss)! Pokud si nevíš rady napiš "help" nebo "?"
+cloudburst.server.defaultGameMode=Výchozí typ hry: %1$2s
+cloudburst.server.query.start=Startuji GS4 status listener
+cloudburst.server.query.info=Nastavuji query port na %1$2s
+cloudburst.server.query.running=Query běží na %1$2s:%2$2s
+cloudburst.server.rcon.emptyPasswordError=Chyba při startu RCON: chýbí heslo
+cloudburst.server.rcon.startupError=Chyba při startu RCON: %1$2s
+cloudburst.server.rcon.running=RCON běží na %1$2s:%2$2s
 
-nukkit.command.alias.illegal=Nelze zaregistrovat alias %1$2s, protože obsahuje ilegální znaky
-nukkit.command.alias.notFound=Nelze zaregistrovat alias %1$2s, protože obsahuje příkaz který neexistuje: %2$2s
-nukkit.command.exception=Nezpracovaná výjimka při provádění příkazu '%1$2s' v %2$2s: %3$2s
+cloudburst.command.alias.illegal=Nelze zaregistrovat alias %1$2s, protože obsahuje ilegální znaky
+cloudburst.command.alias.notFound=Nelze zaregistrovat alias %1$2s, protože obsahuje příkaz který neexistuje: %2$2s
+cloudburst.command.exception=Nezpracovaná výjimka při provádění příkazu '%1$2s' v %2$2s: %3$2s
 
-nukkit.command.version.description=Vrací verzi server včetně aktivních pluginů
-nukkit.command.version.usage=/version [název pluginu]
-nukkit.command.version.server=Tento server běží na %1$2s ve verzi %2$2s(MC:%3$2s) (API verze %4$2s)
-nukkit.command.version.plugin=%1$2s běží ve verzi %1$2s
-nukkit.command.version.noSuchPlugin=Na tomto serveru neběží žádný plugin s tímto jménem. Použij /plugins pro výpis pluginů.
+cloudburst.command.version.description=Vrací verzi server včetně aktivních pluginů
+cloudburst.command.version.usage=/version [název pluginu]
+cloudburst.command.version.server=Tento server běží na %1$2s ve verzi %2$2s(MC:%3$2s) (API verze %4$2s)
+cloudburst.command.version.plugin=%1$2s běží ve verzi %1$2s
+cloudburst.command.version.noSuchPlugin=Na tomto serveru neběží žádný plugin s tímto jménem. Použij /plugins pro výpis pluginů.
 
-nukkit.command.plugins.description=Získej výpis pluginů, které běží na tomto serveru
-nukkit.command.plugins.success=Plugins (%1$2s): %2$2s
-nukkit.command.plugins.usage=/plugins
+cloudburst.command.plugins.description=Získej výpis pluginů, které běží na tomto serveru
+cloudburst.command.plugins.success=Plugins (%1$2s): %2$2s
+cloudburst.command.plugins.usage=/plugins
 
-nukkit.command.status.description=Získá podrobnosti o vytížení serveru.
-nukkit.command.status.usage=/status
+cloudburst.command.status.description=Získá podrobnosti o vytížení serveru.
+cloudburst.command.status.usage=/status
 
-nukkit.command.timings.description=Zaznamená časování pro přehled o vytížení serveru.
-nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-nukkit.command.timings.enable=Časování vyresetováno a zapnuto
-nukkit.command.timings.disable=Časování vypnuto
-nukkit.command.timings.timingsDisabled=Časování můžeš zapnout příkazem /timings on
-nukkit.command.timings.verboseEnable=Podrobné časování zapnuto
-nukkit.command.timings.verboseDisable=Podrobné časování vypnuto
-nukkit.command.timings.reset=Časování vyresetováno
-nukkit.command.timings.rcon=Upozornění: Časování prováděné přes RCON způsobí záseky serveru, měli byste použít /timings report v konzoli nebo ve hře
-nukkit.command.timings.uploadStart=Připravuji výsledek časování...
-nukkit.command.timings.uploadError=Chyba nahrávání: %1$2s: %2$2s, zkontroluj logy pro více informací
-nukkit.command.timings.reportError=Vyskytla se chyba při ukládání hlášení, zkontroluj logy pro více informací
-nukkit.command.timings.timingsLocation=Podívej se na hlášení z časování: %1$2s
-nukkit.command.timings.timingsResponse=Odpověď časování: %1$2s
-nukkit.command.timings.timingsWrite=Časování zapsáno do %1$2s
+cloudburst.command.timings.description=Zaznamená časování pro přehled o vytížení serveru.
+cloudburst.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
+cloudburst.command.timings.enable=Časování vyresetováno a zapnuto
+cloudburst.command.timings.disable=Časování vypnuto
+cloudburst.command.timings.timingsDisabled=Časování můžeš zapnout příkazem /timings on
+cloudburst.command.timings.verboseEnable=Podrobné časování zapnuto
+cloudburst.command.timings.verboseDisable=Podrobné časování vypnuto
+cloudburst.command.timings.reset=Časování vyresetováno
+cloudburst.command.timings.rcon=Upozornění: Časování prováděné přes RCON způsobí záseky serveru, měli byste použít /timings report v konzoli nebo ve hře
+cloudburst.command.timings.uploadStart=Připravuji výsledek časování...
+cloudburst.command.timings.uploadError=Chyba nahrávání: %1$2s: %2$2s, zkontroluj logy pro více informací
+cloudburst.command.timings.reportError=Vyskytla se chyba při ukládání hlášení, zkontroluj logy pro více informací
+cloudburst.command.timings.timingsLocation=Podívej se na hlášení z časování: %1$2s
+cloudburst.command.timings.timingsResponse=Odpověď časování: %1$2s
+cloudburst.command.timings.timingsWrite=Časování zapsáno do %1$2s
 
-nukkit.crash.create=Vyskytla se neopravitelná chyba a server spadl. Vytvářím crash dump
-nukkit.crash.error=Nepodařilo se vytvořit crash dump: %1$2s
-nukkit.crash.submit=Prosím nahrajte soubor "%1$2s" do crash archivu a přilož odkaz na stránku pro hlášení chyb. Poskytněte nejvíc informací co můžete.
-nukkit.crash.archive=Crash dump byl automaticky poslán do crash archivu. Můžete si ho prohlédnout na %1$2s nebo pomocí ID #%2$2s.
+cloudburst.crash.create=Vyskytla se neopravitelná chyba a server spadl. Vytvářím crash dump
+cloudburst.crash.error=Nepodařilo se vytvořit crash dump: %1$2s
+cloudburst.crash.submit=Prosím nahrajte soubor "%1$2s" do crash archivu a přilož odkaz na stránku pro hlášení chyb. Poskytněte nejvíc informací co můžete.
+cloudburst.crash.archive=Crash dump byl automaticky poslán do crash archivu. Můžete si ho prohlédnout na %1$2s nebo pomocí ID #%2$2s.
 
-nukkit.debug.enable=Podpora LevelDB zapnuta
+cloudburst.debug.enable=Podpora LevelDB zapnuta
 
-nukkit.bugreport.create=Byla detekována chyba, vytvářím hlášení chyby.
-nukkit.bugreport.error=Nepodařilo se vytvořit hlášení chyby: %1$2s
-nukkit.bugreport.archive=Hlášení chyby bylo vytvořeno: %1$2s
+cloudburst.bugreport.create=Byla detekována chyba, vytvářím hlášení chyby.
+cloudburst.bugreport.error=Nepodařilo se vytvořit hlášení chyby: %1$2s
+cloudburst.bugreport.archive=Hlášení chyby bylo vytvořeno: %1$2s
 
-nukkit.player.invalidMove=%1$2s se pohnul špatně!
-nukkit.player.logIn=%1$2s [/%2$2s:%3$2s] se přihlásil/a s entity id %4$2s v (%5$2s, %6$2s, %7$2s, %8$2s)
-nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] se odhlásil/a z důvodu %4$2s
-nukkit.player.invalidEntity=%1$2s zkusil/a napadnout neplatnou bytost
+cloudburst.player.invalidMove=%1$2s se pohnul špatně!
+cloudburst.player.logIn=%1$2s [/%2$2s:%3$2s] se přihlásil/a s entity id %4$2s v (%5$2s, %6$2s, %7$2s, %8$2s)
+cloudburst.player.logOut=%1$2s[/%2$2s:%3$2s] se odhlásil/a z důvodu %4$2s
+cloudburst.player.invalidEntity=%1$2s zkusil/a napadnout neplatnou bytost
 
-nukkit.plugin.load=Načítám %1$2s
-nukkit.plugin.enable=Enabling %1$2s
-nukkit.plugin.disable=Disabling %1$2s
-nukkit.plugin.restrictedName=Vyhrazené jméno
-nukkit.plugin.incompatibleAPI=Nekompatibilní API verze
-nukkit.plugin.unknownDependency=Neznámá závislost
-nukkit.plugin.circularDependency=Byla detekována cirkulární závislost
-nukkit.plugin.genericLoadError=Nelze načíst plugin '%1$2s '
-nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' používá mezeru ve jménu, což se nepoužívá
-nukkit.plugin.loadError=Nelze načíst plugin '%1$2s': %2$2s
-nukkit.plugin.duplicateError=Nelze načíst plugin '%1$2s': plugin existuje
-nukkit.plugin.fileError=Nelze načíst '%1$2s' ve složce '%2$2s': %3$2s
-nukkit.plugin.commandError=Nepodařilo se načíst příkaz %1$2s pro plugin %2$2s
-nukkit.plugin.aliasError=Nepodařilo se načíst alias %1$2s pro plugin %2$2s
-nukkit.plugin.deprecatedEvent=Plugin '%1$2s' zaregistroval listener pro %2$2s na metodu %3$2s, ale event je zastaralý.
-nukkit.plugin.eventError=Nepodařilo se zpracovat event '%1$2s' pluginu '%2$2s': %3$2s na '%4$2s'
+cloudburst.plugin.load=Načítám %1$2s
+cloudburst.plugin.enable=Enabling %1$2s
+cloudburst.plugin.disable=Disabling %1$2s
+cloudburst.plugin.restrictedName=Vyhrazené jméno
+cloudburst.plugin.incompatibleAPI=Nekompatibilní API verze
+cloudburst.plugin.unknownDependency=Neznámá závislost
+cloudburst.plugin.circularDependency=Byla detekována cirkulární závislost
+cloudburst.plugin.genericLoadError=Nelze načíst plugin '%1$2s '
+cloudburst.plugin.spacesDiscouraged=Plugin '%1$2s' používá mezeru ve jménu, což se nepoužívá
+cloudburst.plugin.loadError=Nelze načíst plugin '%1$2s': %2$2s
+cloudburst.plugin.duplicateError=Nelze načíst plugin '%1$2s': plugin existuje
+cloudburst.plugin.fileError=Nelze načíst '%1$2s' ve složce '%2$2s': %3$2s
+cloudburst.plugin.commandError=Nepodařilo se načíst příkaz %1$2s pro plugin %2$2s
+cloudburst.plugin.aliasError=Nepodařilo se načíst alias %1$2s pro plugin %2$2s
+cloudburst.plugin.deprecatedEvent=Plugin '%1$2s' zaregistroval listener pro %2$2s na metodu %3$2s, ale event je zastaralý.
+cloudburst.plugin.eventError=Nepodařilo se zpracovat event '%1$2s' pluginu '%2$2s': %3$2s na '%4$2s'
 
-nukkit.resources.invalid-path=Cesta k balíčku zdrojů '%1$2s' existuje a není zde adresář
-nukkit.resources.unknown-format=Nelze načíst '%1$2s' nebyl rozpoznán formát
-nukkit.resources.fail=Nelze načíst '%1$2s': %2$2s
-nukkit.resources.success=Uspěšně načten %1$2s resource pack
-nukkit.resources.zip.not-found=Soubor '%1$2s' nebyl nalezen
-nukkit.resources.zip.no-manifest='manifest.json' nebyl nalezen
-nukkit.resources.zip.invalid-manifest='manifest.json' je neplatný nebo nedokončený
-
+cloudburst.resources.invalid-path=Cesta k balíčku zdrojů '%1$2s' existuje a není zde adresář
+cloudburst.resources.unknown-format=Nelze načíst '%1$2s' nebyl rozpoznán formát
+cloudburst.resources.fail=Nelze načíst '%1$2s': %2$2s
+cloudburst.resources.success=Uspěšně načten %1$2s resource pack
+cloudburst.resources.zip.not-found=Soubor '%1$2s' nebyl nalezen
+cloudburst.resources.zip.no-manifest='manifest.json' nebyl nalezen
+cloudburst.resources.zip.invalid-manifest='manifest.json' je neplatný nebo nedokončený

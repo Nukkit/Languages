@@ -1,4 +1,4 @@
-header.1=Pokročilé nastavení nukkitu
+header.1=Pokročilé nastavení Cloudburst
 header.2=Nekterá z těchto nastavení jsou bezpečná. Jiná ovšem mohou způsobit nesprávné fungování serveru v případě špatného nastavení
 header.3=V případě upgradu serveru se do tohoto souboru nové možnosti nastavení automaticky nepřidají
 
@@ -53,7 +53,7 @@ chunk-generation.population-queue-size=Maximální počet chunků ve frontě pro
 spawn-limits=Maximální počet těchto entit
 
 player.save-player-data.1=Při nastavení na true budou data hráčů ukládána ve formátu /players/jméno-hráče.dat
-player.save-player-data.2=Při nastavení na false nebude nukkit ukládat data hráčů jako "dat" soubory, aby s nimi mohly pluginy pracovat
+player.save-player-data.2=Při nastavení na false nebude cloudburst ukládat data hráčů jako "dat" soubory, aby s nimi mohly pluginy pracovat
 player.skin-change-cooldown=Interval, ve kterém si hráč může změnit svůj skin. 0 pro vypnutí omezení
 
 aliases=Aliasy pro příkazy

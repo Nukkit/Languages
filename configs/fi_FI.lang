@@ -1,4 +1,4 @@
-header.1=Edistynyt määritystiedosto Nukkitille
+header.1=Edistynyt määritystiedosto Cloudburst
 header.2=Jotkut näistä asetuksista ovat turvallisia, mutta toiset voivat rikkoa palvelimen, jos niitä muutetaan väärin
 header.3=Uudet asetukset eivät ilmesty tähän tiedostoon automaattisesti päivityksen yhteydessä
 
@@ -53,7 +53,7 @@ chunk-generation.population-queue-size=Populointia odottavien lohkojen enimmäis
 spawn-limits=Näiden olioiden enimmäismäärä
 
 player.save-player-data.1=Jos "true", pelaajien tiedot tallennetaan kohteeseen players/uuid.dat
-player.save-player-data.2=Jos "false", Nukkit ei tallenna pelaajien tietoja, jotta lisäosat voivat hoitaa tämän.
+player.save-player-data.2=Jos "false", cloudburst ei tallenna pelaajien tietoja, jotta lisäosat voivat hoitaa tämän.
 player.skin-change-cooldown=Skinin vaihtamisen välinen aika sekunneissa. Aseta "0" poistaaksesi rajoituksen
 
 aliases=Komentojen aliakset

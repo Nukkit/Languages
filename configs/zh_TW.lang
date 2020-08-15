@@ -1,4 +1,4 @@
-header.1=Nukkit 進階設定
+header.1=Cloudburst 進階設定
 header.2=此處設定大多是安全的，而在部分設定不當的情況下，可能會造成您的伺服器損壞
 header.3=更新後，新的設定及預設值將不會自動在此更新
 
@@ -53,7 +53,7 @@ chunk-generation.population-queue-size=排程中填充的區塊數量上限
 spawn-limits=實體數量上限
 
 player.save-player-data.1=如果為 true ，玩家資料將存於 players/玩家UUID.dat
-player.save-player-data.2=如果為 false ，Nukkit 將不會將玩家資料存為 ". dat" 檔案，以便插件進行其他動作
+player.save-player-data.2=如果為 false ，cloudburst 將不會將玩家資料存為 ". dat" 檔案，以便插件進行其他動作
 player.skin-change-cooldown=兩次更換 Skin 的時間間隔 (以秒為單位) 。設置為 0 停用冷卻時間
 
 aliases=指令別稱
