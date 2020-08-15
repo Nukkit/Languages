@@ -1,4 +1,4 @@
-header.1=Cloudburst の詳細構成ファイル
+header.1=Advanced configuration file for Cloudburst
 header.2=Some of these settings are safe, others can break your server if modified incorrectly
 header.3=New settings/defaults won't appear automatically on this file when upgrading
 
