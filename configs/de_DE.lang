@@ -1,4 +1,4 @@
-header.1=Erweiterte Konfigurationsdatei für Cloudburst
+header.1=Advanced configuration file for Cloudburst
 header.2=Einige Einstellungen sind komplett sicher umzustellen hingegen andere bei Falscher Konfiguration kann dein Server zu Fehlern führen
 header.3=Neue Einstellungen / Standardeinstellungen werden beim Upgrade nicht automatisch in dieser Datei angezeigt
 
@@ -53,7 +53,7 @@ chunk-generation.population-queue-size=Max. Anzahl an Chunks in der Warteschlang
 spawn-limits=Maximaler Betrag dieser Entitys
 
 player.save-player-data.1=Wenn es aktiviert wurde werden die Spielerdaten als player/playername.dat gespeichert
-player.save-player-data.2=Wenn es auf false gesetzt wurde werden die Spielerdaten nicht als "dat" Dateien gespeichert, damit Plugins irgendetwas damit angefangen können.
+player.save-player-data.2=If false, cloudburst won't save player data as "dat" files, in order that plugins can do something on it.
 player.skin-change-cooldown=Setze den Cooldown für einen Skin Change, setzte es auf 0 um den Cooldown zu deaktivieren
 
 aliases=Aliase für Befehle
