@@ -1,4 +1,4 @@
-header.1=Archivo de configuración avanzada para Cloudburst
+header.1=Advanced configuration file for Cloudburst
 header.2=Algunos de estos ajustes son seguros, otros pueden romper tu servidor si se modifican incorrectamente
 header.3=Los nuevos ajustes/valores por defecto no aparecerán automáticamente en este archivo cuando se actualice
 
