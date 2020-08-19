@@ -53,7 +53,7 @@ chunk-generation.population-queue-size=대기열에 있는 채워질 청크의 �
 spawn-limits=이 개체의 최대량
 
 player.save-player-data.1=true이면 플레이어 데이터가 players/플레이어 이름.dat으로 저장됩니다
-player.save-player-data.2=false이면 플러그인이 플레이어 데이터에 대해 작업을 수행할 수 있게 하기 위해 Cloudburst가 플레이어 데이터를 "dat" 파일로 저장하지 않습니다.
+player.save-player-data.2=false이면 Cloudburst가 플러그인이 플레이어 데이터에 대해 작업을 수행할 수 있도록 플레이어 데이터를 "dat" 파일로 저장하지 않습니다.
 player.skin-change-cooldown=스킨 변경 작업 간 시간(초)입니다. 대기 시간을 비활성화하려면 0으로 설정합니다
 
 aliases=명령어의 별칭
