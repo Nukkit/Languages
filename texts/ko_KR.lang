@@ -4,64 +4,64 @@
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-cloudburst.language.selected=Selected %1$2s as the default locale.
+cloudburst.language.selected=%1$2s을(를) 기본 로캘로 선택했습니다.
 
-cloudburst.data.playerNotFound=Player data not found for "%1$2s", creating new profile
-cloudburst.data.playerCorrupted=Corrupted data found for "%1$2s", creating new profile
-cloudburst.data.playerOld=Old Player data found for "%1$2s", upgrading profile
-cloudburst.data.saveError=Could not save player "%1$2s": %2$2s
+cloudburst.data.playerNotFound="%1$2s"의 플레이어 데이터를 찾을 수 없기에 새로운 프로필을 만듭니다
+cloudburst.data.playerCorrupted="%1$2s"의 데이터가 손상되었기에 새로운 프로필을 만듭니다
+cloudburst.data.playerOld="%1$2s"의 플레이어 데이터가 오래되었기에 프로필을 업그레이드합니다
+cloudburst.data.saveError=플레이어 "%1$2s"을(를) 저장할 수 없습니다: %2$2s
 
-cloudburst.level.notFound=Level "%1$2s" not found
-cloudburst.level.loadError=Could not load level "%1$2s": %2$2s
-cloudburst.level.generationError=Could not generate level "%1$2s": %2$2s
-cloudburst.level.tickError=Could not tick level "%1$2s": %2$2s
-cloudburst.level.chunkUnloadError=Error while unloading a chunk: %1$2s
-cloudburst.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being generated in the background
-cloudburst.level.defaultError=No default level has been loaded
-cloudburst.level.preparing=Preparing level "%1$2s"
-cloudburst.level.unloading=Unloading level "%1$2s"
-cloudburst.level.updating=Old level data found for "%1$2s", converting format
+cloudburst.level.notFound="%1$2s" 레벨을 찾을 수 없습니다
+cloudburst.level.loadError="%1$2s" 레벨을 불러올 수 없습니다: %2$2s
+cloudburst.level.generationError="%1$2s" 레벨을 생성할 수 없습니다: %2$2s
+cloudburst.level.tickError="%1$2s" 레벨의 틱을 처리할 수 없습니다: %2$2s
+cloudburst.level.chunkUnloadError=청크 언로드 중 오류가 발생했습니다: %1$2s
+cloudburst.level.backgroundGeneration="%1$2s" 레벨의 스폰 지형이 백그라운드에서 생성 중입니다
+cloudburst.level.defaultError=기본 레벨이 불러와지지 않았습니다
+cloudburst.level.preparing="%1$2s" 레벨을 준비하는 중입니다
+cloudburst.level.unloading="%1$2s" 레벨을 언로드하는 중입니다
+cloudburst.level.updating="%1$2s"의 레벨 데이터가 오래되었기에 형식을 변환합니다
 
-cloudburst.server.start=Starting Minecraft: Bedrock Edition server version %1$2s
-cloudburst.server.networkError=[Network] Stopped interface %1$2s due to %2$2s
-cloudburst.server.networkStart=Opening server on %1$2s:%2$2s
-cloudburst.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
-cloudburst.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
-cloudburst.server.license=%1$2s is distributed under the GPL License
-cloudburst.server.tickOverload=Can't keep up! Is the server overloaded?
-cloudburst.server.startFinished=Done (%1$2ss)! For help, type "help" or "?"
-cloudburst.server.defaultGameMode=Default game type: %1$2s
-cloudburst.server.query.start=Starting GS4 status listener
-cloudburst.server.query.info=Setting query port to %1$2s
-cloudburst.server.query.running=Query is running on %1$2s:%2$2s
-cloudburst.server.rcon.emptyPasswordError=Failed to start RCON: password is empty
-cloudburst.server.rcon.startupError=Failed to start RCON: %1$2s
-cloudburst.server.rcon.running=RCON is running on %1$2s:%2$2s
+cloudburst.server.start=Minecraft: Bedrock Edition 서버 버전 %1$2s을(를) 시작하는 중입니다
+cloudburst.server.networkError=[네트워크] 인터페이스 %1$2s이(가) %2$2s(으)로 인해 중지되었습니다
+cloudburst.server.networkStart=서버를 %1$2s:%2$2s에서 여는 중입니다
+cloudburst.server.info=이 서버는 %1$2s 버전 %2$2s "%3$2s" (API %4$2s)을(를) 실행하고 있습니다
+cloudburst.server.info.extended=이 서버는 Minecraft: Bedrock Edition %4$2s (프로토콜 버전 %5$2s)용 API 버전 %3$2s을(를) 구현하는 %1$2s %2$2s을(를) 실행하고 있습니다
+cloudburst.server.license=%1$2s은(는) GPL 라이선스 하에 배포됩니다
+cloudburst.server.tickOverload=따라갈 수 없습니다! 서버가 과부화되었는지 확인하세요.
+cloudburst.server.startFinished=완료 (%1$2s초)! 도움말을 참조하려면 "help" 또는 "?"를 입력하세요
+cloudburst.server.defaultGameMode=기본 게임 유형: %1$2s
+cloudburst.server.query.start=GS4 상태 리스너를 시작하는 중입니다
+cloudburst.server.query.info=Query 포트를 %1$2s(으)로 설정하는 중입니다
+cloudburst.server.query.running=Query가 %1$2s:%2$2s에서 실행 중입니다
+cloudburst.server.rcon.emptyPasswordError=RCON을 시작하지 못했습니다: 비밀번호가 비어 있습니다
+cloudburst.server.rcon.startupError=RCON을 시작하지 못했습니다: %1$2s
+cloudburst.server.rcon.running=RCON이 %1$2s:%2$2s에서 실행 중입니다
 
-cloudburst.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
-cloudburst.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
-cloudburst.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
+cloudburst.command.alias.illegal=잘못된 문자를 포함하기에 %1$2s 별칭을 등록할 수 없습니다
+cloudburst.command.alias.notFound=존재하지 않는 명령어를 포함하기에 %1$2s 별칭을 등록할 수 없습니다: %2$2s
+cloudburst.command.exception=%2$2s에서 '%1$2s' 명령어 실행 중 처리되지 않은 예외가 발생했습니다: %3$2s
 
-cloudburst.command.version.description=Gets the version of this server including any plugins in use
-cloudburst.command.version.usage=/version [plugin name]
-cloudburst.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
-cloudburst.command.version.plugin=%1$2s running version %1$2s
-cloudburst.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
+cloudburst.command.version.description=사용 중인 플러그인을 포함해 이 서버의 버전을 가져옵니다
+cloudburst.command.version.usage=/version [플러그인 이름]
+cloudburst.command.version.server=이 서버는 %1$2s 버전 %2$2s (MC: %3$2s) (API 버전 %4$2s 구현)을(를) 실행하고 있습니다
+cloudburst.command.version.plugin=%1$2s 버전 %1$2s을(를) 실행하고 있습니다
+cloudburst.command.version.noSuchPlugin=이 서버는 해당 이름의 플러그인을 실행하고 있지 않습니다. /plugins를 사용해 플러그인 목록을 가져오세요.
 
-cloudburst.command.plugins.description=Gets a list of plugins running on the server
-cloudburst.command.plugins.success=Plugins (%1$2s): %2$2s
+cloudburst.command.plugins.description=서버에서 실행 중인 플러그인 목록을 가져옵니다
+cloudburst.command.plugins.success=플러그인 (%1$2s): %2$2s
 cloudburst.command.plugins.usage=/plugins
 
-cloudburst.command.status.description=Reads back the server's performance.
+cloudburst.command.status.description=서버의 성능을 읽습니다.
 cloudburst.command.status.usage=/status
 
-cloudburst.command.timings.description=Records timings to see performance of the server.
+cloudburst.command.timings.description=서버의 성능 확인을 위해 타이밍을 기록합니다.
 cloudburst.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-cloudburst.command.timings.enable=Enabled timings and reset
-cloudburst.command.timings.disable=Disabled timings
-cloudburst.command.timings.timingsDisabled=Please enable timings by typing /timings on
-cloudburst.command.timings.verboseEnable=Enabled verbose timings
-cloudburst.command.timings.verboseDisable=Disabled verbose timings
+cloudburst.command.timings.enable=타이밍을 활성화 및 초기화했습니다
+cloudburst.command.timings.disable=타이밍을 비활성화했습니다
+cloudburst.command.timings.timingsDisabled=/timings on을 입력해 타이밍을 활성화해주세요
+cloudburst.command.timings.verboseEnable=버보스 타이밍을 활성화했습니다
+cloudburst.command.timings.verboseDisable=버보스 타이밍을 비활성화했습니다
 cloudburst.command.timings.reset=Timings reset
 cloudburst.command.timings.rcon=Warning: Timings report done over RCON will cause lag spikes, you should use /timings report in game or console
 cloudburst.command.timings.uploadStart=Preparing timings report...
