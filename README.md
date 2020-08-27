@@ -1,6 +1,6 @@
 # Languages
 
-This repository contains the localizations for the [Nukkit project](https://github.com/NukkitX/Nukkit).
+This repository contains the localizations for the [Cloudburst project](https://github.com/CloudburstMC/Server).
 
 Guidelines
 ----------------
