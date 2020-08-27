@@ -19,7 +19,7 @@ cloudburst.level.chunkUnloadError=Error while unloading a chunk: %1$2s
 cloudburst.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being generated in the background
 cloudburst.level.defaultError=No default level has been loaded
 cloudburst.level.preparing=Preparing level "%1$2s"
-cloudburst.level.unloading=Preparing level "%1$2s"
+cloudburst.level.unloading=Unloading level "%1$2s"
 cloudburst.level.updating=Old level data found for "%1$2s", converting format
 
 cloudburst.server.start=Starting Minecraft: Bedrock Edition server version %1$2s
