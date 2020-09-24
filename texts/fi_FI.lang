@@ -4,46 +4,46 @@
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-cloudburst.language.selected=Selected %1$2s as the default locale.
+cloudburst.language.selected=Valittiin %1$2s oletuskieleksi.
 
-cloudburst.data.playerNotFound=Player data not found for "%1$2s", creating new profile
-cloudburst.data.playerCorrupted=Corrupted data found for "%1$2s", creating new profile
-cloudburst.data.playerOld=Old Player data found for "%1$2s", upgrading profile
-cloudburst.data.saveError=Could not save player "%1$2s": %2$2s
+cloudburst.data.playerNotFound=Pelaajatietoja ei löytynyt pelaajalle "%1$2s", luodaan uusi profiili
+cloudburst.data.playerCorrupted=Vioittunut data löytyi pelaajalle "%1$2s", luodaan uusi profiili
+cloudburst.data.playerOld=Vanhat pelaajatiedot löytyi pelaajalle "%1$2s", päivitetään profiilia
+cloudburst.data.saveError=Ei voida tallentaa pelaajaa "%1$2s": %2$2s
 
-cloudburst.level.notFound=Level "%1$2s" not found
-cloudburst.level.loadError=Could not load level "%1$2s": %2$2s
-cloudburst.level.generationError=Could not generate level "%1$2s": %2$2s
-cloudburst.level.tickError=Could not tick level "%1$2s": %2$2s
-cloudburst.level.chunkUnloadError=Error while unloading a chunk: %1$2s
-cloudburst.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being generated in the background
-cloudburst.level.defaultError=No default level has been loaded
-cloudburst.level.preparing=Preparing level "%1$2s"
-cloudburst.level.unloading=Unloading level "%1$2s"
-cloudburst.level.updating=Old level data found for "%1$2s", converting format
+cloudburst.level.notFound=Maailmaa "%1$2s" ei löydy
+cloudburst.level.loadError=Ei voida ladata maailmaa '%1$2s': %2$2s
+cloudburst.level.generationError=Ei voida generoida maailmaa '%1$2s': %2$2s
+cloudburst.level.tickError=Ei voida prosessoida maailmaa '%1$2s': %2$2s
+cloudburst.level.chunkUnloadError=Virhe vapauttaessa lohkoa: %1$2s
+cloudburst.level.backgroundGeneration=Syntypaikan maastoa maailmalle ”%1$2s” luodaan taustalla
+cloudburst.level.defaultError=Oletusmaailmaa ei ole ladattu
+cloudburst.level.preparing=Valmistellaan maailmaa "%1$2s"
+cloudburst.level.unloading=Suljetaan maailmaa "%1$2s"
+cloudburst.level.updating=Maailmalle "%1$2s" löytyi vanhentuneet tiedot, muunnetaan formaattia
 
-cloudburst.server.start=Starting Minecraft: Bedrock Edition server version %1$2s
-cloudburst.server.networkError=[Network] Stopped interface %1$2s due to %2$2s
-cloudburst.server.networkStart=Opening server on %1$2s:%2$2s
-cloudburst.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
-cloudburst.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
-cloudburst.server.license=%1$2s is distributed under the GPL License
-cloudburst.server.tickOverload=Can't keep up! Is the server overloaded?
-cloudburst.server.startFinished=Done (%1$2ss)! For help, type "help" or "?"
-cloudburst.server.defaultGameMode=Default game type: %1$2s
-cloudburst.server.query.start=Starting GS4 status listener
-cloudburst.server.query.info=Setting query port to %1$2s
-cloudburst.server.query.running=Query is running on %1$2s:%2$2s
-cloudburst.server.rcon.emptyPasswordError=Failed to start RCON: password is empty
-cloudburst.server.rcon.startupError=Failed to start RCON: %1$2s
-cloudburst.server.rcon.running=RCON is running on %1$2s:%2$2s
+cloudburst.server.start=Käynnistetään Minecraft: Bedrock Edition -palvelimen versio %1$2s
+cloudburst.server.networkError=[Network] Pysäytettiin liittymä %1$2s: %2$2s
+cloudburst.server.networkStart=Avataan palvelin osoitteessa %1$2s:%2$2s
+cloudburst.server.info=Tämä pälvelin käyttää %1$2s versiota %2$2s "%3$2s" (API %4$2s)
+cloudburst.server.info.extended=Tämä palvelin käyttää %1$2s%2$2s API versiolla %3$2s Minecraft: Bedrock Edition versiolle %4$2s (protokollaversio %5$2s)
+cloudburst.server.license=%1$2s jaetaan GPL-lisenssin alaisena
+cloudburst.server.tickOverload=Ei pysy mukana! Onko palvelin ylikuormitettu?
+cloudburst.server.startFinished=Valmis (%1$2ss)! Kirjoita "help" tai "?" saadaksesi apua
+cloudburst.server.defaultGameMode=Oletuspelitila: %1$2s
+cloudburst.server.query.start=Käynnistetään GS4 tilan tarkkailija
+cloudburst.server.query.info=Asetetaan tiedustelun portiksi %1$2s
+cloudburst.server.query.running=Tiedustelu on käynnissä osoitteessa %1$2s:%2$2s
+cloudburst.server.rcon.emptyPasswordError=RCON käynnistäminen epäonnistui: salasana on tyhjä
+cloudburst.server.rcon.startupError=RCON käynnistäminen epäonnistui: %1$2s
+cloudburst.server.rcon.running=RCON on käynnissä osoitteessa %1$2s:%2$2s
 
-cloudburst.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
-cloudburst.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
-cloudburst.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
+cloudburst.command.alias.illegal=Aliasta %1$2s ei voida rekisteröidä, koska se sisältää kiellettyjä merkkejä
+cloudburst.command.alias.notFound=Aliasta %1$2s ei voida rekisteröidä, koska se sisältää komentoja, joita ei ole olemassa: %2$2s
+cloudburst.command.exception=Käsittelemätön virhe suorittaessa komentoa '%1$2s' paikassa %2$2s: %3$2s
 
-cloudburst.command.version.description=Gets the version of this server including any plugins in use
-cloudburst.command.version.usage=/version [plugin name]
+cloudburst.command.version.description=Näytä palvelimen versio mukaan lukien kaikki käytössä olevat lisäosat
+cloudburst.command.version.usage=/version [lisäosan nimi]
 cloudburst.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
 cloudburst.command.version.plugin=%1$2s running version %1$2s
 cloudburst.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
