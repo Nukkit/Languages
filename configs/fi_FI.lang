@@ -1,8 +1,8 @@
-header.1=Advanced configuration file for Cloudburst
+header.1=Edistynyt määritystiedosto Cloudburstille
 header.2=Jotkut näistä asetuksista ovat turvallisia, mutta toiset voivat rikkoa palvelimen, jos niitä muutetaan väärin
 header.3=Uudet asetukset eivät ilmesty tähän tiedostoon automaattisesti päivityksen yhteydessä
 
-settings.language=Monikielisyys asetukset
+settings.language=Monikielisyysasetukset
 settings.force-language=Lähetetäänkö kaikki merkkijonot palvelimen kielelle käännettynä vai annetaanko laitteen käsitellä ne
 
 settings.shutdown-message=Viesti, joka näytetään pelaajille, kun palvelin sammutetaan
@@ -53,7 +53,7 @@ chunk-generation.population-queue-size=Populointia odottavien lohkojen enimmäis
 spawn-limits=Näiden olioiden enimmäismäärä
 
 player.save-player-data.1=Jos "true", pelaajien tiedot tallennetaan kohteeseen players/uuid.dat
-player.save-player-data.2=If false, cloudburst won't save player data as "dat" files, in order that plugins can do something on it.
+player.save-player-data.2=Jos "false", Cloudburst ei tallenna pelaajien tietoja "dat"-tiedostoina, jotta lisäosat voivat hoitaa tämän.
 player.skin-change-cooldown=Skinin vaihtamisen välinen aika sekunneissa. Aseta "0" poistaaksesi rajoituksen
 
 aliases=Komentojen aliakset
