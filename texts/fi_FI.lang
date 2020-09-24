@@ -62,29 +62,29 @@ cloudburst.command.timings.disable=Ajoitukset poistettiin käytöstä
 cloudburst.command.timings.timingsDisabled=Ota ajoitukset käyttöön /timings on -komennolla
 cloudburst.command.timings.verboseEnable=Otettiin ajoitusten monisanaisuus käyttöön
 cloudburst.command.timings.verboseDisable=Poistettiin ajoitusten monisanaisuus käytöstä
-cloudburst.command.timings.reset=Timings reset
-cloudburst.command.timings.rcon=Warning: Timings report done over RCON will cause lag spikes, you should use /timings report in game or console
-cloudburst.command.timings.uploadStart=Preparing timings report...
-cloudburst.command.timings.uploadError=Upload Error: %1$2s: %2$2s, check logs for more information
-cloudburst.command.timings.reportError=An error happened while pasting the report, check logs for more information
-cloudburst.command.timings.timingsLocation=View timings report: %1$2s
-cloudburst.command.timings.timingsResponse=Timings response: %1$2s
-cloudburst.command.timings.timingsWrite=Timings written to %1$2s
+cloudburst.command.timings.reset=Ajoitukset nollattu
+cloudburst.command.timings.rcon=Varoitus: Ajoitusraportin tekeminen RCON:in yli aiheuttaa viivepiikkejä. Käytä mielummin /timings report -komentoa pelissä tai konsolissa.
+cloudburst.command.timings.uploadStart=Valmistellaan ajoitusraporttia...
+cloudburst.command.timings.uploadError=Lähetysvirhe: %1$2s: %2$2s, katso lisätietoja lokista
+cloudburst.command.timings.reportError=Virhe liittäessä raporttia, katso lisätietoja lokista
+cloudburst.command.timings.timingsLocation=Näytä ajoitusraportti: %1$2s
+cloudburst.command.timings.timingsResponse=Ajoitusten vastaus: %1$2s
+cloudburst.command.timings.timingsWrite=Ajoitukset tallennettiin paikkaan %1$2s
 
-cloudburst.crash.create=An unrecoverable error has occurred and the server has crashed. Creating a crash dump
-cloudburst.crash.error=Could not create crash dump: %1$2s
-cloudburst.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
-cloudburst.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
+cloudburst.crash.create=Peruuttamaton virhe on tapahtunut ja palvelin on kaatunut. Luodaan kaatumisvedosta
+cloudburst.crash.error=Kaatumisvedoksen luonti epäonnistui: %1$2s
+cloudburst.crash.submit=Lähetä tiedosto "%1$2s" Crash Archiveen ja lähetä linkki Bug Reporting-sivulle. Anna niin paljon tietoa kuin mahdollista.
+cloudburst.crash.archive=Kaatumisvedos on automaattisesti lähetetty Crash Archiveen. Voit tarkastella sitä osoitteessa %1$2s tai käyttää tunnusta #%2$2s.
 
-cloudburst.debug.enable=LevelDB support enabled
+cloudburst.debug.enable=LevelDB tuki aktivoitu
 
-cloudburst.bugreport.create=An error has been detected, creating a bug report.
-cloudburst.bugreport.error=Could not create bug report: %1$2s
-cloudburst.bugreport.archive=A bug report has been created: %1$2s
+cloudburst.bugreport.create=Virhe on havaittu, luodaan virheraporttia.
+cloudburst.bugreport.error=Virheraportin luonti epäonnistui: %1$2s
+cloudburst.bugreport.archive=Virheraportti luotu: %1$2s
 
-cloudburst.player.invalidMove=%1$2s moved wrongly!
-cloudburst.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, %8$2s)
-cloudburst.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
+cloudburst.player.invalidMove=%1$2s liikkui virheellisesti!
+cloudburst.player.logIn=%1$2s[/%2$2s:%3$2s] kirjautui sisään olennon tunnuksella %4$2s paikassa (%5$2s, %6$2s, %7$2s, %8$2s)
+cloudburst.player.logOut=%1$2s[/%2$2s:%3$2s] kirjautui ulos: %4$2s
 cloudburst.player.invalidEntity=%1$2s yritti vahingoittaa virheellistä olentoa
 
 cloudburst.plugin.load=Ladataan %1$2s
