@@ -67,14 +67,14 @@ cloudburst.command.timings.rcon=경고: RCON을 통해 수행된 타이밍 보�
 cloudburst.command.timings.uploadStart=타이밍 보고 준비 중...
 cloudburst.command.timings.uploadError=업로드 오류: %1$2s: %2$2s, 자세한 정보는 로그를 확인하세요
 cloudburst.command.timings.reportError=보고서를 붙여넣는 동안 오류가 발생했습니다, 자세한 정보는 로그를 확인하세요
-cloudburst.command.timings.timingsLocation=타이밍 보고서 확인: %1$2s
+cloudburst.command.timings.timingsLocation=타이밍 보고서 보기: %1$2s
 cloudburst.command.timings.timingsResponse=타이밍 응답: %1$2s
 cloudburst.command.timings.timingsWrite=타이밍이 %1$2s에 작성되었습니다
 
 cloudburst.crash.create=복구 불가능한 오류가 발생해 서버가 강제 종료되었습니다. 충돌 덤프를 만듭니다
 cloudburst.crash.error=충돌 덤프를 만들 수 없습니다: %1$2s
 cloudburst.crash.submit="%1$2s" 파일을 충돌 보관소에 업로드하고 버그 보고 페이지에 링크를 제출해주세요. 가능한 한 많은 정보를 주시기 바랍니다.
-cloudburst.crash.archive=충돌 덤프가 자동으로 충돌 보관소에 제출되었습니다. %1$2s에서 확인하거나 ID #%2$2s을(를) 사용할 수 있습니다.
+cloudburst.crash.archive=충돌 덤프가 자동으로 충돌 보관소에 제출되었습니다. %1$2s에서 보거나 ID #%2$2s을(를) 사용할 수 있습니다.
 
 cloudburst.debug.enable=LevelDB 지원이 활성화되었습니다
 
