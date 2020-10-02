@@ -10,6 +10,7 @@ settings.query-plugins=Allow listing plugins via Query
 settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
 settings.async-workers.1=Number of asynchronous workers
 settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
+settings.upnp=Attempt to port forward on the gateway using UPnP
 
 network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
 network.batch-threshold.2=Set to 0 to compress everything, -1 to disable
