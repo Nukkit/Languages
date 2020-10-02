@@ -10,6 +10,7 @@ settings.query-plugins=Povolit výpis pluginů zkrze Query
 settings.deprecated-verbose=Upozornit v konzoli pokud plugin využívá zastaralé části API
 settings.async-workers.1=Počet asynchronních vláken
 settings.async-workers.2=Pokud je nastaveno na auto, pokusí se automaticky detekovat počet jader (alespoň 4)
+settings.upnp=Attempt to port forward on the gateway using UPnP
 
 network.batch-threshold.1=Hranice pro balení paketů v bytech. Pouze tyto pakety budou komprimovány
 network.batch-threshold.2=Nastavte na 0 pro kompresi všeho. -1 pro vypnutí
