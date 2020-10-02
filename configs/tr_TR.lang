@@ -10,6 +10,7 @@ settings.query-plugins=Eklentileri Query ile listelemeye izin ver
 settings.deprecated-verbose=Eklentiden kaldırılmış API yöntemi kullanıldığında konsolda uyarı göster
 settings.async-workers.1=Asenkron çalışan sayısı
 settings.async-workers.2="auto" seçilirse, kendisi tespit edecektir. (en az 4)
+settings.upnp=Attempt to port forward on the gateway using UPnP
 
 network.batch-threshold.1=Bayt cinsinden paketleri toplamak için sınır. Sadece bu paketler sıkıştırılacak
 network.batch-threshold.2=Her şeyi sıkıştırmak için 0'a, kapatmak için -1 olarak ayarlayın
