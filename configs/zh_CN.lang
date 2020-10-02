@@ -10,6 +10,7 @@ settings.query-plugins=允许使用Query协议查询您的插件
 settings.deprecated-verbose=当某插件使用不被推荐的API时，在控制台提醒
 settings.async-workers.1=异步任务线程数量
 settings.async-workers.2=如果设置为auto，则自动识别CPU核心数量（最少4线程）
+settings.upnp=Attempt to port forward on the gateway using UPnP
 
 network.batch-threshold.1=批包大小阀值（单位：字节）。仅这些数据包会被压缩
 network.batch-threshold.2=设为 0 以压缩全部。设为 -1 以禁用此功能
