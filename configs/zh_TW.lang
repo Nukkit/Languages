@@ -10,6 +10,7 @@ settings.query-plugins=允許使用 Query 協定查詢插列表
 settings.deprecated-verbose=當插件使用不合適的 API 時於後台發送提示訊息
 settings.async-workers.1=異步線程數量
 settings.async-workers.2=如果設置為 auto ，則自動檢測核心數量 (至少 4 線程)
+settings.upnp=Attempt to port forward on the gateway using UPnP
 
 network.batch-threshold.1=數據包大小限制（單位：位元組）。這些數據包將被壓縮
 network.batch-threshold.2=設置為 0 壓縮所有內容，設置為 -1 停用此功能
