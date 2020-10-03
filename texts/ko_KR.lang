@@ -37,8 +37,8 @@ cloudburst.server.query.running=Query가 %1$2s:%2$2s에서 실행 중입니다
 cloudburst.server.upnp.enabled=UPnP가 활성화되었습니다. UPnP로 포트포워드를 시도합니다.
 cloudburst.server.upnp.disabled=UPnP가 비활성화되었습니다.
 cloudburst.server.upnp.unavailable=UPnP가 활성화되었지만 UPnP가 활성화된 게이트웨이를 찾지 못했습니다.
-cloudburst.server.upnp.success=%1$2s번 UDP 포트를 UPnP를 사용해 성공적으로 포워드했습니다.
-cloudburst.server.upnp.fail=%1$2s번 UDP 포트를 UPnP를 사용해 포워드하지 못했습니다.
+cloudburst.server.upnp.success=UPnP를 사용해 %1$2s번 UDP 포트를 성공적으로 포워드했습니다.
+cloudburst.server.upnp.fail=UPnP를 사용해 %1$2s번 UDP 포트를 포워드하지 못했습니다.
 cloudburst.server.upnp.closed=UPnP를 사용한 %1$2s번 UDP 포트의 포워딩 규칙을 제거했습니다.
 
 cloudburst.command.alias.illegal=잘못된 문자를 포함하기에 %1$2s 별칭을 등록할 수 없습니다
