@@ -34,12 +34,12 @@ cloudburst.server.defaultGameMode=Default game type: %1$2s
 cloudburst.server.query.start=Starting GS4 status listener
 cloudburst.server.query.info=Setting query port to %1$2s
 cloudburst.server.query.running=Query is running on %1$2s:%2$2s
-cloudburst.server.upnp.enabled=UPnP enabled. Attemptting to port-forward with UPnP.
+cloudburst.server.upnp.enabled=UPnP enabled. Attempting to port-forward with UPnP.
 cloudburst.server.upnp.disabled=UPnP is disabled.
 cloudburst.server.upnp.unavailable=UPnP is enabled, but no UPnP enabled gateway was found.
 cloudburst.server.upnp.success=Successfully forwarded UDP Port %1$2s using UPnP.
 cloudburst.server.upnp.fail=Failed to forward UDP Port %1$2s using UPnP.
-cloudburst.server.upnp.closed=Removed forwarding rule for UDP Port $1$2s using UPnP.
+cloudburst.server.upnp.closed=Removed forwarding rule for UDP Port %1$2s using UPnP.
 
 cloudburst.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
 cloudburst.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
