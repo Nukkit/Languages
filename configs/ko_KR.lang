@@ -8,8 +8,8 @@ settings.force-language=모든 문자열을 서버 로캘로 번역해 전송하
 settings.shutdown-message=서버가 종료될 때 플레이어에게 전송되는 연결 끊기 메시지
 settings.query-plugins=Query를 통한 플러그인 목록 표시 허용
 settings.deprecated-verbose=플러그인이 사용되지 않는 API 메서드를 사용할 때 콘솔 메시지 표시
-settings.async-workers.1=비동기 작업자의 개수
-settings.async-workers.2=auto로 설정하면 코어의 개수를 감지하려고 시도합니다(최소 4개)
+settings.async-workers.1=비동기 작업자 수
+settings.async-workers.2=auto로 설정하면 코어 수를 감지하려고 시도합니다(최소 4개)
 settings.upnp=UPnP를 사용해 게이트웨이에서 포트포워드 시도
 
 network.batch-threshold.1=일괄 처리 패킷의 임계값(바이트)입니다. 이 패킷만 압축됩니다
