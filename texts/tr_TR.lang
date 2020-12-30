@@ -109,8 +109,8 @@ cloudburst.plugin.eventError=Olay '%1$2s', '%2$2s': %4$2s üzerinde %3$2s için 
 
 cloudburst.resources.invalid-path=Kaynak paketi yolu '%1$2s' var ancak bir klasör değil
 cloudburst.resources.unknown-format=Format tanınmadığı için '%1$2s' yüklenemedi
-cloudburst.resources.fail=Could not load '%1$2s': %2$2s
-cloudburst.resources.success=Successfully loaded %1$2s resource packs
-cloudburst.resources.zip.not-found=File '%1$2s' is not found
-cloudburst.resources.zip.no-manifest='manifest.json' is not found
+cloudburst.resources.fail='%1$2s' yüklenemedi: %2$2s
+cloudburst.resources.success=Başarıyla %1$2s kaynak paketi yüklendi
+cloudburst.resources.zip.not-found=Dosya '%1$2s' bulunamadı
+cloudburst.resources.zip.no-manifest='manifest.json' bulunamadı
 cloudburst.resources.zip.invalid-manifest='manifest.json' is invalid or incomplete
