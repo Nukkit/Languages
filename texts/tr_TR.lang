@@ -16,14 +16,14 @@ cloudburst.level.loadError=Dünya "%1$2s": %2$2s yüklenemedi
 cloudburst.level.generationError=Level 1%1$2s": %2$2s oluşturulamadı
 cloudburst.level.tickError=Level "%1$2s": %2$2s işlenemedi
 cloudburst.level.chunkUnloadError=Chunk %1$2s yüklenirken bir hata oluştu
-cloudburst.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being generated in the background
+cloudburst.level.backgroundGeneration="%1$2s" seviyesi için başlangıç arazisi arka planda oluşturuluyor
 cloudburst.level.defaultError=Varsayılan dünya yüklenmedi
 cloudburst.level.preparing=Dünya "%1$2s" hazırlanıyor
 cloudburst.level.unloading=Dünya "%1$2s" kapatılıyor
 cloudburst.level.updating="%1$2s" için eski dünya verisi bulundu, yeni formata dönüştürülüyor
 
 cloudburst.server.start=Minecraft: Bedrock Edition %1$2s versiyonu ile sunucu başlatılıyor
-cloudburst.server.networkError=[Network] Stopped interface %1$2s due to %2$2s
+cloudburst.server.networkError=[Network] Arayüz %1$2s, %2$2s nedeniyle durduruldu
 cloudburst.server.networkStart=Opening server on %1$2s:%2$2s
 cloudburst.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
 cloudburst.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
