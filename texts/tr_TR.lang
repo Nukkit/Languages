@@ -24,10 +24,10 @@ cloudburst.level.updating="%1$2s" için eski dünya verisi bulundu, yeni formata
 
 cloudburst.server.start=Minecraft: Bedrock Edition %1$2s versiyonu ile sunucu başlatılıyor
 cloudburst.server.networkError=[Network] Arayüz %1$2s, %2$2s nedeniyle durduruldu
-cloudburst.server.networkStart=Opening server on %1$2s:%2$2s
-cloudburst.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
-cloudburst.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
-cloudburst.server.license=%1$2s is distributed under the GPL License
+cloudburst.server.networkStart=Sunucu, %1$2s:%2$2s üzerinde açılıyor
+cloudburst.server.info=Bu sunucu %1$2s sürüm %2$2s "%3$2s" (API %4$2s) ile çalışıyor
+cloudburst.server.info.extended=Bu sunucu %1$2s %2$2s tamamlanan API sürümü %3$2s birlikte Minecraft: Bedrock Edition %4$2s (protokol sürümü %5$2s) ile çalışıyor
+cloudburst.server.license=%1$2s GPL Lisansı altında dağıtılır
 cloudburst.server.tickOverload=Can't keep up! Is the server overloaded?
 cloudburst.server.startFinished=Done (%1$2ss)! For help, type "help" or "?"
 cloudburst.server.defaultGameMode=Default game type: %1$2s
