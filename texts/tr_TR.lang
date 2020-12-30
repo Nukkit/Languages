@@ -100,11 +100,11 @@ cloudburst.plugin.circularDependency=Döngüsel bağımlılık algılandı
 cloudburst.plugin.genericLoadError=Eklenti '%1$2s' yüklenemedi
 cloudburst.plugin.spacesDiscouraged=Eklenti '%1$2s' isminde boşluk kullanıyor, bu önerilmez
 cloudburst.plugin.loadError=Eklenti '%1$2s' yüklenemedi: %2$2s
-cloudburst.plugin.duplicateError=Could not load plugin '%1$2s': plugin exists
-cloudburst.plugin.fileError=Could not load '%1$2s' in folder '%2$2s': %3$2s
-cloudburst.plugin.commandError=Could not load command %1$2s for plugin %2$2s
-cloudburst.plugin.aliasError=Could not load alias %1$2s for plugin %2$2s
-cloudburst.plugin.deprecatedEvent=Plugin '%1$2s' has registered a listener for '%2$2s' on method '%3$2s', but the event is Deprecated.
+cloudburst.plugin.duplicateError=Eklenti '%1$2s' yüklenemedi: eklenti zaten var
+cloudburst.plugin.fileError='%2$2s' klasöründeki '%1$2s' yüklenemedi: %3$2s
+cloudburst.plugin.commandError=Komut %1$2s eklenti %2$2s için yüklenemedi
+cloudburst.plugin.aliasError=Takma ad %1$2s eklenti %2$2s için yüklenemedi
+cloudburst.plugin.deprecatedEvent=Eklenti '%1$2s', '%3$2s' yönteminde '%2$2s' için bir dinleyici kaydetti, ancak etkinlik kullanımdan kaldırıldı.
 cloudburst.plugin.eventError=Could not pass event '%1$2s' to '%2$2s': %3$2s on %4$2s
 
 cloudburst.resources.invalid-path=Resource packs path '%1$2s' exists and is not a directory
