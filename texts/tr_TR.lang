@@ -82,7 +82,7 @@ cloudburst.crash.archive=Çökme dökümü otomatikman Çökme Arşivine gönder
 cloudburst.debug.enable=LevelDB desteği açıldı
 
 cloudburst.bugreport.create=Bir hata tespit edildi, hata raporu oluşturuluyor.
-cloudburst.bugreport.error=Hata reporu oluşturulamadı: %1$2s
+cloudburst.bugreport.error=Hata raporu oluşturulamadı: %1$2s
 cloudburst.bugreport.archive=Bir hata raporu oluşturuldu: %1$2s
 
 cloudburst.player.invalidMove=%1$2s yanlış hareket etti!
@@ -113,4 +113,4 @@ cloudburst.resources.fail='%1$2s' yüklenemedi: %2$2s
 cloudburst.resources.success=Başarıyla %1$2s kaynak paketi yüklendi
 cloudburst.resources.zip.not-found=Dosya '%1$2s' bulunamadı
 cloudburst.resources.zip.no-manifest='manifest.json' bulunamadı
-cloudburst.resources.zip.invalid-manifest='manifest.json' is invalid or incomplete
+cloudburst.resources.zip.invalid-manifest='manifest.json' geçersiz veya eksik
