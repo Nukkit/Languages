@@ -45,24 +45,24 @@ cloudburst.command.alias.illegal=%1$2s takma adı kaydedilemedi çünkü geçers
 cloudburst.command.alias.notFound=%1$2s takma adı kaydedilemedi çünkü var olmayan komutlar içeriyor: %2$2s
 cloudburst.command.exception='%1$2s' Komutu %2$2s içinde çalıştırılırken işlenmeyen hata: %3$2s
 
-cloudburst.command.version.description=Gets the version of this server including any plugins in use
-cloudburst.command.version.usage=/version [plugin name]
-cloudburst.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
-cloudburst.command.version.plugin=%1$2s running version %1$2s
-cloudburst.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
+cloudburst.command.version.description=Kullanımdaki tüm eklentiler dahil bu sunucunun sürümünü gösterir
+cloudburst.command.version.usage=/version [eklenti ismi]
+cloudburst.command.version.server=Bu sunucu %1$2s sürüm %2$2s (MC: %3$2s) (Tamamlanan API sürümü %4$2s) ile çalışıyor
+cloudburst.command.version.plugin=%1$2s, %1$2s sürümünde çalışıyor
+cloudburst.command.version.noSuchPlugin=Bu sunucu bu isimde herhangi bir eklenti çalıştırmıyor. Eklenti listesini görmek için /plugins kullanın.
 
-cloudburst.command.plugins.description=Gets a list of plugins running on the server
-cloudburst.command.plugins.success=Plugins (%1$2s): %2$2s
+cloudburst.command.plugins.description=Sunucuda çalışan eklentilerin bir listesini alır
+cloudburst.command.plugins.success=Eklentiler (%1$2s): %2$2s
 cloudburst.command.plugins.usage=/plugins
 
-cloudburst.command.status.description=Reads back the server's performance.
+cloudburst.command.status.description=Sunucunun performansını ölçer.
 cloudburst.command.status.usage=/status
 
-cloudburst.command.timings.description=Records timings to see performance of the server.
+cloudburst.command.timings.description=Sunucunun performansını görmek için zamanlamaları kaydeder.
 cloudburst.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-cloudburst.command.timings.enable=Enabled timings and reset
-cloudburst.command.timings.disable=Disabled timings
-cloudburst.command.timings.timingsDisabled=Please enable timings by typing /timings on
+cloudburst.command.timings.enable=Zamanlayıcılar açıldı ve sıfırlandı
+cloudburst.command.timings.disable=Zamanlayıcılar kapatıldı
+cloudburst.command.timings.timingsDisabled=Lütfen /timings on yazarak zamanlayıcıları etkinleştirin
 cloudburst.command.timings.verboseEnable=Enabled verbose timings
 cloudburst.command.timings.verboseDisable=Disabled verbose timings
 cloudburst.command.timings.reset=Timings reset
