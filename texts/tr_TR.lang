@@ -104,11 +104,11 @@ cloudburst.plugin.duplicateError=Eklenti '%1$2s' yüklenemedi: eklenti zaten var
 cloudburst.plugin.fileError='%2$2s' klasöründeki '%1$2s' yüklenemedi: %3$2s
 cloudburst.plugin.commandError=Komut %1$2s eklenti %2$2s için yüklenemedi
 cloudburst.plugin.aliasError=Takma ad %1$2s eklenti %2$2s için yüklenemedi
-cloudburst.plugin.deprecatedEvent=Eklenti '%1$2s', '%3$2s' yönteminde '%2$2s' için bir dinleyici kaydetti, ancak etkinlik kullanımdan kaldırıldı.
-cloudburst.plugin.eventError=Could not pass event '%1$2s' to '%2$2s': %3$2s on %4$2s
+cloudburst.plugin.deprecatedEvent=Eklenti '%1$2s', '%3$2s' yönteminde '%2$2s' için bir dinleyici kaydetti, ancak olay kullanımdan kaldırıldı.
+cloudburst.plugin.eventError=Olay '%1$2s', '%2$2s': %4$2s üzerinde %3$2s için gerçekleştirilemedi
 
-cloudburst.resources.invalid-path=Resource packs path '%1$2s' exists and is not a directory
-cloudburst.resources.unknown-format=Could not load '%1$2s' due to format not recognized
+cloudburst.resources.invalid-path=Kaynak paketi yolu '%1$2s' var ancak bir klasör değil
+cloudburst.resources.unknown-format=Format tanınmadığı için '%1$2s' yüklenemedi
 cloudburst.resources.fail=Could not load '%1$2s': %2$2s
 cloudburst.resources.success=Successfully loaded %1$2s resource packs
 cloudburst.resources.zip.not-found=File '%1$2s' is not found
