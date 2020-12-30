@@ -38,12 +38,12 @@ cloudburst.server.upnp.enabled=UPnP açıldı. UPnP ile bağlantı noktası ilet
 cloudburst.server.upnp.disabled=UPnP kapatıldı.
 cloudburst.server.upnp.unavailable=UPnP açıldı, ancak UPnP için etkin ağ geçidi bulunamadı.
 cloudburst.server.upnp.success=UPnP kullanılarak UDP Portu %1$2s başarıyla iletildi.
-cloudburst.server.upnp.fail=Failed to forward UDP Port %1$2s using UPnP.
-cloudburst.server.upnp.closed=Removed forwarding rule for UDP Port %1$2s using UPnP.
+cloudburst.server.upnp.fail=UPnP kullanılarak UDP Portu %1$2s iletilemedi.
+cloudburst.server.upnp.closed=UPnP kullanılarak UDP Portu %1$2s için yönlendirme kuralı kaldırıldı.
 
-cloudburst.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
-cloudburst.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
-cloudburst.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
+cloudburst.command.alias.illegal=%1$2s takma adı kaydedilemedi çünkü geçersiz karakterler içeriyor
+cloudburst.command.alias.notFound=%1$2s takma adı kaydedilemedi çünkü var olmayan komutlar içeriyor: %2$2s
+cloudburst.command.exception='%1$2s' Komutu %2$2s içinde çalıştırılırken işlenmeyen hata: %3$2s
 
 cloudburst.command.version.description=Gets the version of this server including any plugins in use
 cloudburst.command.version.usage=/version [plugin name]
