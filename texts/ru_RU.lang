@@ -55,7 +55,7 @@ cloudburst.command.plugins.description=Выводит список плагин�
 cloudburst.command.plugins.success=Плагины (%1$2s): %2$2s
 cloudburst.command.plugins.usage=/plugins
 
-cloudburst.command.status.description=Reads back the server's performance.
+cloudburst.command.status.description=Выводит статус сервера.
 cloudburst.command.status.usage=/status
 
 cloudburst.command.timings.description=Records timings to see performance of the server.
