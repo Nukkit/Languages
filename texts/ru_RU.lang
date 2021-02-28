@@ -49,10 +49,10 @@ cloudburst.command.version.description=Выводит версию сервер�
 cloudburst.command.version.usage=/version [название плагина]
 cloudburst.command.version.server=Этот сервер работает на %1$2s версии %2$2s (MC: %3$2s) (Версия API: %4$2s)
 cloudburst.command.version.plugin=%1$2s работает на версии %1$2s
-cloudburst.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
+cloudburst.command.version.noSuchPlugin=На этом сервере нет плагина с таким названием. Используйте /plugins для получения списка всех плагинов.
 
-cloudburst.command.plugins.description=Gets a list of plugins running on the server
-cloudburst.command.plugins.success=Plugins (%1$2s): %2$2s
+cloudburst.command.plugins.description=Выводит список плагинов на этом сервере
+cloudburst.command.plugins.success=Плагины (%1$2s): %2$2s
 cloudburst.command.plugins.usage=/plugins
 
 cloudburst.command.status.description=Reads back the server's performance.
