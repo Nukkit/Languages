@@ -113,4 +113,4 @@ cloudburst.resources.fail=Не удалось загрузить '%1$2s': %2$2s
 cloudburst.resources.success=Успешно загружено %1$2s пакетов ресурсов
 cloudburst.resources.zip.not-found=Файл '%1$2s' не найден
 cloudburst.resources.zip.no-manifest='manifest.json' не найден
-cloudburst.resources.zip.invalid-manifest='manifest.json' is invalid or incomplete
+cloudburst.resources.zip.invalid-manifest='manifest.json' недопустимый или неполный
