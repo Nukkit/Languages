@@ -83,16 +83,16 @@ cloudburst.debug.enable=Поддержка LevelDB включена
 
 cloudburst.bugreport.create=Обнаружена ошибка, создание отчёта о ней.
 cloudburst.bugreport.error=Не удалось создать отчёт об ошибке: %1$2s
-cloudburst.bugreport.archive=A bug report has been created: %1$2s
+cloudburst.bugreport.archive=Создан отчёт об ошибке: %1$2s
 
-cloudburst.player.invalidMove=%1$2s moved wrongly!
-cloudburst.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, %8$2s)
-cloudburst.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
-cloudburst.player.invalidEntity=%1$2s tried to attack an invalid entity
+cloudburst.player.invalidMove=%1$2s двинулся подозрительно!
+cloudburst.player.logIn=%1$2s[%2$2s:%3$2s] вошёл с идентификатором существа %4$2s на (%5$2s, %6$2s, %7$2s, %8$2s)
+cloudburst.player.logOut=%1$2s[/%2$2s:%3$2s] вышел по причине %4$2s
+cloudburst.player.invalidEntity=%1$2s попытался атаковать некорректную сущность
 
-cloudburst.plugin.load=Loading %1$2s
-cloudburst.plugin.enable=Enabling %1$2s
-cloudburst.plugin.disable=Disabling %1$2s
+cloudburst.plugin.load=Загрузка %1$2s
+cloudburst.plugin.enable=Включение %1$2s
+cloudburst.plugin.disable=Выключение %1$2s
 cloudburst.plugin.restrictedName=Restricted name
 cloudburst.plugin.incompatibleAPI=Incompatible API version
 cloudburst.plugin.unknownDependency=Unknown dependency
