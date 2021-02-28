@@ -47,8 +47,8 @@ cloudburst.command.exception=Необработанное исключение �
 
 cloudburst.command.version.description=Выводит версию сервера, включая любые плагины
 cloudburst.command.version.usage=/version [название плагина]
-cloudburst.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
-cloudburst.command.version.plugin=%1$2s running version %1$2s
+cloudburst.command.version.server=Этот сервер работает на %1$2s версии %2$2s (MC: %3$2s) (Версия API: %4$2s)
+cloudburst.command.version.plugin=%1$2s работает на версии %1$2s
 cloudburst.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
 
 cloudburst.command.plugins.description=Gets a list of plugins running on the server
