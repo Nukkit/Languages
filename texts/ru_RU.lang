@@ -58,9 +58,9 @@ cloudburst.command.plugins.usage=/plugins
 cloudburst.command.status.description=Выводит статус сервера.
 cloudburst.command.status.usage=/status
 
-cloudburst.command.timings.description=Records timings to see performance of the server.
+cloudburst.command.timings.description=Записывает тайминги для просмотра производительности сервера.
 cloudburst.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-cloudburst.command.timings.enable=Enabled timings and reset
+cloudburst.command.timings.enable=Тайминги включены и сброшены
 cloudburst.command.timings.disable=Disabled timings
 cloudburst.command.timings.timingsDisabled=Please enable timings by typing /timings on
 cloudburst.command.timings.verboseEnable=Enabled verbose timings
