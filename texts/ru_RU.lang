@@ -24,10 +24,10 @@ cloudburst.level.updating=Найдены старые данные для уро
 
 cloudburst.server.start=Запуск Minecraft: Bedrock Edition сервера версии %1$2s
 cloudburst.server.networkError=[Network] Интерфейс %1$2s остановлен по причине %2$2s
-cloudburst.server.networkStart=Opening server on %1$2s:%2$2s
-cloudburst.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
-cloudburst.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
-cloudburst.server.license=%1$2s is distributed under the GPL License
+cloudburst.server.networkStart=Открытие сервера на %1$2s:%2$2s
+cloudburst.server.info=На этом сервере %1$2s версии %2$2s "%3$2s" (API %4$2s)
+cloudburst.server.info.extended=Этот сервер работает на %1$2s %2$2s версии API %3$2s для Minecraft: Bedrock Edition %4$2s (версия протокола %5$2s)
+cloudburst.server.license=%1$2s распространяется под лицензией GPL
 cloudburst.server.tickOverload=Can't keep up! Is the server overloaded?
 cloudburst.server.startFinished=Done (%1$2ss)! For help, type "help" or "?"
 cloudburst.server.defaultGameMode=Default game type: %1$2s
