@@ -17,8 +17,8 @@ cloudburst.level.generationError=Не удалось сгенерировать 
 cloudburst.level.tickError=Не удалось обработать уровень "%1$2s": %2$2s
 cloudburst.level.chunkUnloadError=Ошибка при выгрузке чанка: %1$2s
 cloudburst.level.backgroundGeneration=Ландшафт спауна для уровня "%1$2s" генерируется в фоновом режиме
-cloudburst.level.defaultError=No default level has been loaded
-cloudburst.level.preparing=Preparing level "%1$2s"
+cloudburst.level.defaultError=Уровень по умолчанию не был загружен
+cloudburst.level.preparing=Подготовка уровня "%1$2s"
 cloudburst.level.unloading=Unloading level "%1$2s"
 cloudburst.level.updating=Old level data found for "%1$2s", converting format
 
