@@ -1,19 +1,19 @@
 header.1=Расширенный файл конфигурации Cloudburst
-header.2=Some of these settings are safe, others can break your server if modified incorrectly
-header.3=New settings/defaults won't appear automatically on this file when upgrading
+header.2=Некоторые из этих настроек безопасны, другие могут нарушить работу вашего сервера, если будут неправильно изменены
+header.3=Новые настройки/настройки по умолчанию не будут отображаться автоматически при обновлении
 
 settings.language=Multi-language setting
 settings.force-language=Whether to send all strings translated to server locale or let the device handle them
 
-settings.shutdown-message=Disconnect message sent to players when the server is shutdown
-settings.query-plugins=Allow listing plugins via Query
-settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
-settings.async-workers.1=Number of asynchronous workers
-settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
+settings.shutdown-message=Сообщение об отключении, отправляемое игрокам при выключении сервера
+settings.query-plugins=Разрешить просматривать плагины через Query
+settings.deprecated-verbose=Показывать сообщение в консоли, когда плагин использует устаревшие методы API
+settings.async-workers.1=Количество асинхронных работников
+settings.async-workers.2=Если используется значение auto, будет произведена попытка определить количество ядер автоматически (минимум 4)
 settings.upnp=Attempt to port forward on the gateway using UPnP
 
 network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
-network.batch-threshold.2=Set to 0 to compress everything, -1 to disable
+network.batch-threshold.2=Установите значение 0 для сжатия всего, -1 для отключения сжатия
 network.compression-level=Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
 network.async-compression=Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
 
