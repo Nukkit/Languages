@@ -23,7 +23,7 @@ cloudburst.level.unloading=Выгрузка уровня "%1$2s"
 cloudburst.level.updating=Найдены старые данные для уровня "%1$2s", преобразование формата
 
 cloudburst.server.start=Запуск Minecraft: Bedrock Edition сервера версии %1$2s
-cloudburst.server.networkError=[Network] Stopped interface %1$2s due to %2$2s
+cloudburst.server.networkError=[Network] Интерфейс %1$2s остановлен по причине %2$2s
 cloudburst.server.networkStart=Opening server on %1$2s:%2$2s
 cloudburst.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
 cloudburst.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
