@@ -74,15 +74,15 @@ cloudburst.command.timings.timingsLocation=Просмотреть отчёт о 
 cloudburst.command.timings.timingsResponse=Timings response: %1$2s
 cloudburst.command.timings.timingsWrite=Тайминги записаны на %1$2s
 
-cloudburst.crash.create=An unrecoverable error has occurred and the server has crashed. Creating a crash dump
-cloudburst.crash.error=Could not create crash dump: %1$2s
-cloudburst.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
-cloudburst.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
+cloudburst.crash.create=Прозиошла неустранимая ошибка и произошёл сбой сервера. Создание аварийного отчёта об ошибках
+cloudburst.crash.error=Не удалось создать аварийный отчёт об ошибках: %1$2s
+cloudburst.crash.submit=Пожалуйста, загрузите файл "%1$2s" в Архив Сбоев и отправьте ссылку на страницу отчётов об ошибках. Сообщите нам как можно больше информации.
+cloudburst.crash.archive=Аварийный отчёт об ошибках был автоматически загружен в Архив Сбоев. Вы можете просмотреть его на %1$2s или использовать ID #%2$2s.
 
-cloudburst.debug.enable=LevelDB support enabled
+cloudburst.debug.enable=Поддержка LevelDB включена
 
-cloudburst.bugreport.create=An error has been detected, creating a bug report.
-cloudburst.bugreport.error=Could not create bug report: %1$2s
+cloudburst.bugreport.create=Обнаружена ошибка, создание отчёта о ней.
+cloudburst.bugreport.error=Не удалось создать отчёт об ошибке: %1$2s
 cloudburst.bugreport.archive=A bug report has been created: %1$2s
 
 cloudburst.player.invalidMove=%1$2s moved wrongly!
