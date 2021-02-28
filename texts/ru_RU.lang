@@ -72,7 +72,7 @@ cloudburst.command.timings.uploadError=Ошибка загрузки: %1$2s: %2$
 cloudburst.command.timings.reportError=Произошла ошибка при вставке отчёта, см. логи для получения большей информации
 cloudburst.command.timings.timingsLocation=Просмотреть отчёт о таймингах: %1$2s
 cloudburst.command.timings.timingsResponse=Timings response: %1$2s
-cloudburst.command.timings.timingsWrite=Timings written to %1$2s
+cloudburst.command.timings.timingsWrite=Тайминги записаны на %1$2s
 
 cloudburst.crash.create=An unrecoverable error has occurred and the server has crashed. Creating a crash dump
 cloudburst.crash.error=Could not create crash dump: %1$2s
