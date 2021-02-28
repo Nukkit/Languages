@@ -19,10 +19,10 @@ cloudburst.level.chunkUnloadError=Ошибка при выгрузке чанк�
 cloudburst.level.backgroundGeneration=Ландшафт спауна для уровня "%1$2s" генерируется в фоновом режиме
 cloudburst.level.defaultError=Уровень по умолчанию не был загружен
 cloudburst.level.preparing=Подготовка уровня "%1$2s"
-cloudburst.level.unloading=Unloading level "%1$2s"
-cloudburst.level.updating=Old level data found for "%1$2s", converting format
+cloudburst.level.unloading=Выгрузка уровня "%1$2s"
+cloudburst.level.updating=Найдены старые данные для уровня "%1$2s", преобразование формата
 
-cloudburst.server.start=Starting Minecraft: Bedrock Edition server version %1$2s
+cloudburst.server.start=Запуск Minecraft: Bedrock Edition сервера версии %1$2s
 cloudburst.server.networkError=[Network] Stopped interface %1$2s due to %2$2s
 cloudburst.server.networkStart=Opening server on %1$2s:%2$2s
 cloudburst.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
