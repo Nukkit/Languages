@@ -37,9 +37,9 @@ cloudburst.server.query.running=Query запущен на %1$2s:%2$2s
 cloudburst.server.upnp.enabled=UPnP включён. Попытка проброса портов с помощью UPnP.
 cloudburst.server.upnp.disabled=UPnP отключён.
 cloudburst.server.upnp.unavailable=UPnP включён, но шлюз с поддержкой UPnP не найден.
-cloudburst.server.upnp.success=Successfully forwarded UDP Port %1$2s using UPnP.
-cloudburst.server.upnp.fail=Failed to forward UDP Port %1$2s using UPnP.
-cloudburst.server.upnp.closed=Removed forwarding rule for UDP Port %1$2s using UPnP.
+cloudburst.server.upnp.success=Порт UDP %1$2s успешно проброшен с помощью UPnP.
+cloudburst.server.upnp.fail=Не удалось пробросить UDP порт %1$2s с помощью UPnP.
+cloudburst.server.upnp.closed=Удалено правило проброса для UDP порта %1$2s с помощью UPnP.
 
 cloudburst.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
 cloudburst.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
