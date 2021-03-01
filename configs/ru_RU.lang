@@ -54,9 +54,9 @@ chunk-generation.population-queue-size=Max. amount of chunks in the waiting queu
 spawn-limits=Максимальное количество этих сущностей
 
 player.save-player-data.1=Если эта опция включена, данные игроков будут сохранены как players/имя_игрока.dat
-player.save-player-data.2=If false, cloudburst won't save player data as "dat" files, in order that plugins can do something on it.
-player.skin-change-cooldown=The time between skin change action in seconds. Set 0 to disable the cooldown
+player.save-player-data.2=Если false, cloudburst не будет сохранять данные игроков в виде "dat" файлов, чтобы плагины могли что-то делать с ними.
+player.skin-change-cooldown=Промежуток времени между действием изменения скина. Установите 0, чтобы отключить задержку
 
 aliases=Псевдонимы для команд
 
-worlds=These settings will override the generator set in server.properties and allows loading multiple levels
+worlds=Эти настройки переопределяют установку генератора в server.properties и позволяют загружать несколько уровней
