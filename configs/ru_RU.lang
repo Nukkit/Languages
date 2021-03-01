@@ -21,7 +21,7 @@ debug.level=Если > 1, то в консоли будут отображать
 debug.commands=Включает команды: /status /gc
 
 timings.enabled=Enable core and plugin timings by default
-timings.verbose=Enable monitoring at verbose level, include high-frequency timings
+timings.verbose=Включить мониторинг на подробном уровне, включая высокочастотные тайминги
 timings.history-interval.1=Interval between history frames in ticks
 timings.history-interval.2=По умолчанию - 5 минут (6000 тиков)
 timings.history-length.1=Length of the whole timing history in ticks
