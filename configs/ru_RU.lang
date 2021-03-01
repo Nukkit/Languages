@@ -2,7 +2,7 @@ header.1=Расширенный файл конфигурации Cloudburst
 header.2=Некоторые из этих настроек безопасны, другие могут нарушить работу вашего сервера, если будут неправильно изменены
 header.3=Новые настройки/настройки по умолчанию не будут отображаться автоматически при обновлении
 
-settings.language=Multi-language setting
+settings.language=Многоязычная настройка
 settings.force-language=Whether to send all strings translated to server locale or let the device handle them
 
 settings.shutdown-message=Сообщение об отключении, отправляемое игрокам при выключении сервера
