@@ -1,4 +1,4 @@
-header.1=Edistynyt määritystiedosto Cloudburstille
+header.1=Cloudburstin asetustiedosto
 header.2=Jotkut näistä asetuksista ovat turvallisia, mutta toiset voivat rikkoa palvelimen, jos niitä muutetaan väärin
 header.3=Uudet asetukset eivät ilmesty tähän tiedostoon automaattisesti päivityksen yhteydessä
 
@@ -10,7 +10,7 @@ settings.query-plugins=Salli lisäosien listaus tiedustelun kautta
 settings.deprecated-verbose=Näytä viesti konsolissa, kun lisäosa käyttää käytöstä poistuneita API menetelmiä
 settings.async-workers.1=Asynkronisten työntekijöiden lukumäärä
 settings.async-workers.2=Jos asetetaan automaattiseksi, palvelin yrittää tunnistaa ydinten lukumäärän (vähintään 4)
-settings.upnp=Attempt to port forward on the gateway using UPnP
+settings.upnp=Yritetään siirtää yhdyskäytävälle käyttäen UPnP:tä
 
 network.batch-threshold.1=Pakettien eräraja tavuina. Vain nämä paketit pakataan
 network.batch-threshold.2=Aseta arvoksi 0 pakataksesi kaikki tai -1 poistaaksesi käytöstä
