@@ -34,12 +34,12 @@ cloudburst.server.defaultGameMode=Oletuspelitila: %1$2s
 cloudburst.server.query.start=Käynnistetään GS4 tilan tarkkailija
 cloudburst.server.query.info=Asetetaan tiedustelun portiksi %1$2s
 cloudburst.server.query.running=Tiedustelu on käynnissä osoitteessa %1$2s:%2$2s
-cloudburst.server.upnp.enabled=UPnP enabled. Attempting to port-forward with UPnP.
+cloudburst.server.upnp.enabled=UPnP otettiin käyttöön. Yritetään portin uudelleenohjausta UPnP:llä.
 cloudburst.server.upnp.disabled=UPnP on poistettu käytöstä.
-cloudburst.server.upnp.unavailable=UPnP is enabled, but no UPnP enabled gateway was found.
-cloudburst.server.upnp.success=UDP-portti %1$2s välitettiin onnistuneesti UPnP:llä.
-cloudburst.server.upnp.fail=UDP-portin %1$2s lähetys UPnP:llä epäonnistui.
-cloudburst.server.upnp.closed=Poistettu välittämissääntö UDP-portille %1$2s käyttäen UPnP:tä.
+cloudburst.server.upnp.unavailable=UPnP on käytössä, mutta UPnP yhdyskäytävää ei löytynyt.
+cloudburst.server.upnp.success=UDP-portti %1$2s uudelleenohjattu onnistuneesti UPnP:llä.
+cloudburst.server.upnp.fail=UDP-portin %1$2s uudelleenohjaus UPnP:llä epäonnistui.
+cloudburst.server.upnp.closed=UDP-portin %1$2s uudelleenohjaus poistettiin käyttäen UPnP:tä.
 
 cloudburst.command.alias.illegal=Aliasta %1$2s ei voida rekisteröidä, koska se sisältää kiellettyjä merkkejä
 cloudburst.command.alias.notFound=Aliasta %1$2s ei voida rekisteröidä, koska se sisältää komentoja, joita ei ole olemassa: %2$2s
