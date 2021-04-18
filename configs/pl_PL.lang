@@ -1,4 +1,4 @@
-header.1=Zaawansowany plik konfiguracyjny dla Cloudburst
+header.1=Advanced configuration file for Cloudburst
 header.2=Niektóre z tych ustawień są bezpieczne, inne mogą uszkodzić Twój serwer, jeśli zostaną zmodyfikowane niepoprawnie
 header.3=Nowe ustawienia/domyślne ustawienia nie pojawią się automatycznie w tym pliku podczas aktualizacji
 
@@ -10,6 +10,7 @@ settings.query-plugins=Zezwalaj na wyświetlanie rozszerzeń przez Query
 settings.deprecated-verbose=Pokaż wiadomość konsoli, gdy rozszerzenie używa przestarzałych metod API
 settings.async-workers.1=Liczba workerów asynchronicznych
 settings.async-workers.2=Jeśli ustawione na auto spróbuje wykryć liczbę rdzeni (i co najmniej 4)
+settings.upnp=Attempt to port forward on the gateway using UPnP
 
 network.batch-threshold.1=Próg dla grupowania pakietów w bajtach. Tylko te pakiety zostaną skompresowane
 network.batch-threshold.2=Ustaw 0, aby kompresować wszystko, -1 aby wyłączyć

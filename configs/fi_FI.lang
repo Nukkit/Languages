@@ -1,8 +1,8 @@
-header.1=Edistynyt määritystiedosto Cloudburst
+header.1=Cloudburstin asetustiedosto
 header.2=Jotkut näistä asetuksista ovat turvallisia, mutta toiset voivat rikkoa palvelimen, jos niitä muutetaan väärin
 header.3=Uudet asetukset eivät ilmesty tähän tiedostoon automaattisesti päivityksen yhteydessä
 
-settings.language=Monikielisyys asetukset
+settings.language=Monikielisyysasetukset
 settings.force-language=Lähetetäänkö kaikki merkkijonot palvelimen kielelle käännettynä vai annetaanko laitteen käsitellä ne
 
 settings.shutdown-message=Viesti, joka näytetään pelaajille, kun palvelin sammutetaan
@@ -10,6 +10,7 @@ settings.query-plugins=Salli lisäosien listaus tiedustelun kautta
 settings.deprecated-verbose=Näytä viesti konsolissa, kun lisäosa käyttää käytöstä poistuneita API menetelmiä
 settings.async-workers.1=Asynkronisten työntekijöiden lukumäärä
 settings.async-workers.2=Jos asetetaan automaattiseksi, palvelin yrittää tunnistaa ydinten lukumäärän (vähintään 4)
+settings.upnp=Yritä portin uudelleenohjausta yhdyskäytävälle käyttäen UPnP:tä
 
 network.batch-threshold.1=Pakettien eräraja tavuina. Vain nämä paketit pakataan
 network.batch-threshold.2=Aseta arvoksi 0 pakataksesi kaikki tai -1 poistaaksesi käytöstä
@@ -53,7 +54,7 @@ chunk-generation.population-queue-size=Populointia odottavien lohkojen enimmäis
 spawn-limits=Näiden olioiden enimmäismäärä
 
 player.save-player-data.1=Jos "true", pelaajien tiedot tallennetaan kohteeseen players/uuid.dat
-player.save-player-data.2=Jos "false", cloudburst ei tallenna pelaajien tietoja, jotta lisäosat voivat hoitaa tämän.
+player.save-player-data.2=Jos "false", Cloudburst ei tallenna pelaajien tietoja "dat"-tiedostoina, jotta lisäosat voivat hoitaa tämän.
 player.skin-change-cooldown=Skinin vaihtamisen välinen aika sekunneissa. Aseta "0" poistaaksesi rajoituksen
 
 aliases=Komentojen aliakset

@@ -1,4 +1,4 @@
-header.1=Archivo de configuración avanzada para Cloudburst
+header.1=Advanced configuration file for Cloudburst
 header.2=Algunos de estos ajustes son seguros, otros pueden romper tu servidor si se modifican incorrectamente
 header.3=Los nuevos ajustes/valores por defecto no aparecerán automáticamente en este archivo cuando se actualice
 
@@ -10,6 +10,7 @@ settings.query-plugins=Permitir listar plugins vía Query
 settings.deprecated-verbose=Mostrar un mensaje en la consola cuando un plugin utilice métodos API obsoletos
 settings.async-workers.1=Número de trabajadores asincrónicos
 settings.async-workers.2=Si se establece en automático, intentará detectar el número de núcleos (al menos 4)
+settings.upnp=Attempt to port forward on the gateway using UPnP
 
 network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
 network.batch-threshold.2=Set to 0 to compress everything, -1 to disable

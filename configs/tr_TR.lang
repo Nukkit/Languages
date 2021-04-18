@@ -5,11 +5,12 @@ header.3=Güncelleştirildiğinde yeni ayarlar bu dosyada otomatik olarak görü
 settings.language=Çoklu dil ayarı
 settings.force-language=Tüm dizelerin sunucu yerel ayarlarına gönderilip gönderilmeyeceği veya cihazın bunları işlemesine izin verilip verilmediği
 
-settings.shutdown-message=Sunucu çöktüğünde oyunculara gönderilcek mesaj
+settings.shutdown-message=Sunucu çöktüğünde oyunculara gönderilecek mesaj
 settings.query-plugins=Eklentileri Query ile listelemeye izin ver
 settings.deprecated-verbose=Eklentiden kaldırılmış API yöntemi kullanıldığında konsolda uyarı göster
 settings.async-workers.1=Asenkron çalışan sayısı
 settings.async-workers.2="auto" seçilirse, kendisi tespit edecektir. (en az 4)
+settings.upnp=UPnP kullanarak ağ geçidinde ileriye doğru bağlantı sağlamaya çalışın
 
 network.batch-threshold.1=Bayt cinsinden paketleri toplamak için sınır. Sadece bu paketler sıkıştırılacak
 network.batch-threshold.2=Her şeyi sıkıştırmak için 0'a, kapatmak için -1 olarak ayarlayın
@@ -53,7 +54,7 @@ chunk-generation.population-queue-size=İşlenilmeyi bekleyecek en fazla yığı
 spawn-limits=Bu varlıkların en fazla sayıları
 
 player.save-player-data.1="true" seçilirse, oyuncu verileri players/oyuncuismi.dat olarak kaydedilecek
-player.save-player-data.2="false" seçilirse, cloudburst oyuncu verilerini d at dosyası olarak kaydetmeyecek.
+player.save-player-data.2=Eğer "false" ise, cloudburst, eklentilerin üzerinde bir şeyler yapabilmesi için oyuncu verilerini "dat" dosyaları olarak kaydetmez.
 player.skin-change-cooldown=Cilt değiştirme zaman aralığı. Kapatmak için 0 yazın
 
 aliases=Komutlar için kısayollar

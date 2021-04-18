@@ -1,4 +1,4 @@
-header.1=Cloudburst の詳細構成ファイル
+header.1=Advanced configuration file for Cloudburst
 header.2=Some of these settings are safe, others can break your server if modified incorrectly
 header.3=New settings/defaults won't appear automatically on this file when upgrading
 
@@ -10,6 +10,7 @@ settings.query-plugins=Allow listing plugins via Query
 settings.deprecated-verbose=Show a console message when a plugin uses deprecated API methods
 settings.async-workers.1=Number of asynchronous workers
 settings.async-workers.2=If set to auto, it'll try to detect the number of cores (and at least 4)
+settings.upnp=Attempt to port forward on the gateway using UPnP
 
 network.batch-threshold.1=Threshold for batching packets, in bytes. Only these packets will be compressed
 network.batch-threshold.2=すべてを圧縮するには 0 に設定し、無効にするには -1 に設定します

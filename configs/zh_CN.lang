@@ -1,4 +1,4 @@
-header.1=Cloudburst的高级配置文件
+header.1=Advanced configuration file for Cloudburst
 header.2=此处部分设置是安全的，而一些在设置不当的情况下可能会损害您的服务器
 header.3=升级时，新设置或默认设置不会自动显示在此文件上
 
@@ -10,6 +10,7 @@ settings.query-plugins=允许使用Query协议查询您的插件
 settings.deprecated-verbose=当某插件使用不被推荐的API时，在控制台提醒
 settings.async-workers.1=异步任务线程数量
 settings.async-workers.2=如果设置为auto，则自动识别CPU核心数量（最少4线程）
+settings.upnp=Attempt to port forward on the gateway using UPnP
 
 network.batch-threshold.1=批包大小阀值（单位：字节）。仅这些数据包会被压缩
 network.batch-threshold.2=设为 0 以压缩全部。设为 -1 以禁用此功能
@@ -53,7 +54,7 @@ chunk-generation.population-queue-size=区块填充队列中的等待数量上�
 spawn-limits=实体数量上限
 
 player.save-player-data.1=若为 true, 玩家数据将保存为 players/玩家名.dat
-player.save-player-data.2=如果为 false，cloudburst 不会将玩家数据保存为 "dat" 文件，这样一些与玩家数据有关的插件就可以大展身手了。
+player.save-player-data.2=If false, cloudburst won't save player data as "dat" files, in order that plugins can do something on it.
 player.skin-change-cooldown=切换皮肤的冷却时间（单位：秒）。设为 0 以禁用冷却
 
 aliases=指令的别名

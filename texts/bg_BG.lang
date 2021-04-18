@@ -4,18 +4,18 @@
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-cloudburst.language.selected=Избрано %1$2s като стандартно локализиране.
+cloudburst.language.selected=Selected %1$2s as the default locale.
 
-cloudburst.data.playerNotFound=Данните за играча не са намерени за "%1$2s", създаване на нов профил
-cloudburst.data.playerCorrupted=Намерени са развалени данни за "%1$2s", създаване на нов профил
-cloudburst.data.playerOld=Данни за стария играч, намерени за "%1$2s", надстройване профила
-cloudburst.data.saveError=Не можа да запази играч "%1$2s": %2$2s
+cloudburst.data.playerNotFound=Player data not found for "%1$2s", creating new profile
+cloudburst.data.playerCorrupted=Corrupted data found for "%1$2s", creating new profile
+cloudburst.data.playerOld=Old Player data found for "%1$2s", upgrading profile
+cloudburst.data.saveError=Could not save player "%1$2s": %2$2s
 
-cloudburst.level.notFound=Ниво "%1$2s" не е намерено
-cloudburst.level.loadError=Не можа да зареди ниво "%1$2s": %2$2s
-cloudburst.level.generationError=Не можа да генерира ниво "%1$2s": %2$2s
-cloudburst.level.tickError=Не можа да отбележи ниво "%1$2s": %2$2s
-cloudburst.level.chunkUnloadError=Грешка при разтоварване на къс: %1$2s
+cloudburst.level.notFound=Level "%1$2s" not found
+cloudburst.level.loadError=Could not load level "%1$2s": %2$2s
+cloudburst.level.generationError=Could not generate level "%1$2s": %2$2s
+cloudburst.level.tickError=Could not tick level "%1$2s": %2$2s
+cloudburst.level.chunkUnloadError=Error while unloading a chunk: %1$2s
 cloudburst.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being generated in the background
 cloudburst.level.defaultError=No default level has been loaded
 cloudburst.level.preparing=Preparing level "%1$2s"
@@ -34,9 +34,12 @@ cloudburst.server.defaultGameMode=Default game type: %1$2s
 cloudburst.server.query.start=Starting GS4 status listener
 cloudburst.server.query.info=Setting query port to %1$2s
 cloudburst.server.query.running=Query is running on %1$2s:%2$2s
-cloudburst.server.rcon.emptyPasswordError=Failed to start RCON: password is empty
-cloudburst.server.rcon.startupError=Failed to start RCON: %1$2s
-cloudburst.server.rcon.running=RCON is running on %1$2s:%2$2s
+cloudburst.server.upnp.enabled=UPnP enabled. Attempting to port-forward with UPnP.
+cloudburst.server.upnp.disabled=UPnP is disabled.
+cloudburst.server.upnp.unavailable=UPnP is enabled, but no UPnP enabled gateway was found.
+cloudburst.server.upnp.success=Successfully forwarded UDP Port %1$2s using UPnP.
+cloudburst.server.upnp.fail=Failed to forward UDP Port %1$2s using UPnP.
+cloudburst.server.upnp.closed=Removed forwarding rule for UDP Port %1$2s using UPnP.
 
 cloudburst.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
 cloudburst.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
@@ -105,9 +108,9 @@ cloudburst.plugin.deprecatedEvent=Plugin '%1$2s' has registered a listener for '
 cloudburst.plugin.eventError=Could not pass event '%1$2s' to '%2$2s': %3$2s on %4$2s
 
 cloudburst.resources.invalid-path=Resource packs path '%1$2s' exists and is not a directory
-cloudburst.resources.unknown-format=Не можа да зареди '%1$2s' поради неразпознат формат
-cloudburst.resources.fail=Не можа да зареди '%1$2s': %2$2s
-cloudburst.resources.success=Успешно заредени ресурсни пакети %1$2s
-cloudburst.resources.zip.not-found=Файл '%1$2s' не е намерен
-cloudburst.resources.zip.no-manifest='manifest.json' не е намерен
-cloudburst.resources.zip.invalid-manifest='manifest.json' е невалиден или непълен
+cloudburst.resources.unknown-format=Could not load '%1$2s' due to format not recognized
+cloudburst.resources.fail=Could not load '%1$2s': %2$2s
+cloudburst.resources.success=Successfully loaded %1$2s resource packs
+cloudburst.resources.zip.not-found=File '%1$2s' is not found
+cloudburst.resources.zip.no-manifest='manifest.json' is not found
+cloudburst.resources.zip.invalid-manifest='manifest.json' is invalid or incomplete
