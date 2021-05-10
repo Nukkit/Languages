@@ -61,11 +61,11 @@ cloudburst.command.status.usage=/status
 cloudburst.command.timings.description=Records timings to see performance of the server.
 cloudburst.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
 cloudburst.command.timings.enable=Enabled timings and reset
-cloudburst.command.timings.disable=Disabled timings
+cloudburst.command.timings.disable=Timings désactivés
 cloudburst.command.timings.timingsDisabled=Please enable timings by typing /timings on
 cloudburst.command.timings.verboseEnable=Enabled verbose timings
 cloudburst.command.timings.verboseDisable=Disabled verbose timings
-cloudburst.command.timings.reset=Timings reset
+cloudburst.command.timings.reset=Timings réinitialisés
 cloudburst.command.timings.rcon=Warning: Timings report done over RCON will cause lag spikes, you should use /timings report in game or console
 cloudburst.command.timings.uploadStart=Preparing timings report...
 cloudburst.command.timings.uploadError=Upload Error: %1$2s: %2$2s, check logs for more information
@@ -83,18 +83,18 @@ cloudburst.debug.enable=LevelDB support enabled
 
 cloudburst.bugreport.create=An error has been detected, creating a bug report.
 cloudburst.bugreport.error=Could not create bug report: %1$2s
-cloudburst.bugreport.archive=A bug report has been created: %1$2s
+cloudburst.bugreport.archive=Un rapport de bogue a été créé : %1$2s
 
 cloudburst.player.invalidMove=%1$2s moved wrongly!
 cloudburst.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, %8$2s)
 cloudburst.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
 cloudburst.player.invalidEntity=%1$2s tried to attack an invalid entity
 
-cloudburst.plugin.load=Loading %1$2s
+cloudburst.plugin.load=Chargement de %1$2s
 cloudburst.plugin.enable=Enabling %1$2s
 cloudburst.plugin.disable=Disabling %1$2s
 cloudburst.plugin.restrictedName=Restricted name
-cloudburst.plugin.incompatibleAPI=Incompatible API version
+cloudburst.plugin.incompatibleAPI=Version de l'API incompatible
 cloudburst.plugin.unknownDependency=Unknown dependency
 cloudburst.plugin.circularDependency=Circular dependency detected
 cloudburst.plugin.genericLoadError=Could not load plugin '%1$2s'
@@ -109,8 +109,8 @@ cloudburst.plugin.eventError=Could not pass event '%1$2s' to '%2$2s': %3$2s on %
 
 cloudburst.resources.invalid-path=Resource packs path '%1$2s' exists and is not a directory
 cloudburst.resources.unknown-format=Could not load '%1$2s' due to format not recognized
-cloudburst.resources.fail=Could not load '%1$2s': %2$2s
+cloudburst.resources.fail=Impossible de charger '%1$2s': %2$2s
 cloudburst.resources.success=Successfully loaded %1$2s resource packs
 cloudburst.resources.zip.not-found=File '%1$2s' is not found
-cloudburst.resources.zip.no-manifest='manifest.json' is not found
-cloudburst.resources.zip.invalid-manifest='manifest.json' is invalid or incomplete
+cloudburst.resources.zip.no-manifest='manifest.json' est introuvable
+cloudburst.resources.zip.invalid-manifest='manifest.json' est invalide ou incomplet
