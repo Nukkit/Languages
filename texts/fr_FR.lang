@@ -11,7 +11,7 @@ cloudburst.data.playerCorrupted=Corrupted data found for "%1$2s", creating new p
 cloudburst.data.playerOld=Old Player data found for "%1$2s", upgrading profile
 cloudburst.data.saveError=Could not save player "%1$2s": %2$2s
 
-cloudburst.level.notFound=Level "%1$2s" not found
+cloudburst.level.notFound=Niveau "%1$2s" introuvable
 cloudburst.level.loadError=Could not load level "%1$2s": %2$2s
 cloudburst.level.generationError=Could not generate level "%1$2s": %2$2s
 cloudburst.level.tickError=Could not tick level "%1$2s": %2$2s
@@ -34,7 +34,7 @@ cloudburst.server.defaultGameMode=Default game type: %1$2s
 cloudburst.server.query.start=Démarrage de l'écouteur de statut GS4
 cloudburst.server.query.info=Setting query port to %1$2s
 cloudburst.server.query.running=Query is running on %1$2s:%2$2s
-cloudburst.server.upnp.enabled=UPnP enabled. Attempting to port-forward with UPnP.
+cloudburst.server.upnp.enabled=UPnP activé. Tentative de transfert de port avec UPnP.
 cloudburst.server.upnp.disabled=UPnP est désactivé.
 cloudburst.server.upnp.unavailable=UPnP est activé, mais aucune passerelle UPnP activée n'a été trouvée.
 cloudburst.server.upnp.success=Successfully forwarded UDP Port %1$2s using UPnP.
@@ -107,7 +107,7 @@ cloudburst.plugin.aliasError=Could not load alias %1$2s for plugin %2$2s
 cloudburst.plugin.deprecatedEvent=Plugin '%1$2s' has registered a listener for '%2$2s' on method '%3$2s', but the event is Deprecated.
 cloudburst.plugin.eventError=Could not pass event '%1$2s' to '%2$2s': %3$2s on %4$2s
 
-cloudburst.resources.invalid-path=Resource packs path '%1$2s' exists and is not a directory
+cloudburst.resources.invalid-path=Le chemin des packs de ressources '%1$2s' existe et n'est pas un répertoire
 cloudburst.resources.unknown-format=Could not load '%1$2s' due to format not recognized
 cloudburst.resources.fail=Impossible de charger '%1$2s': %2$2s
 cloudburst.resources.success=Successfully loaded %1$2s resource packs
