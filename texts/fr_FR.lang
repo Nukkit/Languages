@@ -55,20 +55,20 @@ cloudburst.command.plugins.description=Gets a list of plugins running on the ser
 cloudburst.command.plugins.success=Plugins (%1$2s): %2$2s
 cloudburst.command.plugins.usage=/plugins
 
-cloudburst.command.status.description=Reads back the server's performance.
+cloudburst.command.status.description=Retourne les performances du serveur.
 cloudburst.command.status.usage=/status
 
 cloudburst.command.timings.description=Records timings to see performance of the server.
 cloudburst.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-cloudburst.command.timings.enable=Enabled timings and reset
+cloudburst.command.timings.enable=Timings activés et réinitialisés
 cloudburst.command.timings.disable=Timings désactivés
 cloudburst.command.timings.timingsDisabled=Please enable timings by typing /timings on
 cloudburst.command.timings.verboseEnable=Enabled verbose timings
 cloudburst.command.timings.verboseDisable=Disabled verbose timings
 cloudburst.command.timings.reset=Timings réinitialisés
 cloudburst.command.timings.rcon=Warning: Timings report done over RCON will cause lag spikes, you should use /timings report in game or console
-cloudburst.command.timings.uploadStart=Preparing timings report...
-cloudburst.command.timings.uploadError=Upload Error: %1$2s: %2$2s, check logs for more information
+cloudburst.command.timings.uploadStart=Préparation du rapport des timings...
+cloudburst.command.timings.uploadError=Erreur de téléversement : %1$2s: %2$2s, vérifiez les logs pour plus d'informations
 cloudburst.command.timings.reportError=An error happened while pasting the report, check logs for more information
 cloudburst.command.timings.timingsLocation=View timings report: %1$2s
 cloudburst.command.timings.timingsResponse=Timings response: %1$2s
@@ -79,13 +79,13 @@ cloudburst.crash.error=Could not create crash dump: %1$2s
 cloudburst.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
 cloudburst.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
 
-cloudburst.debug.enable=LevelDB support enabled
+cloudburst.debug.enable=Support pour LevelDB activé
 
-cloudburst.bugreport.create=An error has been detected, creating a bug report.
-cloudburst.bugreport.error=Could not create bug report: %1$2s
+cloudburst.bugreport.create=Une erreur a été détectée, créant un rapport de bogue.
+cloudburst.bugreport.error=Impossible de créer un rapport de bogue : %1$2s
 cloudburst.bugreport.archive=Un rapport de bogue a été créé : %1$2s
 
-cloudburst.player.invalidMove=%1$2s moved wrongly!
+cloudburst.player.invalidMove=%1$2s s'est déplacé de manière incorrecte !
 cloudburst.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, %8$2s)
 cloudburst.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
 cloudburst.player.invalidEntity=%1$2s tried to attack an invalid entity
@@ -93,9 +93,9 @@ cloudburst.player.invalidEntity=%1$2s tried to attack an invalid entity
 cloudburst.plugin.load=Chargement de %1$2s
 cloudburst.plugin.enable=Enabling %1$2s
 cloudburst.plugin.disable=Disabling %1$2s
-cloudburst.plugin.restrictedName=Restricted name
+cloudburst.plugin.restrictedName=Nom restreint
 cloudburst.plugin.incompatibleAPI=Version de l'API incompatible
-cloudburst.plugin.unknownDependency=Unknown dependency
+cloudburst.plugin.unknownDependency=Dépendance inconnue
 cloudburst.plugin.circularDependency=Circular dependency detected
 cloudburst.plugin.genericLoadError=Could not load plugin '%1$2s'
 cloudburst.plugin.spacesDiscouraged=Plugin '%1$2s' uses spaces in its name, this is discouraged
