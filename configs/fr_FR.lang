@@ -1,4 +1,4 @@
-header.1=Advanced configuration file for Cloudburst
+header.1=Fichier de configuration avancée pour Cloudburst
 header.2=Certains de ces paramètres sont sûrs, d'autres peuvent casser votre serveur si modifié incorrectement
 header.3=Les nouveaux paramètres/paramètres par défaut n'apparaîtront pas automatiquement dans ce fichier lors de la mise à jour
 
@@ -10,7 +10,7 @@ settings.query-plugins=Autoriser la liste des plugins via Requête
 settings.deprecated-verbose=Afficher un message de console lorsqu'un plugin utilise des méthodes API obsolètes
 settings.async-workers.1=Nombre de travailleurs asynchrones
 settings.async-workers.2=Si défini à auto, il essaiera de détecter le nombre de cœurs (et au moins 4)
-settings.upnp=Attempt to port forward on the gateway using UPnP
+settings.upnp=Tentative de port forward sur la passerelle en utilisant UPnP
 
 network.batch-threshold.1=Seuil pour le traitement par lots de paquets, en octets. Seuls ces paquets seront compressés
 network.batch-threshold.2=Mettre à 0 pour compresser tout, -1 pour désactiver
@@ -54,7 +54,7 @@ chunk-generation.population-queue-size=Nombre maximum de chunks dans la file d'a
 spawn-limits=Montant maximum de ces entités
 
 player.save-player-data.1=Si true, les données du joueur seront enregistrées en tant que joueurs/nomdujoueur.dat
-player.save-player-data.2=If false, cloudburst won't save player data as "dat" files, in order that plugins can do something on it.
+player.save-player-data.2=Si false, cloudburst ne sauvergardera pas les fichiers des joueurs en tant que "dat", afin que les plugins puissent y faire quelque chose.
 player.skin-change-cooldown=Le temps entre l'action de changement de peau en secondes. Définissez 0 pour désactiver le temps de recharge
 
 aliases=Alias pour les commandes
