@@ -8,18 +8,18 @@ cloudburst.language.selected=Selected %1$2s as the default locale.
 
 cloudburst.data.playerNotFound="%1$2s"のプレイヤーデータが見つかりませんでした。新しいプロファイルを作成します。
 cloudburst.data.playerCorrupted="%1$2s"の破損したデータが見つかりました。新しいプロファイルを作成します。
-cloudburst.data.playerOld="%1$2s"の古いプレイヤーデータが見つかりました。プロファイルをアップグレードしています。
-cloudburst.data.saveError=Could not save player "%1$2s": %2$2s
+cloudburst.data.playerOld="%1$2s"の古いプレイヤーデータが見つかりました。プロファイルを改修します。
+cloudburst.data.saveError=プレイヤー "%1$2s" を保存できませんでした: %2$2s
 
-cloudburst.level.notFound=Level "%1$2s" not found
-cloudburst.level.loadError=Could not load level "%1$2s": %2$2s
-cloudburst.level.generationError=Could not generate level "%1$2s": %2$2s
+cloudburst.level.notFound=ワールド "%1$2s" は見つかりませんでした。
+cloudburst.level.loadError=ワールド "%1$2s" を読み込めませんでした: %2$2s
+cloudburst.level.generationError=ワールド "%1$2s" を生成できませんでした: %2$2s
 cloudburst.level.tickError=Could not tick level "%1$2s": %2$2s
-cloudburst.level.chunkUnloadError=Error while unloading a chunk: %1$2s
+cloudburst.level.chunkUnloadError=チャンクのアンロード中にエラーが発生しました: %1$2s
 cloudburst.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being generated in the background
 cloudburst.level.defaultError=No default level has been loaded
-cloudburst.level.preparing=Preparing level "%1$2s"
-cloudburst.level.unloading=Unloading level "%1$2s"
+cloudburst.level.preparing=ワールド "%1$2s" を準備しています。
+cloudburst.level.unloading=ワールド "%1$2s" をアンロードしています。
 cloudburst.level.updating=Old level data found for "%1$2s", converting format
 
 cloudburst.server.start=Starting Minecraft: Bedrock Edition server version %1$2s
@@ -35,7 +35,7 @@ cloudburst.server.query.start=Starting GS4 status listener
 cloudburst.server.query.info=Setting query port to %1$2s
 cloudburst.server.query.running=Query is running on %1$2s:%2$2s
 cloudburst.server.upnp.enabled=UPnP enabled. Attempting to port-forward with UPnP.
-cloudburst.server.upnp.disabled=UPnP is disabled.
+cloudburst.server.upnp.disabled=UPnPは無効化されています。
 cloudburst.server.upnp.unavailable=UPnP is enabled, but no UPnP enabled gateway was found.
 cloudburst.server.upnp.success=Successfully forwarded UDP Port %1$2s using UPnP.
 cloudburst.server.upnp.fail=Failed to forward UDP Port %1$2s using UPnP.
@@ -47,7 +47,7 @@ cloudburst.command.exception=Unhandled exception executing command '%1$2s' in %2
 
 cloudburst.command.version.description=Gets the version of this server including any plugins in use
 cloudburst.command.version.usage=/version [プラグインの名称]
-cloudburst.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
+cloudburst.command.version.server=このサーバーは %1$2s バージョン %2$2s (MC: %3$2s) (実装API バージョン: %4$2s) を実行しています。
 cloudburst.command.version.plugin=%1$2s running version %1$2s
 cloudburst.command.version.noSuchPlugin=このサーバーはその名前のプラグインは実行していません。/plugins を使用してプラグインの一覧を取得してください。
 
