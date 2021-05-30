@@ -7,8 +7,8 @@
 cloudburst.language.selected=Selected %1$2s as the default locale.
 
 cloudburst.data.playerNotFound="%1$2s"のプレイヤーデータが見つかりませんでした。新しいプロファイルを作成します。
-cloudburst.data.playerCorrupted=Corrupted data found for "%1$2s", creating new profile
-cloudburst.data.playerOld=Old Player data found for "%1$2s", upgrading profile
+cloudburst.data.playerCorrupted="%1$2s"の破損したデータが見つかりました。新しいプロファイルを作成します。
+cloudburst.data.playerOld="%1$2s"の古いプレイヤーデータが見つかりました。プロファイルをアップグレードしています。
 cloudburst.data.saveError=Could not save player "%1$2s": %2$2s
 
 cloudburst.level.notFound=Level "%1$2s" not found
@@ -51,7 +51,7 @@ cloudburst.command.version.server=This server is running %1$2s version %2$2s (MC
 cloudburst.command.version.plugin=%1$2s running version %1$2s
 cloudburst.command.version.noSuchPlugin=このサーバーはその名前のプラグインは実行していません。/plugins を使用してプラグインの一覧を取得してください。
 
-cloudburst.command.plugins.description=サーバー上で実行されているプラグインの一覧を取得します
+cloudburst.command.plugins.description=サーバー上で実行されているプラグインの一覧を取得します。
 cloudburst.command.plugins.success=プラグイン(%1$2s): %2$2s
 cloudburst.command.plugins.usage=/plugins
 
