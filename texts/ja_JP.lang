@@ -20,10 +20,10 @@ cloudburst.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being g
 cloudburst.level.defaultError=No default level has been loaded
 cloudburst.level.preparing=ワールド "%1$2s" を準備しています。
 cloudburst.level.unloading=ワールド "%1$2s" をアンロードしています。
-cloudburst.level.updating=Old level data found for "%1$2s", converting format
+cloudburst.level.updating=ワールド"%1$2s"に古いデータが見つかりました。フォーマットを変換しています。
 
-cloudburst.server.start=Starting Minecraft: Bedrock Edition server version %1$2s
-cloudburst.server.networkError=[Network] Stopped interface %1$2s due to %2$2s
+cloudburst.server.start=Minecraft: Bedrock Edition サーバー (ver. %1$2s) を起動しています。
+cloudburst.server.networkError=[Network] インターフェイス %1$2s が %2$2s のため停止しました。
 cloudburst.server.networkStart=Opening server on %1$2s:%2$2s
 cloudburst.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
 cloudburst.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
