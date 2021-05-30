@@ -6,7 +6,7 @@
 
 cloudburst.language.selected=Selected %1$2s as the default locale.
 
-cloudburst.data.playerNotFound=Player data not found for "%1$2s", creating new profile
+cloudburst.data.playerNotFound="%1$2s"のプレイヤーデータが見つかりませんでした。新しいプロファイルを作成します。
 cloudburst.data.playerCorrupted=Corrupted data found for "%1$2s", creating new profile
 cloudburst.data.playerOld=Old Player data found for "%1$2s", upgrading profile
 cloudburst.data.saveError=Could not save player "%1$2s": %2$2s
@@ -46,13 +46,13 @@ cloudburst.command.alias.notFound=Could not register alias %1$2s because it cont
 cloudburst.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
 
 cloudburst.command.version.description=Gets the version of this server including any plugins in use
-cloudburst.command.version.usage=/version [plugin name]
+cloudburst.command.version.usage=/version [プラグインの名称]
 cloudburst.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
 cloudburst.command.version.plugin=%1$2s running version %1$2s
-cloudburst.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
+cloudburst.command.version.noSuchPlugin=このサーバーはその名前のプラグインは実行していません。/plugins を使用してプラグインの一覧を取得してください。
 
-cloudburst.command.plugins.description=Gets a list of plugins running on the server
-cloudburst.command.plugins.success=Plugins (%1$2s): %2$2s
+cloudburst.command.plugins.description=サーバー上で実行されているプラグインの一覧を取得します
+cloudburst.command.plugins.success=プラグイン(%1$2s): %2$2s
 cloudburst.command.plugins.usage=/plugins
 
 cloudburst.command.status.description=Reads back the server's performance.
