@@ -4,7 +4,7 @@
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-cloudburst.language.selected=Selected %1$2s as the default locale.
+cloudburst.language.selected=言語の初期値を %1$2s に設定しました。
 
 cloudburst.data.playerNotFound="%1$2s"のプレイヤーデータが見つかりませんでした。新しいプロファイルを作成します。
 cloudburst.data.playerCorrupted="%1$2s"の破損したデータが見つかりました。新しいプロファイルを作成します。
@@ -15,29 +15,29 @@ cloudburst.level.notFound=ワールド "%1$2s" は見つかりませんでした
 cloudburst.level.loadError=ワールド "%1$2s" を読み込めませんでした: %2$2s
 cloudburst.level.generationError=ワールド "%1$2s" を生成できませんでした: %2$2s
 cloudburst.level.tickError=Could not tick level "%1$2s": %2$2s
-cloudburst.level.chunkUnloadError=チャンクのアンロード中にエラーが発生しました: %1$2s
-cloudburst.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being generated in the background
-cloudburst.level.defaultError=No default level has been loaded
+cloudburst.level.chunkUnloadError=チャンクのアンロード中に障害が発生しました: %1$2s
+cloudburst.level.backgroundGeneration=ワールド "%1$2s" の地形がバックグラウンドで生成されています。
+cloudburst.level.defaultError=初期値のワールドが読み込まれませんでした。
 cloudburst.level.preparing=ワールド "%1$2s" を準備しています。
 cloudburst.level.unloading=ワールド "%1$2s" をアンロードしています。
 cloudburst.level.updating=ワールド"%1$2s"に古いデータが見つかりました。フォーマットを変換しています。
 
 cloudburst.server.start=Minecraft: Bedrock Edition サーバー (ver. %1$2s) を起動しています。
 cloudburst.server.networkError=[Network] インターフェイス %1$2s が %2$2s のため停止しました。
-cloudburst.server.networkStart=Opening server on %1$2s:%2$2s
-cloudburst.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
-cloudburst.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
-cloudburst.server.license=%1$2s is distributed under the GPL License
-cloudburst.server.tickOverload=Can't keep up! Is the server overloaded?
-cloudburst.server.startFinished=Done (%1$2ss)! For help, type "help" or "?"
-cloudburst.server.defaultGameMode=Default game type: %1$2s
-cloudburst.server.query.start=Starting GS4 status listener
-cloudburst.server.query.info=Setting query port to %1$2s
-cloudburst.server.query.running=Query is running on %1$2s:%2$2s
-cloudburst.server.upnp.enabled=UPnP enabled. Attempting to port-forward with UPnP.
+cloudburst.server.networkStart=%1$2s:%2$2s でサーバーを開放しています。
+cloudburst.server.info=このサーバーは %1$2s バージョン %2$2s「%3$2s」(API %4$2s) を実行しています。
+cloudburst.server.info.extended=このサーバーは Minecraft: Bedrock Edition %4$2s (プロトコルバージョン %5$2s) 用APIバージョン %3$2s を実装する %1$2s %2$2s を実行しています。
+cloudburst.server.license=%1$2s は GPL ライセンスのもとで配布されています。
+cloudburst.server.tickOverload=注意! サーバーに負荷をかけすぎていませんか?
+cloudburst.server.startFinished=完了 (%1$2s 秒)! ヘルプを表示するには "help" または "?" を実行してください。
+cloudburst.server.defaultGameMode=ゲームモードの初期値: %1$2s
+cloudburst.server.query.start=GS4 ステータスリスナーを開始しています。
+cloudburst.server.query.info=Query ポートを %1$2s に設定しています。
+cloudburst.server.query.running=Query は %1$2s:%2$2s で動作しています。
+cloudburst.server.upnp.enabled=UPnPが有効になりました。UPnPでポートフォワードを試みています。
 cloudburst.server.upnp.disabled=UPnPは無効化されています。
-cloudburst.server.upnp.unavailable=UPnP is enabled, but no UPnP enabled gateway was found.
-cloudburst.server.upnp.success=Successfully forwarded UDP Port %1$2s using UPnP.
+cloudburst.server.upnp.unavailable=UPnPは有効ですが、UPnPに対応したゲートウェイが見つかりませんでした。
+cloudburst.server.upnp.success=UPnPを使用してUDPポート %1$2s を正常にポートフォワードしました。
 cloudburst.server.upnp.fail=Failed to forward UDP Port %1$2s using UPnP.
 cloudburst.server.upnp.closed=Removed forwarding rule for UDP Port %1$2s using UPnP.
 
