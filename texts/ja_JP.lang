@@ -42,27 +42,27 @@ cloudburst.server.upnp.fail=UPnPでUDPポート %1$2s をポートフォワー�
 cloudburst.server.upnp.closed=UPnPを使用してUDPポート %1$2s のポートフォワード・ルールを削除しました。
 
 cloudburst.command.alias.illegal=エイリアス "%1$2s" は不当な文字が含まれているため登録できませんでした。
-cloudburst.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
-cloudburst.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
+cloudburst.command.alias.notFound=エイリアス "%1$2s" は存在しないコマンド "%2$2s" を含むため登録できませんでした。
+cloudburst.command.exception=コマンド '%1$2s' を '%2$2s:%3$2s' で実行中に未処理の例外が発生しました。
 
-cloudburst.command.version.description=Gets the version of this server including any plugins in use
+cloudburst.command.version.description=使用中の全てのプラグインを含むサーバーのバージョンを取得します。
 cloudburst.command.version.usage=/version [プラグインの名称]
 cloudburst.command.version.server=このサーバーは %1$2s バージョン %2$2s (MC: %3$2s) (実装API バージョン: %4$2s) を実行しています。
-cloudburst.command.version.plugin=%1$2s running version %1$2s
+cloudburst.command.version.plugin=%1$2s はバージョン %1$2s で動作しています。
 cloudburst.command.version.noSuchPlugin=このサーバーはその名前のプラグインは実行していません。/plugins を使用してプラグインの一覧を取得してください。
 
 cloudburst.command.plugins.description=サーバー上で実行されているプラグインの一覧を取得します。
 cloudburst.command.plugins.success=プラグイン(%1$2s): %2$2s
 cloudburst.command.plugins.usage=/plugins
 
-cloudburst.command.status.description=Reads back the server's performance.
+cloudburst.command.status.description=サーバーの状態を調査します。
 cloudburst.command.status.usage=/status
 
-cloudburst.command.timings.description=Records timings to see performance of the server.
+cloudburst.command.timings.description=サーバーの状態を記録するためにタイミングを記録します。
 cloudburst.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-cloudburst.command.timings.enable=Enabled timings and reset
-cloudburst.command.timings.disable=Disabled timings
-cloudburst.command.timings.timingsDisabled=Please enable timings by typing /timings on
+cloudburst.command.timings.enable=タイミングがリセット・有効化されたました。
+cloudburst.command.timings.disable=タイミングを無効化しました。
+cloudburst.command.timings.timingsDisabled=タイミングを有効化するには、'/timings on' を実行してください。
 cloudburst.command.timings.verboseEnable=Enabled verbose timings
 cloudburst.command.timings.verboseDisable=Disabled verbose timings
 cloudburst.command.timings.reset=Timings reset
