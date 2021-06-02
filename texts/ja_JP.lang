@@ -38,10 +38,10 @@ cloudburst.server.upnp.enabled=UPnPが有効になりました。UPnPでポー�
 cloudburst.server.upnp.disabled=UPnPは無効化されています。
 cloudburst.server.upnp.unavailable=UPnPは有効ですが、UPnPに対応したゲートウェイが見つかりませんでした。
 cloudburst.server.upnp.success=UPnPを使用してUDPポート %1$2s を正常にポートフォワードしました。
-cloudburst.server.upnp.fail=Failed to forward UDP Port %1$2s using UPnP.
-cloudburst.server.upnp.closed=Removed forwarding rule for UDP Port %1$2s using UPnP.
+cloudburst.server.upnp.fail=UPnPでUDPポート %1$2s をポートフォワードできませんでした。
+cloudburst.server.upnp.closed=UPnPを使用してUDPポート %1$2s のポートフォワード・ルールを削除しました。
 
-cloudburst.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
+cloudburst.command.alias.illegal=エイリアス "%1$2s" は不当な文字が含まれているため登録できませんでした。
 cloudburst.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
 cloudburst.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
 
