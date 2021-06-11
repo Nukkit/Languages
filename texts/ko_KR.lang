@@ -6,8 +6,8 @@
 
 cloudburst.language.selected=%1$2s을(를) 기본 로캘로 선택했습니다.
 
-cloudburst.data.playerNotFound="%1$2s"의 플레이어 데이터를 찾을 수 없기에 새로운 프로필을 만듭니다
-cloudburst.data.playerCorrupted="%1$2s"의 데이터가 손상되었기에 새로운 프로필을 만듭니다
+cloudburst.data.playerNotFound="%1$2s"의 플레이어 데이터를 찾을 수 없기에 새 프로필을 만듭니다
+cloudburst.data.playerCorrupted="%1$2s"의 데이터가 손상되었기에 새 프로필을 만듭니다
 cloudburst.data.playerOld="%1$2s"의 플레이어 데이터가 오래되었기에 프로필을 업그레이드합니다
 cloudburst.data.saveError=플레이어 "%1$2s"을(를) 저장할 수 없습니다: %2$2s
 
