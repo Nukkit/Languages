@@ -86,7 +86,7 @@ cloudburst.bugreport.error=버그 보고서를 만들 수 없습니다: %1$2s
 cloudburst.bugreport.archive=버그 보고서가 만들어졌습니다: %1$2s
 
 cloudburst.player.invalidMove=%1$2s이(가) 잘못 움직였습니다!
-cloudburst.player.logIn=%1$2s[/%2$2s:%3$2s]이(가) 개체 ID %4$2s(으)로 (%5$2s, %6$2s, %7$2s, %8$2s)에 로그인했습니다
+cloudburst.player.logIn=%1$2s[/%2$2s:%3$2s]이(가) 개체 ID %4$2s(으)로 (%5$2s, %6$2s, %7$2s, %8$2s)에서 로그인했습니다
 cloudburst.player.logOut=%1$2s[/%2$2s:%3$2s]이(가) %4$2s(으)로 인해 로그아웃되었습니다
 cloudburst.player.invalidEntity=%1$2s이(가) 잘못된 개체를 공격하려고 했습니다
 
