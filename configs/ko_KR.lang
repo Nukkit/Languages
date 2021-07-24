@@ -13,14 +13,14 @@ settings.async-workers.2=auto로 설정하면 코어 수 감지를 시도합니�
 settings.upnp=UPnP를 사용하여 게이트웨이에서 포트포워드 시도
 
 network.batch-threshold.1=일괄 처리 패킷의 임계값(바이트)입니다. 이 패킷만 압축됩니다
-network.batch-threshold.2=모두 압축하려면 0으로 설정하고, 비활성화하려면 -1으로 설정합니다
+network.batch-threshold.2=모두 압축하려면 0으로 설정하고, 사용하지 않으려면 -1으로 설정합니다
 network.compression-level=일괄 처리된 패킷을 전송할 때 Zlib에 사용되는 압축 수준입니다. 높을수록 CPU 사용량이 많아지지만 대역폭 사용량은 적어집니다
 network.async-compression=압축에 AsyncTasks를 사용합니다. 0.5/1틱 지연을 추가하지만 메인 스레드의 CPU 부하가 적어집니다
 
 debug.level=> 1이면 콘솔에 디버그 메시지를 표시합니다
-debug.commands=명령어 활성화: /status /gc
+debug.commands=명령어 사용: /status /gc
 
-timings.enabled=코어와 플러그인 타이밍을 기본적으로 활성화
+timings.enabled=코어와 플러그인 타이밍을 기본적으로 사용
 timings.verbose=버보스 수준에서 모니터링 활성화, 높은 빈도 타이밍 포함
 timings.history-interval.1=히스토리 프레임 간격(틱)
 timings.history-interval.2=기본값은 5분(6000틱)입니다
