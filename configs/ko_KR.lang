@@ -15,7 +15,7 @@ settings.upnp=UPnP를 사용하여 게이트웨이에서 포트포워드 시도
 network.batch-threshold.1=일괄 처리 패킷의 임계값(바이트)입니다. 이 패킷만 압축됩니다
 network.batch-threshold.2=모두 압축하려면 0으로 설정하고, 사용하지 않으려면 -1으로 설정합니다
 network.compression-level=일괄 처리된 패킷을 전송할 때 Zlib에 사용되는 압축 수준입니다. 높을수록 CPU 사용량이 많아지지만 대역폭 사용량은 적어집니다
-network.async-compression=압축에 AsyncTasks를 사용합니다. 0.5/1틱 지연을 추가하지만 메인 스레드의 CPU 부하가 적어집니다
+network.async-compression=압축에 AsyncTask를 사용합니다. 0.5/1틱 지연을 추가하지만 메인 스레드의 CPU 부하가 적어집니다
 
 debug.level=> 1이면 콘솔에 디버그 메시지를 표시합니다
 debug.commands=명령어 사용: /status /gc
