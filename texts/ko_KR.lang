@@ -23,7 +23,7 @@ cloudburst.level.unloading="%1$2s" 레벨을 언로드하는 중입니다
 cloudburst.level.updating="%1$2s"의 레벨 데이터가 오래되었기에 형식을 변환합니다
 
 cloudburst.server.start=Minecraft: Bedrock Edition 서버 버전 %1$2s을(를) 시작하는 중입니다
-cloudburst.server.networkError=[네트워크] 인터페이스 %1$2s이(가) %2$2s(으)로 인해 중지되었습니다
+cloudburst.server.networkError=[네트워크] 인터페이스 %1$2s이(가) 중지되었습니다. 원인: %2$2s
 cloudburst.server.networkStart=서버를 %1$2s:%2$2s에서 여는 중입니다
 cloudburst.server.info=이 서버는 %1$2s 버전 %2$2s "%3$2s" (API %4$2s)을(를) 실행하고 있습니다
 cloudburst.server.info.extended=이 서버는 Minecraft: Bedrock Edition %4$2s (프로토콜 버전 %5$2s)용 API 버전 %3$2s을(를) 구현하는 %1$2s %2$2s을(를) 실행하고 있습니다
@@ -87,7 +87,7 @@ cloudburst.bugreport.archive=버그 보고서가 만들어졌습니다: %1$2s
 
 cloudburst.player.invalidMove=%1$2s이(가) 잘못 움직였습니다!
 cloudburst.player.logIn=%1$2s[/%2$2s:%3$2s]이(가) 개체 ID %4$2s(으)로 (%5$2s, %6$2s, %7$2s, %8$2s)에서 로그인했습니다
-cloudburst.player.logOut=%1$2s[/%2$2s:%3$2s]이(가) %4$2s(으)로 인해 로그아웃되었습니다
+cloudburst.player.logOut=%1$2s[/%2$2s:%3$2s]이(가) 로그아웃되었습니다. 원인: %4$2s
 cloudburst.player.invalidEntity=%1$2s이(가) 잘못된 개체를 공격하려고 했습니다
 
 cloudburst.plugin.load=%1$2s을(를) 불러오는 중입니다
