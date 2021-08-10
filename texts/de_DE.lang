@@ -42,31 +42,31 @@ cloudburst.server.upnp.fail=UDP Port %1$2s wurde mit UPnP erfolgreich weitergele
 cloudburst.server.upnp.closed=Weiterleitungsregel für UDP-Port %1$2s mit UPnP entfernt.
 
 cloudburst.command.alias.illegal=Alias %1$2s konnte nicht registriert werden, da er ungültige Zeichen enthält
-cloudburst.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
-cloudburst.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
+cloudburst.command.alias.notFound=Alias %1$2s konnte nicht registriert werden, da er Befehle enthält die nicht existieren: %2$2s
+cloudburst.command.exception=Ein unerwarteter Fehler ist aufgetreten, während des Ausführens des Befehls '%1$2s' %2$2s: %3$2s
 
-cloudburst.command.version.description=Gets the version of this server including any plugins in use
-cloudburst.command.version.usage=/version [plugin name]
-cloudburst.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
-cloudburst.command.version.plugin=%1$2s running version %1$2s
-cloudburst.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
+cloudburst.command.version.description=Zeigt die Version des Servers, inklusive aller installierten Plugins
+cloudburst.command.version.usage=/version [Plugin Name]
+cloudburst.command.version.server=Dieser Server läuft auf %1$2s mit der Version %2$2s (MC: %3$2s) (API Version: %4$2s)
+cloudburst.command.version.plugin=%1$2s läuft Version %1$2s
+cloudburst.command.version.noSuchPlugin=Auf diesem Server läuft kein Plugin mit diesem Namen. Benutze /plugins um eine Liste aller Plugins zu erhalten.
 
-cloudburst.command.plugins.description=Gets a list of plugins running on the server
+cloudburst.command.plugins.description=Ruft eine Liste der auf dem Server laufenden Plugins ab
 cloudburst.command.plugins.success=Plugins (%1$2s): %2$2s
 cloudburst.command.plugins.usage=/plugins
 
-cloudburst.command.status.description=Reads back the server's performance.
+cloudburst.command.status.description=Zeigt die aktuelle Serverauslastung.
 cloudburst.command.status.usage=/status
 
 cloudburst.command.timings.description=Records timings to see performance of the server.
 cloudburst.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-cloudburst.command.timings.enable=Enabled timings and reset
-cloudburst.command.timings.disable=Disabled timings
-cloudburst.command.timings.timingsDisabled=Please enable timings by typing /timings on
-cloudburst.command.timings.verboseEnable=Enabled verbose timings
-cloudburst.command.timings.verboseDisable=Disabled verbose timings
-cloudburst.command.timings.reset=Timings reset
-cloudburst.command.timings.rcon=Warning: Timings report done over RCON will cause lag spikes, you should use /timings report in game or console
+cloudburst.command.timings.enable=Timings wurden aktiviert und zurückgesetzt
+cloudburst.command.timings.disable=Timings deaktiviert
+cloudburst.command.timings.timingsDisabled=Bitte aktiviere die Timings mit /timings on
+cloudburst.command.timings.verboseEnable=Ausführliche Timings wurden aktiviert
+cloudburst.command.timings.verboseDisable=Ausführliche Timings wurden deaktiviert
+cloudburst.command.timings.reset=Timings zurückgesetzt
+cloudburst.command.timings.rcon=Warnung: Timings Bericht werden über RCON laufen und wird Lag Spikes verursachen, du solltest /timings report im Spiel oder der Konsole verwenden
 cloudburst.command.timings.uploadStart=Preparing timings report...
 cloudburst.command.timings.uploadError=Upload Error: %1$2s: %2$2s, check logs for more information
 cloudburst.command.timings.reportError=An error happened while pasting the report, check logs for more information
