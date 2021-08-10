@@ -4,17 +4,17 @@
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-cloudburst.language.selected=Selected %1$2s as the default locale.
+cloudburst.language.selected=%1$2s wurde als Standard Sprache ausgewählt.
 
-cloudburst.data.playerNotFound=Player data not found for "%1$2s", creating new profile
-cloudburst.data.playerCorrupted=Corrupted data found for "%1$2s", creating new profile
-cloudburst.data.playerOld=Old Player data found for "%1$2s", upgrading profile
-cloudburst.data.saveError=Could not save player "%1$2s": %2$2s
+cloudburst.data.playerNotFound=Spielerdaten für "%1$2s" wurde nicht gefunden, erstelle ein neues Profil
+cloudburst.data.playerCorrupted=Beschädigte Daten für "%1$2s" gefunden, erstelle neues Profil
+cloudburst.data.playerOld=Alte Spielerdaten für "%1$2s" gefunden, Profil wird aktualisiert
+cloudburst.data.saveError=Spieler "%1$2s" konnte nicht gespeichert werden: %2$2s
 
-cloudburst.level.notFound=Level "%1$2s" not found
-cloudburst.level.loadError=Could not load level "%1$2s": %2$2s
-cloudburst.level.generationError=Could not generate level "%1$2s": %2$2s
-cloudburst.level.tickError=Could not tick level "%1$2s": %2$2s
+cloudburst.level.notFound=Welt "%1$2s" wurde nicht gefunden
+cloudburst.level.loadError=Welt "%1$2s" konnte nicht geladen werden: %2$2s
+cloudburst.level.generationError=Welt "%1$2s" konnte nicht generiert werden: %2$2s
+cloudburst.level.tickError=Tick für Welt "%1$2s" konnte nicht durchgeführt werden: %2$2s
 cloudburst.level.chunkUnloadError=Error while unloading a chunk: %1$2s
 cloudburst.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being generated in the background
 cloudburst.level.defaultError=No default level has been loaded
