@@ -11,7 +11,7 @@ cloudburst.data.playerCorrupted=Corrupted data found for "%1$2s", creating new p
 cloudburst.data.playerOld=Old Player data found for "%1$2s", upgrading profile
 cloudburst.data.saveError=Could not save player "%1$2s": %2$2s
 
-cloudburst.level.notFound=Level "%1$2s" not found
+cloudburst.level.notFound=无法找到地图 "%1$2s"
 cloudburst.level.loadError=Could not load level "%1$2s": %2$2s
 cloudburst.level.generationError=Could not generate level "%1$2s": %2$2s
 cloudburst.level.tickError=Could not tick level "%1$2s": %2$2s
