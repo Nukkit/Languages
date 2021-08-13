@@ -8,12 +8,12 @@ cloudburst.language.selected=Selected %1$2s as the default locale.
 
 cloudburst.data.playerNotFound=Player data not found for "%1$2s", creating new profile
 cloudburst.data.playerCorrupted=Corrupted data found for "%1$2s", creating new profile
-cloudburst.data.playerOld=Old Player data found for "%1$2s", upgrading profile
+cloudburst.data.playerOld=%1$2s
 cloudburst.data.saveError=Could not save player "%1$2s": %2$2s
 
-cloudburst.level.notFound=Level "%1$2s" not found
+cloudburst.level.notFound=%1$2s
 cloudburst.level.loadError=Could not load level "%1$2s": %2$2s
-cloudburst.level.generationError=Could not generate level "%1$2s": %2$2s
+cloudburst.level.generationError=%2$2s
 cloudburst.level.tickError=Could not tick level "%1$2s": %2$2s
 cloudburst.level.chunkUnloadError=Error while unloading a chunk: %1$2s
 cloudburst.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being generated in the background
