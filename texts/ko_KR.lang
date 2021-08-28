@@ -6,9 +6,9 @@
 
 cloudburst.language.selected=%1$2s을(를) 기본 로캘로 선택했습니다.
 
-cloudburst.data.playerNotFound="%1$2s"의 플레이어 데이터를 찾을 수 없기에 새 프로필을 만듭니다
-cloudburst.data.playerCorrupted="%1$2s"의 데이터가 손상되었기에 새 프로필을 만듭니다
-cloudburst.data.playerOld="%1$2s"의 플레이어 데이터가 오래되었기에 프로필을 업그레이드합니다
+cloudburst.data.playerNotFound="%1$2s"의 플레이어 데이터를 찾을 수 없으므로 새 프로필을 만듭니다
+cloudburst.data.playerCorrupted="%1$2s"의 데이터가 손상되었으므로 새 프로필을 만듭니다
+cloudburst.data.playerOld="%1$2s"의 플레이어 데이터가 오래되었으므로 프로필을 업그레이드합니다
 cloudburst.data.saveError=플레이어 "%1$2s"을(를) 저장할 수 없습니다: %2$2s
 
 cloudburst.level.notFound="%1$2s" 레벨을 찾을 수 없습니다
@@ -20,7 +20,7 @@ cloudburst.level.backgroundGeneration="%1$2s" 레벨의 스폰 지형이 백그�
 cloudburst.level.defaultError=기본 레벨이 불러와지지 않았습니다
 cloudburst.level.preparing="%1$2s" 레벨을 준비하는 중입니다
 cloudburst.level.unloading="%1$2s" 레벨을 언로드하는 중입니다
-cloudburst.level.updating="%1$2s"의 레벨 데이터가 오래되었기에 형식을 변환합니다
+cloudburst.level.updating="%1$2s"의 레벨 데이터가 오래되었으므로 형식을 변환합니다
 
 cloudburst.server.start=Minecraft: Bedrock Edition 서버 버전 %1$2s을(를) 시작하는 중입니다
 cloudburst.server.networkError=[네트워크] 인터페이스 %1$2s이(가) 중지되었습니다. 원인: %2$2s
@@ -41,8 +41,8 @@ cloudburst.server.upnp.success=UPnP를 사용하여 UDP 포트 %1$2s을(를) 성
 cloudburst.server.upnp.fail=UPnP를 사용하여 UDP 포트 %1$2s을(를) 포워드하지 못했습니다.
 cloudburst.server.upnp.closed=UPnP를 사용한 UDP 포트 %1$2s의 포워딩 규칙을 제거했습니다.
 
-cloudburst.command.alias.illegal=잘못된 문자를 포함하기에 %1$2s 별칭을 등록할 수 없습니다
-cloudburst.command.alias.notFound=존재하지 않는 명령어를 포함하기에 %1$2s 별칭을 등록할 수 없습니다: %2$2s
+cloudburst.command.alias.illegal=잘못된 문자를 포함하기 때문에 %1$2s 별칭을 등록할 수 없습니다
+cloudburst.command.alias.notFound=존재하지 않는 명령어를 포함하기 때문에 %1$2s 별칭을 등록할 수 없습니다: %2$2s
 cloudburst.command.exception=%2$2s에서 '%1$2s' 명령어 실행 중 처리되지 않은 예외가 발생했습니다: %3$2s
 
 cloudburst.command.version.description=사용 중인 플러그인을 포함하여 이 서버의 버전을 가져옵니다
@@ -66,7 +66,7 @@ cloudburst.command.timings.timingsDisabled=/timings on을 입력하여 타이밍
 cloudburst.command.timings.verboseEnable=버보스 타이밍을 사용하도록 설정했습니다
 cloudburst.command.timings.verboseDisable=버보스 타이밍을 사용하지 않도록 설정했습니다
 cloudburst.command.timings.reset=타이밍을 초기화했습니다
-cloudburst.command.timings.rcon=경고: RCON을 통해 수행된 타이밍 보고는 엄청난 지연을 유발할 수 있기에 게임 또는 콘솔 내에서 /timings report를 사용해야 합니다
+cloudburst.command.timings.rcon=경고: RCON을 통해 수행된 타이밍 보고는 엄청난 지연을 유발할 수 있기 때문에 게임 또는 콘솔 내에서 /timings report를 사용해야 합니다
 cloudburst.command.timings.uploadStart=타이밍 보고 준비 중...
 cloudburst.command.timings.uploadError=업로드 오류: %1$2s: %2$2s, 자세한 정보는 로그를 확인하세요
 cloudburst.command.timings.reportError=보고서를 붙여넣는 동안 오류가 발생했습니다, 자세한 정보는 로그를 확인하세요
@@ -81,7 +81,7 @@ cloudburst.crash.archive=충돌 덤프가 자동으로 충돌 보관소에 제�
 
 cloudburst.debug.enable=LevelDB 지원이 사용되도록 설정되었습니다
 
-cloudburst.bugreport.create=오류가 감지되었기에 버그 보고서를 만듭니다.
+cloudburst.bugreport.create=오류가 감지되었으므로 버그 보고서를 만듭니다.
 cloudburst.bugreport.error=버그 보고서를 만들 수 없습니다: %1$2s
 cloudburst.bugreport.archive=버그 보고서가 만들어졌습니다: %1$2s
 
@@ -108,7 +108,7 @@ cloudburst.plugin.deprecatedEvent='%1$2s' 플러그인이 '%2$2s'에 대한 리�
 cloudburst.plugin.eventError='%1$2s' 이벤트를 '%2$2s'에 전달할 수 없습니다: %4$2s에서의 %3$2s
 
 cloudburst.resources.invalid-path='%1$2s' 리소스 팩 경로가 존재하지만 디렉터리가 아닙니다
-cloudburst.resources.unknown-format=형식을 인식할 수 없기에 '%1$2s'을(를) 불러올 수 없습니다
+cloudburst.resources.unknown-format=형식을 인식할 수 없기 때문에 '%1$2s'을(를) 불러올 수 없습니다
 cloudburst.resources.fail='%1$2s'을(를) 불러올 수 없습니다: %2$2s
 cloudburst.resources.success=리소스 팩 %1$2s개를 성공적으로 불러왔습니다
 cloudburst.resources.zip.not-found='%1$2s' 파일을 찾을 수 없습니다
