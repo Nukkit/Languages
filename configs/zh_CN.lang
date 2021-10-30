@@ -1,4 +1,4 @@
-header.1=Advanced configuration file for Cloudburst
+header.1=Cloudburst的高级配置文件
 header.2=此处部分设置是安全的，而一些在设置不当的情况下可能会损害您的服务器
 header.3=升级时，新设置或默认设置不会自动显示在此文件上
 

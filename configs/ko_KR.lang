@@ -1,27 +1,27 @@
 header.1=Cloudburst의 고급 구성 파일
 header.2=안전한 설정도 있고 잘못 수정하면 서버를 손상시킬 수 있는 설정도 있습니다
-header.3=새로운 설정/기본값은 업그레이드할 때 이 파일에 자동으로 표시되지 않습니다
+header.3=새 설정/기본값은 업그레이드할 때 이 파일에 자동으로 표시되지 않습니다
 
 settings.language=다국어 설정
-settings.force-language=모든 문자열을 서버 로캘로 번역해 전송하거나 장치가 처리할 수 있게 할지 여부
+settings.force-language=모든 문자열을 서버 로캘로 번역하여 전송하거나 장치가 처리할 수 있게 할지 여부
 
 settings.shutdown-message=서버가 종료될 때 플레이어에게 전송되는 연결 끊기 메시지
 settings.query-plugins=Query를 통한 플러그인 목록 표시 허용
-settings.deprecated-verbose=플러그인이 사용되지 않는 API 메서드를 사용할 때 콘솔 메시지 표시
+settings.deprecated-verbose=플러그인이 지원 중단된 API 메서드를 사용할 때 콘솔 메시지 표시
 settings.async-workers.1=비동기 작업자 수
-settings.async-workers.2=auto로 설정하면 코어 수를 감지하려고 시도합니다(최소 4개)
-settings.upnp=UPnP를 사용해 게이트웨이에서 포트포워드 시도
+settings.async-workers.2=auto로 설정하면 코어 수 감지를 시도합니다(최소 4개)
+settings.upnp=UPnP를 사용하여 게이트웨이에서 포트포워드 시도
 
 network.batch-threshold.1=일괄 처리 패킷의 임계값(바이트)입니다. 이 패킷만 압축됩니다
-network.batch-threshold.2=모두 압축하려면 0으로 설정하고, 비활성화하려면 -1으로 설정합니다
+network.batch-threshold.2=모두 압축하려면 0으로 설정하고, 사용하지 않으려면 -1으로 설정합니다
 network.compression-level=일괄 처리된 패킷을 전송할 때 Zlib에 사용되는 압축 수준입니다. 높을수록 CPU 사용량이 많아지지만 대역폭 사용량은 적어집니다
-network.async-compression=압축에 AsyncTasks를 사용합니다. 0.5/1틱 지연을 추가하지만 메인 스레드의 CPU 부하가 적어집니다
+network.async-compression=압축에 AsyncTask를 사용합니다. 0.5/1틱 지연을 추가하지만 메인 스레드의 CPU 부하가 적어집니다
 
 debug.level=> 1이면 콘솔에 디버그 메시지를 표시합니다
-debug.commands=명령어 활성화: /status /gc
+debug.commands=명령어 사용: /status /gc
 
-timings.enabled=코어와 플러그인 타이밍을 기본적으로 활성화
-timings.verbose=버보스 수준에서 모니터링 활성화, 높은 빈도 타이밍 포함
+timings.enabled=코어와 플러그인 타이밍을 기본적으로 사용
+timings.verbose=버보스 수준에서 모니터링 사용, 높은 빈도 타이밍 포함
 timings.history-interval.1=히스토리 프레임 간격(틱)
 timings.history-interval.2=기본값은 5분(6000틱)입니다
 timings.history-length.1=전체 타이밍 히스토리의 길이(틱)
@@ -55,7 +55,7 @@ spawn-limits=이 개체의 최대량
 
 player.save-player-data.1=true이면 플레이어 데이터가 players/플레이어 이름.dat으로 저장됩니다
 player.save-player-data.2=false이면 Cloudburst가 플러그인이 플레이어 데이터에 대해 작업을 수행할 수 있도록 플레이어 데이터를 "dat" 파일로 저장하지 않습니다.
-player.skin-change-cooldown=스킨 변경 작업 간 시간(초)입니다. 대기 시간을 비활성화하려면 0으로 설정합니다
+player.skin-change-cooldown=스킨 변경 작업 간 시간(초)입니다. 대기 시간을 사용하지 않으려면 0으로 설정합니다
 
 aliases=명령어의 별칭
 

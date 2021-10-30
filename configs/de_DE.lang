@@ -1,4 +1,4 @@
-header.1=Advanced configuration file for Cloudburst
+header.1=Erweiterte Konfigurationsdatei für Nukkit
 header.2=Einige Einstellungen sind komplett sicher umzustellen hingegen andere bei Falscher Konfiguration kann dein Server zu Fehlern führen
 header.3=Neue Einstellungen / Standardeinstellungen werden beim Upgrade nicht automatisch in dieser Datei angezeigt
 
@@ -10,7 +10,7 @@ settings.query-plugins=Erlaube das Auflisten von Plugins über eine Query
 settings.deprecated-verbose=Zeige eine Konsolennachricht, wenn ein Plugin veraltete API-Methoden verwendet
 settings.async-workers.1=Anzahl an Asynchronen Arbeiter/Threads
 settings.async-workers.2=Wenn es auf auto gesetzt wurde versucht es die Prozessorkerne zu ermitteln. (und setzt Mindestens 4)
-settings.upnp=Attempt to port forward on the gateway using UPnP
+settings.upnp=Versuch die Weiterleitung auf dem Gateway mittels UPnP zu portieren
 
 network.batch-threshold.1=Grenzwert für das Batchen von Paketen in Bytes. Nur diese Pakete werden komprimiert
 network.batch-threshold.2=Setze es auf 0 um alles zu Komprimieren, -1 um es zu deaktivieren
@@ -54,7 +54,7 @@ chunk-generation.population-queue-size=Max. Anzahl an Chunks in der Warteschlang
 spawn-limits=Maximaler Betrag dieser Entitys
 
 player.save-player-data.1=Wenn es aktiviert wurde werden die Spielerdaten als player/playername.dat gespeichert
-player.save-player-data.2=If false, cloudburst won't save player data as "dat" files, in order that plugins can do something on it.
+player.save-player-data.2=Wenn es auf false gesetzt wurde wird Cloudburst keine Spielerdaten als "dat" Dateien speichern, sodass Plugins können damit etwas anfangen können.
 player.skin-change-cooldown=Setze den Cooldown für einen Skin Change, setzte es auf 0 um den Cooldown zu deaktivieren
 
 aliases=Aliase für Befehle

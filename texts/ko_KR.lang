@@ -6,9 +6,9 @@
 
 cloudburst.language.selected=%1$2s을(를) 기본 로캘로 선택했습니다.
 
-cloudburst.data.playerNotFound="%1$2s"의 플레이어 데이터를 찾을 수 없기에 새로운 프로필을 만듭니다
-cloudburst.data.playerCorrupted="%1$2s"의 데이터가 손상되었기에 새로운 프로필을 만듭니다
-cloudburst.data.playerOld="%1$2s"의 플레이어 데이터가 오래되었기에 프로필을 업그레이드합니다
+cloudburst.data.playerNotFound="%1$2s"의 플레이어 데이터를 찾을 수 없으므로 새 프로필을 만듭니다
+cloudburst.data.playerCorrupted="%1$2s"의 데이터가 손상되었으므로 새 프로필을 만듭니다
+cloudburst.data.playerOld="%1$2s"의 플레이어 데이터가 오래되었으므로 프로필을 업그레이드합니다
 cloudburst.data.saveError=플레이어 "%1$2s"을(를) 저장할 수 없습니다: %2$2s
 
 cloudburst.level.notFound="%1$2s" 레벨을 찾을 수 없습니다
@@ -20,36 +20,36 @@ cloudburst.level.backgroundGeneration="%1$2s" 레벨의 스폰 지형이 백그�
 cloudburst.level.defaultError=기본 레벨이 불러와지지 않았습니다
 cloudburst.level.preparing="%1$2s" 레벨을 준비하는 중입니다
 cloudburst.level.unloading="%1$2s" 레벨을 언로드하는 중입니다
-cloudburst.level.updating="%1$2s"의 레벨 데이터가 오래되었기에 형식을 변환합니다
+cloudburst.level.updating="%1$2s"의 레벨 데이터가 오래되었으므로 형식을 변환합니다
 
 cloudburst.server.start=Minecraft: Bedrock Edition 서버 버전 %1$2s을(를) 시작하는 중입니다
-cloudburst.server.networkError=[네트워크] 인터페이스 %1$2s이(가) %2$2s(으)로 인해 중지되었습니다
+cloudburst.server.networkError=[네트워크] 인터페이스 %1$2s이(가) 중지되었습니다. 원인: %2$2s
 cloudburst.server.networkStart=서버를 %1$2s:%2$2s에서 여는 중입니다
 cloudburst.server.info=이 서버는 %1$2s 버전 %2$2s "%3$2s" (API %4$2s)을(를) 실행하고 있습니다
 cloudburst.server.info.extended=이 서버는 Minecraft: Bedrock Edition %4$2s (프로토콜 버전 %5$2s)용 API 버전 %3$2s을(를) 구현하는 %1$2s %2$2s을(를) 실행하고 있습니다
 cloudburst.server.license=%1$2s은(는) GPL 라이선스 하에 배포됩니다
 cloudburst.server.tickOverload=따라갈 수 없습니다! 서버가 과부하되었는지 확인하세요.
-cloudburst.server.startFinished=완료 (%1$2s초)! 도움말을 참조하려면 "help" 또는 "?"를 입력하세요
+cloudburst.server.startFinished=완료 (%1$2s초)! 도움말을 보려면 "help" 또는 "?"를 입력하세요
 cloudburst.server.defaultGameMode=기본 게임 유형: %1$2s
 cloudburst.server.query.start=GS4 상태 리스너를 시작하는 중입니다
 cloudburst.server.query.info=Query 포트를 %1$2s(으)로 설정하는 중입니다
 cloudburst.server.query.running=Query가 %1$2s:%2$2s에서 실행 중입니다
-cloudburst.server.upnp.enabled=UPnP가 활성화되었습니다. UPnP로 포트포워드를 시도합니다.
-cloudburst.server.upnp.disabled=UPnP가 비활성화되었습니다.
-cloudburst.server.upnp.unavailable=UPnP가 활성화되었지만 UPnP가 활성화된 게이트웨이를 찾을 수 없습니다.
-cloudburst.server.upnp.success=UPnP를 사용해 %1$2s번 UDP 포트를 성공적으로 포워드했습니다.
-cloudburst.server.upnp.fail=UPnP를 사용해 %1$2s번 UDP 포트를 포워드하지 못했습니다.
-cloudburst.server.upnp.closed=UPnP를 사용한 %1$2s번 UDP 포트의 포워딩 규칙을 제거했습니다.
+cloudburst.server.upnp.enabled=UPnP가 사용되도록 설정되었습니다. UPnP로 포트포워드를 시도합니다.
+cloudburst.server.upnp.disabled=UPnP가 사용되지 않도록 설정되어 있습니다.
+cloudburst.server.upnp.unavailable=UPnP가 사용되도록 설정되었지만 UPnP가 사용되도록 설정된 게이트웨이를 찾을 수 없습니다.
+cloudburst.server.upnp.success=UPnP를 사용하여 UDP 포트 %1$2s을(를) 성공적으로 포워드했습니다.
+cloudburst.server.upnp.fail=UPnP를 사용하여 UDP 포트 %1$2s을(를) 포워드하지 못했습니다.
+cloudburst.server.upnp.closed=UPnP를 사용한 UDP 포트 %1$2s의 포워딩 규칙을 제거했습니다.
 
-cloudburst.command.alias.illegal=잘못된 문자를 포함하기에 %1$2s 별칭을 등록할 수 없습니다
-cloudburst.command.alias.notFound=존재하지 않는 명령어를 포함하기에 %1$2s 별칭을 등록할 수 없습니다: %2$2s
+cloudburst.command.alias.illegal=잘못된 문자를 포함하기 때문에 %1$2s 별칭을 등록할 수 없습니다
+cloudburst.command.alias.notFound=존재하지 않는 명령어를 포함하기 때문에 %1$2s 별칭을 등록할 수 없습니다: %2$2s
 cloudburst.command.exception=%2$2s에서 '%1$2s' 명령어 실행 중 처리되지 않은 예외가 발생했습니다: %3$2s
 
-cloudburst.command.version.description=사용 중인 플러그인을 포함해 이 서버의 버전을 가져옵니다
+cloudburst.command.version.description=사용 중인 플러그인을 포함하여 이 서버의 버전을 가져옵니다
 cloudburst.command.version.usage=/version [플러그인 이름]
 cloudburst.command.version.server=이 서버는 %1$2s 버전 %2$2s (MC: %3$2s) (API 버전 %4$2s 구현)을(를) 실행하고 있습니다
 cloudburst.command.version.plugin=%1$2s 버전 %1$2s을(를) 실행하고 있습니다
-cloudburst.command.version.noSuchPlugin=이 서버는 해당 이름의 플러그인을 실행하고 있지 않습니다. /plugins를 사용해 플러그인 목록을 가져오세요.
+cloudburst.command.version.noSuchPlugin=이 서버는 해당 이름의 플러그인을 실행하고 있지 않습니다. 플러그인 목록을 가져오려면 /plugins를 사용하세요.
 
 cloudburst.command.plugins.description=서버에서 실행 중인 플러그인 목록을 가져옵니다
 cloudburst.command.plugins.success=플러그인 (%1$2s): %2$2s
@@ -60,13 +60,13 @@ cloudburst.command.status.usage=/status
 
 cloudburst.command.timings.description=서버의 성능 확인을 위해 타이밍을 기록합니다.
 cloudburst.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-cloudburst.command.timings.enable=타이밍을 활성화 및 초기화했습니다
-cloudburst.command.timings.disable=타이밍을 비활성화했습니다
-cloudburst.command.timings.timingsDisabled=/timings on을 입력해 타이밍을 활성화해주세요
-cloudburst.command.timings.verboseEnable=버보스 타이밍을 활성화했습니다
-cloudburst.command.timings.verboseDisable=버보스 타이밍을 비활성화했습니다
+cloudburst.command.timings.enable=타이밍을 사용하도록 설정 및 초기화했습니다
+cloudburst.command.timings.disable=타이밍을 사용하지 않도록 설정했습니다
+cloudburst.command.timings.timingsDisabled=/timings on을 입력하여 타이밍을 사용하도록 설정하세요
+cloudburst.command.timings.verboseEnable=버보스 타이밍을 사용하도록 설정했습니다
+cloudburst.command.timings.verboseDisable=버보스 타이밍을 사용하지 않도록 설정했습니다
 cloudburst.command.timings.reset=타이밍을 초기화했습니다
-cloudburst.command.timings.rcon=경고: RCON을 통해 수행된 타이밍 보고는 엄청난 지연을 유발할 수 있기에 게임 또는 콘솔 내에서 /timings report를 사용해야 합니다
+cloudburst.command.timings.rcon=경고: RCON을 통해 수행된 타이밍 보고는 엄청난 지연을 유발할 수 있으므로 게임 또는 콘솔 내에서 /timings report를 사용해야 합니다
 cloudburst.command.timings.uploadStart=타이밍 보고 준비 중...
 cloudburst.command.timings.uploadError=업로드 오류: %1$2s: %2$2s, 자세한 정보는 로그를 확인하세요
 cloudburst.command.timings.reportError=보고서를 붙여넣는 동안 오류가 발생했습니다, 자세한 정보는 로그를 확인하세요
@@ -74,25 +74,25 @@ cloudburst.command.timings.timingsLocation=타이밍 보고서 보기: %1$2s
 cloudburst.command.timings.timingsResponse=타이밍 응답: %1$2s
 cloudburst.command.timings.timingsWrite=타이밍이 %1$2s에 작성되었습니다
 
-cloudburst.crash.create=복구 불가능한 오류가 발생해 서버가 강제 종료되었습니다. 충돌 덤프를 만듭니다
+cloudburst.crash.create=복구 불가능한 오류가 발생하여 서버가 강제 종료되었습니다. 충돌 덤프를 만듭니다
 cloudburst.crash.error=충돌 덤프를 만들 수 없습니다: %1$2s
 cloudburst.crash.submit="%1$2s" 파일을 충돌 보관소에 업로드하고 버그 보고 페이지에 링크를 제출해주세요. 가능한 한 많은 정보를 주시기 바랍니다.
 cloudburst.crash.archive=충돌 덤프가 자동으로 충돌 보관소에 제출되었습니다. %1$2s에서 보거나 ID #%2$2s을(를) 사용할 수 있습니다.
 
-cloudburst.debug.enable=LevelDB 지원이 활성화되었습니다
+cloudburst.debug.enable=LevelDB 지원이 사용되도록 설정되었습니다
 
-cloudburst.bugreport.create=오류가 감지되었기에 버그 보고서를 만듭니다.
+cloudburst.bugreport.create=오류가 감지되었으므로 버그 보고서를 만듭니다.
 cloudburst.bugreport.error=버그 보고서를 만들 수 없습니다: %1$2s
 cloudburst.bugreport.archive=버그 보고서가 만들어졌습니다: %1$2s
 
-cloudburst.player.invalidMove=%1$2s이(가) 잘못된 움직임을 보였습니다!
-cloudburst.player.logIn=%1$2s[/%2$2s:%3$2s]이(가) 개체 ID %4$2s(으)로 (%5$2s, %6$2s, %7$2s, %8$2s)에 로그인했습니다
-cloudburst.player.logOut=%1$2s[/%2$2s:%3$2s]이(가) %4$2s(으)로 인해 로그아웃되었습니다
-cloudburst.player.invalidEntity=%1$2s이(가) 잘못된 개체를 공격하려고 시도했습니다
+cloudburst.player.invalidMove=%1$2s이(가) 잘못 움직였습니다!
+cloudburst.player.logIn=%1$2s[/%2$2s:%3$2s]이(가) 개체 ID %4$2s(으)로 (%5$2s, %6$2s, %7$2s, %8$2s)에서 로그인했습니다
+cloudburst.player.logOut=%1$2s[/%2$2s:%3$2s]이(가) 로그아웃되었습니다. 원인: %4$2s
+cloudburst.player.invalidEntity=%1$2s이(가) 잘못된 개체를 공격하려고 했습니다
 
 cloudburst.plugin.load=%1$2s을(를) 불러오는 중입니다
-cloudburst.plugin.enable=%1$2s을(를) 활성화하는 중입니다
-cloudburst.plugin.disable=%1$2s을(를) 비활성화하는 중입니다
+cloudburst.plugin.enable=%1$2s을(를) 사용하도록 설정하는 중입니다
+cloudburst.plugin.disable=%1$2s을(를) 사용하지 않도록 설정하는 중입니다
 cloudburst.plugin.restrictedName=제한된 이름입니다
 cloudburst.plugin.incompatibleAPI=호환되지 않는 API 버전입니다
 cloudburst.plugin.unknownDependency=알 수 없는 의존입니다
@@ -104,11 +104,11 @@ cloudburst.plugin.duplicateError='%1$2s' 플러그인을 불러올 수 없습니
 cloudburst.plugin.fileError='%2$2s' 폴더에서 '%1$2s'을(를) 불러올 수 없습니다: %3$2s
 cloudburst.plugin.commandError=%2$2s 플러그인의 %1$2s 명령어를 불러올 수 없습니다
 cloudburst.plugin.aliasError=%2$2s 플러그인의 %1$2s 별칭을 불러올 수 없습니다
-cloudburst.plugin.deprecatedEvent='%1$2s' 플러그인이 '%2$2s'에 대한 리스너를 '%3$2s' 메서드에서 등록했지만, 이 이벤트는 사용되지 않습니다.
+cloudburst.plugin.deprecatedEvent='%1$2s' 플러그인이 '%2$2s'에 대한 리스너를 '%3$2s' 메서드에서 등록했지만 이 이벤트의 지원은 중단되었습니다.
 cloudburst.plugin.eventError='%1$2s' 이벤트를 '%2$2s'에 전달할 수 없습니다: %4$2s에서의 %3$2s
 
 cloudburst.resources.invalid-path='%1$2s' 리소스 팩 경로가 존재하지만 디렉터리가 아닙니다
-cloudburst.resources.unknown-format=형식을 인식할 수 없기에 '%1$2s'을(를) 불러올 수 없습니다
+cloudburst.resources.unknown-format=형식을 인식할 수 없기 때문에 '%1$2s'을(를) 불러올 수 없습니다
 cloudburst.resources.fail='%1$2s'을(를) 불러올 수 없습니다: %2$2s
 cloudburst.resources.success=리소스 팩 %1$2s개를 성공적으로 불러왔습니다
 cloudburst.resources.zip.not-found='%1$2s' 파일을 찾을 수 없습니다

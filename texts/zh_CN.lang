@@ -6,12 +6,12 @@
 
 cloudburst.language.selected=Selected %1$2s as the default locale.
 
-cloudburst.data.playerNotFound=Player data not found for "%1$2s", creating new profile
-cloudburst.data.playerCorrupted=Corrupted data found for "%1$2s", creating new profile
+cloudburst.data.playerNotFound=无法找到玩家 "%1$2s" 的数据，正在创建新的玩家数据
+cloudburst.data.playerCorrupted=玩家 "%1$2s" 的数据已损坏，正在创建新的玩家数据
 cloudburst.data.playerOld=Old Player data found for "%1$2s", upgrading profile
 cloudburst.data.saveError=Could not save player "%1$2s": %2$2s
 
-cloudburst.level.notFound=Level "%1$2s" not found
+cloudburst.level.notFound=无法找到地图 "%1$2s"
 cloudburst.level.loadError=Could not load level "%1$2s": %2$2s
 cloudburst.level.generationError=Could not generate level "%1$2s": %2$2s
 cloudburst.level.tickError=Could not tick level "%1$2s": %2$2s
@@ -29,8 +29,8 @@ cloudburst.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %
 cloudburst.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
 cloudburst.server.license=%1$2s is distributed under the GPL License
 cloudburst.server.tickOverload=Can't keep up! Is the server overloaded?
-cloudburst.server.startFinished=Done (%1$2ss)! For help, type "help" or "?"
-cloudburst.server.defaultGameMode=Default game type: %1$2s
+cloudburst.server.startFinished=启动完成 (%1$2ss)！如需帮助，请输入 "help" 或 "?"
+cloudburst.server.defaultGameMode=默认游戏模式：%1$2s
 cloudburst.server.query.start=Starting GS4 status listener
 cloudburst.server.query.info=Setting query port to %1$2s
 cloudburst.server.query.running=Query is running on %1$2s:%2$2s
