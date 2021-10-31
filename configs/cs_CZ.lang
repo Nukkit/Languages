@@ -1,5 +1,5 @@
-header.1=Advanced configuration file for Cloudburst
-header.2=Nekterá z těchto nastavení jsou bezpečná. Jiná ovšem mohou způsobit nesprávné fungování serveru v případě špatného nastavení
+header.1=Pokročilá konfigurace pro Cloudburst
+header.2=Některá z těchto nastavení jsou bezpečná. Jiná ovšem mohou způsobit nesprávné fungování serveru v případě špatného nastavení
 header.3=V případě upgradu serveru se do tohoto souboru nové možnosti nastavení automaticky nepřidají
 
 settings.language=Vícejazyčné nastavení
@@ -10,7 +10,7 @@ settings.query-plugins=Povolit výpis pluginů zkrze Query
 settings.deprecated-verbose=Upozornit v konzoli pokud plugin využívá zastaralé části API
 settings.async-workers.1=Počet asynchronních vláken
 settings.async-workers.2=Pokud je nastaveno na auto, pokusí se automaticky detekovat počet jader (alespoň 4)
-settings.upnp=Attempt to port forward on the gateway using UPnP
+settings.upnp=Pokusit se o přesměrování portu na bráně pomocí UPnP
 
 network.batch-threshold.1=Hranice pro balení paketů v bytech. Pouze tyto pakety budou komprimovány
 network.batch-threshold.2=Nastavte na 0 pro kompresi všeho. -1 pro vypnutí
@@ -54,7 +54,7 @@ chunk-generation.population-queue-size=Maximální počet chunků ve frontě pro
 spawn-limits=Maximální počet těchto entit
 
 player.save-player-data.1=Při nastavení na true budou data hráčů ukládána ve formátu /players/jméno-hráče.dat
-player.save-player-data.2=If false, cloudburst won't save player data as "dat" files, in order that plugins can do something on it.
+player.save-player-data.2=Při nastavení na false, nebude cloudburst ukládat data hráčů jako "dat" soubory, aby s nimi mohly pluginy pracovat.
 player.skin-change-cooldown=Interval, ve kterém si hráč může změnit svůj skin. 0 pro vypnutí omezení
 
 aliases=Aliasy pro příkazy
