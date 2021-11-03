@@ -24,7 +24,7 @@ cloudburst.level.updating="%1$2s"의 레벨 데이터가 오래되었으므로 �
 
 cloudburst.server.start=Minecraft: Bedrock Edition 서버 버전 %1$2s을(를) 시작하는 중입니다
 cloudburst.server.networkError=[네트워크] 인터페이스 %1$2s이(가) 중지되었습니다. 원인: %2$2s
-cloudburst.server.networkStart=서버를 %1$2s:%2$2s에서 여는 중입니다
+cloudburst.server.networkStart=%1$2s:%2$2s에서 서버를 여는 중입니다
 cloudburst.server.info=이 서버는 %1$2s 버전 %2$2s "%3$2s" (API %4$2s)을(를) 실행하고 있습니다
 cloudburst.server.info.extended=이 서버는 Minecraft: Bedrock Edition %4$2s (프로토콜 버전 %5$2s)용 API 버전 %3$2s을(를) 구현하는 %1$2s %2$2s을(를) 실행하고 있습니다
 cloudburst.server.license=%1$2s은(는) GPL 라이선스 하에 배포됩니다
@@ -33,7 +33,7 @@ cloudburst.server.startFinished=완료 (%1$2s초)! 도움말을 보려면 "help"
 cloudburst.server.defaultGameMode=기본 게임 유형: %1$2s
 cloudburst.server.query.start=GS4 상태 리스너를 시작하는 중입니다
 cloudburst.server.query.info=Query 포트를 %1$2s(으)로 설정하는 중입니다
-cloudburst.server.query.running=Query가 %1$2s:%2$2s에서 실행 중입니다
+cloudburst.server.query.running=%1$2s:%2$2s에서 Query가 실행 중입니다
 cloudburst.server.upnp.enabled=UPnP가 사용되도록 설정되었습니다. UPnP로 포트포워드를 시도합니다.
 cloudburst.server.upnp.disabled=UPnP가 사용되지 않도록 설정되어 있습니다.
 cloudburst.server.upnp.unavailable=UPnP가 사용되도록 설정되었지만 UPnP가 사용되도록 설정된 게이트웨이를 찾을 수 없습니다.
@@ -77,7 +77,7 @@ cloudburst.command.timings.timingsWrite=타이밍이 %1$2s에 작성되었습니
 cloudburst.crash.create=복구 불가능한 오류가 발생하여 서버가 강제 종료되었습니다. 충돌 덤프를 만듭니다
 cloudburst.crash.error=충돌 덤프를 만들 수 없습니다: %1$2s
 cloudburst.crash.submit="%1$2s" 파일을 충돌 보관소에 업로드하고 버그 보고 페이지에 링크를 제출해주세요. 가능한 한 많은 정보를 주시기 바랍니다.
-cloudburst.crash.archive=충돌 덤프가 자동으로 충돌 보관소에 제출되었습니다. %1$2s에서 보거나 ID #%2$2s을(를) 사용할 수 있습니다.
+cloudburst.crash.archive=충돌 덤프가 충돌 보관소에 자동으로 제출되었습니다. %1$2s에서 보거나 ID #%2$2s을(를) 사용할 수 있습니다.
 
 cloudburst.debug.enable=LevelDB 지원이 사용되도록 설정되었습니다
 
@@ -104,7 +104,7 @@ cloudburst.plugin.duplicateError='%1$2s' 플러그인을 불러올 수 없습니
 cloudburst.plugin.fileError='%2$2s' 폴더에서 '%1$2s'을(를) 불러올 수 없습니다: %3$2s
 cloudburst.plugin.commandError=%2$2s 플러그인의 %1$2s 명령어를 불러올 수 없습니다
 cloudburst.plugin.aliasError=%2$2s 플러그인의 %1$2s 별칭을 불러올 수 없습니다
-cloudburst.plugin.deprecatedEvent='%1$2s' 플러그인이 '%2$2s'에 대한 리스너를 '%3$2s' 메서드에서 등록했지만 이 이벤트의 지원은 중단되었습니다.
+cloudburst.plugin.deprecatedEvent='%1$2s' 플러그인이 '%3$2s' 메서드에서 '%2$2s'에 대한 리스너를 등록했지만 이 이벤트의 지원은 중단되었습니다.
 cloudburst.plugin.eventError='%1$2s' 이벤트를 '%2$2s'에 전달할 수 없습니다: %4$2s에서의 %3$2s
 
 cloudburst.resources.invalid-path='%1$2s' 리소스 팩 경로가 존재하지만 디렉터리가 아닙니다
