@@ -1,6 +1,9 @@
-#Multi-Language configurations for Nukkit
+# Languages
 
-We need you!
--------------
+This repository contains the localizations for the [Cloudburst project](https://github.com/CloudburstMC/Server).
 
-We always welcome your contribution to a multi-language Nukkit!
+Guidelines
+----------------
+
+New translation strings can only be added to `en_US` via pull request.
+For any other languages, please use the [Crowdin website](https://translate.nukkitx.com).
