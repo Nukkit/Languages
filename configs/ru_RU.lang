@@ -14,39 +14,39 @@ settings.upnp=Попытка проброса портов на шлюзе с п
 
 network.batch-threshold.1=Пороговое значения для пакетной загрузки. Только эти пакеты будут сжаты
 network.batch-threshold.2=Установите значение 0 для сжатия всего, -1 для отключения сжатия
-network.compression-level=Compression level used of Zlib when sending batched packets. Higher = more CPU, less bandwidth usage
+network.compression-level=Уровень сжатия, используемый Zlib при отправке пакетных пакетов. Выше = больше использования ЦП, меньшее использование пропускной способности.
 network.async-compression=Использовать AsyncTasks для сжатия. Добавляет задержку половину/один тик, уменьшает нагрузку на процессор в главном потоке
 
 debug.level=Если > 1, то в консоли будут отображаться отладочные сообщения
 debug.commands=Включает команды: /status /gc
 
-timings.enabled=Enable core and plugin timings by default
+timings.enabled=Включить тайминги ядра и плагинов по умолчанию
 timings.verbose=Включить мониторинг на подробном уровне, включая высокочастотные тайминги
-timings.history-interval.1=Interval between history frames in ticks
+timings.history-interval.1=Интервал между записями истории в тиках
 timings.history-interval.2=По умолчанию - 5 минут (6000 тиков)
 timings.history-length.1=Длина всей истории таймингов в тиках
 timings.history-length.2=По умолчанию - 1 час (72000 тиков)
 timings.history-length.3=Это значение ограничено максимумом интервала истории * 12
-timings.bypass-max.1=For special cases of servers with special permission to bypass the max
-timings.bypass-max.2=This max helps keep data file sizes reasonable for processing on Aikar's Timing parser side
-timings.bypass-max.3=Setting this will not help you bypass the max unless Aikar has added an exception on the API side
+timings.bypass-max.1=Для особых случаев серверов со специальным разрешением на обход максимума
+timings.bypass-max.2=Это максимальное значение помогает поддерживать разумные размеры файлов данных для обработки на стороне обработчика таймингов Aikar.
+timings.bypass-max.3=Установка этого параметра не поможет вам обойти максимум, если Aikar не добавил исключение на стороне API.
 timings.privacy=Если установлено значение true, имя вашего сервера не будет отправлено
-timings.ignore.1=Settings sections to ignore. These sections won't be sent to Aikar's Timing parser
+timings.ignore.1=Игнорируемые разделы настроек. Эти разделы не будут отправлены в обработчик таймингов Aikar.
 timings.ignore.2=Примеры форматов:
 
 level-settings.default-format=Формат по умолчанию, который уровни будут использовать при создании
 level-settings.auto-tick-rate=Автоматически изменять скорость тиков уровней для поддержания 20 тиков в секунду
 level-settings.base-tick-rate=Устанавливает базовую частоту тиков (1 = 20 тиков в секунду, 2 = 10 тиков в секунду, и т.д.)
-level-settings.always-tick-players=Tick all players each tick even when other settings disallow this
+level-settings.always-tick-players=Отметить всех игроков каждый тик, даже если другие настройки не разрешают это
 
 chunk-sending.per-tick=Количество чанков, отправляемых игрокам за тик
 chunk-sending.max-chunks=Количество чанков, отправляемых вокруг каждого игрока
 chunk-sending.spawn-threshold=Количество чанков, которые необходимо отправить перед спавном игрока
 chunk-sending.cache-chunks.1=Сохранить сериализованную копию чанка в памяти для ускоренной отправки
-chunk-sending.cache-chunks.2=Useful in mostly-static worlds where lots of players join at the same time
+chunk-sending.cache-chunks.2=Полезно в неизменяемых мирах, к которым одновременно присоединяется множество игроков.
 
 chunk-ticking.per-tick=Максимальное количество чанков, обрабатываемых каждый тик
-chunk-ticking.tick-radius=Radius of chunks around a player to tick
+chunk-ticking.tick-radius=Радиус чанков вокруг игрока, в котором они будут обработаны
 
 chunk-generation.queue-size=Максимальное количество чанков в очереди генерации
 chunk-generation.population-queue-size=Max. amount of chunks in the waiting queue to be populated
