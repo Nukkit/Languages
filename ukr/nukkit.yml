@@ -31,6 +31,8 @@ network:
  compression-level: 7
  #Використання асинхронного завдання для стиснення. Додає затримку, менш навантаженний процесор
  async-compression: false
+ #Enable network encryption
+ encryption: false
 
 debug:
  #Якщо > 1, у консолі будуть з'являтися повідомлення відладки 

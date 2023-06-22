@@ -25,6 +25,8 @@ network:
  compression-level: 7
  #Naudoti AsyncTasks suspaudimui. Prideda puse/vieno impulso vėlavimą, tačiau sumažina CPU naudojimą pagrindinėje serverio gijoje
  async-compression: false
+ #Enable network encryption
+ encryption: false
 
 debug:
  #Jeigu > 1, jis rodys derinimo pranešimus konsolėje

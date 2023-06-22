@@ -25,6 +25,8 @@ network:
  compression-level: 7
  #AsyncTasksを圧縮に使います. 0.5か1tick(1tick=0.05秒)遅れ、メインスレッドCPU負荷を減らします。
  async-compression: false
+ #Enable network encryption
+ encryption: false
 
 debug:
  #1より大きいと、コンソールにデバッグメッセージが表示されます

@@ -25,6 +25,8 @@ network:
  compression-level: 7
  #압축에 AsyncTasks를 사용합니다. 0.5틱/1틱 지연을 추가하고, 메인 스레드에 더 적은 CPU를 사용합니다
  async-compression: false
+ #Enable network encryption
+ encryption: false
 
 debug:
  #1보다 크면, 콘솔에 디버그 메시지를 표시합니다

@@ -25,6 +25,8 @@ network:
  compression-level: 7
  #Usar AsyncTasks para comprimir. Añade un retraso de medio tick, reduce el consumo de CPU
  async-compression: false
+ #Enable network encryption
+ encryption: false
 
 debug:
  #Si es mayor que 1, mostrara mensajes de depuración en la consola

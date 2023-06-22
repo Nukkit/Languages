@@ -25,6 +25,8 @@ network:
  compression-level: 7
  #Use AsyncTasks for compression. Adds half/one tick delay, less CPU load on main thread
  async-compression: false
+ #Enable network encryption
+ encryption: false
 
 debug:
  #If > 1, it will show debug messages in the console
