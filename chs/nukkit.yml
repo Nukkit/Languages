@@ -25,6 +25,8 @@ network:
  compression-level: 7
  #异步压缩。通过增加半个/一个 tick 的延迟缓解主线程 CPU 负载
  async-compression: false
+ #Enable network encryption
+ encryption: false
 
 debug:
  #当调试级别 > 1 时，将在控制台显示调试信息

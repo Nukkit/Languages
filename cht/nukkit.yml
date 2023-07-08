@@ -25,6 +25,8 @@ network:
  compression-level: 7
  #非同步壓縮，緩解主線程CPU負載
  async-compression: false
+ #Enable network encryption
+ encryption: false
 
 debug:
  #當調試級別 > 1 時，將在控制台顯示調試資訊

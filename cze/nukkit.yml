@@ -26,6 +26,8 @@ network:
  compression-level: 7
  #Použijte AsyncTask pro kompresi. Přidá polovinu/jeden tick zpoždění, méně CPU zatížení na hlavní vlákno
  async-compression: false
+ #Enable network encryption
+ encryption: false
 
 debug:
  #Pokud je nastavena 1, console posílá debug zprávy
